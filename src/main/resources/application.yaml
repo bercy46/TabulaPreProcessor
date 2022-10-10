@@ -1,0 +1,19 @@
+file.input: tabula.csv
+
+merchant:
+  matchRegex:
+    '[JEAN COUTU]': JEAN COUTU
+    '[ALIMENTATION IAN]': METRO
+    SAQ: SAQ
+    SHELL: SHELL
+    '[IGA EXTRA]': IGA
+    PIAZZETTA: PIAZZETTA
+
+  categories:
+    '[JEAN COUTU]' : Pharmacie
+    METRO: Epicerie
+    IGA: Epicerie
+    PIAZZETTA: Restaurant
+
+
+
