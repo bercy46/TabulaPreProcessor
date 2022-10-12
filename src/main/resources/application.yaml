@@ -1,6 +1,8 @@
-file.input: tabula.csv
+file.input:
+  desjardins: tabula.csv
+  td: accountactivity.csv
 
-merchant:
+desjardins-merchant:
   matchRegex:
     '[JEAN COUTU]': JEAN COUTU
     '[ALIMENTATION IAN]': METRO
@@ -15,5 +17,11 @@ merchant:
     IGA: Epicerie
     PIAZZETTA: Restaurant
 
-
-
+td-transaction:
+  matchRegex:
+    COSTCO : VARIABLE
+    '[FRAIS MENSUEL COMPTE]' : FIXE
+    '[Envoi - VFC]': IGNORE
+    '[TFR-DE]': IGNORE
+    '[TFR-A]': IGNORE
+    '[Recept - VFC]' : IGNORE

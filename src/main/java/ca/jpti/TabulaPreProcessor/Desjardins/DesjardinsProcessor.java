@@ -1,21 +1,20 @@
-package ca.jpti.TabulaPreProcessor;
+package ca.jpti.TabulaPreProcessor.Desjardins;
 
-import ca.jpti.TabulaPreProcessor.configuration.MerchantProperties;
+import ca.jpti.TabulaPreProcessor.Configuration.DesjardinsMerchantProperties;
 import org.apache.commons.lang3.ArrayUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.PostConstruct;
 import java.io.*;
 import java.util.*;
 
 @Component
-public class Processor {
-    private MerchantProperties merchantProperties;
+public class DesjardinsProcessor {
+    private DesjardinsMerchantProperties desjardinsMerchantProperties;
 
-    @Value("${file.input}")
+    @Value("${file.input.desjardins}")
     private String fileInput;
 
     private int lastMonth;
@@ -24,10 +23,9 @@ public class Processor {
     private int accountIdx = 0;
     private Set<String> unmatchedLabels = new HashSet<>();
 
-    public Processor(MerchantProperties merchantProperties) {
-        this.merchantProperties = merchantProperties;
+    public DesjardinsProcessor(DesjardinsMerchantProperties desjardinsMerchantProperties) {
+        this.desjardinsMerchantProperties = desjardinsMerchantProperties;
     }
-    @PostConstruct
     public void process() {
         Resource resource = new ClassPathResource(fileInput);
         File file = null;
@@ -75,15 +73,15 @@ public class Processor {
                 break;
             }
         }
-        Set<String> matchKeys = merchantProperties.getMatchRegex().keySet();
-        Map<String, String> map = merchantProperties.getMatchRegex();
-        for (String key : merchantProperties.getMatchRegex().keySet()) {
+        Set<String> matchKeys = desjardinsMerchantProperties.getMatchRegex().keySet();
+        Map<String, String> map = desjardinsMerchantProperties.getMatchRegex();
+        for (String key : desjardinsMerchantProperties.getMatchRegex().keySet()) {
             String regex = ".*" + key + ".*";
             if (tokens[4].matches(regex)) {
                 tokens[4] = map.get(key);
             }
         }
-        String category = merchantProperties.getCategories().get(tokens[4]);
+        String category = desjardinsMerchantProperties.getCategories().get(tokens[4]);
         if (category == null) {
             unmatchedLabels.add(tokens[4]+"\n");
             category = "";

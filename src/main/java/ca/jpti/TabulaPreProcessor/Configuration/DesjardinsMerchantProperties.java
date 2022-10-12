@@ -1,4 +1,4 @@
-package ca.jpti.TabulaPreProcessor.configuration;
+package ca.jpti.TabulaPreProcessor.Configuration;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 import java.util.Map;
 
 @Component
-@ConfigurationProperties(prefix="merchant")
-public class MerchantProperties {
+@ConfigurationProperties(prefix="desjardins-merchant")
+public class DesjardinsMerchantProperties {
     private Map<String, String> matchRegex;
     private Map<String, String> categories;
 
