@@ -1,6 +1,7 @@
-package ca.jpti.TabulaPreProcessor.Desjardins;
+package ca.jpti.SuiviBudget.Desjardins;
 
-import ca.jpti.TabulaPreProcessor.Configuration.DesjardinsMerchantProperties;
+import ca.jpti.SuiviBudget.Configuration.DesjardinsMerchantProperties;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.ArrayUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.ClassPathResource;
@@ -11,6 +12,7 @@ import java.io.*;
 import java.util.*;
 
 @Component
+@Slf4j
 public class DesjardinsProcessor {
     private DesjardinsMerchantProperties desjardinsMerchantProperties;
 
@@ -53,8 +55,8 @@ public class DesjardinsProcessor {
                 throw new RuntimeException(e);
             }
         }
-        System.out.print(sb.toString());
-        System.out.println("Unmatched labels: " + unmatchedLabels);
+        log.info("Transactions: " + sb.toString());
+        log.info("Unmatched labels: " + unmatchedLabels);
     }
 
     private String processLine(String line) {

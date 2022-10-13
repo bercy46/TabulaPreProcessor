@@ -1,4 +1,4 @@
-package ca.jpti.TabulaPreProcessor.TD;
+package ca.jpti.SuiviBudget.TD;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

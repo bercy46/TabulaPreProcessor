@@ -1,20 +1,24 @@
-package ca.jpti.TabulaPreProcessor.TD;
+package ca.jpti.SuiviBudget.TD;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.PostConstruct;
 import java.io.*;
 import java.util.*;
 
 @Component
+@Slf4j
 public class TDProcessor {
     private TDTransactionProperties tdTransactionProperties;
+    private Scanner scanner = new Scanner(System.in);
 
     @Value("${file.input.td}")
-    private String fileInput;
+    private List<String> fileInputs;
+    @Value("${startDate}")
+    private String startDate;
 
     List<TDTransaction> transactionsDepensesFixes = new ArrayList<>();
     List<TDTransaction> transactionsDepensesVariables = new ArrayList<>();
@@ -25,38 +29,45 @@ public class TDProcessor {
         this.tdTransactionProperties = tdTransactionProperties;
     }
 
-    @PostConstruct
     public void process() {
-        Resource resource = new ClassPathResource(fileInput);
-        File file = null;
-        try {
-            file = resource.getFile();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        BufferedReader bufferedReader = null;
-        try {
-            bufferedReader = new BufferedReader(new FileReader(file));
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
-        }
-
-        StringBuffer sb = new StringBuffer();
-        while (true) {
+        for (String filename : fileInputs) {
+            Resource resource = new ClassPathResource(filename);
+            File file = null;
             try {
-                String line = bufferedReader.readLine();
-                if (line == null) break;
-                String output = processLine(line);
-                if (output != null)
-                    sb.append(output).append("\n");
+                file = resource.getFile();
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
+            BufferedReader bufferedReader = null;
+            try {
+                bufferedReader = new BufferedReader(new FileReader(file));
+            } catch (FileNotFoundException e) {
+                throw new RuntimeException(e);
+            }
+
+            StringBuffer sb = new StringBuffer();
+            while (true) {
+                try {
+                    String line = bufferedReader.readLine();
+                    if (line == null) break;
+                    String output = processLine(line);
+                    if (output != null)
+                        sb.append(output).append("\n");
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+            log.info("Finished " + filename);
         }
-        System.out.print("Transactions depenses fixes: " + transactionsDepensesFixes);
-        System.out.print("Transactions depenses variables: " + transactionsDepensesVariables);
-        System.out.print("Transactions ignorees: " + transactionsIgnorees);
-        System.out.println("Unmatched labels: " + unmatchedLabels);
+        log.info("Transactions depenses fixes: " + transactionsDepensesFixes);
+        log.info("Transactions depenses variables: " + transactionsDepensesVariables);
+        log.info("Transactions ignorees: " + transactionsIgnorees);
+        log.info("Unmatched labels: " + unmatchedLabels);
+        Map<String, Float> mapTotaux = new HashMap<>();
+        mapTotaux.put("Fixe", (float) transactionsDepensesFixes.stream().mapToDouble(o->o.getCredit()-o.getDebit()).sum());
+        mapTotaux.put("Variable", (float) transactionsDepensesVariables.stream().mapToDouble(o->o.getCredit()-o.getDebit()).sum());
+        mapTotaux.put("Ignorées", (float) transactionsIgnorees.stream().mapToDouble(o->o.getCredit()-o.getDebit()).sum());
+        log.info("Totaux: " + mapTotaux);
     }
 
     private String processLine(String line) {
@@ -64,20 +75,44 @@ public class TDProcessor {
         TDTransaction tdTransaction = TDTransaction.fromTokens(tokens);
         Set<String> matchKeys = tdTransactionProperties.getMatchRegex().keySet();
         Map<String, String> map = tdTransactionProperties.getMatchRegex();
-        for (String key : tdTransactionProperties.getMatchRegex().keySet()) {
-            String regex = ".*" + key + ".*";
-            if (tdTransaction.getDescription().matches(regex)) {
-                if ("FIXE".equals(map.get(key))) {
+        boolean matched = false;
+        String description = tdTransaction.getDescription();
+        float debit = tdTransaction.getDebit();
+        if (description.matches(".*Envoi.*")) {
+            matched = true;
+            if (debit == 75.0 || debit == 85.0 || debit == 110) {
+                transactionsDepensesFixes.add(tdTransaction);
+            } else {
+                System.out.print("SVP vérifier cette transaction: " + tdTransaction.toString() + " (F/V/I): ");
+                String userInput = scanner.next();
+                if (userInput.matches("^[fF].*")) {
                     transactionsDepensesFixes.add(tdTransaction);
-                } else if ("VARIABLE".equals(map.get(key))) {
+                } else if (userInput.matches("^[vV].*")) {
                     transactionsDepensesVariables.add(tdTransaction);
-                } else if ("IGNORE".equals(map.get(key))) {
-                    transactionsIgnorees.add(tdTransaction);
                 } else {
-                    unmatchedLabels.add(tdTransaction.getDescription());
+                    transactionsIgnorees.add(tdTransaction);
                 }
-                break;
             }
+        } else {
+            for (String key : tdTransactionProperties.getMatchRegex().keySet()) {
+                String regex = ".*" + key + ".*";
+                if (tdTransaction.getDescription().matches(regex)) {
+                    if ("FIXE".equals(map.get(key))) {
+                        matched = true;
+                        transactionsDepensesFixes.add(tdTransaction);
+                    } else if ("VARIABLE".equals(map.get(key))) {
+                        matched = true;
+                        transactionsDepensesVariables.add(tdTransaction);
+                    } else if ("IGNORE".equals(map.get(key))) {
+                        matched = true;
+                        transactionsIgnorees.add(tdTransaction);
+                    }
+                    break;
+                }
+            }
+        }
+        if (!matched) {
+            unmatchedLabels.add(tdTransaction.getDescription());
         }
         return line;
 //        if (line.startsWith("\""))
@@ -126,7 +161,7 @@ public class TDProcessor {
 //                tokens[tokens.length-1]+","+
 //                category;
 ////        tokens = line.split(",");
-////        System.out.println(tokens.length + " " + line);
+////        log.info(tokens.length + " " + line);
 //
 //        lastMonth = Integer.parseInt(tokens[1]);
 //        lastDay = Integer.parseInt(tokens[0]);

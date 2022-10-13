@@ -1,6 +1,8 @@
 file.input:
-  desjardins: tabula.csv
-  td: accountactivity.csv
+  desjardins: tabulaDesjardinsInfinitePrivilege.csv
+  td: accountactivity6478799.csv,accountactivity6479221.csv,accountactivity3296586.csv
+
+startDate: 2022-09-26
 
 desjardins-merchant:
   matchRegex:
@@ -24,4 +26,25 @@ td-transaction:
     '[Envoi - VFC]': IGNORE
     '[TFR-DE]': IGNORE
     '[TFR-A]': IGNORE
+    '[TFR-TO]': IGNORE
+    '[TFR-FROM]': IGNORE
+    '[PYT FRM]': IGNORE
     '[Recept - VFC]' : IGNORE
+    '[ARC 202]' : VARIABLE
+    '[MRQ 202]' : VARIABLE
+    '[PMT A]' : IGNORE
+    '[STP A]' : IGNORE
+    '[TD Ins/TD Assur]': FIXE
+    '[PMT PRET]' : FIXE
+    '[SAAQ-IMMATRI]': FIXE
+    '[CANVIE-ING]': FIXE
+    '[VIDEOTRON LTEE]': FIXE
+    SONIC : FIXE
+    '[BQE DE MONTREAL PRET]': FIXE
+    '[VERSEMENT PRET  PRET]': FIXE
+    '[GWL 1115759]': FIXE
+    '[HYDRO-QUEBEC]': FIXE
+    '[CHQ#]': FIXE
+    '[HYDROSOLUTN]': FIXE
+    '[SANI SPORT]': FIXE
+    INTEREST: VARIABLE
