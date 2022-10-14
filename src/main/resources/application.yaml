@@ -4,6 +4,8 @@ file.input:
 
 startDate: 2022-09-26
 
+desjardins.reportStartYear: 2022
+
 desjardins-merchant:
   matchRegex:
     '[JEAN COUTU]': JEAN COUTU

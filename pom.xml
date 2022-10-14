@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ca.jpti</groupId>
-	<artifactId>TabulaPreProcessor</artifactId>
+	<artifactId>SuiviBudget</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>TabulaPreProcessor</name>
-	<description>Tabula Pre-processor</description>
+	<name>SuiviBudget</name>
+	<description>Suivi de budget</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>

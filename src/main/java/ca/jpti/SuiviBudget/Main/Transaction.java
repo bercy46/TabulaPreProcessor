@@ -1,4 +1,4 @@
-package ca.jpti.SuiviBudget.TD;
+package ca.jpti.SuiviBudget.Main;
 
 import lombok.Data;
 
@@ -6,39 +6,44 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 @Data
-public class TDTransaction {
+public class Transaction {
     private LocalDate date;
     private String description;
     private float debit;
     private float credit;
     private float balance;
+    private String categorie;
+    private String posteDepense;
+    private String compte;
+    private String institution;
 
-    public static TDTransaction fromTokens(String[] tokens) {
-        TDTransaction tdTransaction = new TDTransaction();
-        tdTransaction.setDate(LocalDate.parse(tokens[0], DateTimeFormatter.ofPattern("MM/dd/yyyy")));
-        tdTransaction.setDescription(tokens[1]);
+
+    public static Transaction fromTokens(String[] tokens) {
+        Transaction transaction = new Transaction();
+        transaction.setDate(LocalDate.parse(tokens[0], DateTimeFormatter.ofPattern("MM/dd/yyyy")));
+        transaction.setDescription(tokens[1]);
         float debit = 0;
         try {
             debit = Float.parseFloat(tokens[2]);
         } catch (NumberFormatException e) {
 
         }
-        tdTransaction.setDebit(debit);
+        transaction.setDebit(debit);
         float credit = 0;
         try {
             credit = Float.parseFloat(tokens[3]);
         } catch (NumberFormatException e) {
 
         }
-        tdTransaction.setCredit(credit);
+        transaction.setCredit(credit);
         float balance = 0;
         try {
             balance = Float.parseFloat(tokens[4]);
         } catch (NumberFormatException e) {
 
         }
-        tdTransaction.setBalance(balance);
-        return tdTransaction;
+        transaction.setBalance(balance);
+        return transaction;
     }
 
     @Override
@@ -49,6 +54,10 @@ public class TDTransaction {
                 ", debit=" + debit +
                 ", credit=" + credit +
                 ", balance=" + balance +
+                ", categorie=" + categorie +
+                ", posteDepense=" + posteDepense +
+                ", compte=" + compte +
+                ", institution=" + institution +
                 "}\n";
     }
 }
