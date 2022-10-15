@@ -62,9 +62,9 @@ public class TDProcessor {
         log.info("Transactions: " + transactions);
         log.info("Unmatched labels: " + unmatchedLabels);
         Map<String, Float> mapTotaux = new HashMap<>();
-        mapTotaux.put("Fixes", (float) transactions.stream().filter(o->"Fixe".equals(o.getCategorie())).mapToDouble(o->o.getCredit()-o.getDebit()).sum());
-        mapTotaux.put("Variables", (float) transactions.stream().filter(o->"Variable".equals(o.getCategorie())).mapToDouble(o->o.getCredit()-o.getDebit()).sum());
-        mapTotaux.put("Ignorees", (float) transactions.stream().filter(o->"Ignoree".equals(o.getCategorie())).mapToDouble(o->o.getCredit()-o.getDebit()).sum());
+        mapTotaux.put("Fixes", (float) transactions.stream().filter(o->"Fixe".equals(o.getCategorie())).mapToDouble(o->o.getCredit().subtract(o.getDebit()).doubleValue()).sum());
+        mapTotaux.put("Variables", (float) transactions.stream().filter(o->"Variable".equals(o.getCategorie())).mapToDouble(o->o.getCredit().subtract(o.getDebit()).doubleValue()).sum());
+        mapTotaux.put("Ignorees", (float) transactions.stream().filter(o->"Ignoree".equals(o.getCategorie())).mapToDouble(o->o.getCredit().subtract(o.getDebit()).doubleValue()).sum());
         log.info("Totaux: " + mapTotaux);
         TransactionReport transactionReport = new TransactionReport();
         transactionReport.setTransactions(transactions);
@@ -86,7 +86,7 @@ public class TDProcessor {
         Map<String, String> map = tdTransactionProperties.getMatchRegex();
         boolean matched = false;
         String description = transaction.getDescription();
-        float debit = transaction.getDebit();
+        float debit = (float) transaction.getDebit().doubleValue();
         if (description.matches(".*Envoi.*")) {
             matched = true;
             if (debit == 75.0 || debit == 85.0 || debit == 110) {

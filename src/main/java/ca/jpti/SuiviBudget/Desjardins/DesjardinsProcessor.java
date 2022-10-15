@@ -11,6 +11,8 @@ import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Component;
 
 import java.io.*;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.time.LocalDate;
 import java.util.*;
 
@@ -56,7 +58,7 @@ public class DesjardinsProcessor {
                 String line = bufferedReader.readLine();
                 if (line == null) break;
                 String output = processLine(line);
-                float total = (float) transactions.stream().filter(o->"Variable".equals(o.getCategorie())).mapToDouble(o->o.getCredit()-o.getDebit()).sum();
+                float total = (float) transactions.stream().filter(o->"Variable".equals(o.getCategorie())).mapToDouble(o->o.getCredit().subtract(o.getDebit()).doubleValue()).sum();
                 log.info("line: " + line);
                 log.info("total: " + total);
                 if (output != null)
@@ -68,7 +70,7 @@ public class DesjardinsProcessor {
         log.info("Transactions: " + sb.toString());
         log.info("Unmatched labels: " + unmatchedLabels);
 
-        float total = (float) transactions.stream().filter(o->"Variable".equals(o.getCategorie())).mapToDouble(o->o.getCredit()-o.getDebit()).sum();
+        float total = (float) transactions.stream().filter(o->"Variable".equals(o.getCategorie())).mapToDouble(o->o.getCredit().subtract(o.getDebit()).doubleValue()).sum();
         TransactionReport transactionReport = new TransactionReport();
         transactionReport.setTransactions(transactions);
         transactionReport.setTotalDepensesVariables(total);
@@ -138,14 +140,14 @@ public class DesjardinsProcessor {
             transaction.setCompte(account);
             transaction.setInstitution("Desjardins");
             transaction.setDate(LocalDate.of(year, Integer.parseInt(tokens[1]), Integer.parseInt(tokens[0])));
-            transaction.setBalance(0);
+            transaction.setBalance(BigDecimal.ZERO);
             float amount = Float.parseFloat(tokens[tokens.length - 1]);
             if (amount < 0) {
-                transaction.setCredit(-1 * amount);
-                transaction.setDebit(0);
+                transaction.setCredit(BigDecimal.valueOf(-1 * amount).setScale(2, RoundingMode.CEILING));
+                transaction.setDebit(BigDecimal.ZERO);
             } else {
-                transaction.setDebit(amount);
-                transaction.setCredit(0);
+                transaction.setDebit(BigDecimal.valueOf(amount).setScale(2, RoundingMode.CEILING));
+                transaction.setCredit(BigDecimal.ZERO);
             }
             transaction.setDescription(tokens[2]);
             transaction.setPosteDepense(category);
