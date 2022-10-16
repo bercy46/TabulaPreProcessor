@@ -7,7 +7,7 @@ startDate: 2022-09-26
 
 desjardins.reportStartYear: 2022
 
-desjardins-merchant:
+merchant:
   matchRegex:
     '[JEAN COUTU]': JEAN COUTU
     '[ALIMENTATION IAN]': METRO
@@ -20,7 +20,370 @@ desjardins-merchant:
     '[JEAN COUTU]' : Pharmacie
     METRO: Epicerie
     IGA: Epicerie
+    PASQUIER: Epicerie
+    '[BOUCHERIE TENDRE GOURMET]': Epicerie
+    '[LA BOUCHERIE MAGNAN]': Epicerie
+    ODESSA: Epicerie
+    SAQ: SAQ
+    SQDC: SQDC
+    '[CANADIAN TIRE]': Maison
+    RONA: Maison
+    '[AMEUBLEMENT TANGUAY]': Maison
+    '[RENO DEPOT]': Maison
+    '[A & W]': Restaurant
+    McDonald: Restaurant
+    '[RESTAURANT AMIR]': Restaurant
+    '[REST COMO PIZZERIA]': Restaurant
+    '[SPORTING LIFE INC]': Sports
+    '[MERCHANT OF TENNIS]': Sports
+    TENNISZON: Sports
+    RACQUETGUYS: Sports
+    LULULEMON: Linge
+    '[URBAN OUTFITTERS]': Linge
+    EBAY: Maison
+    SIMONS: Linge
+    MARSHALLS: Linge
+    '[LAPRAIRIE PNEUS ET MEC]': Entretien Autos
+    SHELL: Essence
+    '[STUDIO AKI]': Esthetique
+    TRISTAN: Linge
+    CAFEBARISTA: Epicerie
+    Amazon: Amazon
+    '[CRUSAINT-LAMBERT]': Restaurant
+    '[MARATHON P]': Sports
+    CLUBMED: Vacances
+    '[GOOGLE STORAGE]': Cloud
+    '[CANAL CHAMBLY-PARCS]': Sorties
+    '[VERTIGO BROSSARD]': Restaurant
+    IFTTT: Cloud
+    '[CHOCOLATERIE LEON]': Restaurant
     PIAZZETTA: Restaurant
+    NETFLIX: Streaming
+    '[CHOUQUETTES & CIE]': Restaurant
+    '[PHARMACIE ETIENNE BEAULIE]': Pharmacie
+    '[BUREAU EN GROS]': Maison
+    '[FROMAGERIE DES NATIONS]': Epicerie
+    '[THAI EXPRESS]': Restaurant
+    '[COOP ETUDIANTE DE DROI]': Ecole
+    '[CATCH RESTO BAR]': Restaurant
+    '[COOP U D M]': Ecole
+    '[INDIGO 737]': Maison
+    '[LIBRAIRIE ALIRE]': Maison
+    CHAMPLAIN: Ecole
+    ARITZIA: Linge
+    ULTRAMAR: Essence
+    WALMART: Maison
+    PHARMAPRIX: Pharmacie
+    ESSO: Essence
+    '[CHAUSSURES BROWNS]': Souliers
+    WINNERS: Linge
+    '[BANANA REPUBLIC]': Linge
+    '[LA BAIE]': Linge
+    '[STEVE MADDEN]': Souliers
+    '[CLUB MONACO]': Linge
+    '[VINCI PARK - DOMINION]': Stationnement
+    '[AIRCANADA.COM]': Vacances
+    '[MCGILL GAULT]': Sports
+    '[TICKETMASTER]': Sorties
+    '[INSTITUT BELLEZA]': Esthetique
+    CINEPLEX: Sorties
+    '[RESTAURANT MISS CANDIAC]': Restaurant
+    SOGEN: Restaurant
+    '[TOMATE BLANCHE]': Restaurant
+    '[HELLOFRESH]': Epicerie
+    '[SPORTS EXPERTS]': Sports
+    STARBUCKS: Restaurant
+    '[DAVID''S TEA]': Epicerie
+    '[FRUITS ET LEGUMES TASCHER]': Epicerie
+    '[SUSHI SHOP]': Restaurant
+    '[CENTRE D''ANIMAUX SAFAR]': Chats
+    PETROCAN: Essence
+    BOUCLAIR: Maison
+    '[SHACK DU PECHEUR]': Restaurant
+    '[CRATE AND BARRELL]': Maison
+    '[CLUB PISCINE]': Piscine
+    UBER: Taxi
+    '[AMERICAN EAGLE]': Linge
+    '[HOPITAL VETERINAIRE DE CA]': Chats
+    SANI: Sports
+    '[Miss Candiac]': Restaurant
+    '[ALLO MON COCO]': Restaurant
+    DOORDASH: Restaurant
+    DESERRES: Maison
+    APPLE: Apple
+    MONDOU: Chats
+    '[UNI SUSHI]': Restaurant
+    '[DEPANNEUR OLCO]': Essence
+    ZARA: Linge
+    '[BMW STE JULIE]': Entretien Autos
+    '[LE DUO CHOC]': Restaurant
+    '[LIBRAIRIE RENAUD BRAY]': Maison
+    UQAM: Ecole
+    '[UNIVERSITE LAVAL]': Ecole
+    '[BENNY BBQ]': Restaurant
+    '[MONTREAL TAXI SERVICES]': Taxi
+    '[LA RESERVE TABLE ET VIN]': Restaurant
+    '[FRUITS DE MER RENE MARCHA]': Epicerie
+    '[OPTO RESEAU CANDIAC]': Lunettes
+    DOLLARAMA: Maison
+    '[VF OUTDOOR CANADA CO]': Linge
+    '[PHYSIO CANDIAC]': Physio
+    '[LES BOUTIQUES POPAVAPE]': Vape
+    '[PECHE MATINAL]': Restaurant
+    IMAGINIUS: Cadeaux
+    CANAEL: Restaurant
+    '[MAISON JACYNTHE]': Maison
+    NEWBALANCE: Sports
+    '[COPPER BRANCH]': Restaurant
+    '[RESTAURANT LA CARCASSE]': Restaurant
+    '[T-SHIRT TIME]': Linge
+    '[MONT TREMBLANT RESERVATIO]': Vacances
+    '[ENT J F FAUCHER]': Maison
+    '[HISTOIRE DE PATES]': Restaurant
+    '[MAISON CORBEIL]': Maison
+    '[ANIMANIA BROSSARD]': Chats
+    '[RECREOPARC]': Sorties
+    '[QUINCAILLERIE BERGER]': Maison
+    COSTCO: Maison
+    '[PROXIM JENNEAU ET TRINH]': Pharmacie
+    '[L''EPERLAN]': Restaurant
+    '[MARCHE ROBERT TELLIER MON]': Vacances
+    '[JUSTICE QUEBEC AMENDES]': Amendes
+    '[ALIMENTATION DOMINIC P]': Vacances
+    '[MILE PUBLIC HOUSE]': Sorties
+    '[IKEA BOUCHERVILLE]': Maison
+    '[CLUB TISSUS RIVE SUD]': Maison
+    '[RESTAURANT VESTIBULE]': Restaurant
+    '[LA BELLE ET LA BOEUF]': Restaurant
+    '[GROUPE NETTOYEUR]': Maison
+    '[ETSY.COM]': Maison
+    '[JOAILLERIE ST ONGE]': Mariage
+    SEPHORA: Maison
+    '[TIM HORTONS]': Restaurant
+    '[CENTRE SANTE DENTAIRE CAN]': Dentiste
+    '[TOM-Le Blossom]': Restaurant
+    '[TOM-Main Bar]': Restaurant
+    '[SERVICE DE LOISIR CAND]': Sports
+    '[ROTISSERIES BENNY LA PRAI]': Restaurant
+    WAYFAIR: Maison
+    '[BOULANGERIE MODERNE]': Epicerie
+    '[NICKEL''S RESTAURANT]': Restaurant
+    MAXWELL: Mariage
+    '[PISCINES HIPPOCAMPE]': Piscine
+    '[HARVEY''S]': Restaurant
+    '[EPIDERMA]': Soins médicaux
+    ANTHROPOLOGIE: Linge
+    ESCONDITE: Restaurant
+    '[ARCHIPEL MAISON-VIVANT]': Maison
+    '[CHAUSSURES PIERRE ROY]': Souliers
+    '[MANDY''S PHILLIPS SQUARE]': Restaurant
+    '[DESJARDINS QC VISA FOOD]': Restaurant
+    MICHAELS: Maison
+    '[BMR MATCO STE CATHERIN]': Maison
+    '[MELANIE LYNE]': Linge
+    '[V DE MTL CONSTATS INFR]': Amendes
+    '[BOULANGERIE FORTIN]': Epicerie
+    ROSETTI: Epicerie
+    '[BRASSERIE IRU]': Restaurant
+    '[LOFTS VIEUX QUEBEC]': Demenagement Ju
+    '[MEDICEXPERT]': Chats
+    '[BHLDN DIRECT]': Mariage
+    '[ST-HUBERT]': Restaurant
+    '[AGENCE DE MOBILITE DURABLE]': Stationnement
+    '[VICTORIA PARK MEDISPA]': Soins médicaux
+    '[OMNICARE MED]': Soins médicaux
+    '[*LIM*PRIX DU TRAJET]': Vacances
+    SONIC: Propane
+    '[GWL 1115759]': Assurance Invalidite
+    '[MRQ 2021]': Impots
+    '[TD Ins/TD Assur]': Assurance Habitation/Auto
+    '[SAAQ-IMMATRI]': Immatriculations
+    '[ARC 2021]': Impots
+    '[CHQ#]': Menage
+    '[VIDEOTRON LTEE]': Videotron
+    INTEREST: Interets
+    '[BQE DE MONTREAL PRET]': Pret Auto
+    '[VERSEMENT PRET  PRET]': Pret Auto
+    '[CANVIE-ING]': Assurance Vie
+    '[HYDRO-QUEBEC]': Hydro
+    '[HYDROSOLUTN]': Chauffe eau
+    '[FRAIS MENSUEL COMPTE]': Frais bancaires
+    '[PMT PRET   329658601]': Hypotheque
+    AMZN: Amazon
+    '[BURGER KING]': Restaurant
+    '[PARC INDIGO]': Stationnament
+    '[*SQ *GREEN TASTE VEGAN GO]': Vacances
+    '[*UNDER ARMOUR WPB]': Vacances
+    '[JULIETTE ET CHOCOLAT]': Restaurant
+    '[*CNN ST1659]': Vacances
+    '[WAL-MART SUPERCENTER]': Maison
+    '[FRAIS DE CRÉDIT]': Frais bancaires
+    '[DEJANTEE]': Entretien Autos
+    '[AIR TRANSAT]': Vacances
+    '[SAPRISTI]': Restaurant
+    '[MOMENTS INTIMES]': Linge
+    '[*TED BAKER]': Vacances
+    '[LA NOUVELLE TABLEE]': Mariage
+    '[MAXI ST-CONSTANT]': Pharmacie
+    '[FABRICVILLE]': Maison
+    '[*VIATOR *IT]': Vacances
+    '[SP STUCK AT HO]': Maison
+    '[DVORE.COM]': Stationnement
+    '[*NYC TAXI]': Vacances
+    '[*RH *floryshoes.com]': Linge
+    '[CREMERIE LA GIALLA]': Restaurant
+    '[TICKET PROTECTOR]': Sorties
+    '[1416 HAIGHT ST]': Vacances
+    '[COUCHE-TARD]': Epicerie
+    '[FRAIS ANNUELS]': Frais bancaires
+    '[WELL.CA]': Maison
+    '[*TARGET        00022483  PORT ST LUCIE]': Vacances
+    '[IKEA QUEBEC CITY]': Maison
+    '[*EG VACATION RENTALS]': Vacances
+    '[PAYPAL *DANDELIONSH DA]': Linge
+    '[SP LINTERVALLE SHOES]': Souliers
+    '[CENTRE VETERINAIRE RIVE S]': Chats
+    '[VETERINARIAN*JUSTANSWR]': Chats
+    '[*SQ *MATCH POINT, INC.]': Vacances
+    '[MARCHE ADONIS BROSSARD]': Epicerie
+    '[SQ *BLEU HOMARD]': Restaurant
+    '[MAGASIN CDN TIRE]': Maison
+    '[*Vrbo]': Vacances
+    '[CLINIQUE DE READAPTATION]': Physio
+    '[*EVERYPAY/FERRYHOPPER]': Vacances
+    '[BAIE DE BEAUPORT]': Sorties
+    '[Global-e.Sachin and Babi]': Linge
+    '[PLACE DES ARTS]': Sorties
+    '[PAYPAL *FRUITSPASSI]': Maison
+    '[HOTEL CHATEAU BELLEVUE]': Sorties
+    '[C AND M TEXTILES]': Maison
+    '[BENNY&CO]': Restaurant
+    '[TOM-Il Miglio]': Restaurant
+    '[*EXXONMOBIL]': Vacances
+    '[Global-e.Corkcicle]': Maison
+    '[SOCIETE DU PARC JEAN D]': Mariage
+    '[LES HALLES EN FLEURS INC.]': Maison
+    '[BOUTIQUE VAP QUEBEC]': Vape
+    '[www lightinthebox]': Maison
+    '[AGENCE DE MOBILITE DURABL]': Stationnement
+    '[*1STOPLIGHTING]': Maison
+    '[CHEZ LIONEL]': Restaurant
+    '[*adidas 6223 West Palm Be]': Vacances
+    '[On_Canada]': Maison
+    '[MAKE-A-WISH QUEBEC]': Dons
+    '[TENNIS CANADA]': Sorties
+    '[*RSVPIFY]': Mariage
+    '[*NEW BALANCE PALM BEACH  WEST PALM BEA]': Vacances
+    '[VINCIPARK-LE DEMETRIUS]': Stationnement
+    '[RCH-JAMESAL*8552206638]': Mariage
+    '[*PATRICIAS PETALS]': Maison
+    AIRBNB: Vacances
+    OCULUS: Maison
+    '[*TIXCOLD]': Vacances
+    '[A&W LA PRAIRIE]': Restaurant
+    '[BLEU COMME LE CIEL]': Mariage
+    '[DEPANNEUR CARREFOUR 74 VO]': Epicerie
+    '[*FH* FOODS OF NEW YORK]': Vacances
+    MCDONALD: Restaurant
+    '[*RAILCLICK NATIONAL TRAINBARCELONA]': Vacances
+    '[SERVICES DE TRANSPORTA]': Vacances
+    '[*BART-CLIPPER EMBARCADERO]': Vacances
+    '[Club Monaco Corp]': Linge
+    '[3744-MNTR RELAY POST-S]': Vacances
+    '[NBX*LA PAUSE YOGA CHAU]': Sports
+    '[SP * GLORIA DISTRIBUTI]': Epicerie
+    '[BONI-SOIR]': Epicerie
+    '[FRAIS ANNUELS POUR CARTE ADDITIONNELLE]': Frais bancaires
+    '[AVANTAGE MEMBRE - GRATUITÉ CARTE ADD.]': Frais bancaires
+    '[AIRPORT TAXI TRANSFERS]': Vacances
+    '[BAR BIRU]': Restaurant
+    '[SP MONOSTRAVEL]': Maison
+    '[*SP SWISSGUUDS]': Mariage
+    '[ASPIRATEUR CENTRAL ST CON]': Maison
+    '[PLAN003-MENSUALITÉ ACCORD]': Maison
+    '[CHAUSSURES LINTERVALLE]': Souliers
+    '[FERREIRA CAFE]': Restaurant
+    '[Birkenstock Canada]': Souliers
+    '[PARTY SHOP ST-CONSTANT]': Maison
+    '[SP DISALVOSPORTS.COM]': Sports
+    '[CDN TIRE ESSENCE]': Essence
+    '[*Vrbo Fee]': Vacances
+    VANS: Souliers
+    '[*EASYJET     000K3GFHJG  LUTON]': Vacances
+    '[ESPACE RICARDO]': Maison
+    '[WALKS, LLC]': Vacances
+    '[BROWNSSHOES.COM]': Souliers
+    '[BIRKENSTOCK ITALY]': Souliers
+    '[OMIO   OMIO]': Vacances
+    '[LE MAGASIN STE-MADELEINE]': Epicerie
+    '[BOUTIQUE COUP DE FOUDRE]': Mariage
+    '[BANANAREPUBLIC.COM]': Linge
+    '[CAA QUEBEC 9212 BROSSA]': Vacances
+    '[9266-0976 QUEBEC INC.]': Essence
+    '[A30 EXPRESS]': Peage
+    '[DUTY FREE MTL TB]': Vacances
+    '[BOULANGERIE LOUIS & CIE]': Restaurant
+    '[*SP GLAMNETIC]': Esthetique
+    '[STATIONNEMENT CRESCENT]': Stationnament
+    '[SOCIETE DU PARC JEAN-DRAP]': Mariage
+    '[*THAT''S AMORE]': Vacances
+    '[NATURALIZER]': Souliers
+    '[AVIS RENT-A-CAR]': Vacances
+    '[WWW.CANADIANTIRE.CA]': Maison
+    '[GetYourGuide]': Vacances
+    Subway: Restaurant
+    '[*SQ *SHAKE SHACK         Central ValleNJ]': Vacances
+    '[SAUCISSES PAYSANNES CH]': Epicerie
+    '[BIIRU]': Restaurant
+    '[*WH SMITH                FUMICINO ROMAIT]': Vacances
+    '[COVID19 TEST             MONTREAL]': Vacances
+    '[LINGERIE L''HIRONDELLE]': Linge
+    '[ST JEAN RICHELIEU STATION]': Epicerie
+    '[SQ *CHEZ TOMIO]': Restaurant
+    '[CHATEL VOTRE NETTOYEUR]': Mariage
+    '[*AIRALO]': Vacances
+    '[EPICIER DU QUARTIER]': Epicerie
+    '[BORDERFREE 2180]': Maison
+    '[ALITALIA AI 4PO4Z8/1A]': Vacances
+    '[PrimeVideo.c]': Streaming
+    '[MAISON BIRKS]': Mariage
+    '[*NikePOS_US]': Vacances
+    '[LES SALES GOSSES]': Restaurant
+    '[*www.headout.com]': Vacances
+    '[CENTRE DU PNEU RADIAL]': Entretien Autos
+    '[*AUNT FANNY''S CART]': Vacances
+    '[DEPANNEUR CLAUDINE]': Epicerie
+    '[MAISON ANDRE VIGER]': Soins medicaux
+    '[A&W]': Restaurant
+    '[STAPLES BUSINESS DEPOT]': Maison
+    '[STAT. PARKEO 540 CHAREST]': Stationnement Ju
+    '[*NJT BUS MY-TIX]': Vacances
+    '[CONCESSION A25 SEC]': Peage
+    '[STAPLES.CA]': Maison
+    LEONIDAS: Restaurant
+    '[Trendhim Aps]': Mariage
+    '[YUL URNB CRV 73]': Vacances
+    '[EVENKO GP - DIX 30]': Sorties
+    '[3734-MNTR RELAY]': Epicerie
+    '[*TIXNEWY]': Vacances
+    '[AMZ*Majestic Sales & S]': Amazon
+    '[*METLIFE CONCESSIONS]': Vacances
+    '[SPIRIT HALLOWEEN]': Maison
+    '[OURS CAVERNE CULINAIRE]': Restaurant
+    '[MATT AND NAT]': Maison
+    '[*ETOLL AVIS U781107773]': Vacances
+    '[POLYCLINIQUE VAL B (CRMC)]': Soins medicaux
+    '[RENV. FRAIS ANNUELS]': Frais bancaires
+    '[ESPACE OZONE]': Mariage
+    '[PAYPAL *ALCOPREVENT]': Maison
+    '[*Hotel on Booking.com]': Vacances
+    '[Etsy.com]': Maison
+    '[SQ *CHEZ LANCELOT]': Epicerie
+    '[Ted Baker]': Linge
+    '[AIR CANADA ON BOARD CA]': Vacances
+    '[BELAIRDIRECT - QUEBEC]': Entretien Autos
+    '[STH #144]': Restaurant
+    '[REMISES AU COMPTE BONIDOLLARS]': Frais bancaires
 
 td-transaction:
   matchRegex:

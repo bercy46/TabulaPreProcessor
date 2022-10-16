@@ -52,9 +52,9 @@ public class Main {
     }
 
     private String tableauDepenses(List<Transaction> transactions) {
-        String tableau = "----------------------------------------------------------------------------------------\n";
-        tableau +=       "Date       V/F Description                                Debit    Credit   Compte\n";
-        tableau +=       "----------------------------------------------------------------------------------------\n";
+        String tableau = "-----------------------------------------------------------------------------------------------------\n";
+        tableau +=       "Date       V/F Description                                Debit    Credit   Compte  Poste de dépenses\n";
+        tableau +=       "-----------------------------------------------------------------------------------------------------\n";
         String[] types = new String[]{"Fixe","Variable"};
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         for (String type : types) {
@@ -66,7 +66,8 @@ public class Main {
                     tableau += String.format("%-43s", transaction.getDescription());
                     tableau += String.format("%-9.2f", transaction.getDebit().doubleValue());
                     tableau += String.format("%-9.2f", transaction.getCredit().doubleValue());
-                    tableau += String.format("%s", transaction.getCompte()) + "\n";
+                    tableau += String.format("%-8s", transaction.getCompte());
+                    tableau += transaction.getPosteDepense() + "\n";
                 }
             }
         }

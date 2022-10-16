@@ -1,6 +1,6 @@
 package ca.jpti.SuiviBudget.Desjardins;
 
-import ca.jpti.SuiviBudget.Configuration.DesjardinsMerchantProperties;
+import ca.jpti.SuiviBudget.Configuration.MerchantProperties;
 import ca.jpti.SuiviBudget.Main.Transaction;
 import ca.jpti.SuiviBudget.Main.TransactionReport;
 import lombok.extern.slf4j.Slf4j;
@@ -19,7 +19,7 @@ import java.util.*;
 @Component
 @Slf4j
 public class DesjardinsProcessor {
-    private DesjardinsMerchantProperties desjardinsMerchantProperties;
+    private MerchantProperties merchantProperties;
 
     private List<Transaction> transactions = new ArrayList<>();
     @Value("${file.input.desjardins}")
@@ -34,8 +34,8 @@ public class DesjardinsProcessor {
     private int accountIdx = 0;
     private Set<String> unmatchedLabels = new HashSet<>();
 
-    public DesjardinsProcessor(DesjardinsMerchantProperties desjardinsMerchantProperties) {
-        this.desjardinsMerchantProperties = desjardinsMerchantProperties;
+    public DesjardinsProcessor(MerchantProperties merchantProperties) {
+        this.merchantProperties = merchantProperties;
     }
     public TransactionReport process() {
         Resource resource = new ClassPathResource(fileInput);
@@ -100,15 +100,15 @@ public class DesjardinsProcessor {
                     break;
                 }
             }
-            Set<String> matchKeys = desjardinsMerchantProperties.getMatchRegex().keySet();
-            Map<String, String> map = desjardinsMerchantProperties.getMatchRegex();
-            for (String key : desjardinsMerchantProperties.getMatchRegex().keySet()) {
+            Set<String> matchKeys = merchantProperties.getMatchRegex().keySet();
+            Map<String, String> map = merchantProperties.getMatchRegex();
+            for (String key : merchantProperties.getMatchRegex().keySet()) {
                 String regex = ".*" + key + ".*";
                 if (tokens[2].matches(regex)) {
                     tokens[2] = map.get(key);
                 }
             }
-            String category = desjardinsMerchantProperties.getCategories().get(tokens[2]);
+            String category = merchantProperties.getCategories().get(tokens[2]);
             if (category == null) {
                 unmatchedLabels.add(tokens[2] + "\n");
                 category = "";

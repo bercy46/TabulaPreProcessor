@@ -1,6 +1,7 @@
 package ca.jpti.SuiviBudget.Desjardins;
 
-import ca.jpti.SuiviBudget.Configuration.DesjardinsMerchantProperties;
+import ca.jpti.SuiviBudget.Configuration.MerchantProperties;
+import ca.jpti.SuiviBudget.Main.PosteDepense;
 import ca.jpti.SuiviBudget.Main.Transaction;
 import ca.jpti.SuiviBudget.Main.TransactionReport;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -20,7 +21,7 @@ import java.util.*;
 @Component
 @Slf4j
 public class DesjardinsJsonProcessor {
-    private DesjardinsMerchantProperties desjardinsMerchantProperties;
+    private MerchantProperties merchantProperties;
 
     private List<Transaction> transactions = new ArrayList<>();
     @Value("${file.input.desjardinsJson}")
@@ -34,10 +35,12 @@ public class DesjardinsJsonProcessor {
     private final List<String> accounts = Arrays.asList("Nadine", "Jacques", "Juliette", "Gabrielle");
     private int accountIdx = 0;
     private Set<String> unmatchedLabels = new HashSet<>();
+    private PosteDepense posteDepense;
 
-    public DesjardinsJsonProcessor(DesjardinsMerchantProperties desjardinsMerchantProperties) {
-        this.desjardinsMerchantProperties = desjardinsMerchantProperties;
+    public DesjardinsJsonProcessor(PosteDepense posteDepense) {
+        this.posteDepense = posteDepense;
     }
+
     public TransactionReport process() {
         try {
             ObjectMapper mapper = new ObjectMapper();
@@ -73,7 +76,7 @@ public class DesjardinsJsonProcessor {
                 transaction.setCompte("VISA");
                 transaction.setDescription(facturee.getDescriptionCourte());
                 transaction.setCategorie("Variable");
-                transaction.setPosteDepense(getPosteDepense(facturee.getDescriptionCourte()));
+                transaction.setPosteDepense(posteDepense.getPosteDepense(facturee.getDescriptionCourte(), unmatchedLabels));
                 transactions.add(transaction);
             }
         } catch (Exception e) {
@@ -86,22 +89,8 @@ public class DesjardinsJsonProcessor {
         transactionReport.setTotalDepensesIgnorees(0);
         float total = (float) transactions.stream().filter(o->"Variable".equals(o.getCategorie())).mapToDouble(o->o.getDebit().doubleValue()).sum();
         transactionReport.setTotalDepensesVariables(total);
+        log.info("Unmatched labels Desjardins: " + unmatchedLabels);
         return transactionReport;
     }
 
-    private String getPosteDepense(String desc) {
-        String posteDepense = null;
-        Map<String, String> map = desjardinsMerchantProperties.getMatchRegex();
-        for (String key : desjardinsMerchantProperties.getMatchRegex().keySet()) {
-            String regex = ".*" + key + ".*";
-            if (desc.matches(regex)) {
-                desc = map.get(key);
-            }
-        }
-        posteDepense = desjardinsMerchantProperties.getCategories().get(desc);
-        if (posteDepense == null) {
-            unmatchedLabels.add(desc + "\n");
-        }
-        return posteDepense;
-    }
 }

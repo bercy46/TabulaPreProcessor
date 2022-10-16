@@ -1,5 +1,6 @@
 package ca.jpti.SuiviBudget.TD;
 
+import ca.jpti.SuiviBudget.Main.PosteDepense;
 import ca.jpti.SuiviBudget.Main.Transaction;
 import ca.jpti.SuiviBudget.Main.TransactionReport;
 import lombok.extern.slf4j.Slf4j;
@@ -23,10 +24,13 @@ public class TDProcessor {
     private String startDate;
 
     List<Transaction> transactions = new ArrayList<>();
-    private Set<String> unmatchedLabels = new HashSet<>();
+    private Set<String> unmatchedLabelsFVI = new HashSet<>();
+    private Set<String> unmatchedLabelsPosteDepense = new HashSet<>();
+    private PosteDepense posteDepense;
 
-    public TDProcessor(TDTransactionProperties tdTransactionProperties) {
+    public TDProcessor(TDTransactionProperties tdTransactionProperties, PosteDepense posteDepense) {
         this.tdTransactionProperties = tdTransactionProperties;
+        this.posteDepense = posteDepense;
     }
 
     public TransactionReport process() {
@@ -60,7 +64,8 @@ public class TDProcessor {
             log.info("Finished " + filename);
         }
         log.info("Transactions: " + transactions);
-        log.info("Unmatched labels: " + unmatchedLabels);
+        log.info("Unmatched labels FVI TD: " + unmatchedLabelsFVI);
+        log.info("Unmatched labels posteDepense TD: " + unmatchedLabelsPosteDepense);
         Map<String, Float> mapTotaux = new HashMap<>();
         mapTotaux.put("Fixes", (float) transactions.stream().filter(o->"Fixe".equals(o.getCategorie())).mapToDouble(o->o.getCredit().subtract(o.getDebit()).doubleValue()).sum());
         mapTotaux.put("Variables", (float) transactions.stream().filter(o->"Variable".equals(o.getCategorie())).mapToDouble(o->o.getCredit().subtract(o.getDebit()).doubleValue()).sum());
@@ -86,11 +91,13 @@ public class TDProcessor {
         Map<String, String> map = tdTransactionProperties.getMatchRegex();
         boolean matched = false;
         String description = transaction.getDescription();
+        transaction.setPosteDepense(posteDepense.getPosteDepense(description, unmatchedLabelsPosteDepense));
         float debit = (float) transaction.getDebit().doubleValue();
         if (description.matches(".*Envoi.*")) {
             matched = true;
             if (debit == 75.0 || debit == 85.0 || debit == 110) {
                 transaction.setCategorie("Fixe");
+                transaction.setPosteDepense("Allocations filles");
                 transactions.add(transaction);
             } else {
                 System.out.print("SVP vérifier cette transaction: " + transaction.toString() + " (F/V/I): ");
@@ -135,7 +142,7 @@ public class TDProcessor {
             }
         }
         if (!matched) {
-            unmatchedLabels.add(transaction.getDescription());
+            unmatchedLabelsFVI.add(transaction.getDescription());
         }
         return line;
     }

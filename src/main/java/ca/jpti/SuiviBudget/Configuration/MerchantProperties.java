@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 import java.util.Map;
 
 @Component
-@ConfigurationProperties(prefix="desjardins-merchant")
-public class DesjardinsMerchantProperties {
+@ConfigurationProperties(prefix="merchant")
+public class MerchantProperties {
     private Map<String, String> matchRegex;
     private Map<String, String> categories;
 
