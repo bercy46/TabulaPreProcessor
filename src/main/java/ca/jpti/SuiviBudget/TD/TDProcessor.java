@@ -4,12 +4,16 @@ import ca.jpti.SuiviBudget.Main.PosteDepense;
 import ca.jpti.SuiviBudget.Main.Transaction;
 import ca.jpti.SuiviBudget.Main.TransactionReport;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Component;
 
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.*;
 
 @Component
@@ -20,6 +24,8 @@ public class TDProcessor {
 
     @Value("${file.input.td}")
     private List<String> fileInputs;
+    @Value("${files.outputPath}")
+    private String outputPath;
     @Value("${startDate}")
     private String startDate;
 
@@ -62,6 +68,13 @@ public class TDProcessor {
                 }
             }
             log.info("Finished " + filename);
+            try {
+                Path path = Paths.get(filename.replace(".csv", ".out"));
+                System.out.println("Output file: " + path.toAbsolutePath());
+                Files.write(path, sb.toString().getBytes());
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         }
         log.info("Transactions: " + transactions);
         log.info("Unmatched labels FVI TD: " + unmatchedLabelsFVI);
@@ -83,42 +96,68 @@ public class TDProcessor {
         String[] tokens = line.split(",");
 
         Transaction transaction = Transaction.fromTokens(tokens);
+        if (tokens.length > 5) {
+            transaction.setCategorie(tokens[5]);
+        }
+        if (tokens.length > 6) {
+            transaction.setPosteDepense(tokens[6]);
+        }
         transaction.setInstitution("TD");
 
         transaction.setCompte(filename.replace(".csv", "").replace("accountactivity", ""));
 
+        String description = transaction.getDescription();
+
+        if (StringUtils.isEmpty(transaction.getPosteDepense())) {
+            transaction.setPosteDepense(posteDepense.getPosteDepense(description, unmatchedLabelsPosteDepense));
+        }
+
         Set<String> matchKeys = tdTransactionProperties.getMatchRegex().keySet();
         Map<String, String> map = tdTransactionProperties.getMatchRegex();
         boolean matched = false;
-        String description = transaction.getDescription();
-        transaction.setPosteDepense(posteDepense.getPosteDepense(description, unmatchedLabelsPosteDepense));
         float debit = (float) transaction.getDebit().doubleValue();
         if (description.matches(".*Envoi.*")) {
             matched = true;
             if (debit == 75.0 || debit == 85.0 || debit == 110) {
-                transaction.setCategorie("Fixe");
-                transaction.setPosteDepense("Allocations filles");
+                if (StringUtils.isEmpty(transaction.getCategorie())) {
+                    transaction.setCategorie("Fixe");
+                }
+                if (StringUtils.isEmpty(transaction.getPosteDepense())) {
+                    transaction.setPosteDepense("Allocations filles");
+                }
                 transactions.add(transaction);
             } else {
-                System.out.print("SVP vérifier cette transaction: " + transaction.toString() + " (F/V/I): ");
-                String userInput = null;
-                while (userInput == null || !(userInput.matches("^[fFvViI].*"))) {
-                    userInput = scanner.next();
-                    if (userInput.matches("^[fF].*")) {
-                        transaction.setCategorie("Fixe");
-                        transactions.add(transaction);
-                    } else if (userInput.matches("^[vV].*")) {
-                        transaction.setCategorie("Variable");
-                        transactions.add(transaction);
-                    } else {
-                        transaction.setCategorie("Ignoree");
-                        transactions.add(transaction);
+                if (StringUtils.isEmpty(transaction.getCategorie())) {
+                    System.out.print("SVP vérifier cette transaction: " + transaction.toString() + " (F/V/I): ");
+                    String userInput = null;
+                    while (userInput == null || !(userInput.matches("^[fFvViI].*"))) {
+                        userInput = scanner.next();
+                        if (userInput.matches("^[fF].*")) {
+                            if (StringUtils.isEmpty(transaction.getCategorie())) {
+                                transaction.setCategorie("Fixe");
+                            }
+                            transactions.add(transaction);
+                        } else if (userInput.matches("^[vV].*")) {
+                            if (StringUtils.isEmpty(transaction.getCategorie())) {
+                                transaction.setCategorie("Variable");
+                            }
+                            transactions.add(transaction);
+                        } else {
+                            if (StringUtils.isEmpty(transaction.getCategorie())) {
+                                transaction.setCategorie("Ignoree");
+                            }
+                            transactions.add(transaction);
+                        }
                     }
+                } else {
+                    transactions.add(transaction);
                 }
             }
         } else if (description.contains(" 6478799") || description.contains(" 6479221") || description.contains(" 3296586")) {
             // Transferts
-            transaction.setCategorie("Ignoree");
+            if (StringUtils.isEmpty(transaction.getCategorie())) {
+                transaction.setCategorie("Ignoree");
+            }
             transactions.add(transaction);
         } else {
             for (String key : tdTransactionProperties.getMatchRegex().keySet()) {
@@ -126,15 +165,21 @@ public class TDProcessor {
                 if (transaction.getDescription().matches(regex)) {
                     if ("FIXE".equals(map.get(key))) {
                         matched = true;
-                        transaction.setCategorie("Fixe");
+                        if (StringUtils.isEmpty(transaction.getCategorie())) {
+                            transaction.setCategorie("Fixe");
+                        }
                         transactions.add(transaction);
                     } else if ("VARIABLE".equals(map.get(key))) {
                         matched = true;
-                        transaction.setCategorie("Variable");
+                        if (StringUtils.isEmpty(transaction.getCategorie())) {
+                            transaction.setCategorie("Variable");
+                        }
                         transactions.add(transaction);
                     } else if ("IGNORE".equals(map.get(key))) {
                         matched = true;
-                        transaction.setCategorie("Ignoree");
+                        if (StringUtils.isEmpty(transaction.getCategorie())) {
+                            transaction.setCategorie("Ignoree");
+                        }
                         transactions.add(transaction);
                     }
                     break;
@@ -144,6 +189,10 @@ public class TDProcessor {
         if (!matched) {
             unmatchedLabelsFVI.add(transaction.getDescription());
         }
-        return line;
+        if (tokens.length > 5) {
+            return line;
+        } else {
+            return line + "," + transaction.getCategorie() + "," + (transaction.getPosteDepense() == null ? "" : transaction.getPosteDepense());
+        }
     }
 }

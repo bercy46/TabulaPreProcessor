@@ -3,6 +3,8 @@ file.input:
   desjardinsJson: RapportVisa.json
   td: accountactivity6478799.csv,accountactivity6479221.csv,accountactivity3296586.csv
 
+files.outputPath: output
+
 startDate: 2022-09-26
 
 desjardins.reportStartYear: 2022
