@@ -54,6 +54,7 @@ merchant:
     '[CRUSAINT-LAMBERT]': Restaurant
     '[MARATHON P]': Sports
     CLUBMED: Vacances
+    '[Google Storage]': Cloud
     '[GOOGLE STORAGE]': Cloud
     '[CANAL CHAMBLY-PARCS]': Sorties
     '[VERTIGO BROSSARD]': Restaurant
@@ -213,7 +214,7 @@ merchant:
     '[PMT PRET   329658601]': Hypotheque
     AMZN: Amazon
     '[BURGER KING]': Restaurant
-    '[PARC INDIGO]': Stationnament
+    '[PARC INDIGO]': Stationnement
     '[*SQ *GREEN TASTE VEGAN GO]': Vacances
     '[*UNDER ARMOUR WPB]': Vacances
     '[JULIETTE ET CHOCOLAT]': Restaurant
@@ -355,7 +356,7 @@ merchant:
     '[CENTRE DU PNEU RADIAL]': Entretien Autos
     '[*AUNT FANNY''S CART]': Vacances
     '[DEPANNEUR CLAUDINE]': Epicerie
-    '[MAISON ANDRE VIGER]': Soins medicaux
+    '[MAISON ANDRE VIGER]': Soins médicaux
     '[A&W]': Restaurant
     '[STAPLES BUSINESS DEPOT]': Maison
     '[STAT. PARKEO 540 CHAREST]': Stationnement Ju
@@ -374,7 +375,7 @@ merchant:
     '[OURS CAVERNE CULINAIRE]': Restaurant
     '[MATT AND NAT]': Maison
     '[*ETOLL AVIS U781107773]': Vacances
-    '[POLYCLINIQUE VAL B (CRMC)]': Soins medicaux
+    '[POLYCLINIQUE VAL B (CRMC)]': Soins médicaux
     '[RENV. FRAIS ANNUELS]': Frais bancaires
     '[ESPACE OZONE]': Mariage
     '[PAYPAL *ALCOPREVENT]': Maison

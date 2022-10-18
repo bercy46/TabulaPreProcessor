@@ -6,6 +6,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 import javax.annotation.Generated;
+import java.util.Optional;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
@@ -82,6 +83,10 @@ public class TransactionFacturee {
     private String codeSousTypeTransaction;
     @JsonProperty("indicateurCategorieTransactionAutre")
     private Boolean indicateurCategorieTransactionAutre;
+    @JsonProperty("categorie")
+    private Optional<String> categorie;
+    @JsonProperty("posteDepense")
+    private Optional<String> posteDepense;
 
     @JsonProperty("identifiant")
     public String getIdentifiant() {
@@ -313,6 +318,22 @@ public class TransactionFacturee {
         this.indicateurCategorieTransactionAutre = indicateurCategorieTransactionAutre;
     }
 
+    public Optional<String> getCategorie() {
+        return categorie;
+    }
+
+    public void setCategorie(Optional<String> categorie) {
+        this.categorie = categorie;
+    }
+
+    public Optional<String> getPosteDepense() {
+        return posteDepense;
+    }
+
+    public void setPosteDepense(Optional<String> posteDepense) {
+        this.posteDepense = posteDepense;
+    }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
@@ -408,6 +429,14 @@ public class TransactionFacturee {
         sb.append("indicateurCategorieTransactionAutre");
         sb.append('=');
         sb.append(((this.indicateurCategorieTransactionAutre == null)?"<null>":this.indicateurCategorieTransactionAutre));
+        sb.append(',');
+        sb.append("categorie");
+        sb.append('=');
+        sb.append(((this.getCategorie() == null || this.getCategorie().isEmpty())?"":this.getCategorie().get()));
+        sb.append(',');
+        sb.append("posteDepense");
+        sb.append('=');
+        sb.append(((this.getPosteDepense() == null || this.getPosteDepense().isEmpty())?"":this.getPosteDepense().get()));
         sb.append(',');
         if (sb.charAt((sb.length()- 1)) == ',') {
             sb.setCharAt((sb.length()- 1), ']');

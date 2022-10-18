@@ -108,10 +108,6 @@ public class TDProcessor {
 
         String description = transaction.getDescription();
 
-        if (StringUtils.isEmpty(transaction.getPosteDepense())) {
-            transaction.setPosteDepense(posteDepense.getPosteDepense(description, unmatchedLabelsPosteDepense));
-        }
-
         Set<String> matchKeys = tdTransactionProperties.getMatchRegex().keySet();
         Map<String, String> map = tdTransactionProperties.getMatchRegex();
         boolean matched = false;
@@ -136,20 +132,26 @@ public class TDProcessor {
                             if (StringUtils.isEmpty(transaction.getCategorie())) {
                                 transaction.setCategorie("Fixe");
                             }
-                            transactions.add(transaction);
                         } else if (userInput.matches("^[vV].*")) {
                             if (StringUtils.isEmpty(transaction.getCategorie())) {
                                 transaction.setCategorie("Variable");
                             }
-                            transactions.add(transaction);
                         } else {
                             if (StringUtils.isEmpty(transaction.getCategorie())) {
                                 transaction.setCategorie("Ignoree");
                             }
-                            transactions.add(transaction);
                         }
                     }
+                    if (!"Ignoree".equals(transaction.getCategorie()) && StringUtils.isEmpty(transaction.getPosteDepense())) {
+                        transaction.setPosteDepense(posteDepense.getPosteDepense(description, transaction, unmatchedLabelsPosteDepense));
+                    }
+                    transactions.add(transaction);
+
+
                 } else {
+                    if (!"Ignoree".equals(transaction.getCategorie()) && StringUtils.isEmpty(transaction.getPosteDepense())) {
+                        transaction.setPosteDepense(posteDepense.getPosteDepense(description, transaction, unmatchedLabelsPosteDepense));
+                    }
                     transactions.add(transaction);
                 }
             }
@@ -189,10 +191,19 @@ public class TDProcessor {
         if (!matched) {
             unmatchedLabelsFVI.add(transaction.getDescription());
         }
-        if (tokens.length > 5) {
-            return line;
-        } else {
-            return line + "," + transaction.getCategorie() + "," + (transaction.getPosteDepense() == null ? "" : transaction.getPosteDepense());
+        String returnedLine = line;
+
+        if (returnedLine.endsWith(",")) {
+            returnedLine = returnedLine.substring(0, returnedLine.length()-1);
         }
+        if (tokens.length == 5) {
+            return line
+                    + (transaction.getCategorie() == null ? "" : "," + transaction.getCategorie())
+                    + (transaction.getPosteDepense() == null ? "" : "," + transaction.getPosteDepense());
+        } else if (tokens.length == 6) {
+            return line
+                    + (transaction.getPosteDepense() == null ? "" : "," + transaction.getPosteDepense());
+        }
+        return line;
     }
 }

@@ -5,7 +5,9 @@ import ca.jpti.SuiviBudget.Main.PosteDepense;
 import ca.jpti.SuiviBudget.Main.Transaction;
 import ca.jpti.SuiviBudget.Main.TransactionReport;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.datatype.jdk8.Jdk8Module;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
@@ -15,6 +17,9 @@ import java.io.File;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.util.*;
 
@@ -44,6 +49,8 @@ public class DesjardinsJsonProcessor {
     public TransactionReport process() {
         try {
             ObjectMapper mapper = new ObjectMapper();
+            mapper.registerModule(new Jdk8Module());
+
             Resource resource = new ClassPathResource(fileInput);
             File file = null;
             try {
@@ -54,7 +61,7 @@ public class DesjardinsJsonProcessor {
             RapportVisa rapportVisa = mapper.readValue(file, RapportVisa.class);
 
             // print book
-            log.info("Transactions aurotirees: " + rapportVisa.getSectionAutorisee().getTransactionListe().size());
+            log.info("Transactions autorisees: " + rapportVisa.getSectionAutorisee().getTransactionListe().size());
             log.info("Transactions facturees: " + rapportVisa.getSectionFacturee().getTransactionListe().size());
 
             List<TransactionFacturee> facturees = rapportVisa.getSectionFacturee().getTransactionListe();
@@ -76,12 +83,26 @@ public class DesjardinsJsonProcessor {
                 transaction.setCompte("VISA");
                 transaction.setDescription(facturee.getDescriptionCourte());
                 transaction.setCategorie("Variable");
-                transaction.setPosteDepense(posteDepense.getPosteDepense(facturee.getDescriptionCourte(), unmatchedLabels));
+                facturee.setCategorie(Optional.of("Variable"));
+                if (facturee.getPosteDepense() == null || StringUtils.isEmpty(facturee.getPosteDepense().get())) {
+                    transaction.setPosteDepense(posteDepense.getPosteDepense(facturee.getDescriptionCourte(), transaction, unmatchedLabels));
+                }
+                facturee.setPosteDepense(Optional.of(transaction.getPosteDepense()));
                 transactions.add(transaction);
+            }
+
+            log.info("Finished " + fileInput);
+            try {
+                Path path = Paths.get(fileInput.replace(".json", ".out"));
+                System.out.println("Output file: " + path.toAbsolutePath());
+                Files.write(path, mapper.writerWithDefaultPrettyPrinter().writeValueAsString(rapportVisa).getBytes());
+            } catch (IOException e) {
+                throw new RuntimeException(e);
             }
         } catch (Exception e) {
             log.error("Exception", e);
         }
+
 
         TransactionReport transactionReport = new TransactionReport();
         transactionReport.setTransactions(transactions);

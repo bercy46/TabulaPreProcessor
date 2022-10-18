@@ -41,7 +41,14 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
-    </dependencies>
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jdk8 -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.datatype</groupId>
+			<artifactId>jackson-datatype-jdk8</artifactId>
+			<version>2.13.4</version>
+		</dependency>
+
+	</dependencies>
 
 	<build>
 		<plugins>
