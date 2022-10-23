@@ -26,20 +26,17 @@ import java.util.*;
 @Component
 @Slf4j
 public class DesjardinsJsonProcessor {
+    private final List<String> accounts = Arrays.asList("Nadine", "Jacques", "Juliette", "Gabrielle");
     private MerchantProperties merchantProperties;
-
     private List<Transaction> transactions = new ArrayList<>();
     @Value("${file.input.desjardinsInfiniteJson}")
     private String fileInputInfinite;
     @Value("${file.input.desjardinsWorldJson}")
     private String fileInputWorld;
-
     @Value("${desjardins.reportStartYear}")
     private int reportStartYear;
-
     private int lastMonth;
     private int lastDay;
-    private final List<String> accounts = Arrays.asList("Nadine", "Jacques", "Juliette", "Gabrielle");
     private int accountIdx = 0;
     private Set<String> unmatchedLabels = new HashSet<>();
     private PosteDepense posteDepense;
@@ -53,7 +50,14 @@ public class DesjardinsJsonProcessor {
             ObjectMapper mapper = new ObjectMapper();
             mapper.registerModule(new Jdk8Module());
 
-            Resource resource = new ClassPathResource(fileInputInfinite);
+            // Lire l'export le plus recent des transactions
+            String fileToRead = null;
+            if ("Infinite".equals(carte)) {
+                fileToRead = fileInputInfinite;
+            } else {
+                fileToRead = fileInputWorld;
+            }
+            Resource resource = new ClassPathResource(fileToRead);
             File file = null;
             try {
                 file = resource.getFile();
@@ -61,6 +65,21 @@ public class DesjardinsJsonProcessor {
                 throw new RuntimeException(e);
             }
             RapportVisa rapportVisa = mapper.readValue(file, RapportVisa.class);
+            RapportVisa rapportVisaOld = null;
+
+            // Si disponible, lire l'export precedent
+            String fileToReadOld = fileToRead.replace(".json", ".old");
+            resource = new ClassPathResource(fileToReadOld);
+            try {
+                file = resource.getFile();
+                rapportVisaOld = mapper.readValue(file, RapportVisa.class);
+            } catch (IOException e) {
+                log.info("Pas de fichier old disponible");
+            }
+
+            if (rapportVisaOld != null) {
+                mergeFiles(rapportVisa, rapportVisaOld);
+            }
 
             // print book
             log.info("Transactions autorisees: " + rapportVisa.getSectionAutorisee().getTransactionListe().size());
@@ -74,13 +93,13 @@ public class DesjardinsJsonProcessor {
                 Transaction transaction = new Transaction();
                 Float montant = Float.parseFloat(facturee.getMontantDevise());
                 if (montant < 0) {
-                    transaction.setCredit(BigDecimal.valueOf(-1*montant).setScale(2, RoundingMode.CEILING));
+                    transaction.setCredit(BigDecimal.valueOf(-1 * montant).setScale(2, RoundingMode.CEILING));
                     transaction.setDebit(BigDecimal.ZERO);
                 } else {
                     transaction.setCredit(BigDecimal.ZERO);
                     transaction.setDebit(BigDecimal.valueOf(montant).setScale(2, RoundingMode.CEILING));
                 }
-                transaction.setDate(LocalDate.parse(facturee.getDateTransaction().substring(0,10)));
+                transaction.setDate(LocalDate.parse(facturee.getDateTransaction().substring(0, 10)));
                 transaction.setInstitution("Desjardins");
                 transaction.setCompte("VISA " + carte);
                 transaction.setDescription(facturee.getDescriptionCourte());
@@ -114,10 +133,38 @@ public class DesjardinsJsonProcessor {
         transactionReport.setTransactions(transactions);
         transactionReport.setTotalDepensesFixes(0);
         transactionReport.setTotalDepensesIgnorees(0);
-        float total = (float) transactions.stream().filter(o->"Variable".equals(o.getCategorie())).mapToDouble(o->o.getDebit().doubleValue()).sum();
+        float total = (float) transactions.stream().filter(o -> "Variable".equals(o.getCategorie())).mapToDouble(o -> o.getDebit().doubleValue()).sum();
         transactionReport.setTotalDepensesVariables(total);
         log.info("Unmatched labels Desjardins: " + unmatchedLabels);
         return transactionReport;
     }
 
+    private void mergeFiles(RapportVisa rapportVisa, RapportVisa rapportVisaOld) {
+        List<TransactionFacturee> facturees = rapportVisa.getSectionFacturee().getTransactionListe();
+        List<TransactionFacturee> factureesOld = rapportVisaOld.getSectionFacturee().getTransactionListe();
+        log.info("Avant le merge: facturees = {}, factureesOld = {}", facturees.size(), factureesOld.size());
+
+        List<TransactionFacturee> factureesOldAAjouter = new ArrayList<>();
+
+        TransactionFacturee derniereTransactionNouvelle = facturees.get(facturees.size() - 1);
+        for (int i = factureesOld.size() - 1; i >= 0; i--) {
+            TransactionFacturee factureeOld = factureesOld.get(i);
+            if (!StringUtils.equals(factureeOld.getIdentifiant(), derniereTransactionNouvelle.getIdentifiant())) {
+                factureesOldAAjouter.add(factureeOld);
+            } else {
+                break;
+            }
+        }
+        log.info("{} transactions de l'export precedent a ajouter", factureesOldAAjouter.size());
+        Collections.reverse(factureesOldAAjouter);
+
+        List<TransactionFacturee> nouvelleListe = new ArrayList<>();
+        nouvelleListe.addAll(facturees);
+        nouvelleListe.addAll(factureesOldAAjouter);
+
+        log.info("La nouvelle liste = ", nouvelleListe.size());
+
+        rapportVisa.getSectionFacturee().setTransactionListe(nouvelleListe);
+
+    }
 }

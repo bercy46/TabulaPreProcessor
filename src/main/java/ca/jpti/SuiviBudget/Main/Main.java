@@ -28,6 +28,10 @@ public class Main {
     private String weeklyDetailedReport;
     @Value("${files.weeklySummaryReport}")
     private String weeklySummaryReport;
+    @Value("${files.monthlyDetailedReport}")
+    private String monthlyDetailedReport;
+    @Value("${files.monthlySummaryReport}")
+    private String monthlySummaryReport;
 
 
     public Main(TDProcessor tdProcessor, DesjardinsProcessor desjardinsProcessor, DesjardinsJsonProcessor desjardinsJsonProcessor) {
@@ -52,12 +56,15 @@ public class Main {
 
         creerRapportHebdoDetaille(transactions);
         creerRapportHebdoSommaire(transactions);
+        creerRapportMensuelSommaire(transactions);
     }
 
     private void creerRapportHebdoDetaille(List<Transaction> transactions) {
         Set<WeeklyReport> weeklyReports = createWeeklyReports(transactions);
+        List<WeeklyReport> listWeeklyReports = new ArrayList<>(weeklyReports);
+        Collections.reverse(listWeeklyReports);
         StringBuffer sb = new StringBuffer();
-        for (WeeklyReport report : weeklyReports) {
+        for (WeeklyReport report : listWeeklyReports) {
             sb.append("\nPériode: ")
                     .append(report.getPeriod())
                     .append(" - Dépenses fixes: ")
@@ -78,17 +85,42 @@ public class Main {
 
     private void creerRapportHebdoSommaire(List<Transaction> transactions) {
         Set<WeeklyReport> weeklyReports = createWeeklyReports(transactions);
+        List<WeeklyReport> listWeeklyReports = new ArrayList<>(weeklyReports);
+        Collections.reverse(listWeeklyReports);
         StringBuffer sb = new StringBuffer();
         sb.append("-----------------------------------------------------------\n")
                 .append("Période                 Dépenses fixes   Dépenses variables\n")
                 .append("-----------------------------------------------------------\n");
-        for (WeeklyReport report : weeklyReports) {
+        for (WeeklyReport report : listWeeklyReports) {
             sb.append(String.format("%-24s", report.getPeriod()))
                     .append(String.format("%-17.02f", report.getTransactionReport().getTotalDepensesFixes()))
                     .append(String.format("%-17.02f", report.getTransactionReport().getTotalDepensesVariables()))
                     .append("\n");
         }
         Path path = Paths.get(weeklySummaryReport);
+        System.out.println("Output file: " + path.toAbsolutePath());
+        try {
+            Files.write(path, sb.toString().getBytes());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    private void creerRapportMensuelSommaire(List<Transaction> transactions) {
+        Set<MonthlyReport> monthlyReports = createMonthlyReports(transactions);
+        List<MonthlyReport> listMonthlyReports = new ArrayList<>(monthlyReports);
+        Collections.reverse(listMonthlyReports);
+        StringBuffer sb = new StringBuffer();
+        sb.append("-----------------------------------------------------------\n")
+                .append("Période                 Dépenses fixes   Dépenses variables\n")
+                .append("-----------------------------------------------------------\n");
+        for (MonthlyReport report : listMonthlyReports) {
+            sb.append(String.format("%-24s", report.getPeriod()))
+                    .append(String.format("%-17.02f", report.getTransactionReport().getTotalDepensesFixes()))
+                    .append(String.format("%-17.02f", report.getTransactionReport().getTotalDepensesVariables()))
+                    .append("\n");
+        }
+        Path path = Paths.get(monthlySummaryReport);
         System.out.println("Output file: " + path.toAbsolutePath());
         try {
             Files.write(path, sb.toString().getBytes());
@@ -123,7 +155,7 @@ public class Main {
     private Set<WeeklyReport> createWeeklyReports(List<Transaction> transactions) {
         Set<WeeklyReport> weeklyReports = new TreeSet<>();
         for (Transaction transaction : transactions) {
-            String period = getPeriod(transaction.getDate());
+            String period = getWeeklyPeriod(transaction.getDate());
             WeeklyReport report = null;
             for (WeeklyReport weeklyReport : weeklyReports) {
                 if (weeklyReport.getPeriod().equals(period)) {
@@ -145,15 +177,77 @@ public class Main {
         }
 
         for (WeeklyReport weeklyReport : weeklyReports) {
-            float total = (float) weeklyReport.getTransactionReport().getTransactions().stream().filter(o -> "Variable".equals(o.getCategorie())).mapToDouble(o -> o.getDebit().doubleValue()).sum();
+            float total = (float) weeklyReport
+                    .getTransactionReport()
+                    .getTransactions()
+                    .stream()
+                    .filter(o -> "Variable".equals(o.getCategorie()))
+                    .filter(o -> !"IGNORER".equals(o.getPosteDepense()))
+                    .mapToDouble(o -> o.getDebit().doubleValue())
+                    .sum();
             weeklyReport.getTransactionReport().setTotalDepensesVariables(total);
-            total = (float) weeklyReport.getTransactionReport().getTransactions().stream().filter(o -> "Fixe".equals(o.getCategorie())).mapToDouble(o -> o.getDebit().doubleValue()).sum();
+            total = (float) weeklyReport
+                    .getTransactionReport()
+                    .getTransactions()
+                    .stream()
+                    .filter(o -> "Fixe".equals(o.getCategorie()))
+                    .filter(o -> !"IGNORER".equals(o.getPosteDepense()))
+                    .mapToDouble(o -> o.getDebit().doubleValue())
+                    .sum();
             weeklyReport.getTransactionReport().setTotalDepensesFixes(total);
         }
         return weeklyReports;
     }
 
-    private String getPeriod(LocalDate date) {
+
+    private Set<MonthlyReport> createMonthlyReports(List<Transaction> transactions) {
+        Set<MonthlyReport> monthlyReports = new TreeSet<>();
+        for (Transaction transaction : transactions) {
+            String period = getMonthlyPeriod(transaction.getDate());
+            MonthlyReport report = null;
+            for (MonthlyReport monthlyReport : monthlyReports) {
+                if (monthlyReport.getPeriod().equals(period)) {
+                    report = monthlyReport;
+                    monthlyReport.getTransactionReport().getTransactions().add(transaction);
+                    break;
+                }
+            }
+            if (report == null) {
+                report = new MonthlyReport();
+                report.setPeriod(period);
+                TransactionReport transactionReport = new TransactionReport();
+                List<Transaction> transactionsForReport = new ArrayList<>();
+                transactionsForReport.add(transaction);
+                transactionReport.setTransactions(transactionsForReport);
+                report.setTransactionReport(transactionReport);
+                monthlyReports.add(report);
+            }
+        }
+
+        for (MonthlyReport monthlyReport : monthlyReports) {
+            float total = (float) monthlyReport
+                    .getTransactionReport()
+                    .getTransactions()
+                    .stream()
+                    .filter(o -> "Variable".equals(o.getCategorie()))
+                    .filter(o -> !"IGNORER".equals(o.getPosteDepense()))
+                    .mapToDouble(o -> o.getDebit().doubleValue())
+                    .sum();
+            monthlyReport.getTransactionReport().setTotalDepensesVariables(total);
+            total = (float) monthlyReport
+                    .getTransactionReport()
+                    .getTransactions()
+                    .stream()
+                    .filter(o -> "Fixe".equals(o.getCategorie()))
+                    .filter(o -> !"IGNORER".equals(o.getPosteDepense()))
+                    .mapToDouble(o -> o.getDebit().doubleValue())
+                    .sum();
+            monthlyReport.getTransactionReport().setTotalDepensesFixes(total);
+        }
+        return monthlyReports;
+    }
+
+    private String getWeeklyPeriod(LocalDate date) {
         LocalDate monday = date
                 .with(
                         TemporalAdjusters.previousOrSame(DayOfWeek.MONDAY)
@@ -164,5 +258,12 @@ public class Main {
                 );
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         return monday.format(formatter) + " - " + sunday.format(formatter);
+    }
+
+    private String getMonthlyPeriod(LocalDate date) {
+        LocalDate premier = date.withDayOfMonth(1);
+        LocalDate dernier = date.withDayOfMonth(date.getMonth().length(date.isLeapYear()));
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        return premier.format(formatter) + " - " + dernier.format(formatter);
     }
 }
