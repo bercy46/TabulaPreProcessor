@@ -1,9 +1,13 @@
 file.input:
   desjardins: tabulaDesjardinsInfinitePrivilege.csv
-  desjardinsJson: RapportVisa.json
+  desjardinsInfiniteJson: RapportVisaInfinite.json
+  desjardinsWorldJson: RapportVisaWorld.json
   td: accountactivity6478799.csv,accountactivity6479221.csv,accountactivity3296586.csv
 
-files.outputPath: output
+files:
+  outputPath: output
+  weeklyDetailedReport: "weeklyDetailedReport.txt"
+  weeklySummaryReport: "weeklySummaryReport.txt"
 
 startDate: 2022-09-26
 

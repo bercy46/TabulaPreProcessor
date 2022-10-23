@@ -29,8 +29,10 @@ public class DesjardinsJsonProcessor {
     private MerchantProperties merchantProperties;
 
     private List<Transaction> transactions = new ArrayList<>();
-    @Value("${file.input.desjardinsJson}")
-    private String fileInput;
+    @Value("${file.input.desjardinsInfiniteJson}")
+    private String fileInputInfinite;
+    @Value("${file.input.desjardinsWorldJson}")
+    private String fileInputWorld;
 
     @Value("${desjardins.reportStartYear}")
     private int reportStartYear;
@@ -46,12 +48,12 @@ public class DesjardinsJsonProcessor {
         this.posteDepense = posteDepense;
     }
 
-    public TransactionReport process() {
+    public TransactionReport process(String carte) {
         try {
             ObjectMapper mapper = new ObjectMapper();
             mapper.registerModule(new Jdk8Module());
 
-            Resource resource = new ClassPathResource(fileInput);
+            Resource resource = new ClassPathResource(fileInputInfinite);
             File file = null;
             try {
                 file = resource.getFile();
@@ -80,20 +82,24 @@ public class DesjardinsJsonProcessor {
                 }
                 transaction.setDate(LocalDate.parse(facturee.getDateTransaction().substring(0,10)));
                 transaction.setInstitution("Desjardins");
-                transaction.setCompte("VISA");
+                transaction.setCompte("VISA " + carte);
                 transaction.setDescription(facturee.getDescriptionCourte());
                 transaction.setCategorie("Variable");
                 facturee.setCategorie(Optional.of("Variable"));
                 if (facturee.getPosteDepense() == null || StringUtils.isEmpty(facturee.getPosteDepense().get())) {
+                    // si la source (facturee) n'a pas de poste de depense, l'obtenir, et mettre a jour la source
                     transaction.setPosteDepense(posteDepense.getPosteDepense(facturee.getDescriptionCourte(), transaction, unmatchedLabels));
+                    facturee.setPosteDepense(Optional.of(transaction.getPosteDepense()));
+                } else {
+                    // si la source a un poste de depense, l'assigner a la transaction
+                    transaction.setPosteDepense(facturee.getPosteDepense().get());
                 }
-                facturee.setPosteDepense(Optional.of(transaction.getPosteDepense()));
                 transactions.add(transaction);
             }
 
-            log.info("Finished " + fileInput);
+            log.info("Finished " + fileInputInfinite);
             try {
-                Path path = Paths.get(fileInput.replace(".json", ".out"));
+                Path path = Paths.get(fileInputInfinite.replace(".json", ".out"));
                 System.out.println("Output file: " + path.toAbsolutePath());
                 Files.write(path, mapper.writerWithDefaultPrettyPrinter().writeValueAsString(rapportVisa).getBytes());
             } catch (IOException e) {

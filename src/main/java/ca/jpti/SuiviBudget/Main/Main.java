@@ -4,9 +4,14 @@ import ca.jpti.SuiviBudget.Desjardins.DesjardinsJsonProcessor;
 import ca.jpti.SuiviBudget.Desjardins.DesjardinsProcessor;
 import ca.jpti.SuiviBudget.TD.TDProcessor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -19,6 +24,11 @@ public class Main {
     private TDProcessor tdProcessor;
     private DesjardinsProcessor desjardinsProcessor;
     private DesjardinsJsonProcessor desjardinsJsonProcessor;
+    @Value("${files.weeklyDetailedReport}")
+    private String weeklyDetailedReport;
+    @Value("${files.weeklySummaryReport}")
+    private String weeklySummaryReport;
+
 
     public Main(TDProcessor tdProcessor, DesjardinsProcessor desjardinsProcessor, DesjardinsJsonProcessor desjardinsJsonProcessor) {
         this.tdProcessor = tdProcessor;
@@ -30,43 +40,79 @@ public class Main {
     public void process() {
         TransactionReport tdReport = tdProcessor.process();
 //        TransactionReport desjardinsReport = desjardinsProcessor.process();
-        TransactionReport desjardinsReport = desjardinsJsonProcessor.process();
+        TransactionReport desjardinsInfiniteReport = desjardinsJsonProcessor.process("Infinite");
 
         log.info("Transactions TD: " + tdReport);
 //        log.info("Transactions Desjardins: " + desjardinsReport);
-        log.info("Transactions Desjardins: " + desjardinsReport);
+        log.info("Transactions Desjardins: " + desjardinsInfiniteReport);
 
         List<Transaction> transactions = new ArrayList<>();
         transactions.addAll(tdReport.getTransactions());
-        transactions.addAll(desjardinsReport.getTransactions());
+        transactions.addAll(desjardinsInfiniteReport.getTransactions());
 
+        creerRapportHebdoDetaille(transactions);
+        creerRapportHebdoSommaire(transactions);
+    }
+
+    private void creerRapportHebdoDetaille(List<Transaction> transactions) {
         Set<WeeklyReport> weeklyReports = createWeeklyReports(transactions);
-
+        StringBuffer sb = new StringBuffer();
         for (WeeklyReport report : weeklyReports) {
-            log.info("\nPériode: {} - Dépenses fixes: {} - Dépenses variables: {}\n{}",
-                    report.getPeriod(),
-                    report.getTransactionReport().getTotalDepensesFixes(),
-                    report.getTransactionReport().getTotalDepensesVariables(),
-                    tableauDepenses(report.getTransactionReport().getTransactions()));
+            sb.append("\nPériode: ")
+                    .append(report.getPeriod())
+                    .append(" - Dépenses fixes: ")
+                    .append(report.getTransactionReport().getTotalDepensesFixes())
+                    .append(" - Dépenses variables: ")
+                    .append(report.getTransactionReport().getTotalDepensesVariables())
+                    .append("\n")
+                    .append(tableauDepenses(report.getTransactionReport().getTransactions()));
+        }
+        Path path = Paths.get(weeklyDetailedReport);
+        System.out.println("Output file: " + path.toAbsolutePath());
+        try {
+            Files.write(path, sb.toString().getBytes());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    private void creerRapportHebdoSommaire(List<Transaction> transactions) {
+        Set<WeeklyReport> weeklyReports = createWeeklyReports(transactions);
+        StringBuffer sb = new StringBuffer();
+        sb.append("-----------------------------------------------------------\n")
+                .append("Période                 Dépenses fixes   Dépenses variables\n")
+                .append("-----------------------------------------------------------\n");
+        for (WeeklyReport report : weeklyReports) {
+            sb.append(String.format("%-24s", report.getPeriod()))
+                    .append(String.format("%-17.02f", report.getTransactionReport().getTotalDepensesFixes()))
+                    .append(String.format("%-17.02f", report.getTransactionReport().getTotalDepensesVariables()))
+                    .append("\n");
+        }
+        Path path = Paths.get(weeklySummaryReport);
+        System.out.println("Output file: " + path.toAbsolutePath());
+        try {
+            Files.write(path, sb.toString().getBytes());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
     }
 
     private String tableauDepenses(List<Transaction> transactions) {
-        String tableau = "-----------------------------------------------------------------------------------------------------\n";
-        tableau +=       "Date       V/F Description                                Debit    Credit   Compte  Poste de dépenses\n";
-        tableau +=       "-----------------------------------------------------------------------------------------------------\n";
-        String[] types = new String[]{"Fixe","Variable"};
+        String tableau = "-----------------------------------------------------------------------------------------------------------\n";
+        tableau += "Date       V/F Description                                Debit    Credit   Compte        Poste de dépenses\n";
+        tableau += "-----------------------------------------------------------------------------------------------------------\n";
+        String[] types = new String[]{"Fixe", "Variable"};
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         for (String type : types) {
             Collections.sort(transactions);
             for (Transaction transaction : transactions) {
                 if (type.equals(transaction.getCategorie())) {
                     tableau += String.format("%-11s", transaction.getDate().format(dateTimeFormatter));
-                    tableau += type.substring(0,1)+"   ";
+                    tableau += type.substring(0, 1) + "   ";
                     tableau += String.format("%-43s", transaction.getDescription());
                     tableau += String.format("%-9.2f", transaction.getDebit().doubleValue());
                     tableau += String.format("%-9.2f", transaction.getCredit().doubleValue());
-                    tableau += String.format("%-8s", transaction.getCompte());
+                    tableau += String.format("%-14s", transaction.getCompte());
                     tableau += transaction.getPosteDepense() + "\n";
                 }
             }
@@ -99,9 +145,9 @@ public class Main {
         }
 
         for (WeeklyReport weeklyReport : weeklyReports) {
-            float total = (float) weeklyReport.getTransactionReport().getTransactions().stream().filter(o->"Variable".equals(o.getCategorie())).mapToDouble(o->o.getDebit().doubleValue()).sum();
+            float total = (float) weeklyReport.getTransactionReport().getTransactions().stream().filter(o -> "Variable".equals(o.getCategorie())).mapToDouble(o -> o.getDebit().doubleValue()).sum();
             weeklyReport.getTransactionReport().setTotalDepensesVariables(total);
-            total = (float) weeklyReport.getTransactionReport().getTransactions().stream().filter(o->"Fixe".equals(o.getCategorie())).mapToDouble(o->o.getDebit().doubleValue()).sum();
+            total = (float) weeklyReport.getTransactionReport().getTransactions().stream().filter(o -> "Fixe".equals(o.getCategorie())).mapToDouble(o -> o.getDebit().doubleValue()).sum();
             weeklyReport.getTransactionReport().setTotalDepensesFixes(total);
         }
         return weeklyReports;
@@ -110,13 +156,13 @@ public class Main {
     private String getPeriod(LocalDate date) {
         LocalDate monday = date
                 .with(
-                        TemporalAdjusters.previousOrSame( DayOfWeek.MONDAY )
-                ) ;
+                        TemporalAdjusters.previousOrSame(DayOfWeek.MONDAY)
+                );
         LocalDate sunday = monday
                 .with(
-                        TemporalAdjusters.next( DayOfWeek.SUNDAY )
-                ) ;
+                        TemporalAdjusters.next(DayOfWeek.SUNDAY)
+                );
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-        return monday.format(formatter)+" - "+sunday.format(formatter);
+        return monday.format(formatter) + " - " + sunday.format(formatter);
     }
 }
