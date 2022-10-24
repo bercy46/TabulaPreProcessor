@@ -143,18 +143,34 @@ public class DesjardinsJsonProcessor {
         List<TransactionFacturee> facturees = rapportVisa.getSectionFacturee().getTransactionListe();
         List<TransactionFacturee> factureesOld = rapportVisaOld.getSectionFacturee().getTransactionListe();
         log.info("Avant le merge: facturees = {}, factureesOld = {}", facturees.size(), factureesOld.size());
+        TransactionFactureeComparator comparator = new TransactionFactureeComparator();
+        Collections.sort(facturees, comparator);
+        Collections.sort(factureesOld, comparator);
 
         List<TransactionFacturee> factureesOldAAjouter = new ArrayList<>();
 
-        TransactionFacturee derniereTransactionNouvelle = facturees.get(facturees.size() - 1);
-        for (int i = factureesOld.size() - 1; i >= 0; i--) {
-            TransactionFacturee factureeOld = factureesOld.get(i);
-            if (!StringUtils.equals(factureeOld.getIdentifiant(), derniereTransactionNouvelle.getIdentifiant())) {
-                factureesOldAAjouter.add(factureeOld);
-            } else {
-                break;
+        for (TransactionFacturee transactionOld : factureesOld) {
+            boolean found = false;
+            for (TransactionFacturee transactionNew : facturees) {
+                if (transactionOld.getNumeroSequence().equals(transactionNew.getNumeroSequence())) {
+                    found = true;
+                    break;
+                }
+            }
+            if (!found) {
+                factureesOldAAjouter.add(transactionOld);
             }
         }
+
+//        TransactionFacturee derniereTransactionNouvelle = facturees.get(facturees.size() - 1);
+//        for (int i = factureesOld.size() - 1; i >= 0; i--) {
+//            TransactionFacturee factureeOld = factureesOld.get(i);
+//            if (!StringUtils.equals(factureeOld.getIdentifiant(), derniereTransactionNouvelle.getIdentifiant())) {
+//                factureesOldAAjouter.add(factureeOld);
+//            } else {
+//                break;
+//            }
+//        }
         log.info("{} transactions de l'export precedent a ajouter", factureesOldAAjouter.size());
         Collections.reverse(factureesOldAAjouter);
 
@@ -162,7 +178,8 @@ public class DesjardinsJsonProcessor {
         nouvelleListe.addAll(facturees);
         nouvelleListe.addAll(factureesOldAAjouter);
 
-        log.info("La nouvelle liste = ", nouvelleListe.size());
+        log.info("La nouvelle liste = {}", nouvelleListe.size());
+        Collections.sort(nouvelleListe, comparator);
 
         rapportVisa.getSectionFacturee().setTransactionListe(nouvelleListe);
 

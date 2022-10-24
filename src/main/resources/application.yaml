@@ -129,6 +129,8 @@ merchant:
     '[LIBRAIRIE RENAUD BRAY]': Maison
     UQAM: Ecole
     '[UNIVERSITE LAVAL]': Ecole
+    '[UNIV LAVAL]': Ecole
+    '[UNIV MONTR]': Ecole
     '[BENNY BBQ]': Restaurant
     '[MONTREAL TAXI SERVICES]': Taxi
     '[LA RESERVE TABLE ET VIN]': Restaurant
@@ -153,7 +155,8 @@ merchant:
     '[ANIMANIA BROSSARD]': Chats
     '[RECREOPARC]': Sorties
     '[QUINCAILLERIE BERGER]': Maison
-    COSTCO: Maison
+    '[COSTCO WHOLESAL]': Maison
+    '[COSTCO ESSENCE]': Essence
     '[PROXIM JENNEAU ET TRINH]': Pharmacie
     '[L''EPERLAN]': Restaurant
     '[MARCHE ROBERT TELLIER MON]': Vacances
@@ -422,4 +425,8 @@ td-transaction:
     '[CHQ#]': FIXE
     '[HYDROSOLUTN]': FIXE
     '[SANI SPORT]': FIXE
+    '[SANI REC]': VARIABLE
     INTEREST: VARIABLE
+    '[UNIV LAVAL]': FIXE
+    '[UNIV MONTR]': FIXE
+    DOLLARAMA: VARIABLE

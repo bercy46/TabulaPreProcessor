@@ -19,17 +19,15 @@ import java.util.*;
 @Component
 @Slf4j
 public class TDProcessor {
+    List<Transaction> transactions = new ArrayList<>();
     private TDTransactionProperties tdTransactionProperties;
     private Scanner scanner = new Scanner(System.in);
-
     @Value("${file.input.td}")
     private List<String> fileInputs;
     @Value("${files.outputPath}")
     private String outputPath;
     @Value("${startDate}")
     private String startDate;
-
-    List<Transaction> transactions = new ArrayList<>();
     private Set<String> unmatchedLabelsFVI = new HashSet<>();
     private Set<String> unmatchedLabelsPosteDepense = new HashSet<>();
     private PosteDepense posteDepense;
@@ -80,9 +78,9 @@ public class TDProcessor {
         log.info("Unmatched labels FVI TD: " + unmatchedLabelsFVI);
         log.info("Unmatched labels posteDepense TD: " + unmatchedLabelsPosteDepense);
         Map<String, Float> mapTotaux = new HashMap<>();
-        mapTotaux.put("Fixes", (float) transactions.stream().filter(o->"Fixe".equals(o.getCategorie())).mapToDouble(o->o.getCredit().subtract(o.getDebit()).doubleValue()).sum());
-        mapTotaux.put("Variables", (float) transactions.stream().filter(o->"Variable".equals(o.getCategorie())).mapToDouble(o->o.getCredit().subtract(o.getDebit()).doubleValue()).sum());
-        mapTotaux.put("Ignorees", (float) transactions.stream().filter(o->"Ignoree".equals(o.getCategorie())).mapToDouble(o->o.getCredit().subtract(o.getDebit()).doubleValue()).sum());
+        mapTotaux.put("Fixes", (float) transactions.stream().filter(o -> "Fixe".equals(o.getCategorie())).mapToDouble(o -> o.getCredit().subtract(o.getDebit()).doubleValue()).sum());
+        mapTotaux.put("Variables", (float) transactions.stream().filter(o -> "Variable".equals(o.getCategorie())).mapToDouble(o -> o.getCredit().subtract(o.getDebit()).doubleValue()).sum());
+        mapTotaux.put("Ignorees", (float) transactions.stream().filter(o -> "Ignoree".equals(o.getCategorie())).mapToDouble(o -> o.getCredit().subtract(o.getDebit()).doubleValue()).sum());
         log.info("Totaux: " + mapTotaux);
         TransactionReport transactionReport = new TransactionReport();
         transactionReport.setTransactions(transactions);
@@ -170,11 +168,17 @@ public class TDProcessor {
                         if (StringUtils.isEmpty(transaction.getCategorie())) {
                             transaction.setCategorie("Fixe");
                         }
+                        if (StringUtils.isEmpty(transaction.getPosteDepense())) {
+                            transaction.setPosteDepense(posteDepense.getPosteDepense(description, transaction, unmatchedLabelsPosteDepense));
+                        }
                         transactions.add(transaction);
                     } else if ("VARIABLE".equals(map.get(key))) {
                         matched = true;
                         if (StringUtils.isEmpty(transaction.getCategorie())) {
                             transaction.setCategorie("Variable");
+                        }
+                        if (StringUtils.isEmpty(transaction.getPosteDepense())) {
+                            transaction.setPosteDepense(posteDepense.getPosteDepense(description, transaction, unmatchedLabelsPosteDepense));
                         }
                         transactions.add(transaction);
                     } else if ("IGNORE".equals(map.get(key))) {
@@ -194,7 +198,7 @@ public class TDProcessor {
         String returnedLine = line;
 
         if (returnedLine.endsWith(",")) {
-            returnedLine = returnedLine.substring(0, returnedLine.length()-1);
+            returnedLine = returnedLine.substring(0, returnedLine.length() - 1);
         }
         if (tokens.length == 5) {
             return line
