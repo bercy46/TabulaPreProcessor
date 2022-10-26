@@ -154,6 +154,12 @@ public class DesjardinsJsonProcessor {
             for (TransactionFacturee transactionNew : facturees) {
                 if (transactionOld.getNumeroSequence().equals(transactionNew.getNumeroSequence())) {
                     found = true;
+                    if (transactionNew.getCategorie() == null || transactionNew.getCategorie().isEmpty()) {
+                        transactionNew.setCategorie(transactionOld.getCategorie());
+                    }
+                    if (transactionNew.getPosteDepense() == null || transactionNew.getPosteDepense().isEmpty()) {
+                        transactionNew.setPosteDepense(transactionOld.getPosteDepense());
+                    }
                     break;
                 }
             }

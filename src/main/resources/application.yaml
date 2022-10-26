@@ -10,6 +10,8 @@ files:
   weeklySummaryReport: "weeklySummaryReport.txt"
   monthlyDetailedReport: "monthlyDetailedReport.txt"
   monthlySummaryReport: "monthlySummaryReport.txt"
+  weeklyPostesDepensesReport: "weeklyPostesDepensesReport.txt"
+  monthlyPostesDepensesReport: "monthlyPostesDepensesReport.txt"
 
 startDate: 2022-09-26
 

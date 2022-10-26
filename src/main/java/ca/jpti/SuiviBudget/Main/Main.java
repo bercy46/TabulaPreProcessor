@@ -4,11 +4,13 @@ import ca.jpti.SuiviBudget.Desjardins.DesjardinsJsonProcessor;
 import ca.jpti.SuiviBudget.Desjardins.DesjardinsProcessor;
 import ca.jpti.SuiviBudget.TD.TDProcessor;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import java.io.IOException;
+import java.math.BigDecimal;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -24,6 +26,10 @@ public class Main {
     private TDProcessor tdProcessor;
     private DesjardinsProcessor desjardinsProcessor;
     private DesjardinsJsonProcessor desjardinsJsonProcessor;
+    @Value("${files.weeklyPostesDepensesReport}")
+    private String weeklyPostesDepensesReport;
+    @Value("${files.monthlyPostesDepensesReport}")
+    private String monthlyPostesDepensesReport;
     @Value("${files.weeklyDetailedReport}")
     private String weeklyDetailedReport;
     @Value("${files.weeklySummaryReport}")
@@ -55,8 +61,75 @@ public class Main {
         transactions.addAll(desjardinsInfiniteReport.getTransactions());
 
         creerRapportHebdoDetaille(transactions);
+        creerRapportMensuelDetaille(transactions);
         creerRapportHebdoSommaire(transactions);
         creerRapportMensuelSommaire(transactions);
+        creerRapportPostesDepensesHebdo(transactions);
+        creerRapportPostesDepensesMensuel(transactions);
+    }
+
+    private void creerRapportPostesDepensesHebdo(List<Transaction> transactions) {
+        Set<PostesDepensesReport> postesDepensesReports = createPostesDepensesReportsWeekly(transactions);
+        List<PostesDepensesReport> listPostesDepensesReports = new ArrayList<>(postesDepensesReports);
+        Collections.reverse(listPostesDepensesReports);
+        TotalPosteDepenseComparator comparator = new TotalPosteDepenseComparator();
+        StringBuffer sb = new StringBuffer();
+        sb.append("---------------------------------------------------------\n")
+                .append("Période                 Poste de Dépenses         Montant\n")
+                .append("---------------------------------------------------------\n");
+        String currentPeriod = null;
+        List<PostesDepensesReport> listePostesDepensesReport = new ArrayList<>();
+        for (PostesDepensesReport postesDepensesReport : listPostesDepensesReports) {
+            Collections.sort(postesDepensesReport.getTotauxPostesDepenses(), comparator);
+            for (TotalPosteDepense totalPosteDepense : postesDepensesReport.getTotauxPostesDepenses()) {
+                sb.append(String.format("%-24s", postesDepensesReport.getPeriod().equals(currentPeriod) ? "" : postesDepensesReport.getPeriod()))
+                        .append(String.format("%-26s", totalPosteDepense.getPosteDepense()))
+                        .append(String.format("%-9.02f", totalPosteDepense.getMontant()))
+                        .append("\n");
+                currentPeriod = postesDepensesReport.getPeriod();
+            }
+            sb.append("Total: ").append(postesDepensesReport.getTotal()).append("\n");
+            sb.append("\n");
+        }
+        Path path = Paths.get(weeklyPostesDepensesReport);
+        System.out.println("Output file: " + path.toAbsolutePath());
+        try {
+            Files.write(path, sb.toString().getBytes());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    private void creerRapportPostesDepensesMensuel(List<Transaction> transactions) {
+        Set<PostesDepensesReport> postesDepensesReports = createPostesDepensesReportsMonthly(transactions);
+        List<PostesDepensesReport> listPostesDepensesReports = new ArrayList<>(postesDepensesReports);
+        Collections.reverse(listPostesDepensesReports);
+        TotalPosteDepenseComparator comparator = new TotalPosteDepenseComparator();
+        StringBuffer sb = new StringBuffer();
+        sb.append("-----------------------------------------------------------\n")
+                .append("Période                 Poste de Dépenses         Montant\n")
+                .append("-----------------------------------------------------------\n");
+        String currentPeriod = null;
+        List<PostesDepensesReport> listePostesDepensesReport = new ArrayList<>();
+        for (PostesDepensesReport postesDepensesReport : listPostesDepensesReports) {
+            Collections.sort(postesDepensesReport.getTotauxPostesDepenses(), comparator);
+            for (TotalPosteDepense totalPosteDepense : postesDepensesReport.getTotauxPostesDepenses()) {
+                sb.append(String.format("%-24s", postesDepensesReport.getPeriod().equals(currentPeriod) ? "" : postesDepensesReport.getPeriod()))
+                        .append(String.format("%-26s", totalPosteDepense.getPosteDepense()))
+                        .append(String.format("%-17.02f", totalPosteDepense.getMontant()))
+                        .append("\n");
+                currentPeriod = postesDepensesReport.getPeriod();
+            }
+            sb.append("Total: ").append(postesDepensesReport.getTotal()).append("\n");
+            sb.append("\n");
+        }
+        Path path = Paths.get(monthlyPostesDepensesReport);
+        System.out.println("Output file: " + path.toAbsolutePath());
+        try {
+            Files.write(path, sb.toString().getBytes());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     private void creerRapportHebdoDetaille(List<Transaction> transactions) {
@@ -82,6 +155,31 @@ public class Main {
             throw new RuntimeException(e);
         }
     }
+
+    private void creerRapportMensuelDetaille(List<Transaction> transactions) {
+        Set<MonthlyReport> monthlyReports = createMonthlyReports(transactions);
+        List<MonthlyReport> listMonthlyReports = new ArrayList<>(monthlyReports);
+        Collections.reverse(listMonthlyReports);
+        StringBuffer sb = new StringBuffer();
+        for (MonthlyReport report : listMonthlyReports) {
+            sb.append("\nPériode: ")
+                    .append(report.getPeriod())
+                    .append(" - Dépenses fixes: ")
+                    .append(report.getTransactionReport().getTotalDepensesFixes())
+                    .append(" - Dépenses variables: ")
+                    .append(report.getTransactionReport().getTotalDepensesVariables())
+                    .append("\n")
+                    .append(tableauDepenses(report.getTransactionReport().getTransactions()));
+        }
+        Path path = Paths.get(monthlyDetailedReport);
+        System.out.println("Output file: " + path.toAbsolutePath());
+        try {
+            Files.write(path, sb.toString().getBytes());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
 
     private void creerRapportHebdoSommaire(List<Transaction> transactions) {
         Set<WeeklyReport> weeklyReports = createWeeklyReports(transactions);
@@ -183,7 +281,7 @@ public class Main {
                     .stream()
                     .filter(o -> "Variable".equals(o.getCategorie()))
                     .filter(o -> !"IGNORER".equals(o.getPosteDepense()))
-                    .mapToDouble(o -> o.getDebit().doubleValue())
+                    .mapToDouble(o -> o.getDebit().doubleValue() - o.getCredit().doubleValue())
                     .sum();
             weeklyReport.getTransactionReport().setTotalDepensesVariables(total);
             total = (float) weeklyReport
@@ -192,13 +290,120 @@ public class Main {
                     .stream()
                     .filter(o -> "Fixe".equals(o.getCategorie()))
                     .filter(o -> !"IGNORER".equals(o.getPosteDepense()))
-                    .mapToDouble(o -> o.getDebit().doubleValue())
+                    .mapToDouble(o -> o.getDebit().doubleValue() - o.getCredit().doubleValue())
                     .sum();
             weeklyReport.getTransactionReport().setTotalDepensesFixes(total);
         }
         return weeklyReports;
     }
 
+    private Set<PostesDepensesReport> createPostesDepensesReportsWeekly(List<Transaction> transactions) {
+        Set<PostesDepensesReport> reports = new TreeSet<>();
+        for (Transaction transaction : transactions) {
+            String posteDepense = transaction.getPosteDepense();
+            if (StringUtils.equals(transaction.getCategorie(), "Ignoree")
+                    || StringUtils.equals(transaction.getCategorie(), "Fixe")
+                    || posteDepense == null
+                    || StringUtils.equals(posteDepense, "IGNORER")) {
+//                log.info("Ignore cette transaction {}", transaction);
+                continue;
+            }
+            String period = getWeeklyPeriod(transaction.getDate());
+            PostesDepensesReport report = null;
+            for (PostesDepensesReport postesDepensesReport : reports) {
+                if (postesDepensesReport.getPeriod().equals(period)) {
+                    report = postesDepensesReport;
+                    break;
+                }
+            }
+            if (report == null) {
+                report = new PostesDepensesReport();
+                report.setPeriod(period);
+                reports.add(report);
+            }
+
+            BigDecimal montant = transaction.getDebit().subtract(transaction.getCredit());
+            TotalPosteDepense totalPosteDepenseAjoute = null;
+            for (TotalPosteDepense totalPosteDepense : report.getTotauxPostesDepenses()) {
+                if (totalPosteDepense.getPosteDepense().equals(posteDepense)) {
+                    totalPosteDepense.setMontant(totalPosteDepense.getMontant().add(montant));
+                    totalPosteDepenseAjoute = totalPosteDepense;
+                    break;
+                }
+            }
+
+            if (totalPosteDepenseAjoute == null) {
+                TotalPosteDepense totalPosteDepense = new TotalPosteDepense();
+                totalPosteDepense.setPosteDepense(posteDepense);
+                totalPosteDepense.setMontant(montant);
+                report.getTotauxPostesDepenses().add(totalPosteDepense);
+                totalPosteDepenseAjoute = totalPosteDepense;
+            }
+
+//            log.info("Ajoute ce totalPosteDepense {} pour transaction {}", totalPosteDepenseAjoute, transaction);
+        }
+
+        for (PostesDepensesReport report : reports) {
+            for (TotalPosteDepense totalPosteDepense : report.getTotauxPostesDepenses()) {
+                report.setTotal(report.getTotal().add(totalPosteDepense.getMontant()));
+            }
+        }
+
+        return reports;
+    }
+
+    private Set<PostesDepensesReport> createPostesDepensesReportsMonthly(List<Transaction> transactions) {
+        Set<PostesDepensesReport> reports = new TreeSet<>();
+        for (Transaction transaction : transactions) {
+            String posteDepense = transaction.getPosteDepense();
+            if (StringUtils.equals(transaction.getCategorie(), "Ignoree")
+                    || StringUtils.equals(transaction.getCategorie(), "Fixe")
+                    || posteDepense == null
+                    || StringUtils.equals(posteDepense, "IGNORER")
+            ) {
+                continue;
+            }
+            String period = getMonthlyPeriod(transaction.getDate());
+            PostesDepensesReport report = null;
+            for (PostesDepensesReport postesDepensesReport : reports) {
+                if (postesDepensesReport.getPeriod().equals(period)) {
+                    report = postesDepensesReport;
+                    break;
+                }
+            }
+            if (report == null) {
+                report = new PostesDepensesReport();
+                report.setPeriod(period);
+                reports.add(report);
+            }
+
+            BigDecimal montant = transaction.getDebit().subtract(transaction.getCredit());
+            TotalPosteDepense totalPosteDepenseAjoute = null;
+            for (TotalPosteDepense totalPosteDepense : report.getTotauxPostesDepenses()) {
+                if (totalPosteDepense.getPosteDepense().equals(posteDepense)) {
+                    totalPosteDepense.setMontant(totalPosteDepense.getMontant().add(montant));
+                    totalPosteDepenseAjoute = totalPosteDepense;
+                    break;
+                }
+            }
+
+            if (totalPosteDepenseAjoute == null) {
+                TotalPosteDepense totalPosteDepense = new TotalPosteDepense();
+                totalPosteDepense.setPosteDepense(posteDepense);
+                totalPosteDepense.setMontant(montant);
+                report.getTotauxPostesDepenses().add(totalPosteDepense);
+                totalPosteDepenseAjoute = totalPosteDepense;
+            }
+        }
+
+        for (PostesDepensesReport report : reports) {
+            for (TotalPosteDepense totalPosteDepense : report.getTotauxPostesDepenses()) {
+                report.setTotal(report.getTotal().add(totalPosteDepense.getMontant()));
+            }
+        }
+
+        return reports;
+    }
 
     private Set<MonthlyReport> createMonthlyReports(List<Transaction> transactions) {
         Set<MonthlyReport> monthlyReports = new TreeSet<>();
@@ -231,7 +436,7 @@ public class Main {
                     .stream()
                     .filter(o -> "Variable".equals(o.getCategorie()))
                     .filter(o -> !"IGNORER".equals(o.getPosteDepense()))
-                    .mapToDouble(o -> o.getDebit().doubleValue())
+                    .mapToDouble(o -> o.getDebit().doubleValue() - o.getCredit().doubleValue())
                     .sum();
             monthlyReport.getTransactionReport().setTotalDepensesVariables(total);
             total = (float) monthlyReport
@@ -240,7 +445,7 @@ public class Main {
                     .stream()
                     .filter(o -> "Fixe".equals(o.getCategorie()))
                     .filter(o -> !"IGNORER".equals(o.getPosteDepense()))
-                    .mapToDouble(o -> o.getDebit().doubleValue())
+                    .mapToDouble(o -> o.getDebit().doubleValue() - o.getCredit().doubleValue())
                     .sum();
             monthlyReport.getTransactionReport().setTotalDepensesFixes(total);
         }
