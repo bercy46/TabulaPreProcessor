@@ -8,9 +8,12 @@ files:
   outputPath: output
   weeklyDetailedReport: "weeklyDetailedReport.txt"
   weeklySummaryReport: "weeklySummaryReport.txt"
+  weeklyPostesDepensesReport: "weeklyPostesDepensesReport.txt"
+  biweeklyDetailedReport: "biweeklyDetailedReport.txt"
+  biweeklySummaryReport: "biweeklySummaryReport.txt"
+  biweeklyPostesDepensesReport: "biweeklyPostesDepensesReport.txt"
   monthlyDetailedReport: "monthlyDetailedReport.txt"
   monthlySummaryReport: "monthlySummaryReport.txt"
-  weeklyPostesDepensesReport: "weeklyPostesDepensesReport.txt"
   monthlyPostesDepensesReport: "monthlyPostesDepensesReport.txt"
 
 startDate: 2022-09-26
@@ -116,7 +119,9 @@ merchant:
     UBER: Taxi
     '[AMERICAN EAGLE]': Linge
     '[HOPITAL VETERINAIRE DE CA]': Chats
-    SANI: Sports
+    '[SANI SPORT]': Sports
+    '[SANI REC]': Sports
+    '[SANI RESTO]': Restaurant
     '[Miss Candiac]': Restaurant
     '[ALLO MON COCO]': Restaurant
     DOORDASH: Restaurant
@@ -197,7 +202,7 @@ merchant:
     '[MELANIE LYNE]': Linge
     '[V DE MTL CONSTATS INFR]': Amendes
     '[BOULANGERIE FORTIN]': Epicerie
-    ROSETTI: Epicerie
+    ROSETTI: Restaurant
     '[BRASSERIE IRU]': Restaurant
     '[LOFTS VIEUX QUEBEC]': Demenagement Ju
     '[MEDICEXPERT]': Chats
@@ -338,7 +343,7 @@ merchant:
     '[DUTY FREE MTL TB]': Vacances
     '[BOULANGERIE LOUIS & CIE]': Restaurant
     '[*SP GLAMNETIC]': Esthetique
-    '[STATIONNEMENT CRESCENT]': Stationnament
+    '[STATIONNEMENT CRESCENT]': Stationnement
     '[SOCIETE DU PARC JEAN-DRAP]': Mariage
     '[*THAT''S AMORE]': Vacances
     '[NATURALIZER]': Souliers
@@ -428,6 +433,7 @@ td-transaction:
     '[HYDROSOLUTN]': FIXE
     '[SANI SPORT]': FIXE
     '[SANI REC]': VARIABLE
+    '[SANI RESTO]': VARIABLE
     INTEREST: VARIABLE
     '[UNIV LAVAL]': FIXE
     '[UNIV MONTR]': FIXE

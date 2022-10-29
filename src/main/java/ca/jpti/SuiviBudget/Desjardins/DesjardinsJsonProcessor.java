@@ -118,7 +118,7 @@ public class DesjardinsJsonProcessor {
 
             log.info("Finished " + fileInputInfinite);
             try {
-                Path path = Paths.get(fileInputInfinite.replace(".json", ".out"));
+                Path path = Paths.get(fileInputInfinite.replace(".json", ".old"));
                 System.out.println("Output file: " + path.toAbsolutePath());
                 Files.write(path, mapper.writerWithDefaultPrettyPrinter().writeValueAsString(rapportVisa).getBytes());
             } catch (IOException e) {

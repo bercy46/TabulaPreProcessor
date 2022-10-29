@@ -67,7 +67,7 @@ public class TDProcessor {
             }
             log.info("Finished " + filename);
             try {
-                Path path = Paths.get(filename.replace(".csv", ".out"));
+                Path path = Paths.get(filename);
                 System.out.println("Output file: " + path.toAbsolutePath());
                 Files.write(path, sb.toString().getBytes());
             } catch (IOException e) {
@@ -153,7 +153,7 @@ public class TDProcessor {
                     transactions.add(transaction);
                 }
             }
-        } else if (description.contains(" 6478799") || description.contains(" 6479221") || description.contains(" 3296586")) {
+        } else if (description.contains("TFR") && (description.contains(" 6478799") || description.contains(" 6479221") || description.contains(" 3296586"))) {
             // Transferts
             if (StringUtils.isEmpty(transaction.getCategorie())) {
                 transaction.setCategorie("Ignoree");
