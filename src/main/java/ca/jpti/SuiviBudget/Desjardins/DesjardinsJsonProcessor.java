@@ -29,6 +29,7 @@ public class DesjardinsJsonProcessor {
     private final List<String> accounts = Arrays.asList("Nadine", "Jacques", "Juliette", "Gabrielle");
     private MerchantProperties merchantProperties;
     private List<Transaction> transactions = new ArrayList<>();
+    private float totalAutorisees = 0;
     @Value("${file.input.desjardinsInfiniteJson}")
     private String fileInputInfinite;
     @Value("${file.input.desjardinsWorldJson}")
@@ -83,6 +84,7 @@ public class DesjardinsJsonProcessor {
 
             // print book
             log.info("Transactions autorisees: " + rapportVisa.getSectionAutorisee().getTransactionListe().size());
+            totalAutorisees = getTotalAutorisees(rapportVisa.getSectionAutorisee().getTransactionListe());
             log.info("Transactions facturees: " + rapportVisa.getSectionFacturee().getTransactionListe().size());
 
             List<TransactionFacturee> facturees = rapportVisa.getSectionFacturee().getTransactionListe();
@@ -135,8 +137,21 @@ public class DesjardinsJsonProcessor {
         transactionReport.setTotalDepensesIgnorees(0);
         float total = (float) transactions.stream().filter(o -> "Variable".equals(o.getCategorie())).mapToDouble(o -> o.getDebit().doubleValue()).sum();
         transactionReport.setTotalDepensesVariables(total);
+        transactionReport.setTotalAutorisees(totalAutorisees);
         log.info("Unmatched labels Desjardins: " + unmatchedLabels);
         return transactionReport;
+    }
+
+    private float getTotalAutorisees(List<TransactionAutorisee> transactionAutorisees) {
+        float totalAutorisees = 0;
+        for (TransactionAutorisee transactionAutorisee : transactionAutorisees) {
+            try {
+                totalAutorisees += Float.parseFloat(transactionAutorisee.getMontantTransaction());
+            } catch (NumberFormatException e) {
+                log.error("Could not parse " + transactionAutorisee.getMontantTransaction());
+            }
+        }
+        return totalAutorisees;
     }
 
     private void mergeFiles(RapportVisa rapportVisa, RapportVisa rapportVisaOld) {

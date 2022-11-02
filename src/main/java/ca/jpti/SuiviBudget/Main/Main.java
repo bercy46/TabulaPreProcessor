@@ -58,6 +58,7 @@ public class Main {
 
     @PostConstruct
     public void process() {
+        float totalAutorisees = 0;
         TransactionReport tdReport = tdProcessor.process();
 //        TransactionReport desjardinsReport = desjardinsProcessor.process();
         TransactionReport desjardinsInfiniteReport = desjardinsJsonProcessor.process("Infinite");
@@ -65,23 +66,24 @@ public class Main {
         log.info("Transactions TD: " + tdReport);
 //        log.info("Transactions Desjardins: " + desjardinsReport);
         log.info("Transactions Desjardins: " + desjardinsInfiniteReport);
+        totalAutorisees += desjardinsInfiniteReport.getTotalAutorisees();
 
         List<Transaction> transactions = new ArrayList<>();
         transactions.addAll(tdReport.getTransactions());
         transactions.addAll(desjardinsInfiniteReport.getTransactions());
 
-        creerRapportHebdoSommaire(transactions);
-        creerRapportHebdoDetaille(transactions);
-        creerRapportHebdoPostesDepenses(transactions);
-        creerRapportBiHebdoSommaire(transactions);
-        creerRapportBiHebdoDetaille(transactions);
-        creerRapportBiHebdoPostesDepenses(transactions);
-        creerRapportMensuelSommaire(transactions);
-        creerRapportMensuelDetaille(transactions);
-        creerRapportMensuelPostesDepenses(transactions);
+        creerRapportHebdoSommaire(transactions, totalAutorisees);
+        creerRapportHebdoDetaille(transactions, totalAutorisees);
+        creerRapportHebdoPostesDepenses(transactions, totalAutorisees);
+        creerRapportBiHebdoSommaire(transactions, totalAutorisees);
+        creerRapportBiHebdoDetaille(transactions, totalAutorisees);
+        creerRapportBiHebdoPostesDepenses(transactions, totalAutorisees);
+        creerRapportMensuelSommaire(transactions, totalAutorisees);
+        creerRapportMensuelDetaille(transactions, totalAutorisees);
+        creerRapportMensuelPostesDepenses(transactions, totalAutorisees);
     }
 
-    private void creerRapportHebdoPostesDepenses(List<Transaction> transactions) {
+    private void creerRapportHebdoPostesDepenses(List<Transaction> transactions, float totalAutorisees) {
         Set<PostesDepensesReport> postesDepensesReports = createPostesDepensesReportsWeekly(transactions);
         List<PostesDepensesReport> listPostesDepensesReports = new ArrayList<>(postesDepensesReports);
         Collections.reverse(listPostesDepensesReports);
@@ -92,6 +94,7 @@ public class Main {
                 .append("---------------------------------------------------------\n");
         String currentPeriod = null;
         List<PostesDepensesReport> listePostesDepensesReport = new ArrayList<>();
+        boolean autoriseesDone = false;
         for (PostesDepensesReport postesDepensesReport : listPostesDepensesReports) {
             Collections.sort(postesDepensesReport.getTotauxPostesDepenses(), comparator);
             for (TotalPosteDepense totalPosteDepense : postesDepensesReport.getTotauxPostesDepenses()) {
@@ -101,8 +104,15 @@ public class Main {
                         .append("\n");
                 currentPeriod = postesDepensesReport.getPeriod();
             }
-            sb.append("Total: ").append(postesDepensesReport.getTotal()).append("\n");
-            sb.append("\n");
+            sb.append("Total: ")
+                    .append(postesDepensesReport.getTotal());
+            if (!autoriseesDone) {
+                sb.append(" (Autorisées: ")
+                        .append(String.format("%.02f", totalAutorisees))
+                        .append(")");
+                autoriseesDone = true;
+            }
+            sb.append("\n\n");
         }
         Path path = Paths.get(weeklyPostesDepensesReport);
         System.out.println("Output file: " + path.toAbsolutePath());
@@ -113,7 +123,7 @@ public class Main {
         }
     }
 
-    private void creerRapportBiHebdoPostesDepenses(List<Transaction> transactions) {
+    private void creerRapportBiHebdoPostesDepenses(List<Transaction> transactions, float totalAutorisees) {
         Set<PostesDepensesReport> postesDepensesReports = createPostesDepensesReportsBiWeekly(transactions);
         List<PostesDepensesReport> listPostesDepensesReports = new ArrayList<>(postesDepensesReports);
         Collections.reverse(listPostesDepensesReports);
@@ -124,6 +134,7 @@ public class Main {
                 .append("---------------------------------------------------------\n");
         String currentPeriod = null;
         List<PostesDepensesReport> listePostesDepensesReport = new ArrayList<>();
+        boolean autoriseesDone = false;
         for (PostesDepensesReport postesDepensesReport : listPostesDepensesReports) {
             Collections.sort(postesDepensesReport.getTotauxPostesDepenses(), comparator);
             for (TotalPosteDepense totalPosteDepense : postesDepensesReport.getTotauxPostesDepenses()) {
@@ -133,8 +144,15 @@ public class Main {
                         .append("\n");
                 currentPeriod = postesDepensesReport.getPeriod();
             }
-            sb.append("Total: ").append(postesDepensesReport.getTotal()).append("\n");
-            sb.append("\n");
+            sb.append("Total: ")
+                    .append(postesDepensesReport.getTotal());
+            if (!autoriseesDone) {
+                sb.append(" (Autorisées: ")
+                        .append(String.format("%.02f", totalAutorisees))
+                        .append(")");
+                autoriseesDone = true;
+            }
+            sb.append("\n\n");
         }
         Path path = Paths.get(biweeklyPostesDepensesReport);
         System.out.println("Output file: " + path.toAbsolutePath());
@@ -145,7 +163,7 @@ public class Main {
         }
     }
 
-    private void creerRapportMensuelPostesDepenses(List<Transaction> transactions) {
+    private void creerRapportMensuelPostesDepenses(List<Transaction> transactions, float totalAutorisees) {
         Set<PostesDepensesReport> postesDepensesReports = createPostesDepensesReportsMonthly(transactions);
         List<PostesDepensesReport> listPostesDepensesReports = new ArrayList<>(postesDepensesReports);
         Collections.reverse(listPostesDepensesReports);
@@ -156,6 +174,7 @@ public class Main {
                 .append("-----------------------------------------------------------\n");
         String currentPeriod = null;
         List<PostesDepensesReport> listePostesDepensesReport = new ArrayList<>();
+        boolean autoriseesDone = false;
         for (PostesDepensesReport postesDepensesReport : listPostesDepensesReports) {
             Collections.sort(postesDepensesReport.getTotauxPostesDepenses(), comparator);
             for (TotalPosteDepense totalPosteDepense : postesDepensesReport.getTotauxPostesDepenses()) {
@@ -165,8 +184,16 @@ public class Main {
                         .append("\n");
                 currentPeriod = postesDepensesReport.getPeriod();
             }
-            sb.append("Total: ").append(postesDepensesReport.getTotal()).append("\n");
-            sb.append("\n");
+
+            sb.append("Total: ")
+                    .append(postesDepensesReport.getTotal());
+            if (!autoriseesDone) {
+                sb.append(" (Autorisées: ")
+                        .append(String.format("%.02f", totalAutorisees))
+                        .append(")");
+                autoriseesDone = true;
+            }
+            sb.append("\n\n");
         }
         Path path = Paths.get(monthlyPostesDepensesReport);
         System.out.println("Output file: " + path.toAbsolutePath());
@@ -177,19 +204,26 @@ public class Main {
         }
     }
 
-    private void creerRapportHebdoDetaille(List<Transaction> transactions) {
+    private void creerRapportHebdoDetaille(List<Transaction> transactions, float totalAutorisees) {
         Set<DetailedReport> detailedReports = createWeeklyReports(transactions);
         List<DetailedReport> listDetailedReports = new ArrayList<>(detailedReports);
         Collections.reverse(listDetailedReports);
         StringBuffer sb = new StringBuffer();
+        boolean autoriseesDone = false;
         for (DetailedReport report : listDetailedReports) {
             sb.append("\nPériode: ")
                     .append(report.getPeriod())
                     .append(" - Dépenses fixes: ")
                     .append(report.getTransactionReport().getTotalDepensesFixes())
                     .append(" - Dépenses variables: ")
-                    .append(report.getTransactionReport().getTotalDepensesVariables())
-                    .append("\n")
+                    .append(report.getTransactionReport().getTotalDepensesVariables());
+            if (!autoriseesDone) {
+                sb.append(" (Autorisées: ")
+                        .append(String.format("%.02f", totalAutorisees))
+                        .append(")");
+                autoriseesDone = true;
+            }
+            sb.append("\n")
                     .append(tableauDepenses(report.getTransactionReport().getTransactions()));
         }
         Path path = Paths.get(weeklyDetailedReport);
@@ -201,19 +235,26 @@ public class Main {
         }
     }
 
-    private void creerRapportBiHebdoDetaille(List<Transaction> transactions) {
+    private void creerRapportBiHebdoDetaille(List<Transaction> transactions, float totalAutorisees) {
         Set<DetailedReport> detailedReports = createBiWeeklyReports(transactions);
         List<DetailedReport> listDetailedReports = new ArrayList<>(detailedReports);
         Collections.reverse(listDetailedReports);
         StringBuffer sb = new StringBuffer();
+        boolean autoriseesDone = false;
         for (DetailedReport report : listDetailedReports) {
             sb.append("\nPériode: ")
                     .append(report.getPeriod())
                     .append(" - Dépenses fixes: ")
                     .append(report.getTransactionReport().getTotalDepensesFixes())
                     .append(" - Dépenses variables: ")
-                    .append(report.getTransactionReport().getTotalDepensesVariables())
-                    .append("\n")
+                    .append(report.getTransactionReport().getTotalDepensesVariables());
+            if (!autoriseesDone) {
+                sb.append(" (Autorisées: ")
+                        .append(String.format("%.02f", totalAutorisees))
+                        .append(")");
+                autoriseesDone = true;
+            }
+            sb.append("\n")
                     .append(tableauDepenses(report.getTransactionReport().getTransactions()));
         }
         Path path = Paths.get(biweeklyDetailedReport);
@@ -225,19 +266,26 @@ public class Main {
         }
     }
 
-    private void creerRapportMensuelDetaille(List<Transaction> transactions) {
+    private void creerRapportMensuelDetaille(List<Transaction> transactions, float totalAutorisees) {
         Set<MonthlyReport> monthlyReports = createMonthlyReports(transactions);
         List<MonthlyReport> listMonthlyReports = new ArrayList<>(monthlyReports);
         Collections.reverse(listMonthlyReports);
         StringBuffer sb = new StringBuffer();
+        boolean autoriseesDone = false;
         for (MonthlyReport report : listMonthlyReports) {
             sb.append("\nPériode: ")
                     .append(report.getPeriod())
                     .append(" - Dépenses fixes: ")
                     .append(report.getTransactionReport().getTotalDepensesFixes())
                     .append(" - Dépenses variables: ")
-                    .append(report.getTransactionReport().getTotalDepensesVariables())
-                    .append("\n")
+                    .append(report.getTransactionReport().getTotalDepensesVariables());
+            if (!autoriseesDone) {
+                sb.append(" (Autorisées: ")
+                        .append(String.format("%.02f", totalAutorisees))
+                        .append(")");
+                autoriseesDone = true;
+            }
+            sb.append("\n")
                     .append(tableauDepenses(report.getTransactionReport().getTransactions()));
         }
         Path path = Paths.get(monthlyDetailedReport);
@@ -250,7 +298,7 @@ public class Main {
     }
 
 
-    private void creerRapportHebdoSommaire(List<Transaction> transactions) {
+    private void creerRapportHebdoSommaire(List<Transaction> transactions, float totalAutorisees) {
         Set<DetailedReport> detailedReports = createWeeklyReports(transactions);
         List<DetailedReport> listDetailedReports = new ArrayList<>(detailedReports);
         Collections.reverse(listDetailedReports);
@@ -258,6 +306,10 @@ public class Main {
         sb.append("-----------------------------------------------------------\n")
                 .append("Période                 Dépenses fixes   Dépenses variables\n")
                 .append("-----------------------------------------------------------\n");
+        sb.append(String.format("%-24s", "* Autorisées *"))
+                .append(String.format("%-17s", ""))
+                .append(String.format("%-17.02f", totalAutorisees))
+                .append("\n");
         for (DetailedReport report : listDetailedReports) {
             sb.append(String.format("%-24s", report.getPeriod()))
                     .append(String.format("%-17.02f", report.getTransactionReport().getTotalDepensesFixes()))
@@ -273,7 +325,7 @@ public class Main {
         }
     }
 
-    private void creerRapportBiHebdoSommaire(List<Transaction> transactions) {
+    private void creerRapportBiHebdoSommaire(List<Transaction> transactions, float totalAutorisees) {
         Set<DetailedReport> detailedReports = createBiWeeklyReports(transactions);
         List<DetailedReport> listDetailedReports = new ArrayList<>(detailedReports);
         Collections.reverse(listDetailedReports);
@@ -281,6 +333,10 @@ public class Main {
         sb.append("-----------------------------------------------------------\n")
                 .append("Période                 Dépenses fixes   Dépenses variables\n")
                 .append("-----------------------------------------------------------\n");
+        sb.append(String.format("%-24s", "* Autorisées *"))
+                .append(String.format("%-17s", ""))
+                .append(String.format("%-17.02f", totalAutorisees))
+                .append("\n");
         for (DetailedReport report : listDetailedReports) {
             sb.append(String.format("%-24s", report.getPeriod()))
                     .append(String.format("%-17.02f", report.getTransactionReport().getTotalDepensesFixes()))
@@ -296,7 +352,7 @@ public class Main {
         }
     }
 
-    private void creerRapportMensuelSommaire(List<Transaction> transactions) {
+    private void creerRapportMensuelSommaire(List<Transaction> transactions, float totalAutorisees) {
         Set<MonthlyReport> monthlyReports = createMonthlyReports(transactions);
         List<MonthlyReport> listMonthlyReports = new ArrayList<>(monthlyReports);
         Collections.reverse(listMonthlyReports);
@@ -304,6 +360,10 @@ public class Main {
         sb.append("-----------------------------------------------------------\n")
                 .append("Période                 Dépenses fixes   Dépenses variables\n")
                 .append("-----------------------------------------------------------\n");
+        sb.append(String.format("%-24s", "* Autorisées *"))
+                .append(String.format("%-17s", ""))
+                .append(String.format("%-17.02f", totalAutorisees))
+                .append("\n");
         for (MonthlyReport report : listMonthlyReports) {
             sb.append(String.format("%-24s", report.getPeriod()))
                     .append(String.format("%-17.02f", report.getTransactionReport().getTotalDepensesFixes()))

@@ -9,7 +9,8 @@ public class TransactionReport {
     float totalDepensesFixes;
     float totalDepensesVariables;
     float totalDepensesIgnorees;
-//    List<Transaction> transactionsDepensesFixes;
+    float totalAutorisees;
+    //    List<Transaction> transactionsDepensesFixes;
 //    List<Transaction> transactionsDepensesVariables;
 //    List<Transaction> transactionsDepensesIgnorees;
     List<Transaction> transactions;
