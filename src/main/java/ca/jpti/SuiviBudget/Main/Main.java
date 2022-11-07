@@ -61,16 +61,20 @@ public class Main {
         float totalAutorisees = 0;
         TransactionReport tdReport = tdProcessor.process();
 //        TransactionReport desjardinsReport = desjardinsProcessor.process();
-        TransactionReport desjardinsInfiniteReport = desjardinsJsonProcessor.process("Infinite");
+        TransactionReport desjardinsInfiniteReport = desjardinsJsonProcessor.process("VISA Infinite");
+        TransactionReport desjardinsWorldReport = desjardinsJsonProcessor.process("MC World");
 
         log.info("Transactions TD: " + tdReport);
 //        log.info("Transactions Desjardins: " + desjardinsReport);
-        log.info("Transactions Desjardins: " + desjardinsInfiniteReport);
+        log.info("Transactions Desjardins Infinite: " + desjardinsInfiniteReport);
         totalAutorisees += desjardinsInfiniteReport.getTotalAutorisees();
+        log.info("Transactions Desjardins World: " + desjardinsWorldReport);
+        totalAutorisees += desjardinsWorldReport.getTotalAutorisees();
 
         List<Transaction> transactions = new ArrayList<>();
         transactions.addAll(tdReport.getTransactions());
         transactions.addAll(desjardinsInfiniteReport.getTransactions());
+        transactions.addAll(desjardinsWorldReport.getTransactions());
 
         creerRapportHebdoSommaire(transactions, totalAutorisees);
         creerRapportHebdoDetaille(transactions, totalAutorisees);

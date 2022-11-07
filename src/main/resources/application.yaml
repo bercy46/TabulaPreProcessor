@@ -1,7 +1,7 @@
 file.input:
   desjardins: tabulaDesjardinsInfinitePrivilege.csv
   desjardinsInfiniteJson: RapportVisaInfinite.json
-  desjardinsWorldJson: RapportVisaWorld.json
+  desjardinsWorldJson: RapportMCWorld.json
   td: accountactivity6478799.csv,accountactivity6479221.csv,accountactivity3296586.csv
 
 files:
@@ -57,7 +57,6 @@ merchant:
     SIMONS: Linge
     MARSHALLS: Linge
     '[LAPRAIRIE PNEUS ET MEC]': Entretien Autos
-    SHELL: Essence
     '[STUDIO AKI]': Esthetique
     TRISTAN: Linge
     CAFEBARISTA: Epicerie

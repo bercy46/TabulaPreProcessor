@@ -1,0 +1,38 @@
+{
+  "sectionCompte" : {
+    "codeRelation" : "S",
+    "nomProgrammeRecompense" : "Remises"
+  },
+  "sectionAutorisee" : {
+    "transactionListe" : [ {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..J3Gw4BuI8SfcNevd.DYwNQCp8JeMEZN4iKGDHwrQX4W2MK6JqfdYo9wmpM9bItS9DbT1lcuCLcQQaipXBfb4jxgV7e_s3y4AL7Ugz1dMY4ffNslV5xmfxxAKAS_wUL6CJrTf2rPsMzMhcZMHW2ePqm9HuPEPOGRMvdRRK1iyDVQ0jD2JdS0KnjmZj4KoxPiK1n-HYVB1DNyYkMVqdWXxDgDShQ9wYbVAnAL7FQ4bAIWMyNIvnMYsPbC_w0PIxQkCGgS1tgA.hu-pT3BKewnoquzZO6Tzug",
+      "numeroSequence" : "1",
+      "dateInscription" : "2022-11-06",
+      "montantTransaction" : "206.81",
+      "typeTransaction" : "AutreAutorisation",
+      "descriptionCourte" : "COSTCO WHOLESALE W556 CANDIAC CAN CA",
+      "descriptionSimplifiee" : "Costco Wholesale W556 Can",
+      "dateTransaction" : "2022-11-06T15:52:25-05:00",
+      "devise" : "CAD",
+      "nomEmbosse" : "NADINE ST-AUBIN",
+      "numeroCarteMasque" : "5598 28** **** 3012",
+      "codeRelation" : "P"
+    } ],
+    "messages" : [ ]
+  },
+  "sectionFacturee" : {
+    "nbrMoisRecherches" : 12,
+    "indicateurLimiteListeAtteinte" : false,
+    "dateDebutPeriode" : "2021-12-01",
+    "dateFinPeriode" : "2022-11-07",
+    "transactionListe" : [ ],
+    "messages" : [ ]
+  },
+  "listeSwitch" : [ {
+    "nom" : "Dossier_DetailCarteCreditVueDepuisDernierReleve",
+    "indicateurFonctionActive" : true
+  }, {
+    "nom" : "Dossier_DetailCarteCreditRecherche",
+    "indicateurFonctionActive" : true
+  } ]
+}

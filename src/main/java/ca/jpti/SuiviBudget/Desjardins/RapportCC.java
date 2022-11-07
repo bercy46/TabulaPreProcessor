@@ -1,21 +1,21 @@
-
 package ca.jpti.SuiviBudget.Desjardins;
 
-import java.util.List;
-import javax.annotation.Generated;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
+import javax.annotation.Generated;
+import java.util.List;
+
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
-    "sectionCompte",
-    "sectionAutorisee",
-    "sectionFacturee",
-    "listeSwitch"
+        "sectionCompte",
+        "sectionAutorisee",
+        "sectionFacturee",
+        "listeSwitch"
 })
 @Generated("jsonschema2pojo")
-public class RapportVisa {
+public class RapportCC {
 
     @JsonProperty("sectionCompte")
     private SectionCompte sectionCompte;
@@ -69,25 +69,25 @@ public class RapportVisa {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append(RapportVisa.class.getName()).append('@').append(Integer.toHexString(System.identityHashCode(this))).append('[');
+        sb.append(RapportCC.class.getName()).append('@').append(Integer.toHexString(System.identityHashCode(this))).append('[');
         sb.append("sectionCompte");
         sb.append('=');
-        sb.append(((this.sectionCompte == null)?"<null>":this.sectionCompte));
+        sb.append(((this.sectionCompte == null) ? "<null>" : this.sectionCompte));
         sb.append(',');
         sb.append("sectionAutorisee");
         sb.append('=');
-        sb.append(((this.sectionAutorisee == null)?"<null>":this.sectionAutorisee));
+        sb.append(((this.sectionAutorisee == null) ? "<null>" : this.sectionAutorisee));
         sb.append(',');
         sb.append("sectionFacturee");
         sb.append('=');
-        sb.append(((this.sectionFacturee == null)?"<null>":this.sectionFacturee));
+        sb.append(((this.sectionFacturee == null) ? "<null>" : this.sectionFacturee));
         sb.append(',');
         sb.append("listeSwitch");
         sb.append('=');
-        sb.append(((this.listeSwitch == null)?"<null>":this.listeSwitch));
+        sb.append(((this.listeSwitch == null) ? "<null>" : this.listeSwitch));
         sb.append(',');
-        if (sb.charAt((sb.length()- 1)) == ',') {
-            sb.setCharAt((sb.length()- 1), ']');
+        if (sb.charAt((sb.length() - 1)) == ',') {
+            sb.setCharAt((sb.length() - 1), ']');
         } else {
             sb.append(']');
         }
@@ -97,10 +97,10 @@ public class RapportVisa {
     @Override
     public int hashCode() {
         int result = 1;
-        result = ((result* 31)+((this.listeSwitch == null)? 0 :this.listeSwitch.hashCode()));
-        result = ((result* 31)+((this.sectionCompte == null)? 0 :this.sectionCompte.hashCode()));
-        result = ((result* 31)+((this.sectionAutorisee == null)? 0 :this.sectionAutorisee.hashCode()));
-        result = ((result* 31)+((this.sectionFacturee == null)? 0 :this.sectionFacturee.hashCode()));
+        result = ((result * 31) + ((this.listeSwitch == null) ? 0 : this.listeSwitch.hashCode()));
+        result = ((result * 31) + ((this.sectionCompte == null) ? 0 : this.sectionCompte.hashCode()));
+        result = ((result * 31) + ((this.sectionAutorisee == null) ? 0 : this.sectionAutorisee.hashCode()));
+        result = ((result * 31) + ((this.sectionFacturee == null) ? 0 : this.sectionFacturee.hashCode()));
         return result;
     }
 
@@ -109,11 +109,11 @@ public class RapportVisa {
         if (other == this) {
             return true;
         }
-        if ((other instanceof RapportVisa) == false) {
+        if ((other instanceof RapportCC) == false) {
             return false;
         }
-        RapportVisa rhs = ((RapportVisa) other);
-        return (((((this.listeSwitch == rhs.listeSwitch)||((this.listeSwitch!= null)&&this.listeSwitch.equals(rhs.listeSwitch)))&&((this.sectionCompte == rhs.sectionCompte)||((this.sectionCompte!= null)&&this.sectionCompte.equals(rhs.sectionCompte))))&&((this.sectionAutorisee == rhs.sectionAutorisee)||((this.sectionAutorisee!= null)&&this.sectionAutorisee.equals(rhs.sectionAutorisee))))&&((this.sectionFacturee == rhs.sectionFacturee)||((this.sectionFacturee!= null)&&this.sectionFacturee.equals(rhs.sectionFacturee))));
+        RapportCC rhs = ((RapportCC) other);
+        return (((((this.listeSwitch == rhs.listeSwitch) || ((this.listeSwitch != null) && this.listeSwitch.equals(rhs.listeSwitch))) && ((this.sectionCompte == rhs.sectionCompte) || ((this.sectionCompte != null) && this.sectionCompte.equals(rhs.sectionCompte)))) && ((this.sectionAutorisee == rhs.sectionAutorisee) || ((this.sectionAutorisee != null) && this.sectionAutorisee.equals(rhs.sectionAutorisee)))) && ((this.sectionFacturee == rhs.sectionFacturee) || ((this.sectionFacturee != null) && this.sectionFacturee.equals(rhs.sectionFacturee))));
     }
 
 }
