@@ -58,11 +58,11 @@ public class Main {
 
     @PostConstruct
     public void process() {
-//        TransactionReport tdReport = tdProcessor.process();
-//        TransactionReport desjardinsInfiniteReport = desjardinsJsonProcessor.process("VISA Infinite");
-//        TransactionReport desjardinsWorldReport = desjardinsJsonProcessor.process("MC World");
-        desjardinsClient.getVISAInfiniteReport();
-//        doReports(tdReport, desjardinsInfiniteReport, desjardinsWorldReport);
+        TransactionReport tdReport = tdProcessor.process();
+        TransactionReport desjardinsInfiniteReport = desjardinsJsonProcessor.process("VISA Infinite");
+        TransactionReport desjardinsWorldReport = desjardinsJsonProcessor.process("MC World");
+//        desjardinsClient.getVISAInfiniteReport();
+        doReports(tdReport, desjardinsInfiniteReport, desjardinsWorldReport);
     }
 
     private void doReports(TransactionReport tdReport, TransactionReport desjardinsInfiniteReport, TransactionReport desjardinsWorldReport) {

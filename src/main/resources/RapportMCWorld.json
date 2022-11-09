@@ -6,14 +6,14 @@
   "sectionAutorisee": {
     "transactionListe": [
       {
-        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..J3Gw4BuI8SfcNevd.DYwNQCp8JeMEZN4iKGDHwrQX4W2MK6JqfdYo9wmpM9bItS9DbT1lcuCLcQQaipXBfb4jxgV7e_s3y4AL7Ugz1dMY4ffNslV5xmfxxAKAS_wUL6CJrTf2rPsMzMhcZMHW2ePqm9HuPEPOGRMvdRRK1iyDVQ0jD2JdS0KnjmZj4KoxPiK1n-HYVB1DNyYkMVqdWXxDgDShQ9wYbVAnAL7FQ4bAIWMyNIvnMYsPbC_w0PIxQkCGgS1tgA.hu-pT3BKewnoquzZO6Tzug",
-        "numeroSequence": "1",
-        "dateInscription": "2022-11-06",
-        "montantTransaction": "206.81",
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..8qFdMYSlV-IHZKEx.0IRy2VB-TbjfUrp7rLYbBiJANbovX_SfPBA-0z4CtiZI_XC4y1o5ztNE5Jas93JYUlqqjhd2vi7YlMLaI2_hmENAkuPc6sSO0ZmDNRKhDAeiDgjRe0agtnExUovj7mpJzAlc3eDNOWopql7ESDtE1vcNZ1AaqdsPWPFpqTUAVX1AVrxqyUyuq_9SjFSLe1HXmGrTFInjYOKgjdwcdejWIvn-m57LqI2WWxTAwGcwbC40U-q4Pvq_ww.Q2Kt8VjA3QG7rN1-CW9OsQ",
+        "numeroSequence": "122110722321901",
+        "dateInscription": "2022-11-07",
+        "montantTransaction": "0.00",
         "typeTransaction": "AutreAutorisation",
-        "descriptionCourte": "COSTCO WHOLESALE W556 CANDIAC CAN CA",
-        "descriptionSimplifiee": "Costco Wholesale W556 Can",
-        "dateTransaction": "2022-11-06T15:52:25-05:00",
+        "descriptionCourte": "ACTIV PMT MOB/MOB PYMT",
+        "descriptionSimplifiee": "Autorisation paiement mobile",
+        "dateTransaction": "2022-11-07T22:32:19-05:00",
         "devise": "CAD",
         "nomEmbosse": "NADINE ST-AUBIN",
         "numeroCarteMasque": "5598 28** **** 3012",
@@ -27,8 +27,34 @@
     "nbrMoisRecherches": 12,
     "indicateurLimiteListeAtteinte": false,
     "dateDebutPeriode": "2021-12-01",
-    "dateFinPeriode": "2022-11-07",
+    "dateFinPeriode": "2022-11-09",
     "transactionListe": [
+      {
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..YSZYVxK0lSmNaF2d.Jui1IXLIqe6iqupEFspLzpw2xxFeet16NXuBUFfLGH45WS9F-LoIt28yth89qY3vaErtOewBHpXAR97drNNJMakIuWjKzAlbOiz0IFroEszmQoyUFYIcpzdP2jvy33g5WgaHjKIZD1frFYv0ExO72aXRDFLewbSYFFMbgfk10y9zQcNVk12hYVNTg6X8s5hKytNF_SomakF-8Zhhek_dvHl3xGF5aBR6XoTSotd0Dt8e4W0v7uzXqw.Lz1ZYMI8fAPoQP4a9ZDqNw",
+        "numeroSequence": "122110821175501",
+        "dateInscription": "2022-11-07",
+        "montantTransaction": "206.81",
+        "typeTransaction": "Achat",
+        "descriptionCourte": "COSTCO WHOLESALE W556    CANDIAC      QC",
+        "descriptionSimplifiee": "Costco Wholesale W556",
+        "dateTransaction": "2022-11-06T15:52:25Z",
+        "devise": "CAD",
+        "nomEmbosse": "NADINE ST-AUBIN",
+        "numeroCarteMasque": "5598 28** **** 3012",
+        "montantRecompense": "2.07",
+        "tauxProgrammeRecompense": "1.00",
+        "categorieRecompense": "Tout autre achat",
+        "codeRelation": "P",
+        "categorieTransaction": "Magasins de détail - Autre",
+        "categorieParentTransaction": "Magasins de détail",
+        "idCategorieTransaction": 51,
+        "idCategorieParentTransaction": 50,
+        "montantDevise": "206.81",
+        "indicateurTransactionRecurrente": false,
+        "codeSousTypeTransaction": "TR-ACHAT",
+        "indicateurCategorieTransactionAutre": true,
+        "codeCategorieTransaction": "PU"
+      }
     ],
     "messages": [
     ]

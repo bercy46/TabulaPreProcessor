@@ -8,7 +8,7 @@ import org.testng.Assert;
 
 import java.util.concurrent.TimeUnit;
 
-public class SeleniumTest {
+public class SeleniumTest2 {
 
 
     public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class SeleniumTest {
         System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
         WebDriver driver = new ChromeDriver();
 
-        String url = "https://accweb.mouv.desjardins.com/";
+        String url = "https://easyweb.td.com//";
 
         driver.get(url);
 //        driver.manage().window().maximize();
@@ -29,17 +29,34 @@ public class SeleniumTest {
 //
 //        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 
-        WebElement identifiant = driver.findElement(By.id("codeUtilisateur"));
-        WebElement motDePasse = driver.findElement(By.id("motDePasse"));
-        WebElement btnLogin = driver.findElement(By.xpath("//*[@id=\"form-identifiant\"]/div[3]/button"));
+        WebElement identifiant = driver.findElement(By.id("username"));
+        WebElement motDePasse = driver.findElement(By.id("uapPassword"));
+        WebElement btnLogin = driver.findElement(By.xpath("/html/body/app-root/main/core-login-template/div/section[1]/div/div[2]/div/div/div/core-login-form/form/div[3]/div/div/button"));
 
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         identifiant.clear();
         System.out.println("Saisie de l'identifiant");
-        identifiant.sendKeys("4540140303690591");
+        identifiant.sendKeys("4724090153491913");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
 
         motDePasse.clear();
         System.out.println("Saisie du mot de passe");
-        motDePasse.sendKeys("A6I!i$K4BA20Z8td");
+        motDePasse.sendKeys("TDJPt05032");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
 
         System.out.println("Click du bouton login");
         btnLogin.click();
