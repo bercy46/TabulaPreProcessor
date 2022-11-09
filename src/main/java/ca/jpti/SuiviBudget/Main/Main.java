@@ -1,7 +1,7 @@
 package ca.jpti.SuiviBudget.Main;
 
 import ca.jpti.SuiviBudget.Desjardins.DesjardinsJsonProcessor;
-import ca.jpti.SuiviBudget.Desjardins.DesjardinsProcessor;
+import ca.jpti.SuiviBudget.Externe.DesjardinsClient;
 import ca.jpti.SuiviBudget.TD.TDProcessor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -26,8 +26,8 @@ import static java.time.temporal.ChronoUnit.DAYS;
 @Slf4j
 public class Main {
     private TDProcessor tdProcessor;
-    private DesjardinsProcessor desjardinsProcessor;
     private DesjardinsJsonProcessor desjardinsJsonProcessor;
+    private DesjardinsClient desjardinsClient;
     @Value("${startDate}")
     private String startDate;
     @Value("${files.weeklyPostesDepensesReport}")
@@ -50,20 +50,23 @@ public class Main {
     private String monthlySummaryReport;
 
 
-    public Main(TDProcessor tdProcessor, DesjardinsProcessor desjardinsProcessor, DesjardinsJsonProcessor desjardinsJsonProcessor) {
+    public Main(TDProcessor tdProcessor, DesjardinsJsonProcessor desjardinsJsonProcessor, DesjardinsClient desjardinsClient) {
         this.tdProcessor = tdProcessor;
-        this.desjardinsProcessor = desjardinsProcessor;
         this.desjardinsJsonProcessor = desjardinsJsonProcessor;
+        this.desjardinsClient = desjardinsClient;
     }
 
     @PostConstruct
     public void process() {
-        float totalAutorisees = 0;
-        TransactionReport tdReport = tdProcessor.process();
-//        TransactionReport desjardinsReport = desjardinsProcessor.process();
-        TransactionReport desjardinsInfiniteReport = desjardinsJsonProcessor.process("VISA Infinite");
-        TransactionReport desjardinsWorldReport = desjardinsJsonProcessor.process("MC World");
+//        TransactionReport tdReport = tdProcessor.process();
+//        TransactionReport desjardinsInfiniteReport = desjardinsJsonProcessor.process("VISA Infinite");
+//        TransactionReport desjardinsWorldReport = desjardinsJsonProcessor.process("MC World");
+        desjardinsClient.getVISAInfiniteReport();
+//        doReports(tdReport, desjardinsInfiniteReport, desjardinsWorldReport);
+    }
 
+    private void doReports(TransactionReport tdReport, TransactionReport desjardinsInfiniteReport, TransactionReport desjardinsWorldReport) {
+        float totalAutorisees = 0;
         log.info("Transactions TD: " + tdReport);
 //        log.info("Transactions Desjardins: " + desjardinsReport);
         log.info("Transactions Desjardins Infinite: " + desjardinsInfiniteReport);

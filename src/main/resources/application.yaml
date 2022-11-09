@@ -437,3 +437,10 @@ td-transaction:
     '[UNIV LAVAL]': FIXE
     '[UNIV MONTR]': FIXE
     DOLLARAMA: VARIABLE
+
+logging:
+  level:
+    reactor:
+      netty:
+        http:
+          client: DEBUG
