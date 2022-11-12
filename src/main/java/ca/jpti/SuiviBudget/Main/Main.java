@@ -16,6 +16,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalAdjusters;
 import java.util.*;
@@ -48,6 +49,7 @@ public class Main {
     private String monthlyDetailedReport;
     @Value("${files.monthlySummaryReport}")
     private String monthlySummaryReport;
+    private DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
 
     public Main(TDProcessor tdProcessor, DesjardinsJsonProcessor desjardinsJsonProcessor, DesjardinsClient desjardinsClient) {
@@ -96,6 +98,8 @@ public class Main {
         Collections.reverse(listPostesDepensesReports);
         TotalPosteDepenseComparator comparator = new TotalPosteDepenseComparator();
         StringBuffer sb = new StringBuffer();
+        sb.append("Date: ").append(formatter.format(LocalDateTime.now())).append("\n");
+        ;
         sb.append("---------------------------------------------------------\n")
                 .append("Période                 Poste de Dépenses         Montant\n")
                 .append("---------------------------------------------------------\n");
@@ -136,6 +140,8 @@ public class Main {
         Collections.reverse(listPostesDepensesReports);
         TotalPosteDepenseComparator comparator = new TotalPosteDepenseComparator();
         StringBuffer sb = new StringBuffer();
+        sb.append("Date: ").append(formatter.format(LocalDateTime.now())).append("\n");
+        ;
         sb.append("---------------------------------------------------------\n")
                 .append("Période                 Poste de Dépenses         Montant\n")
                 .append("---------------------------------------------------------\n");
@@ -176,6 +182,8 @@ public class Main {
         Collections.reverse(listPostesDepensesReports);
         TotalPosteDepenseComparator comparator = new TotalPosteDepenseComparator();
         StringBuffer sb = new StringBuffer();
+        sb.append("Date: ").append(formatter.format(LocalDateTime.now())).append("\n");
+        ;
         sb.append("-----------------------------------------------------------\n")
                 .append("Période                 Poste de Dépenses         Montant\n")
                 .append("-----------------------------------------------------------\n");
@@ -216,6 +224,8 @@ public class Main {
         List<DetailedReport> listDetailedReports = new ArrayList<>(detailedReports);
         Collections.reverse(listDetailedReports);
         StringBuffer sb = new StringBuffer();
+        sb.append("Date: ").append(formatter.format(LocalDateTime.now())).append("\n");
+        ;
         boolean autoriseesDone = false;
         for (DetailedReport report : listDetailedReports) {
             sb.append("\nPériode: ")
@@ -247,6 +257,8 @@ public class Main {
         List<DetailedReport> listDetailedReports = new ArrayList<>(detailedReports);
         Collections.reverse(listDetailedReports);
         StringBuffer sb = new StringBuffer();
+        sb.append("Date: ").append(formatter.format(LocalDateTime.now())).append("\n");
+        ;
         boolean autoriseesDone = false;
         for (DetailedReport report : listDetailedReports) {
             sb.append("\nPériode: ")
@@ -278,6 +290,8 @@ public class Main {
         List<MonthlyReport> listMonthlyReports = new ArrayList<>(monthlyReports);
         Collections.reverse(listMonthlyReports);
         StringBuffer sb = new StringBuffer();
+        sb.append("Date: ").append(formatter.format(LocalDateTime.now())).append("\n");
+        ;
         boolean autoriseesDone = false;
         for (MonthlyReport report : listMonthlyReports) {
             sb.append("\nPériode: ")
@@ -310,6 +324,7 @@ public class Main {
         List<DetailedReport> listDetailedReports = new ArrayList<>(detailedReports);
         Collections.reverse(listDetailedReports);
         StringBuffer sb = new StringBuffer();
+        sb.append("Date: ").append(formatter.format(LocalDateTime.now())).append("\n");
         sb.append("-----------------------------------------------------------\n")
                 .append("Période                 Dépenses fixes   Dépenses variables\n")
                 .append("-----------------------------------------------------------\n");
@@ -337,6 +352,7 @@ public class Main {
         List<DetailedReport> listDetailedReports = new ArrayList<>(detailedReports);
         Collections.reverse(listDetailedReports);
         StringBuffer sb = new StringBuffer();
+        sb.append("Date: ").append(formatter.format(LocalDateTime.now())).append("\n");
         sb.append("-----------------------------------------------------------\n")
                 .append("Période                 Dépenses fixes   Dépenses variables\n")
                 .append("-----------------------------------------------------------\n");
@@ -364,6 +380,7 @@ public class Main {
         List<MonthlyReport> listMonthlyReports = new ArrayList<>(monthlyReports);
         Collections.reverse(listMonthlyReports);
         StringBuffer sb = new StringBuffer();
+        sb.append("Date: ").append(formatter.format(LocalDateTime.now())).append("\n");
         sb.append("-----------------------------------------------------------\n")
                 .append("Période                 Dépenses fixes   Dépenses variables\n")
                 .append("-----------------------------------------------------------\n");
@@ -391,12 +408,11 @@ public class Main {
         tableau += "Date       V/F Description                                Debit    Credit   Compte        Poste de dépenses\n";
         tableau += "-----------------------------------------------------------------------------------------------------------\n";
         String[] types = new String[]{"Fixe", "Variable"};
-        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         for (String type : types) {
             Collections.sort(transactions);
             for (Transaction transaction : transactions) {
                 if (type.equals(transaction.getCategorie())) {
-                    tableau += String.format("%-11s", transaction.getDate().format(dateTimeFormatter));
+                    tableau += String.format("%-11s", transaction.getDate().format(formatter));
                     tableau += type.substring(0, 1) + "   ";
                     tableau += String.format("%-43s", transaction.getDescription());
                     tableau += String.format("%-9.2f", transaction.getDebit().doubleValue());
@@ -722,7 +738,6 @@ public class Main {
                 .with(
                         TemporalAdjusters.next(DayOfWeek.SUNDAY)
                 );
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         return monday.format(formatter) + " - " + sunday.format(formatter);
     }
 
@@ -739,14 +754,12 @@ public class Main {
             periodStartDate = startDate.minusDays(-1 * (nbTwoWeekPeriodDiff - 1) * 14);
         }
         periodEndDate = periodStartDate.plusDays(13);
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         return periodStartDate.format(formatter) + " - " + periodEndDate.format(formatter);
     }
 
     private String getMonthlyPeriod(LocalDate date) {
         LocalDate premier = date.withDayOfMonth(1);
         LocalDate dernier = date.withDayOfMonth(date.getMonth().length(date.isLeapYear()));
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         return premier.format(formatter) + " - " + dernier.format(formatter);
     }
 }

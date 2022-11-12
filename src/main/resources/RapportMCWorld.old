@@ -5,7 +5,20 @@
   },
   "sectionAutorisee" : {
     "transactionListe" : [ {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..8qFdMYSlV-IHZKEx.0IRy2VB-TbjfUrp7rLYbBiJANbovX_SfPBA-0z4CtiZI_XC4y1o5ztNE5Jas93JYUlqqjhd2vi7YlMLaI2_hmENAkuPc6sSO0ZmDNRKhDAeiDgjRe0agtnExUovj7mpJzAlc3eDNOWopql7ESDtE1vcNZ1AaqdsPWPFpqTUAVX1AVrxqyUyuq_9SjFSLe1HXmGrTFInjYOKgjdwcdejWIvn-m57LqI2WWxTAwGcwbC40U-q4Pvq_ww.Q2Kt8VjA3QG7rN1-CW9OsQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..lVFJPGmIk_rtv8iO.Bns2mxes4VpPSmpUPveHiFK6BjfMdo4xrfXLyfaw3fXKWBcJdf_gN4vwSdzDBjocdtpPYZWUAfER55un4u7Rc2ks7KgpWXOD0kBroa89PsPaX9hD1Qwy9Wc9e3sJWX-Td9_RYEp_n-q67JVhInWFKBP03-1q4aDXx5kilBrIN-nFKHtJY4tm1j85uDb3xjrpcT1Xqk_0q4KDeGvHyFoxHV69wBsQu8cU11_rNmNG2xUHkoVy_XChcw.9ucd3VqryWcAhwNBfSUHrQ",
+      "numeroSequence" : "1",
+      "dateInscription" : "2022-11-11",
+      "montantTransaction" : "58.80",
+      "typeTransaction" : "AutreAutorisation",
+      "descriptionCourte" : "COSTCO WHOLESALE W556 CANDIAC CAN CA",
+      "descriptionSimplifiee" : "Costco Wholesale W556 Can",
+      "dateTransaction" : "2022-11-11T09:58:06-05:00",
+      "devise" : "CAD",
+      "nomEmbosse" : "NADINE ST-AUBIN",
+      "numeroCarteMasque" : "5598 28** **** 3012",
+      "codeRelation" : "P"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..O0paPr_3ZSlspCk5.eH_M5HJYG__-kNRQWdleq7TzWTLJlfnpvsHE9HZGRXfozzvnkWsnQ0V9ArUWAAAsZNiFildgYHNl28IUhuClHLX1Wri6UrD4jK5WnDsoZ8RiFLoiInSZ8iCgd9Up9W2whbiWncbaEtOArmt3CCTHCMIq3tSXUWFIvcnwONqUzrKP5Cv3ahIf1-nztgFbvy9Wp7HBUyyg0J4IN6MlrxfpPM_uu_rYNYfiEAgJ8KFpxCiTe5hLtQ3aLQ.wSfQaPzNWixHxq_H4OGkHA",
       "numeroSequence" : "122110722321901",
       "dateInscription" : "2022-11-07",
       "montantTransaction" : "0.00",
@@ -24,9 +37,9 @@
     "nbrMoisRecherches" : 12,
     "indicateurLimiteListeAtteinte" : false,
     "dateDebutPeriode" : "2021-12-01",
-    "dateFinPeriode" : "2022-11-09",
+    "dateFinPeriode" : "2022-11-12",
     "transactionListe" : [ {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..YSZYVxK0lSmNaF2d.Jui1IXLIqe6iqupEFspLzpw2xxFeet16NXuBUFfLGH45WS9F-LoIt28yth89qY3vaErtOewBHpXAR97drNNJMakIuWjKzAlbOiz0IFroEszmQoyUFYIcpzdP2jvy33g5WgaHjKIZD1frFYv0ExO72aXRDFLewbSYFFMbgfk10y9zQcNVk12hYVNTg6X8s5hKytNF_SomakF-8Zhhek_dvHl3xGF5aBR6XoTSotd0Dt8e4W0v7uzXqw.Lz1ZYMI8fAPoQP4a9ZDqNw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..JGHitD-nVxin9M0f.nydzZREq8I_qMNZMX02Wc2gpTjataMQz7VRnZ1FFgUXQLYRmE4UnX0r7Xs2SJVN6wNot0rKgSlJQSV3TMTwwCBDkdpixIFMctEhoImBx-8ykBf5OJ9tEYWbdUEGN-3R9oYUiIYJ98I7QDdKbJd-nqAQOdlF0mjHT_qCMH0Iz22Q9PQYHatmnRDZF3ojVk5p5LFZGjZimoYBkimGkJ7NUso-6LvjPGLC9slKdo4XWFkHXQeqtydLO7g.nf9S6u5YjGRhgNENxguyiw",
       "numeroSequence" : "122110821175501",
       "dateInscription" : "2022-11-07",
       "montantTransaction" : "206.81",
