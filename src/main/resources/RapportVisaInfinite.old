@@ -1,412 +1,22 @@
 {
   "sectionCompte" : {
     "codeRelation" : "S",
-    "nomProgrammeRecompense" : "BONIDOLLARS"
+    "nomProgrammeRecompense" : "Remises"
   },
   "sectionAutorisee" : {
     "transactionListe" : [ {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..5nNdp2Dt_VVcW_Ui.Mq_CgU3XvA-xH6kl25afM6kOZM_jgl3erFTZU-QdOXLsh7DCZx8koRCXNafSWLV11mJ3tpZVyFasOjiwPb2ESYJEch-Tz55bITYzv2XaaPtY2-79I9VPmhpE9iIY6ezdbRa8MlGB-9PBqlTNSwhGSnjpZwDvu9Ipr9JSkleVk6njcEVK0Gfi3GTPPg_7lj1RRydeiLJ7O4HUpk8NMah3hSZwZvoiTL7OJlBlc_KXKX_0QRN4nHAE7g.tbnyJ92rGnq0NT9ZHevn1Q",
-      "numeroSequence" : "1",
-      "dateInscription" : "2022-11-15",
-      "montantTransaction" : "6.42",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "3726-MNTR MAISON DE LA DORVAL QC CA",
-      "descriptionSimplifiee" : "3726-Mntr Maison De La Do",
-      "dateTransaction" : "2022-11-15T07:07:35-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "NADINE ST-AUBIN",
-      "numeroCarteMasque" : "4540 38** **** 1019",
-      "codeRelation" : "P"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..fs7-wc5Ae2OIkVqX.5h9r5D_ACYbahm54ENMxjZwdgyQdOLV7GxpYSSxbbaNbosUn7MRAPFdiT6tj9u8Lr442vNoq60v9mXCxNCGKloLxsv5znn9MmK4KPq_QP5SqL7SXbADdGKlDLYZnGg2kL5kfX5rOJKvXstwM9aeI6dADnprdrrw6MD5hdMWkIzWb5np1VYkp8VObxAzUDDGb5fN2IcM-MPxJStd8JL_9Rnf4oEglT4TivmcCei3cjVmsKbe-v-vaFQ.VMUY4_yR0jRSLeUohBENnQ",
-      "numeroSequence" : "122111501043915",
-      "dateInscription" : "2022-11-10",
-      "montantTransaction" : "28.69",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "APPLE.COM/BILL           866-712-775ONCA",
-      "descriptionSimplifiee" : "Apple",
-      "dateTransaction" : "2022-11-14T23:30:26-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "NADINE ST-AUBIN",
-      "numeroCarteMasque" : "4540 38** **** 1019",
-      "codeRelation" : "P"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..z2jJw15Q0nDamaxk.yfZX4A0WQ0clqtXv0ynpwcaXK5rtoK1TtX0zq0jghyoZ03pHoifPLsbBFDG5N_sZ_m7iBIp-0x2-Jk2UZZQDyh7PQn86Qowxz2Y63mlQlemDp9a0JNf5eMdXDWXTQmbBVnqNj40vSSpv9SDLNZ9TYIZEo882JJN_EUazcjmdh1ow68x9wCXnXYB4qPwaJ0NT6lCnQTvOguDycxC9gBe2DlxS7BcnZhQq305lKXsFOF7GqNICGsfo-Q.qcU2PamDB6gZ9cplhQKtWw",
-      "numeroSequence" : "122111501043914",
-      "dateInscription" : "2022-11-10",
-      "montantTransaction" : "0.00",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "APPLE.COM/BILL           TORONTO    ONCA",
-      "descriptionSimplifiee" : "Apple",
-      "dateTransaction" : "2022-11-14T23:24:25-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "NADINE ST-AUBIN",
-      "numeroCarteMasque" : "4540 38** **** 1019",
-      "codeRelation" : "P"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..LkekoL5khxwSzxwr.S-ejF02B5HNtJ3g8XJxzU49ZEGB4W3rlpVzQVerBjCrcYEmjmEZP887czAfCJQUZGLsRXWOfhMVowaTzjyfFQ-1YeaRAxNpbeJTH9BFRHkStRHDY1Q_0OYbFuve6k15RIEGLWUW25ePQyraTqFMt7btTBmhRWkEHsEJp4yfhT9_b5zRHZm6Ad-nMoIKXDYobV3kDO3aMMSMSvMjfKvqqUx0RN0gtEU9y4DEIZ3wohBvaPMwtqXddVA.jGbZoYi9BoylQwWJX1nVUg",
-      "numeroSequence" : "122111501043913",
-      "dateInscription" : "2022-11-10",
-      "montantTransaction" : "0.00",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "APPLE.COM/BILL           TORONTO    ONCA",
-      "descriptionSimplifiee" : "Apple",
-      "dateTransaction" : "2022-11-14T23:23:29-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "NADINE ST-AUBIN",
-      "numeroCarteMasque" : "4540 38** **** 1019",
-      "codeRelation" : "P"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..cVUNOrvIE1IBjPHf.efe5Z0pZ_Mz68W_9ctjz9TglU0vYHEgRMiPzogeNq_85oeuLQnp4BvgoHczB3sZadHgAEPW-MZEAB34Vhvg3zvwpLi0aNEgEhqAxddl9cZ5nrXDW4rNZSf3uSxDe_d4V9CoGCMekHsqWOpmPtMyHiteT7jOoM2uG-8b8HwX_Stk9oAAxXaevMWvyywigFYgDcr7NY3RzrJxnarb7xPI8fvy6waxbfYd6Rznn-PIUKv8sXDqtrUEntg.qAxYP2cUZ7VrDHsNVrAYyw",
-      "numeroSequence" : "122111501043912",
-      "dateInscription" : "2022-11-10",
-      "montantTransaction" : "43.63",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "APPLE.COM/BILL           866-712-775ONCA",
-      "descriptionSimplifiee" : "Apple",
-      "dateTransaction" : "2022-11-14T00:03:06-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "NADINE ST-AUBIN",
-      "numeroCarteMasque" : "4540 38** **** 1019",
-      "codeRelation" : "P"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..9ruGRRar0sQsMrV6.tSYampJnPyjataAhgggiJHcTqQFIiWvpmdFioaVy70MDJrA0RTzH94KImkNAYmnWHvNhB9b3szc-4_e464SGOMUpz7I-9P2_D2mRKi-8eVJv8k380J9wnNEFggg3F-2LxcuWBJ5r-ZDC5sOzE71yRa1MeQ5ayprMlKWGuJGxyddSyzlZ8j08eYxnONXrrZHVOIS44AYevA7hnO2Xj9vhqi8RE0pkld5aT1JsF8xS08-8mVyGm4EKjQ.422hK1WtrXKdKu54O3cBUg",
-      "numeroSequence" : "122111501043922",
-      "dateInscription" : "2022-11-10",
-      "montantTransaction" : "7.17",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "STATION SERVICE MANSEA   MANSEAU    QCCA",
-      "descriptionSimplifiee" : "Station Service Mansea",
-      "dateTransaction" : "2022-11-13T20:35:25-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "JACQUES POULIN",
-      "numeroCarteMasque" : "4540 38** **** 1027",
-      "codeRelation" : "S"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..yLYeNItjm7Txa4ya.r-83mD2lZajdKkXD8l4WwRW4jboXGT8woik6C0-pTmwGr_44xMilXZ8xWfNfuXO6C_t6G__zAR5kpzOua8S_PEUyIaLWWYF0tef_DsLnxu-QozHnAhsqt71zjNhDKCUPN27tgS6yFNLgcuBfXHQuCHQv9HjIYJFgVSv1gytoLTazSEw_ABG73CLtbcC_cNyjaLNV-0WX-E9do6C4Q7OBgCaMoeWEyClXnbX6ROeTYYc971tU5wRhQQ.edWiejv2g_bCEHsbRt16pw",
-      "numeroSequence" : "122111501043911",
-      "dateInscription" : "2022-11-10",
-      "montantTransaction" : "98.51",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "LOUISE TAVERNE & BAR A   QUEBEC     QCCA",
-      "descriptionSimplifiee" : "Louise Taverne & Bar A",
-      "dateTransaction" : "2022-11-13T18:16:54-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "NADINE ST-AUBIN",
-      "numeroCarteMasque" : "4540 38** **** 1019",
-      "codeRelation" : "P"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..mtB9Jm9fq0w7d5U8.4KwJX3kmqvuqy6HX3dyzBBlCCorCbpEPcLHKD2IKFvrnAQdIt5txaOJ1g-kZ-ZKEJuw9LteemCXoapxW2Ik_-NYyiPyRIgXfWEyXPr8CWCn-xNdkZ9N-zk7dBAEEDmK_ja0iPhUcpAwpLN0m4nNx9aoCeM46zdyMnVdB__84PwodS7SGEjFjxvbpJxNTf-TGF0uiHxCWj_vyrFbZ1jrjVOEUmvK35n-7R2Z2Ni9bbVFJLzleQOO_Fw.iS4gResipFh1bNh1l22wOg",
-      "numeroSequence" : "122111501043921",
-      "dateInscription" : "2022-11-10",
-      "montantTransaction" : "4.00",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "VILLE DE QUEBEC STATIO   QUEBEC     QCCA",
-      "descriptionSimplifiee" : "Ville De Quebec Statio",
-      "dateTransaction" : "2022-11-13T16:58:04-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "JACQUES POULIN",
-      "numeroCarteMasque" : "4540 38** **** 1027",
-      "codeRelation" : "S"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..COi19joPJqV0iUmB.HI-azOG-QwoYLUcxL4Sz6bNVaGXa9vUTEtY6Rm7iH9N0jSwS9BGIpE4ElJfvtpk-43h9HXXzXERad8UZTcX4tt5eR4y_V9SCGtOq0aprZaJwkX3TJIAJGQIs2zny8pogAk2Sy3X-sUOo3LryI0O34lJkPWbGp66FMb_2yrgmFAi0JbEAupiOkbqeqhzqqcTa6KlU-MTXS4ycKwuKYKhCiXh6brd9W0CAw_z5GG2dg1uf5KG8ijdRiA.2A4weJCklNAK9enz0j8whQ",
-      "numeroSequence" : "122111501043910",
-      "dateInscription" : "2022-11-10",
-      "montantTransaction" : "0.00",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "LOUISE TAVERNE           +1418780725QCCA",
-      "descriptionSimplifiee" : "Louise Taverne",
-      "dateTransaction" : "2022-11-13T15:59:59-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "NADINE ST-AUBIN",
-      "numeroCarteMasque" : "4540 38** **** 1019",
-      "codeRelation" : "P"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..f7QIunii8a1RrcD7._9sGpfPN3hhTFRXn_wOIVprCkKeUyPMo0ZHY0bUFw4qEpHh4pta2YBmrUr-MNQon8AbFzzOUFMaeOtyhcCQz7zC4ZEqHzJhfqaAymkknfWrJr_Spv7edZDyJJODejiAAYqrKDwiV2RmJyjcmkvG7yM1i1zagXQdJNaXPI6qxqFdL2RWIMlXLMGL-DSWuJMgoqB2T_0KLNeoF3bqo_0FIv426Efae7aQxyJ_N0s4Syg4Xohig2Bw25g.wpfRUh9c41tDrGh1oGVHMA",
-      "numeroSequence" : "122111501043909",
-      "dateInscription" : "2022-11-10",
-      "montantTransaction" : "8.00",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "VILLE DE QUEBEC STATIO   QUEBEC     QCCA",
-      "descriptionSimplifiee" : "Ville De Quebec Statio",
-      "dateTransaction" : "2022-11-13T14:54:14-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "NADINE ST-AUBIN",
-      "numeroCarteMasque" : "4540 38** **** 1019",
-      "codeRelation" : "P"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..BOivydSLttp3XwlB.T0jhYAN8MnYR9oqyhLwmmJpB_8QsaV9Auj7EGrQVg3BACsNVeTdxB6yY2HsAPSvwiWhbgQ6EJfR9zDA8Jo2QYWOB6crlCHnchVQDoQ-iZTowT7uZB-ZVbgovigzxywfW3S2n6Doh0Ey9CybJTTKfTXrJzn3-fp9T1WJgQQFFKFtcnbOocYf2z3XNhLz3fjNGflIa83a2be8fd7ehboDs12VASvCUgX0QSYEulWAfTgteDrJV3DajTw.F7TmMPNQyB2WxF1mzrqpxQ",
-      "numeroSequence" : "122111501043920",
-      "dateInscription" : "2022-11-10",
-      "montantTransaction" : "22.60",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "UBER CANADA              TORONTO    ONCA",
-      "descriptionSimplifiee" : "Uber Canada",
-      "dateTransaction" : "2022-11-13T07:10:19-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "JACQUES POULIN",
-      "numeroCarteMasque" : "4540 38** **** 1027",
-      "codeRelation" : "S"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..W2Az8qXSPDVXPO_g.MNUi3yGkoKTYwNfJpqjOs789C-OnTXCCCkJmD4LJAsSJ0yj90UpRpFPXxEoL0LXqxuNAFTNV2lnvhpH-XeLmHzlv8EyfIq9JfTIUP2eSaglOIopPGJwfs7UHVIGYaSnmdAjR-kRQK5cYmZ8zFktMwyBr4sD2HXhel8ZqmUUQgZm4peEeWevMpddTcobWsh5abd2cMYp_n8y9wEiLzJmWGUFRs96ZLakuoEp40o4N2p3Yd1sEjzWF3g.RJImBtK-aX87z_Mldus6Pw",
-      "numeroSequence" : "122111501043919",
-      "dateInscription" : "2022-11-10",
-      "montantTransaction" : "15.28",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "UBER CANADA              TORONTO    ONCA",
-      "descriptionSimplifiee" : "Uber Canada",
-      "dateTransaction" : "2022-11-13T06:26:43-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "JACQUES POULIN",
-      "numeroCarteMasque" : "4540 38** **** 1027",
-      "codeRelation" : "S"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..dhg4pd2u9yYMqqoI.Hl0oNBeCVhn7HT-gfAvFSZa8n0m97S4ubb6Zpw30U_4piBo_zAWiUpTRafbZ-cy0_304Hm3TYdXUD-2cbvrN62cQonxxk2Z7OW_pEZlFdNSXcdFBsKyrME9tfUztclV2gCN9EvHVXQB3PshnJ5UufJm8Ir2qV7-tcXB328q2hVzMKnSwtLp-ykhSJhv4XiqSZKBfFLdxABS_ZszLarDDG8-wC5zKGzXGjtwi6ntw3zTbcTCZN5SVIg.ObXQAmiQ3mDit7qLDGnVeg",
-      "numeroSequence" : "122111501043928",
-      "dateInscription" : "2022-11-10",
-      "montantTransaction" : "12.17",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "UBER CANADA              TORONTO    ONCA",
-      "descriptionSimplifiee" : "Uber Canada",
-      "dateTransaction" : "2022-11-13T06:24:27-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "JULIETTE POULIN",
-      "numeroCarteMasque" : "4540 38** **** 1035",
-      "codeRelation" : "A"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..toBbwbjdQvaTwiqJ.e4REvGKcvtj7Lart2rC6sksjiWYBxGrYtw70q15Pi0f8KtezACgU1IJmral0GcWW5xeHk2C1Mui013_5g8_hZnEKtByHPt4XRJ0wgzuDUWyt2HuDhFtehg-tHPpoIyYrIgWdWk68YGvXoRV4ZJiBiY2L3IjfzmYsakK5mqy8h32bsUBNgk9wowx_2Yrc4FS1L-o-ATJfDgiS_YtbwCdk5gzD0Cw8F26-QorhUv1WmQmy2Pmm9IMgAg.CQL5MrsnvYZGOcC4wP8v2w",
-      "numeroSequence" : "122111501043925",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..23wH38E4DnvyCQ2G.hPAACiNwRLazUvxVWQoXhp7deAC3DBW1povF6BtT3HSXtinWp9iEs9pLQeVbpZMsK7XoGzPLFVhtZdVKJ0WEn2toZqlVOTkI9nQMOhIAsf9JpatSZyn_jn2BptoBGBCahbzMu7d32oKCzX7M_IVK5qHqMHN1b9XEdBQtFqsTWFDA7I2ULqKoEy-QTwdDDeoipAFiJOO4zx3fudQUZ3h3qte_tsmBg9gvp81pTT13xUgMP1RAi_ARYg.gCgwLoLcee7CQZ-3NUEZDg",
+      "numeroSequence" : "122111312170701",
       "dateInscription" : "2022-11-10",
       "montantTransaction" : "0.00",
       "typeTransaction" : "AutreAutorisation",
       "descriptionCourte" : "ACTIV PMT MOB/MOB PYMT",
       "descriptionSimplifiee" : "Autorisation paiement mobile",
-      "dateTransaction" : "2022-11-13T06:22:51-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "JULIETTE POULIN",
-      "numeroCarteMasque" : "4540 38** **** 1035",
-      "codeRelation" : "A"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9.._pBsjUMCK4yvggsU.2k_kd5ZPWm9yWDTqfFwzjktHLFRE5ztW4gZw2EQSpj74uZR6Iw6xt2sxBP47h6kXBtjt4rjlyOzsMY9tdcXPGUfzW5bigT8DFno7Cw8N55n0PhlGfGT4RbqByLqO66JcnVG8TJjQ_USM3n7k6hWllYnYElBt1ictkNnT4bVrKdrGUuHprkkZCbVZY1l4lqni8iJkpMMKXNJMt1NavzMcnDx9nUCx9TBfxIWrrSCXJljSp3Efv9V2lQ.K7KWpSLRE_52HKSgGXraqw",
-      "numeroSequence" : "122111501043918",
-      "dateInscription" : "2022-11-10",
-      "montantTransaction" : "12.38",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "UBER CANADA              TORONTO    ONCA",
-      "descriptionSimplifiee" : "Uber Canada",
-      "dateTransaction" : "2022-11-13T06:20:15-05:00",
+      "dateTransaction" : "2022-11-13T12:17:07-05:00",
       "devise" : "CAD",
       "nomEmbosse" : "JACQUES POULIN",
-      "numeroCarteMasque" : "4540 38** **** 1027",
+      "numeroCarteMasque" : "5598 28** **** 3020",
       "codeRelation" : "S"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..17Wf7bfRA8VQsdVy.gSkITO5A6UA7NgbjUx1W39j8DtSiaG6H1fZeiPTf5eWz_S1UAgceN2RR6knXvlU9TIiMBFrhv-ObAmZRz4tdlvR3V1xls6peyIx5KIgtVDpCO8fW5Ap1M9Rn0pzUSMsh0oM7a-St7v7NQYGKZmDk4cOn5KYXOyrYzbe4fSfL6puPp20TZkFtLq93r1Iu0H0tQXgjXmL-6IJPUKEiuwi1U5JPkGYpzniuRD_k9RJqWkKWp59r4zSAqw.VQkL8vyP320TzZmJWfyp2Q",
-      "numeroSequence" : "122111501043908",
-      "dateInscription" : "2022-11-10",
-      "montantTransaction" : "105.82",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "LE SACREMENT             Quebec     QCCA",
-      "descriptionSimplifiee" : "Le Sacrement",
-      "dateTransaction" : "2022-11-13T06:07:25-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "NADINE ST-AUBIN",
-      "numeroCarteMasque" : "4540 38** **** 1019",
-      "codeRelation" : "P"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..O13lV1gdKga_K0WE._bZWkzQhPV5_rGbAepgew-bw17jcXYkglt7g2tvoIlUTChLtSsBfez1PCQnuzzKxQGQgEf2udVzY8py55dGuXm1XRuGTymq8zLu73RcwXqwyX-3hR4-BMaFqa26Ed7L9E7ldtXKf44Lwmw1v3-vnqJ4veRE8wqsa5bOJFERSPN63XA5mqfBIoiZJcZ6VoV8W1Wf8yKDt4Ow2HB74OLImTf8HHqitRLGp7Q3RFNd-BYiAO5PD806AKA.4bf1IYvxtFdWvjMfUO08gA",
-      "numeroSequence" : "122111501043907",
-      "dateInscription" : "2022-11-10",
-      "montantTransaction" : "40.26",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "SANI REC BROSSARD        BROSSARD   QCCA",
-      "descriptionSimplifiee" : "Sani Rec Brossard",
-      "dateTransaction" : "2022-11-12T19:42:55-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "NADINE ST-AUBIN",
-      "numeroCarteMasque" : "4540 38** **** 1019",
-      "codeRelation" : "P"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..CqHpLO97d0DecykJ.Ze5N0vuhAhbTzZzRVOpABWp-WhuHjj-bdwNdjQoUKd9HEiIsH84AGK69R8sPKN33WU-C77P3COCECCDtFQFsEoA85K2NPVYD_Wqw-QQWPldxVuNsnfJ6IShEEFVRQte2-b0rkT4Fv-tFvNYQLInx5Q_LL5Kk2EycrUO-JUKH1usyFemk3V6LV8fj24ZNMIbxaacrd-1YpO31qlN8SiKUWGHybMMSNM21vAd-8e5VcrvvCHbq9SYAfg.Bf_gaiN1rD9HnAcOqE9eWA",
-      "numeroSequence" : "122111501043923",
-      "dateInscription" : "2022-11-10",
-      "montantTransaction" : "382.79",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "CIEL BISTRO BAR TOURNA   QUEBEC     QCCA",
-      "descriptionSimplifiee" : "Ciel Bistro Bar Tourna",
-      "dateTransaction" : "2022-11-12T03:38:17-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "JULIETTE POULIN",
-      "numeroCarteMasque" : "4540 38** **** 1035",
-      "codeRelation" : "A"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..frtFR-o0G4rRiSJ1.5gn1Bx-925dEoecpeT0f2yJoLILYczYMxlqUb2G4-aLunH_ldsvv2kobyHk089XXs1MK8iouJh0XsbxKsPe44RjPDFhhynJ9ZC3VFFrqL_9ri2t_4ZgeCiiPIjQ8pgNuCmp0jMWaHner0h8bNTbeGkm-aFPsgl2fdYBoMnvXZGW_K6qXyhsaFWc39MZqT2Z2-qFzOi4ITxxGg-zKGAwONBhwIMO0M847ttCM805LWLfT3l19cfyFvg.FSgKSQX67vIulzuy9JHZfA",
-      "numeroSequence" : "122111501043906",
-      "dateInscription" : "2022-11-10",
-      "montantTransaction" : "385.55",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "Chateau Laurier-Front    Quebec     QCCA",
-      "descriptionSimplifiee" : "Chateau Laurier-Front",
-      "dateTransaction" : "2022-11-12T01:07:04-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "NADINE ST-AUBIN",
-      "numeroCarteMasque" : "4540 38** **** 1019",
-      "codeRelation" : "P"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..wX5NmiE2cfpGIGUc.9xjtNe5IoUk9RvSlwszTn5Vj2GAWoFYL_aJmlLAKgsxZfz7yh1HAnq63JEo6HTGObKDF4_nTIobbzadYEqa76bCnAH-BsxeBR38gfVD7G0F8eIKp4sF5GllivAQVNaPkqpV9GAfdIJX1ei1_DBwbs1lsU5FNA-Qy_t2qbhb-6x-5oZWD70pt9mT5cbVNibEmHXkUEI4PYgVkdJL8_WQSkQWgxUREN6apq5-8nk_wj4kKRNlEH7v4xQ.xE4k0aFfP5RrCqs7S8NwLQ",
-      "numeroSequence" : "122111501043917",
-      "dateInscription" : "2022-11-10",
-      "montantTransaction" : "2.35",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "VILLE DE QUEBEC STATIO   QUEBEC     QCCA",
-      "descriptionSimplifiee" : "Ville De Quebec Statio",
-      "dateTransaction" : "2022-11-12T01:04:32-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "JACQUES POULIN",
-      "numeroCarteMasque" : "4540 38** **** 1027",
-      "codeRelation" : "S"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Nw7QViK5J56EsJFE.JS4FN1ocI6Ed_mM0-16C7NmyuB_G1qNOVBvUgabQvVr08rx4T-S3zEYhsgZXrA53Mm8EFTHtGekVvJu6YxN7kM87SIKN8IaAlQemrOSeDQ5m5bzbNNvdmHToFq_-PbdTl494YY6NuXi1mmvJ7jyDBAVVit3Es_--HVklj9_MrjpUnnGXKRh54HuZiKEeWnn_qD4zCirgG0SnJiMTbCyOu-2lIJSfbQRC7D3uk7SxoZ_qJ8hZaHR4ww.XOXEYbTB1kqKk24DJVzWLA",
-      "numeroSequence" : "122111501043916",
-      "dateInscription" : "2022-11-10",
-      "montantTransaction" : "9.53",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "ALIMENTATION IAN DES G   CANDIAC    QCCA",
-      "descriptionSimplifiee" : "Alimentation Ian Des G",
-      "dateTransaction" : "2022-11-11T19:03:25-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "JACQUES POULIN",
-      "numeroCarteMasque" : "4540 38** **** 1027",
-      "codeRelation" : "S"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..q4gKLW5dRCF-LhsL.kz9fQT8lDfaydVnXKM-DmR2yQVYpxhfRUmcA4hK8ZprPeXzj4yTiZDWkSMUG5TPpdtJqy6VBPATs55ttEiSl3Xlw7hS6BjCln-uABimgpv9ArjfIQy8AZVJCDBDRnfGHHugE6fp3WMIBkcukCJbJlxVYidsPq7Fwvr4TES0-pWQUaDylzpZmZHcr0xU3UgQKLGkvYyevTE16kJ9zW5crWY2ckq7ukLvmtl3HnCEKVTOpwzRQ3qH8eQ.4pPH1c9MJuUzyYGy6IAYGg",
-      "numeroSequence" : "122111501043905",
-      "dateInscription" : "2022-11-10",
-      "montantTransaction" : "17.90",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "ALIMENTATION IAN DES G   CANDIAC    QCCA",
-      "descriptionSimplifiee" : "Alimentation Ian Des G",
-      "dateTransaction" : "2022-11-11T17:18:02-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "NADINE ST-AUBIN",
-      "numeroCarteMasque" : "4540 38** **** 1019",
-      "codeRelation" : "P"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..7q_uQSf_iFzeAzRP.UqZB4SARK1Je4ypmKm6hQXUprRHJsAYePRx_Nhzg3KD6ldbCaLdaJPKTJIgJm09Mpmfp0NtrlAx4ALVAVNxBDFacHji20r7PMM5_JvWAYUbQaHfcewNqNqIiJIvrxy2uGKH-Fcwj5Lw-hLgLEffWpy05HLO4c4e_GHtR3_jHBii_3CX6ZJz1T3D_lZomYvk_Rmu57FyzV60u6fvPWwy5nc-LS9ac600b2D9lUNAn6xv7Lhpznzc16Q.nkkX3bdrnLhUgA1xeZk09Q",
-      "numeroSequence" : "122111501043904",
-      "dateInscription" : "2022-11-10",
-      "montantTransaction" : "21.87",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "POISSONNERIE REN MARCH   LEMOYNE    QCCA",
-      "descriptionSimplifiee" : "Poissonnerie Ren March",
-      "dateTransaction" : "2022-11-11T16:42:54-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "NADINE ST-AUBIN",
-      "numeroCarteMasque" : "4540 38** **** 1019",
-      "codeRelation" : "P"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..eTVq0o_Jffwr3sJ_.8SmXsNnbEthB6FkHDwGP1b9DqxABxoNoC-XscTRx69nUmsF7vnfJmfC6mT5EIculBDVueGz_u7va-1_5aUeJyAHaSmkIyWxc6wPszOPT_DCoOwxhbQdEO0aGTwViUM9M66KTIDmF-4Zmx-_F6Oz5iTdgOaAPkc6WFADfEskhObQNjznPPVaXALLHDwPU6jrsCEYOhQvTYcucomJNoKVJcpej3beT-e7nzLf1hZkW9jjseZndSLisKQ.MwZKFpUhQjd6aDv_yNzFkQ",
-      "numeroSequence" : "122111501043903",
-      "dateInscription" : "2022-11-10",
-      "montantTransaction" : "11.95",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "PREMIERE MOISSON DIX30   BROSSARD   QCCA",
-      "descriptionSimplifiee" : "Premiere Moisson Dix30",
-      "dateTransaction" : "2022-11-11T16:19:41-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "NADINE ST-AUBIN",
-      "numeroCarteMasque" : "4540 38** **** 1019",
-      "codeRelation" : "P"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..KffkVP6YXVhL0NBf.ERnry4CTMn3-sdISS4gr1haXp-HqPuYtv1iZ1GKrlmMl-1LZPX_2_-9LboPMc2wJd8vuQmZp0GESzXLd-fNOUpScw46Wnng0Yi531IOFI18EN7zwYZRvoUN7zNk_ScERfEEty8avSyQCk9PGDCEuJZ13jKDAoKXU0AyrcujCOH8jzhwNXCJIqxpizriszu5K_rGAic6r7-Pg0XaZoDhphl8MmjyoYtKFDmK-m-rPxW3RcSmje8PxMA.ovY6YUiuARZE61l2L2E-eg",
-      "numeroSequence" : "122111501043902",
-      "dateInscription" : "2022-11-10",
-      "montantTransaction" : "214.65",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "SAQ23215 CANDIAC         CANDIAC    QCCA",
-      "descriptionSimplifiee" : "SAQ",
-      "dateTransaction" : "2022-11-11T15:54:05-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "NADINE ST-AUBIN",
-      "numeroCarteMasque" : "4540 38** **** 1019",
-      "codeRelation" : "P"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..5VWnZILHmT6QwGAG.v0sl7mheuFuNy8c2FDGV2bJ-Sj5PPkRoDgK_I7x4YqkkWom_Mv1KzNfptF6R8YQHd5mxK0CYDzcvfVljRLwkkEh_G0PkdWLsXnFoKD9zoIErnheL7JG7K4qcErucZHG1h8PTgnWNDdUB_HCFtu7iz7wlsJts5VdedeaefzqyZlHqTnVkBTqDJY1d2W62o1o9VxSqwr-SpcEl__hhNLloueDXnOYY-shucMCUQP2PFZz-TtKtzW2Bqw.wquLXOqw6ZHsdz98IwSp6g",
-      "numeroSequence" : "122111501043901",
-      "dateInscription" : "2022-11-10",
-      "montantTransaction" : "188.48",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "IGA EXTRA #8032          CANDIAC    QCCA",
-      "descriptionSimplifiee" : "IGA",
-      "dateTransaction" : "2022-11-11T15:41:01-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "NADINE ST-AUBIN",
-      "numeroCarteMasque" : "4540 38** **** 1019",
-      "codeRelation" : "P"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..XLC57BUVI94rt82q.4CSJ7fXEHglRRzC6JkOcabbFkgfR1acLfz0cwcyizB9EiAyWMokiI9nLhRenHPpAhiHVW6FCW3bUBc2K7VeHv6thqBF4tl3sXRuk0nIFHVYUQNJ0KY4Rucq3oCpsBqgS1hFAQWuD1UHbTwDzbB0PAeCjvQvnANTx--YP365wdwH-O9iR1mkHidwHfhG72qPdo8bpUekM-vGTgGySS2Ya2Jn0Y12zaatp8lv5D6Juo_N7Oh5ZXhRfIA.aJcnsB0mo0UeYCUCTyUvdg",
-      "numeroSequence" : "122111100220604",
-      "dateInscription" : "2022-11-09",
-      "montantTransaction" : "0.00",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "ACTIV PMT MOB/MOB PYMT",
-      "descriptionSimplifiee" : "Autorisation paiement mobile",
-      "dateTransaction" : "2022-11-10T23:05:18-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "NADINE ST-AUBIN",
-      "numeroCarteMasque" : "4540 38** **** 1019",
-      "codeRelation" : "P"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..nz8cEBzS1R5OTD4Y.gERr50-9DuxS9lisjVHQN_N8HaACthSgqi_uEMxVEaLlevX-kbGAej1f65upT_TN8XCMjXIKJW2lrQ4Fj-pQzW9cPYzvh5sroRIKAz1Xmg1xce48x_62gsafAzaVTS9MVWAQRL5S5aEslHsnGXp_0dmMv0Qxsb0TA_WMeeWmRdxxUY5nj9drYvKp5nWfAelNKWf5tk41VRU8TCbdtCJttzes_9T3RQkqDr6cMDkpEwrXY4m6OzMrfQ.U2-KKOgm75SlgUIoAEcsJg",
-      "numeroSequence" : "122111100220605",
-      "dateInscription" : "2022-11-09",
-      "montantTransaction" : "0.00",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "ACTIV PMT MOB/MOB PYMT",
-      "descriptionSimplifiee" : "Autorisation paiement mobile",
-      "dateTransaction" : "2022-11-10T23:05:18-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "NADINE ST-AUBIN",
-      "numeroCarteMasque" : "4540 38** **** 1019",
-      "codeRelation" : "P"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Qp_fR7oC23OpxXQZ.H9nzYJsOj_97d8agZmOER-rcLUbAJ3rSWEJIy3V60kpBx-vbOxGWso2OzgHSEjvdbrYEi8SGJUme_vzHLzEYAWGPZN_Tp9puibu9zun52W8yX1hab8oX6n1DX-UEIJBqZ1RUgzolJJR1arwBYh61_RMJQTiEs-bwArSm8qrKvfEpOXhPmjEAwlKDH2UC2ZldcP803KBU_t3YdDJbOicRYlFz4-X1rF3fbKAaxZX8WhrlGpwOCmUNhw.kYqYs4JpvtQqdgjbdYaw1w",
-      "numeroSequence" : "122111100220601",
-      "dateInscription" : "2022-11-09",
-      "montantTransaction" : "0.00",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "DOORDASH.COM             +1650681947CAUS",
-      "descriptionSimplifiee" : "Doordash.com",
-      "dateTransaction" : "2022-11-10T23:05:15-05:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "NADINE ST-AUBIN",
-      "numeroCarteMasque" : "4540 38** **** 1019",
-      "codeRelation" : "P"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9.._g8cgfEp-Qs9D-hi.bWhh7piEqtSDmq1B9K1WGP2ahMNxllu-Swscs6iThDPZBlGUsfLZJGiEyn2-lWJy-G_ypcU19xvRYvPdm-jg2lzh0so29C4xF9YIqwzK7msT5BNuPsyau42Y78D0aAR2gjh-bbMK9_54aGOYrTFknHhKPRXbHM6Vdneg_1bxjxX-ou3aSo3xN1oql3LvO5nRLCPcOci_Z-Mzq8cjLWkxdAGVrUP-JcaOUCV-ge5xPFwTunmwihw_3w.Fh6-FyaYN0nCe9aoHG6W0g",
-      "numeroSequence" : "122102900320201",
-      "dateInscription" : "2022-10-27",
-      "montantTransaction" : "0.01",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "AGENCE DE MOBILITE DUR   MONTREAL   QCCA",
-      "descriptionSimplifiee" : "Agence De Mobilite Dur",
-      "dateTransaction" : "2022-10-28T15:56:31-04:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "NADINE ST-AUBIN",
-      "numeroCarteMasque" : "4540 38** **** 1019",
-      "codeRelation" : "P"
-    }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..KPoM5S2XoH5VQXQo.B5IrOs_5NWbaYAQqDmDeYKz9-b1FekG3exA9ZuM38l1ORHIxF1mm8gzXYFa1jbH_Nx9bpnieN1Lva8cHSEKVoeD86QdpX6Sm1g5Z1560iWOITJuomKnWpFf3m3pz9C8cOqO2rq91ePz8NQqpnU-ia_0Vx3gKHK9mXOvGcgVdIzb6xYYFs3-GdioXUUerrFPQmL0J1aAruR33E2LSYx9ng4d_CxsI9G4ThoIku_QbYEAgLCOK7AoTBg.8T33m_zwFMNjZtN_TF7ogQ",
-      "numeroSequence" : "122102900320204",
-      "dateInscription" : "2022-10-27",
-      "montantTransaction" : "-0.01",
-      "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "AGENCE DE MOBILITE DUR   MONTREAL   QCCA",
-      "descriptionSimplifiee" : "Agence De Mobilite Dur",
-      "dateTransaction" : "2022-10-28T15:56:31-04:00",
-      "devise" : "CAD",
-      "nomEmbosse" : "NADINE ST-AUBIN",
-      "numeroCarteMasque" : "4540 38** **** 1019",
-      "codeRelation" : "P"
     } ],
     "messages" : [ ]
   },
@@ -414,16 +24,650 @@
     "nbrMoisRecherches" : 12,
     "indicateurLimiteListeAtteinte" : false,
     "dateDebutPeriode" : "2021-12-01",
-    "dateFinPeriode" : "2022-11-15",
+    "dateFinPeriode" : "2022-11-19",
     "transactionListe" : [ {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..I3J4lIXzRJvd7EzF.RcAyoxu7tcBjYkOyx9TPt7VIMe3vLWYaaTL03Fd8rcS5KdNxTf_0JUq17mHscEJHSe5I-sAPXxhLprbaJrLaDxreL4WOSce0qAZfdVGw0gkHDCf_yNIobf1XjNFdliBL0-OzJ2mffVjXy7ZYpNQ6hiCVa3A9YfJ-LBD_3SvYleSy45X8EVHUulbvZU_HU9Q1eDBp39Hi6xwoZWV89lZd6rdAXW2F1y9QaPPn2J7cTdBi9Lc9_6FTig.AuRLqXyspiFJ4oAcN4-OuA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..tLL-Rl2DDlsiisim.Lum0NrTk6K6LcAKMRfD3NDEq3_Q48lZihjuzHUhhB_QfXpGWmWcCA7RJT0Y5RPhDWnF4wvKe4_cN5IVEPgCfVQeQlcrTRMHMFg8Kqd4rl0mAUwz__7uOoUUqMh9il1W0KZvg1xLN0ewJHGHTnIZTp0NdWLAqAX8hnEkHKK_z-LdGfqlUlv3CmCpOEVuCnV3HNNZog6OLqmpTtxWAq3dHysFF07tHZUdh4jqzz9kpqiph_T2oZBvKkw.lsZKin1-Fcd19N33tG_NTw",
+      "numeroSequence" : "122111821185402",
+      "dateInscription" : "2022-11-17",
+      "montantTransaction" : "82.17",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "COSTCO ESSENCE W556      CANDIAC      QC",
+      "descriptionSimplifiee" : "Costco Essence W556",
+      "dateTransaction" : "2022-11-17T12:13:55Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "JACQUES POULIN",
+      "numeroCarteMasque" : "5598 28** **** 3020",
+      "montantRecompense" : "0.82",
+      "tauxProgrammeRecompense" : "1.00",
+      "categorieRecompense" : "Tout autre achat",
+      "codeRelation" : "S",
+      "categorieTransaction" : "Carburant",
+      "categorieParentTransaction" : "Transport",
+      "idCategorieTransaction" : 80,
+      "idCategorieParentTransaction" : 78,
+      "montantDevise" : "82.17",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : false,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Essence"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9.._g7kTmHLe7f_Arnn.jc98ERgTC5YsRtJhrnhxsykIj60QycXUOL8acfukKXr6uNBh2MMqivww6SNtmk1rIm9G6ewlwuDs0xvDfgl4HdcNNE5M_bQShU48-F8yfH3ELCZJNfort_QvKydGZiR1maNmIrXQEv-DgWNMwvIb6ViJE-VKi_IiBxo5PRdlg4vd49sDDYvB-_mZSMc9e_2ETxvaSiLsYqX2UHoAkgYj6-5xbB5sn5VqViY2aHvsmZrIJeVAmiGGyQ.c9bGjZmEkD2j-4Id9aRu6A",
+      "numeroSequence" : "122111821185401",
+      "dateInscription" : "2022-11-17",
+      "montantTransaction" : "-458.02",
+      "typeTransaction" : "Paiement",
+      "descriptionCourte" : "PAIEMENT CAISSE",
+      "descriptionSimplifiee" : "Paiement",
+      "dateTransaction" : "2022-11-17T00:00:00Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "NADINE ST-AUBIN",
+      "numeroCarteMasque" : "5598 28** **** 3012",
+      "montantRecompense" : "0.00",
+      "tauxProgrammeRecompense" : "0.00",
+      "codeRelation" : "P",
+      "montantDevise" : "-458.02",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-PAIEMENT",
+      "indicateurCategorieTransactionAutre" : false,
+      "codeCategorieTransaction" : "PY"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..4Fose_FA2z_NyYZU.1tNTBnyysoKFOgZgBwkCKmNNivMVwBLEofDOhM61P4RQBoC_Ufveo4t7V-tOD74orWKBrrd_kycXhTSDvpLPBU1D-idy7U-tsKywrjfk0Ujnbgw7FdkO33TEE1wQyEqWPvxpiSh3ME_hfe1oyP7QR_TXm8srQEENAfq2OuoaZEp33hUYBWMAvFqBloglHIQQRVDgGBCWUKYdMQFprsx2Ns7NWXN_zPZ9Q_0a27HdbfZzEj6sw88HBA.aGvLh9zKWqsruEtD9-qqBQ",
+      "numeroSequence" : "122111521410217",
+      "dateInscription" : "2022-11-14",
+      "montantTransaction" : "382.79",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "CIEL BISTRO BAR TOURNANT QUEBEC       QC",
+      "descriptionSimplifiee" : "Ciel Bistro Bar Tournant",
+      "dateTransaction" : "2022-11-12T00:00:00Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "JULIETTE POULIN",
+      "numeroCarteMasque" : "4540 38** **** 1035",
+      "montantRecompense" : "15.31",
+      "tauxProgrammeRecompense" : "4.00",
+      "categorieRecompense" : "Restaurants",
+      "codeRelation" : "A",
+      "categorieTransaction" : "Restaurants",
+      "categorieParentTransaction" : "Alimentation",
+      "idCategorieTransaction" : 5,
+      "idCategorieParentTransaction" : 1,
+      "montantDevise" : "382.79",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : false,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Restaurant"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..64WnvaDxeEwS7Hil.NVLzshaoTPpkPj7Bar4IIVgXVkWiCRyLnV4dDdYI55ngBUN5L8aN7u2AFe_5nPKw4F_atZBtw7QLDyslObYb2NQP3m477Knx0Ky-AAIUn3P4l7KinddZZyKYkyPezuyb4lnzP3vcVGqoGgkFI14l5U6FFKtokCnmPCjo5cN8HWsGPyxh2wX63lyeOd8MDgwlTtFw6xgXe_nPfSdMoF6T-zaL0nPMHVeZmslTYvUShBqi3trU8Fb2EQ.6BTy81UCX-EvSyBCDX5_Ew",
+      "numeroSequence" : "122111521410216",
+      "dateInscription" : "2022-11-14",
+      "montantTransaction" : "4.00",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "VILLE DE QUEBEC STATIO   QUEBEC       QC",
+      "descriptionSimplifiee" : "Ville De Quebec Statio",
+      "dateTransaction" : "2022-11-13T00:00:00Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "JACQUES POULIN",
+      "numeroCarteMasque" : "4540 38** **** 1027",
+      "montantRecompense" : "0.07",
+      "tauxProgrammeRecompense" : "1.75",
+      "categorieRecompense" : "Tout autre achat",
+      "codeRelation" : "S",
+      "categorieTransaction" : "Divers - Autre",
+      "categorieParentTransaction" : "Divers",
+      "idCategorieTransaction" : 16,
+      "idCategorieParentTransaction" : 15,
+      "montantDevise" : "4.00",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : true,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Stationnement"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..x5YXeEwfOgq4mfjZ.WFVxYWOhzcwj8vh15Bj9aglZidqOWrMsofuhDvRyUKN9GwQoxpxyLsiscCNl4sdmA4bn-_STUfKiON6vnm-HF8q9JQagx-ZCCiI_RztWbooYoDk0Nuj3EhDZUP-XhLtUSX8ok0xH-FNs80FK4KiMvOnkXEwM_D_rNbnTIUAnS8UgVohsi2VL85u3LWoNHK4gvuU1RDcAq2NCQfE0_DGc5cmS8AsCyDyf2IQ8GjzUP1_e_JTaI06nkQ.Y-F-qe8hb--pfbLWeWWoJA",
+      "numeroSequence" : "122111521410215",
+      "dateInscription" : "2022-11-14",
+      "montantTransaction" : "7.17",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "STATION SERVICE MANSEAU  MANSEAU      QC",
+      "descriptionSimplifiee" : "Station Service Manseau",
+      "dateTransaction" : "2022-11-13T00:00:00Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "JACQUES POULIN",
+      "numeroCarteMasque" : "4540 38** **** 1027",
+      "montantRecompense" : "0.13",
+      "tauxProgrammeRecompense" : "1.75",
+      "categorieRecompense" : "Tout autre achat",
+      "codeRelation" : "S",
+      "categorieTransaction" : "Carburant",
+      "categorieParentTransaction" : "Transport",
+      "idCategorieTransaction" : 80,
+      "idCategorieParentTransaction" : 78,
+      "montantDevise" : "7.17",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : false,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Epicerie"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..JLHQkxvsbpihplvH.NUVJGENbCIL9SuoUShLX5xRItsOWth2ntkH04oftY_eQo9ANq8rynXESE16IJUYag_oRC5EoAerR6QlF2pUKoBKYmkI6HVC-fILQMby982TglUYUsMxRX6sfdGM5hEqjmUpEb8MmGyjBZJVAcQ9qKnRjDW50hDPlv44H_IkGuqMl7vRjO6pZ7qNG2qyTRa7IhaNZWuLIWEr4rat4YcZWTdZTURHEM6Ha4hPLnGSq19hXs2KbUpI44A.4hXqrDx-MXSkB1lDNaoTFQ",
+      "numeroSequence" : "122111521410214",
+      "dateInscription" : "2022-11-14",
+      "montantTransaction" : "22.60",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "UBER CANADA/UBERTRIP     TORONTO      ON",
+      "descriptionSimplifiee" : "Uber Canadaubertrip",
+      "dateTransaction" : "2022-11-13T00:00:00Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "JACQUES POULIN",
+      "numeroCarteMasque" : "4540 38** **** 1027",
+      "montantRecompense" : "0.90",
+      "tauxProgrammeRecompense" : "4.00",
+      "categorieRecompense" : "Transport alternatif",
+      "codeRelation" : "S",
+      "categorieTransaction" : "Transport - Autre",
+      "categorieParentTransaction" : "Transport",
+      "idCategorieTransaction" : 79,
+      "idCategorieParentTransaction" : 78,
+      "montantDevise" : "22.60",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : true,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Taxi"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..PJD62P2C5u-TkmgI.R2D1l9tsYD3yntBZ53AthN-jflGAD4qtnHNV0FdN4FJhhHpJRNebDhCe9awsRmv09Dl1SxLZ_6OVaxo9O6JEE9dherkJjBCMxsivHHY_ZSzYL8GNuW4n-7cvpfpfxQM4n-jZvie94Bs_V5Wct32_5AyrnrHvovVDinglfE11xtTf4CFkEc21YrmZ0Ufq21zRYgG12ulpv7gQ1CY7wJ4HjWOpytNCG9grEFddW8QQmLvFiBoowInMpw.Rkd1n_VTrdo3bc-i4WRmWw",
+      "numeroSequence" : "122111521410213",
+      "dateInscription" : "2022-11-14",
+      "montantTransaction" : "2.35",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "VILLE DE QUEBEC STATIO   QUEBEC       QC",
+      "descriptionSimplifiee" : "Ville De Quebec Statio",
+      "dateTransaction" : "2022-11-12T00:00:00Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "JACQUES POULIN",
+      "numeroCarteMasque" : "4540 38** **** 1027",
+      "montantRecompense" : "0.04",
+      "tauxProgrammeRecompense" : "1.75",
+      "categorieRecompense" : "Tout autre achat",
+      "codeRelation" : "S",
+      "categorieTransaction" : "Divers - Autre",
+      "categorieParentTransaction" : "Divers",
+      "idCategorieTransaction" : 16,
+      "idCategorieParentTransaction" : 15,
+      "montantDevise" : "2.35",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : true,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Stationnement"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..HakSn406NnkiQl4R.6OjfMCJV6pNl5aUj-9a2l8fcyy6Ge1wpsfKtHpwPALYaxze2_cuS0nsxdF4-n3B8ihkLkqn8L2W6sRCXcdQ9BNy4cdQZhA1oo5NeO_APgyul6hYW9o0r7Pjq6U3Gl9ZwfeFeMJYPbkXPvLdnSubsFRqdTv-052_WrOGlNkH_To_58-iwpMrp7sh15gIpeBrzi_RbD7J8mZrYA9tW70A7OZdb_HIuCY-QVZ6h9Z09nyFGJDOlOqV7VA.HR75lKnAdCwVU44mzo5X-Q",
+      "numeroSequence" : "122111521410212",
+      "dateInscription" : "2022-11-14",
+      "montantTransaction" : "9.53",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "ALIMENTATION IAN DES G   CANDIAC      QC",
+      "descriptionSimplifiee" : "Alimentation Ian Des G",
+      "dateTransaction" : "2022-11-11T00:00:00Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "JACQUES POULIN",
+      "numeroCarteMasque" : "4540 38** **** 1027",
+      "montantRecompense" : "0.29",
+      "tauxProgrammeRecompense" : "3.00",
+      "categorieRecompense" : "Épiceries",
+      "codeRelation" : "S",
+      "categorieTransaction" : "Épicerie",
+      "categorieParentTransaction" : "Alimentation",
+      "idCategorieTransaction" : 4,
+      "idCategorieParentTransaction" : 1,
+      "montantDevise" : "9.53",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : false,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Epicerie"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..iwF_IfxmMnKwFrwF.KIvgjVvtn1O1Wemtjb9M2IuncKRmI-EZFPl_Tg0JHqtBrO7YQdz7blpF386sQmKLzvTtD_EQKW0yDgVp5kM80Uv376Zw21zUe3nmj7zPSzWFAw4TAN9-KFcGK9YIecVayQYjzLK7d9W3aST0BEz5O3lS2Es-DB362ay_7vE0qoKnuKE5jQi1txEZ9xVQTlcUB9lP5AfAr-AYD9L1MyZ6LUAt7PTSr9X_aQrHsX6qXQP2v8x7HJ1pbg.Z6293L4uaFwyCqvf7OeZ8Q",
+      "numeroSequence" : "122111521410211",
+      "dateInscription" : "2022-11-14",
+      "montantTransaction" : "8.00",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "VILLE DE QUEBEC STATIO   QUEBEC       QC",
+      "descriptionSimplifiee" : "Ville De Quebec Statio",
+      "dateTransaction" : "2022-11-13T00:00:00Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "NADINE ST-AUBIN",
+      "numeroCarteMasque" : "4540 38** **** 1019",
+      "montantRecompense" : "0.14",
+      "tauxProgrammeRecompense" : "1.75",
+      "categorieRecompense" : "Tout autre achat",
+      "codeRelation" : "P",
+      "categorieTransaction" : "Divers - Autre",
+      "categorieParentTransaction" : "Divers",
+      "idCategorieTransaction" : 16,
+      "idCategorieParentTransaction" : 15,
+      "montantDevise" : "8.00",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : true,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Stationnement"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..TFQfbvAMYCR5_cc2.45IK2TCbolCXuAuNKKvVdLkfyKkacWPiXZRLnErcuFLHOIA3wgAwS59yzr1VWaj1XuUWvh9e6IWSR0g-lrKLZtDdlhY-TeEoz4otWQUGBsNkVlA7vnMnnIRps4Rvu_JcjaPJ7WyTYgm_KfscQRGrtGmk40nWYbXH_kLkyVk5v08IjNlIcZlDiRszAT6gYNKZWulW-d5Tdapz4zgd3jF_onBq_k1B1tB8j_YI3Kdl8YbfUiwUSzpzUA.3132gChs2Rfw1HstjaN6OA",
+      "numeroSequence" : "122111521410210",
+      "dateInscription" : "2022-11-14",
+      "montantTransaction" : "105.82",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "LE SACREMENT             Quebec       QC",
+      "descriptionSimplifiee" : "Le Sacrement",
+      "dateTransaction" : "2022-11-13T00:00:00Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "NADINE ST-AUBIN",
+      "numeroCarteMasque" : "4540 38** **** 1019",
+      "montantRecompense" : "4.23",
+      "tauxProgrammeRecompense" : "4.00",
+      "categorieRecompense" : "Restaurants",
+      "codeRelation" : "P",
+      "categorieTransaction" : "Restaurants",
+      "categorieParentTransaction" : "Alimentation",
+      "idCategorieTransaction" : 5,
+      "idCategorieParentTransaction" : 1,
+      "montantDevise" : "105.82",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : false,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Sorties"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Dd48kRWps795IJq0.p4rlj6Yc_lCKgdB6yFABdjAO6DNgFyE6l0gg_CTOFgtOfOMEgM2HZc2sCapd-8hAQhMRZS276LP7Q9CBDANni27RtO_suZKVajFcU-m8yVurILKfixv6gl8g3aBGgPyE6Mkb73CzBE_5Bx3ZnKlIk7_em_DQMIPGPuxl4STI7bAfM2GKpjeoEyHy395Gfc1hI4IU4I_SIhb0wiExcMnIYbKtBW9gjzwKK1FcVweU1NoZmGdB1sOqPA.wvMziF9U7YOEJ6hjHwCWxw",
+      "numeroSequence" : "122111521410209",
+      "dateInscription" : "2022-11-14",
+      "montantTransaction" : "98.51",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "LOUISE TAVERNE & BAR A   QUEBEC       QC",
+      "descriptionSimplifiee" : "Louise Taverne & Bar A",
+      "dateTransaction" : "2022-11-13T00:00:00Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "NADINE ST-AUBIN",
+      "numeroCarteMasque" : "4540 38** **** 1019",
+      "montantRecompense" : "3.94",
+      "tauxProgrammeRecompense" : "4.00",
+      "categorieRecompense" : "Restaurants",
+      "codeRelation" : "P",
+      "categorieTransaction" : "Restaurants",
+      "categorieParentTransaction" : "Alimentation",
+      "idCategorieTransaction" : 5,
+      "idCategorieParentTransaction" : 1,
+      "montantDevise" : "98.51",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : false,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Restaurant"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..y7y9sxO_MWDi6mJl.gPWsSxG-8jnnHdU8HWV9SNB6gXiYBmy-_VsDL7dRfJkQ-mJqu5uozSSEFhiCMEeqCgxdaFiHzxt_1rhJdEcrvhExFapy-N71ARVEyg-Rx5yCx2dHfQ9q-9luB2iYNgdcl7ZmZDupzph54hOn1P_-7SUChbMjeq0rrn7kZDNOCWJg9lAWtV3K5Uf-0w8j6ZmCYBgvWjvF1Ecjs-q2motC87DGdbiUbf5K8s5i0VAIXtDU8t3S6RzGzw.IL4GLpHAaqSk6Te5Uqx-QA",
+      "numeroSequence" : "122111521410208",
+      "dateInscription" : "2022-11-14",
+      "montantTransaction" : "185.55",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "HOTEL CHATEAU LAURIER    QUEBEC       QC",
+      "descriptionSimplifiee" : "Hotel Chateau Laurier",
+      "dateTransaction" : "2022-11-12T00:00:00Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "NADINE ST-AUBIN",
+      "numeroCarteMasque" : "4540 38** **** 1019",
+      "montantRecompense" : "5.57",
+      "tauxProgrammeRecompense" : "3.00",
+      "categorieRecompense" : "Voyage",
+      "codeRelation" : "P",
+      "categorieTransaction" : "Vacances",
+      "categorieParentTransaction" : "Loisirs",
+      "idCategorieTransaction" : 49,
+      "idCategorieParentTransaction" : 44,
+      "montantDevise" : "185.55",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : false,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Vacances"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..O6cSPwlR6ywXjpA_.v3DbS8BhgHOG9jU_A2hpzLMd9cEK24cIYmJjqU5tfs3prGRjkzQk-MckQ2Norgfg6Fn1BOCROUvD7adHsVK9DZrmACRiMWTajXhkXY34z8RE13d_U5XYHr70UpDldnyrSHJiH6LcRWWgDxHkRSpLv3m-NkLAQv_Kbjr70R59vfQfyDuF8i8Poa0QFTJcWXozOaEsMSG7HCS4U3h3Z-K2EIdfzMQIR9uq7Z0HNy7j7B9KcO8853Pbhg.fMO2JQwvGogTltVE8hQkWQ",
+      "numeroSequence" : "122111521410207",
+      "dateInscription" : "2022-11-14",
+      "montantTransaction" : "40.26",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "SANI REC BROSSARD        BROSSARD     QC",
+      "descriptionSimplifiee" : "Sani Rec Brossard",
+      "dateTransaction" : "2022-11-12T00:00:00Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "NADINE ST-AUBIN",
+      "numeroCarteMasque" : "4540 38** **** 1019",
+      "montantRecompense" : "0.70",
+      "tauxProgrammeRecompense" : "1.75",
+      "categorieRecompense" : "Tout autre achat",
+      "codeRelation" : "P",
+      "categorieTransaction" : "Frais de garde/camps",
+      "categorieParentTransaction" : "Enfants",
+      "idCategorieTransaction" : 26,
+      "idCategorieParentTransaction" : 23,
+      "montantDevise" : "40.26",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : false,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Sports"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..82wFWbIpswEQgNrk.v4LdWSvjnGRGIhAdFafFNbkZSeyFEkdNC8_RhDabuj_stO5wVNCyTT1fOlmDMSDM3NnrwvqD7mtP5sKzMI0Bcr3lC_EMYaIvQ0VaxcVgdsXGlJ1WpbzpooJ6KTPAF-CPIPKP6KEjxxq8iYZtiCeTdBSD-BLc-jXS8Vb3b14BYGOd0Gs_hIn7ulJMv7kaA70OurPzQu9fOUKVZrCrStLJpuM70HB2TNWHO66dtViOyKYXJEg9qGw5eQ.bWTA1k4TwNs97f4yusNWbw",
+      "numeroSequence" : "122111521410206",
+      "dateInscription" : "2022-11-14",
+      "montantTransaction" : "188.48",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "IGA EXTRA #8032          CANDIAC      QC",
+      "descriptionSimplifiee" : "IGA",
+      "dateTransaction" : "2022-11-11T00:00:00Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "NADINE ST-AUBIN",
+      "numeroCarteMasque" : "4540 38** **** 1019",
+      "montantRecompense" : "5.65",
+      "tauxProgrammeRecompense" : "3.00",
+      "categorieRecompense" : "Épiceries",
+      "codeRelation" : "P",
+      "categorieTransaction" : "Épicerie",
+      "categorieParentTransaction" : "Alimentation",
+      "idCategorieTransaction" : 4,
+      "idCategorieParentTransaction" : 1,
+      "montantDevise" : "188.48",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : false,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Epicerie"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..VlXKH2NL_aNFUcKO.IRbCWlQqd1Erez5OdtTzdeqQ3nUStvhddCjg2Wv-Hyt50LmK_hDy_8hTO8Hfe65w3XcjoVxjg3FD932IJsYfETP7I6jQ_6_DQwN0av9ZCYRJPPEec1OKooGZ5QY6GCL1Yro8FjY5auyyKv2yckEgVQfuSXjz6upNJcxrImNcISTATWcezn63OXdCDP0EaiszOi8x4ggfz0ZNRS4oUTp9YFaFbAbKeUm8Tm6W3_eZXYMAr-vlbHzjkw.wq2umbiwaqZYkHigGL6zDA",
+      "numeroSequence" : "122111521410205",
+      "dateInscription" : "2022-11-14",
+      "montantTransaction" : "214.65",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "SAQ23215 CANDIAC         CANDIAC      QC",
+      "descriptionSimplifiee" : "SAQ",
+      "dateTransaction" : "2022-11-11T00:00:00Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "NADINE ST-AUBIN",
+      "numeroCarteMasque" : "4540 38** **** 1019",
+      "montantRecompense" : "3.76",
+      "tauxProgrammeRecompense" : "1.75",
+      "categorieRecompense" : "Tout autre achat",
+      "codeRelation" : "P",
+      "categorieTransaction" : "Boissons alcoolisées",
+      "categorieParentTransaction" : "Alimentation",
+      "idCategorieTransaction" : 3,
+      "idCategorieParentTransaction" : 1,
+      "montantDevise" : "214.65",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : false,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "SAQ"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Nwf-krG96pbA40e8.pSu4VfWxrhBUcsJycZWfcQZIASSFRr43kVZhU9SeJAa_YKxLfaVB6ymcIs83UlhJQxHQVDDxNdF9JfM6EM3vG5Z2uJtxgkyQJR2WyJiWpaT0SQKhsYkCuG2ww-mH671IYRP1PFrKjQtg4gzjwZG0EetAQkrzFgotxjxciT1FOPz4A91dy5r6m8usLhU9X7Agad7vJJ9vCU0W_4BLI1fDpavOUlWRWi0ZUCYCtr5Bp7XUsTxkGodMXA.F7FGc_IXrXm89EtWi7M9IA",
+      "numeroSequence" : "122111521410204",
+      "dateInscription" : "2022-11-14",
+      "montantTransaction" : "17.90",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "ALIMENTATION IAN DES G   CANDIAC      QC",
+      "descriptionSimplifiee" : "Alimentation Ian Des G",
+      "dateTransaction" : "2022-11-11T00:00:00Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "NADINE ST-AUBIN",
+      "numeroCarteMasque" : "4540 38** **** 1019",
+      "montantRecompense" : "0.54",
+      "tauxProgrammeRecompense" : "3.00",
+      "categorieRecompense" : "Épiceries",
+      "codeRelation" : "P",
+      "categorieTransaction" : "Épicerie",
+      "categorieParentTransaction" : "Alimentation",
+      "idCategorieTransaction" : 4,
+      "idCategorieParentTransaction" : 1,
+      "montantDevise" : "17.90",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : false,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Epicerie"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..qVlE_Nr_J69PWoTr.Dx8FN9_BceOsi35IrkRzGDToJItTAEPmSMh8sCOLdd7zV3XrF-fkeMg5pTAAuHD2DYZCPQVCkGBtD2PKojhI5KCiJ9nqLiu97r3yFUwyHjD8tP5ywqd6sGQDXh-7LMS-HfXKelPjQONEupl-RQjLezbr4yZkqrcPBP-P8U_WJAes6Ck_kZTrjLIyCkjDkYXfwZIGGvLDkDeu0Yd7h9fUkFLMZVBKfwi00MKuU6_55BsCYmtzbNKE6A.AjJhrOGb-dJaIFm8iHOesA",
+      "numeroSequence" : "122111521410203",
+      "dateInscription" : "2022-11-14",
+      "montantTransaction" : "11.95",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "PREMIERE MOISSON DIX30   BROSSARD     QC",
+      "descriptionSimplifiee" : "Premiere Moisson Dix30",
+      "dateTransaction" : "2022-11-11T00:00:00Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "NADINE ST-AUBIN",
+      "numeroCarteMasque" : "4540 38** **** 1019",
+      "montantRecompense" : "0.36",
+      "tauxProgrammeRecompense" : "3.00",
+      "categorieRecompense" : "Épiceries",
+      "codeRelation" : "P",
+      "categorieTransaction" : "Épicerie",
+      "categorieParentTransaction" : "Alimentation",
+      "idCategorieTransaction" : 4,
+      "idCategorieParentTransaction" : 1,
+      "montantDevise" : "11.95",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : false,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Epicerie"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Y_ex8qyN2O93mw5z.g9o_kZzwEXpYTqXQpts5ktYZmMqRQB9-VARa1nBpwOcpa4djfK9D5eHdyWbdeCAP1ysi-DNFz-tWnGZw4gdugWJ4C_RyFe6SPMm-Njia951DlBkIU13rLlY1jn_2U3KTdR052H4wHOO4HdHHE5CUETsg_vREW5VnY1J-Ju8-iLXvlN57xC8eGC3evg8zsRDWy0pjh-w0FnbpcOcZO9bNxj7fjRbkZuiujQ7OYr3l1NkMLha5LiEprg.JrH9flXPdp1iYFnKmZN8_Q",
+      "numeroSequence" : "122111521410202",
+      "dateInscription" : "2022-11-14",
+      "montantTransaction" : "21.87",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "FRUITS DE MER RENE MARCHALEMOYNE      QC",
+      "descriptionSimplifiee" : "Fruits De Mer Rene Marcha",
+      "dateTransaction" : "2022-11-11T00:00:00Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "NADINE ST-AUBIN",
+      "numeroCarteMasque" : "4540 38** **** 1019",
+      "montantRecompense" : "0.66",
+      "tauxProgrammeRecompense" : "3.00",
+      "categorieRecompense" : "Épiceries",
+      "codeRelation" : "P",
+      "categorieTransaction" : "Épicerie",
+      "categorieParentTransaction" : "Alimentation",
+      "idCategorieTransaction" : 4,
+      "idCategorieParentTransaction" : 1,
+      "montantDevise" : "21.87",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : false,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Epicerie"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..uLO7clv3ebEw78Hp.HhQq7Kq2TUqedYE6d03aAvgrUJpcQbBvxx-FUgcqs3Kp3Nr_flP0uEZ7af42F-6H6b9sl-PYZ5tldulnW3vnpWrR2Oz0Wk18zZ03xB9Y6iUbOJEwg7TtD6D9zFe86PsvO0PI5X05-xIxCYiuZiKw4WLabaToyhG8kMy3iMpC-qkE46SQGBO__DiJvl78lXiNJ53msoM6C5lGheXnO7e9TgJI079izz3rLagCMMvEPJGcPi4wbLrcfw.rtS4gwYHEagP4Hno-ZemmQ",
+      "numeroSequence" : "122111521410201",
+      "dateInscription" : "2022-11-14",
+      "montantTransaction" : "24.13",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "NETFLIX.COM              866-716-0414 ON",
+      "descriptionSimplifiee" : "Netflix",
+      "dateTransaction" : "2022-11-09T00:00:00Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "JACQUES POULIN",
+      "numeroCarteMasque" : "4540 38** **** 4033",
+      "montantRecompense" : "0.42",
+      "tauxProgrammeRecompense" : "1.75",
+      "categorieRecompense" : "Tout autre achat",
+      "codeRelation" : "S",
+      "categorieTransaction" : "Télévision",
+      "categorieParentTransaction" : "Télécommunications",
+      "idCategorieTransaction" : 76,
+      "idCategorieParentTransaction" : 73,
+      "montantDevise" : "24.13",
+      "indicateurTransactionRecurrente" : true,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : false,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Streaming"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..f_v7kOe7HowT4QJ8.H4oDkOWC-WZ7zVmIm_fDe3ic6H1pk1onha1_qDUCZGH-BGE-6XU4TQ1ijSQyuMVQ61mzc9kJr8j_awkPH1KAlvbyS8rbEGy3Oj4wX5nGRnWCo2kywY3L0MjGd9GnQVQHOAT-IwkNuHdDrlUvj4hf4SkdaHlAmVy30atFIqCcI5IyTkDoxVAjjeR154l-EcaCoMKMd2TzRl0SSYa0ObEKJVmunOTRbNmO9bSX7Cw37hlj6l3W1xmsDw.4rHZehjdDan6WL_bjcZ81g",
+      "numeroSequence" : "122111521290705",
+      "dateInscription" : "2022-11-14",
+      "montantTransaction" : "-86.96",
+      "typeTransaction" : "Paiement",
+      "descriptionCourte" : "PAIEMENT CAISSE",
+      "descriptionSimplifiee" : "Paiement",
+      "dateTransaction" : "2022-11-11T00:00:00Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "NADINE ST-AUBIN",
+      "numeroCarteMasque" : "5598 28** **** 3012",
+      "montantRecompense" : "0.00",
+      "tauxProgrammeRecompense" : "0.00",
+      "codeRelation" : "P",
+      "montantDevise" : "-86.96",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-PAIEMENT",
+      "indicateurCategorieTransactionAutre" : false,
+      "codeCategorieTransaction" : "PY"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..f2dXh_giYgKWK94Z.yqpmamWubfmb7F4529ZpFIrCUrsolqVpHUbongw10BiRv4ftf3DrD9b8zuNHIc8GF95zAIWXPoOoHVQjIJ0HFzR8iL1YHpZdLBRceGvOgwTZ37RpLSUMTTZXJ-EyGIefLyIwn61yhOO3g9PAGiyf3PAJaNwZPV5l7dHoQI95zd5GIssJwSlQvj4Dkik3fnIyx83j98H-J4zkKK6PTbIy24LkKmYufG9ZvvcNHdk5FIPTCvceGkWFHg.Ung2KlDt_PhV0V2xiBfiew",
+      "numeroSequence" : "122111521290704",
+      "dateInscription" : "2022-11-14",
+      "montantTransaction" : "103.49",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "COSTCO WHOLESALE W503    QUEBEC       QC",
+      "descriptionSimplifiee" : "Costco Wholesale W503",
+      "dateTransaction" : "2022-11-13T14:16:39Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "NADINE ST-AUBIN",
+      "numeroCarteMasque" : "5598 28** **** 3012",
+      "montantRecompense" : "1.03",
+      "tauxProgrammeRecompense" : "1.00",
+      "categorieRecompense" : "Tout autre achat",
+      "codeRelation" : "P",
+      "categorieTransaction" : "Magasins de détail - Autre",
+      "categorieParentTransaction" : "Magasins de détail",
+      "idCategorieTransaction" : 51,
+      "idCategorieParentTransaction" : 50,
+      "montantDevise" : "103.49",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : true,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Maison"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Doqi16_NNdwwwb7A.0dBuldCm2YekYV0VL16NMTLf9UQITstga_TxKrNiugXabp87EdHjXJ47niSWmj5BRJNu0LHVVK72F5TP9sBiV0IsHnD4x8NyDUFx_kh1gVOgzJOYMdO95S-Le8WtjkcUSVJUzkpmnykXwxqJXGXVkm-TKXGxiVYqSlDtAndtYWUv3geLy-RIIBDX2bI8eXnQty1KzEeMG1uZ95QYgULRtqxKxtJPzI01u_85sKOKM9wamROe8P7O3Q.AkSrvLUa2It5xaGzY4WDzA",
+      "numeroSequence" : "122111521290703",
+      "dateInscription" : "2022-11-14",
+      "montantTransaction" : "88.92",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "COSTCO ESSENCE W556      CANDIAC      QC",
+      "descriptionSimplifiee" : "Costco Essence W556",
+      "dateTransaction" : "2022-11-12T11:23:15Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "NADINE ST-AUBIN",
+      "numeroCarteMasque" : "5598 28** **** 3012",
+      "montantRecompense" : "0.89",
+      "tauxProgrammeRecompense" : "1.00",
+      "categorieRecompense" : "Tout autre achat",
+      "codeRelation" : "P",
+      "categorieTransaction" : "Carburant",
+      "categorieParentTransaction" : "Transport",
+      "idCategorieTransaction" : 80,
+      "idCategorieParentTransaction" : 78,
+      "montantDevise" : "88.92",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : false,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Essence"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..s_98vgjklRnAXeDR.B_lD0tz6D5QDfCwXxqKsDNtpEZOyNukf0hGAZRUWyZc9WEgPI49goQz_Cq9XuKrALQ4A_3uHF_A1ssBI38j20ARzRxSQcQCAI1AEW0gXD3BBmHAHLyx_Q_USlWRzVxhpYA6FTxno-W0CFkFDv4fA-iqRglPzPF1TlWQnw2r8GXoVz7wSHu-UWvxz5yND9B7oTYW5g1CFLgpcA-PC1oqJdK5D20_BCUqplz1KubyJyvBx6UBofg2DAQ.JfSZPIhiXrfvIelDBnwLYQ",
+      "numeroSequence" : "122111521290702",
+      "dateInscription" : "2022-11-14",
+      "montantTransaction" : "86.96",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "COSTCO WHOLESALE W556    CANDIAC      QC",
+      "descriptionSimplifiee" : "Costco Wholesale W556",
+      "dateTransaction" : "2022-11-12T11:13:43Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "NADINE ST-AUBIN",
+      "numeroCarteMasque" : "5598 28** **** 3012",
+      "montantRecompense" : "0.87",
+      "tauxProgrammeRecompense" : "1.00",
+      "categorieRecompense" : "Tout autre achat",
+      "codeRelation" : "P",
+      "categorieTransaction" : "Magasins de détail - Autre",
+      "categorieParentTransaction" : "Magasins de détail",
+      "idCategorieTransaction" : 51,
+      "idCategorieParentTransaction" : 50,
+      "montantDevise" : "86.96",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : true,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Maison"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..NTvK3vbCzWVU8tLI.6AZzYzMnorGrkBP0htn1uEXDBnQNeduQ0J-Xe5-lLrI-oHkpTb_o1kU1iU_Jnn7IDqJtLABpXcw5AWKNKpaD3QRN_bI6KUPaJVJIW44ZJVIayeyQVBOn_bY3QV3ID21StzIFiim6EcLb48qM9NzxjYytdWSR9ULrr0bPXNaJYmSEA4gYA1WmEJ-SGVq-pdJmmt2fl4s-a5P7gkjkcbX_jSvbXYHL1sboateSA5sunMqgtvmVmecpxg.t-uB0c8ah2phvym88ilU-Q",
+      "numeroSequence" : "122111521290701",
+      "dateInscription" : "2022-11-14",
+      "montantTransaction" : "58.80",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "COSTCO WHOLESALE W556    CANDIAC      QC",
+      "descriptionSimplifiee" : "Costco Wholesale W556",
+      "dateTransaction" : "2022-11-11T09:58:05Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "NADINE ST-AUBIN",
+      "numeroCarteMasque" : "5598 28** **** 3012",
+      "montantRecompense" : "0.59",
+      "tauxProgrammeRecompense" : "1.00",
+      "categorieRecompense" : "Tout autre achat",
+      "codeRelation" : "P",
+      "categorieTransaction" : "Magasins de détail - Autre",
+      "categorieParentTransaction" : "Magasins de détail",
+      "idCategorieTransaction" : 51,
+      "idCategorieParentTransaction" : 50,
+      "montantDevise" : "58.80",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : true,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Maison"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..S3FyFv55YTjZcKAJ.WsmgfS5wG4e8-eQjiPhoArB_kn_uiO6rFr03QPiVy1FL_Nd1OvMBJFv1J4HUKp9xG2h2qM58jYAfOZ6JtWZEIXg6cviIe2xgzf0yRjyuz1A2eyYBV4jB8QaHpvDc9MJFb2hBrgmllqBdt8nBlX8olnIocZwGw2SgmyE62JWaEoLYfw1SMBOBQHbqQ1puSxhua5gGXpx31BA9t6X7wTLS_ZXqe6osIbVXn7N7ArYPFPU.IOs9YI7zVe_dYdwH1p-T1g",
       "numeroSequence" : "122111421132704",
       "dateInscription" : "2022-11-10",
       "montantTransaction" : "10.65",
       "typeTransaction" : "Achat",
       "descriptionCourte" : "McDonalds 7339           CANDIAC      QC",
       "descriptionSimplifiee" : "Mcdonalds 7339",
-      "dateTransaction" : "2022-11-10T00:00:00Z",
+      "dateTransaction" : "2022-11-10T05:00:00Z",
       "devise" : "CAD",
       "nomEmbosse" : "JACQUES POULIN",
       "numeroCarteMasque" : "4540 38** **** 1027",
@@ -443,14 +687,14 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..vQvy8Vyd_An1YNxZ.uIE__UEmL9Hx0Z3PJuxav-XwnkDHxT9ziXtKTPKbyKz3V2ap_fUMhE-dvN0__Ie5nBwHL-P8az6axWpDCkr_Wt_lg7ErmVFI6Vfeq9w3nK0J-9AmVAxcH9Y9u2BxAA_YiOpjtcWcp2tI6-fPxqf8dwwop2xEhtJ75mGRX0kvkMfLFKsI6axXJIHsUpMb3VhjsztIse7YQomNkwYH-DrB-uqNqjgM8aN1LS14p9qYU0O7CAPxWPDhmA.jHtlz_c5AboL6xCNQILzyA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..p3i0_Jya-RpLts5W.wQJiVtg8tPZ2xkngHMLiBBCHA0j_S75d8VuzTI9wniKcMDNnh55Kd1Luxwx5my_9jJ2z7Iqe1-okE9WsWPGz48K54OCts2G7PAwl9bC6UcczIVt2LCLJ1FTaIxzxYX8xKQSUfcO3bdDYq-san8qB1OBkBeUePNUq5tt2vv4tiVANTEvviKPselbPxkw7HHemj32xCmggeyTWdsWA3-8MFmd8ChrgzSdTsD0ZSwyw5bc._MdvPFQOn3okElv30DMgww",
       "numeroSequence" : "122111421132703",
       "dateInscription" : "2022-11-10",
       "montantTransaction" : "20.13",
       "typeTransaction" : "Achat",
       "descriptionCourte" : "SANI REC BROSSARD        BROSSARD     QC",
       "descriptionSimplifiee" : "Sani Rec Brossard",
-      "dateTransaction" : "2022-11-10T00:00:00Z",
+      "dateTransaction" : "2022-11-10T05:00:00Z",
       "devise" : "CAD",
       "nomEmbosse" : "JACQUES POULIN",
       "numeroCarteMasque" : "4540 38** **** 1027",
@@ -470,14 +714,14 @@
       "categorie" : "Variable",
       "posteDepense" : "Sports"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..wQkA838jJZS8EkxU.9Nm1nl0QZkKl9SyP0TbHdJaTgJBIKN0rI-x-3XuE1nSCdQ_TGiMBAtYIwz2HhfQB3wD09f12BalMWaBevAc_GadxP5OLYMzKLsGcX_v-zkAGzpaXzHZjCjk8cMBRBvzrQdtBbliqKrojTsfY77EdumNyfIESqQImwcUG_vWWdtL09zWF6FBM73pOn9b_v2PXeSQ0ph87zvMna7uIqfAU1NkLaLfv4sXfsTwLrvYOZ0iGW92il2r1iw.tBiavc0vGgpM-dFOKAT_nQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..lamM3MnhJdpYU0pe.j3jDIbQq9FTItLfBKyFoAYtRGReixlAP47pIgseiMNmGEBE7PTrmq6lcud89frAQqXa7hRQ0Qwzguxu16F_Xi7084ZBepDKUOsxZEgv6pvLBBcFWyVBqQPxWXMsyqErEeQQ2KpRka80vPmS_Dg7SUePWv1ziPRkL7f8u-KEz9W2oliGo1OVG9gnW_dik1eFXlzt_rhdgCoLJKkeQADjzGi-jBCsO6liOpTHE97iuNTU.mvvWK57RGFa8g9tqAlYq4Q",
       "numeroSequence" : "122111421132702",
       "dateInscription" : "2022-11-10",
       "montantTransaction" : "33.12",
       "typeTransaction" : "Achat",
       "descriptionCourte" : "SANI RESTO BROSSARD      BROSSARD     QC",
       "descriptionSimplifiee" : "Sani Resto Brossard",
-      "dateTransaction" : "2022-11-10T00:00:00Z",
+      "dateTransaction" : "2022-11-10T05:00:00Z",
       "devise" : "CAD",
       "nomEmbosse" : "JACQUES POULIN",
       "numeroCarteMasque" : "4540 38** **** 1027",
@@ -497,14 +741,14 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Fg76MEvBRe2Gxela.aGgQnSKz3LsMXMBgDZI0BvtB2x3TS9rmaEK3aXmBwdlwD-7teha5itV0WnsMID0Et1F3iRPw7w_oDKgjqeSk00GStqd9ej-mtwP3mLAZ3oe_xgNO3Q9D0tI3fg7KRs3UMNKCuYlOR45ruj8jqB80ZXBEWgtgBl9bF8V5yZYb_rby1yk6wT8NT6kj879dPmk326MuF1TIoF0nJRX0_8xYWoe-pP1eawQ8qS0nhRUNR-ffyXVlwQyUuw.od_ZN_byZ8KZAwbkXFr-qA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..3cOrUBbwaBRZ7lLg.Sh5QkgJcxScht3tjVzE_VGKel-1WTDVos2WwvVGyf8py8yJycrl6o5-XpxlN7L8XQnRt78Mth-_zU84SGHW2hjI8Wmqm8bYLIv12YLEffiLqf1PN2sKhPhK8nHdiK6IrdR2SkNhmWDgjE5JiwLg5dM2gBaMDQSmuOzy8ZxNflsnnhIsv06eMsWSRtU_ks88OS1IzirJH_bs2hsO93Jonn6coLlUJmz6V0fw3qa3RXis.8xjfTQDblYmeEchzWsqKQw",
       "numeroSequence" : "122111421132701",
       "dateInscription" : "2022-11-10",
       "montantTransaction" : "28.76",
       "typeTransaction" : "Achat",
       "descriptionCourte" : "DD/DOORDASHLAPIAZZETTA   VANCOUVER    BC",
       "descriptionSimplifiee" : "Dddoordashlapiazzetta",
-      "dateTransaction" : "2022-11-10T00:00:00Z",
+      "dateTransaction" : "2022-11-10T05:00:00Z",
       "devise" : "CAD",
       "nomEmbosse" : "NADINE ST-AUBIN",
       "numeroCarteMasque" : "4540 38** **** 1019",
@@ -524,14 +768,14 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..E2cvMrvINGZUnYff.x-UA-fqcP8MLSBU4Q30FkCh6UcD1-0Mzbkh6vv1vgGmy8nMIpxLU3yj2u1zM5g7o9SDOp-22L07BniFgCKpA3pzPiEgpl1a6znRS1k4WgT_F4kJxQDRmDLQQeQGKNsOr78v-uiFhruCkOz0RvLbGby7x2vxrbVzz02qPgJOf9XBGa7MfD7SeHh-Y4p8z6rkXSKOYR93bD_fbXQqO_hB3-Y8EUhMeLRq4LWWHlAkbFOF_F78xZjmBLA.dkMSJiW7Hl2kSoXH_QtrZA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..DsM6mO-ryiFdVZmm.C8LGyiegLQ_AHnGy1ksmXjBcENT6_6cFTDdH8JfsuTQy9OgJnlgjLVlqtNrPLGKKbV7ZW2bMTcMWSEEm7KNdD44LUhBZTIOWfV-avZMRrSTyE4lLaQH-OHW8YbtTWL5dchooDCE6IqjLXST3PHzTdBSbd5Y5_TKxVEr0fGpYabImt04rzW3DYMlOxj4Jfz1k0CYZ9wHrSZ3IPDAcH5ru0OtjFsPolYn2cNu9kzFGVZQ.sz6YWmS_u1ItLd-B8EfCSw",
       "numeroSequence" : "122111313254901",
       "dateInscription" : "2022-11-10",
       "montantTransaction" : "-185.55",
       "typeTransaction" : "Achat",
       "descriptionCourte" : "REMISES AU COMPTE BONIDOLLARS",
       "descriptionSimplifiee" : "remises au compte bonidollars",
-      "dateTransaction" : "2022-11-10T13:25:49Z",
+      "dateTransaction" : "2022-11-10T18:25:49Z",
       "devise" : "CAD",
       "montantRecompense" : "0.00",
       "tauxProgrammeRecompense" : "0.00",
@@ -543,7 +787,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Frais bancaires"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..msvMxY3kCcJBYHJH.G_67neD4fmNBJpNqkj9c9a8dW9jnrJl4_WbiAts3LK9Eg1SnsayoyQKNvfnq2y8qFj9Pr-IM0T8bCa4CuPoxTH6v0EUpfwW_Y-JMaop9N0ai_ESWakcvMgJEqyvOnIrVP9GFxvbVzf_qTf7kBKsQ9V-rFtWhDJodfp5ShRFhM_7ogXfBU7FL6QEgwP8GcbBrAaeriVdU0XUTj7JZj-HSd07wqonpq6oyJWMvHeWWba4.kKgwP6U1Avb1E0AlygrMBQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..UkW42i3luhA4LlRn.CytKTuGX0gB1JUAvKMK1LgXJaPYBz26t8JXmGQ-539FQmma5qpfjtTn70wszT4j4Zg80cyhAzQsWnjVs72Klcf9Vgz59cse5f_fPpzusSI7Vu08022KQpK-5rydbOY-0lUb2SJcgCD3V0u1VXyxqzK__7lqkJFpLt1cGfzWiAcLBK8PqWJp4S1eiuHDq5Yp7ZpUZYEYOEUVPRPcqX3KGyuskLpECVmeOfAQOCK-c4cY.jLDYbFDTd5zt8E9v4XLb-w",
       "numeroSequence" : "122111021072802",
       "dateInscription" : "2022-11-09",
       "montantTransaction" : "59.96",
@@ -570,7 +814,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..bCgvlPSvq6_auuh_.sQPuCqOvzZOxrhdlKZSxyGDUyg3XzfcwAkw7BbKxo3VS43paC385OWWDlBRnafXrjw6MTQ61CekRY8KdFjVmwl8zuErEh7WAspAHQdsQDmd8dcBaKul5zSfQ1bbv8mSQ-HdkX0vShANmm-B0VZVW-nEsGmvMENBfrbeJa0grrt5XST6tbPQGgG7Hq1blQzcBw6BgcvxvlVl8sh3Zi0KZZI-bCv2vNbaXZAoXq1gKyTo.PEuu8rwgGdHFap5zOJyr9Q",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..j6T5kbbBuIQVwsNE.HcMQ467nhyno5n0R_4YPE1ITclIDXXs79huGS-XY7k3E2i391CjRVYDtawLcBHLKLgW3I6EmvYSUE04H2OCELMBD50DPW1FjW4ZgNrva4NFfOvAycOwQUR28Ssf2bRbfSQV7HSX8YnlJ0EvBrWwyfvjYBOWpJ16mWnBI6xVgts-FS3CDXPC99G7UgwTu5qVh6Kpxp8d4-vZHOAckpCNdrIUM_-iOhYnkFcVI8Qu9VDQ.oVOl3G2VPr1opbequE4hVQ",
       "numeroSequence" : "122111021072801",
       "dateInscription" : "2022-11-09",
       "montantTransaction" : "2.81",
@@ -597,7 +841,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Cloud"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..ydd7FBIHdMLLuSKC.fVeyRE994j0Ex8d4ucp0FviFlCH31OPYSw_VPh3emM_oN8yKKYIG8w3AoCx3BjWde5WGgeorRqYMC5fdxHBUlhw0YkAwHatd9kLeNhuhSo5AnaCpqQaHXazHOTnYcRLHhM3S3Lk3diBFQnAI7LeFkTIf5s54HmsgNpuHuzKns_J-rkxPsrYgzcaVBlB4DXd35fY8XGTJO_upSyxk7mpgbk-5IEiOB73QdcDque5nm3M.uq8k03-1eXgQfHt_Iwf-dw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..BQWou5-sJ4tSlG2w.N5eWWQ_x0ncEoqJFzMhaTVR6xDiVDJWz-tJyPkOxj5hADIrQXBdz6DwYCiogksvFeSRfEQzW8TjkRuSfDsoe8xyiU4rm0JOIYbA65zUHFMAnc3GyKx6HAAUguZwvamIyZ761AzwSggHvDYu5S8g7QyXMlTbH5uRH2EnjlKjoiHBes7OEzTjdnsvkhHQ182ref5RyQOxIxH_zBfD3GLLVAGOZGpFcICgclBzw9uMnskI.nXiXf2naMnHip4QOzkdpCA",
       "numeroSequence" : "122110921132205",
       "dateInscription" : "2022-11-08",
       "montantTransaction" : "20.12",
@@ -624,7 +868,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Sports"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..j6XMdqLA4VGXGHGU.dLThGVqsWzdd4CN62sQ8Tw1aGJDSyuKXXYYaWm6W3HxOZ3ClY7uX3AU4xUXEmczgcvDOxlxupeTigvTWye47XSPQH_i-l9e2ygmspRfNjEq2ZAv6gQD0JZf0hatBdQ51R4We0m08CNzxK21YI0cc7UYKW4JpcPyZSiEhShWGuBxJp__BxqkMngHzNcApjXDDSKH9kRzZtRbidOiWVbLz-iOA5xbPZQBJ2RkLVHyTIMg.B_1KTJnKbPKsz5MoPsi_zw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..yk4PK7YqsnBlIYzO.Zmnmn-xVdp1fINiBj3v0zAYPhYcQk2zBMb-_fuyQk4cOPXbjPRkORllQmWXyBC2U0ZcDqZCyRLjCxfLYy8Jy959H1xwG8G5K9Ff1t1Q6TgYpDZJemkr1qV0R3it92oFDU6D5dXXCHy6iGqA3WeXowwpGPZ5tyz68Scv7pDgErjaxvc6g91L-FjzV3kvjtGFrh66v-wrzumx_TRlRxy_QQKX74wq1CGZ-cUkjH1-QTOw.IFi2HeSoASi5w7TGcqYrTg",
       "numeroSequence" : "122110921132204",
       "dateInscription" : "2022-11-08",
       "montantTransaction" : "15.12",
@@ -651,7 +895,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..1CXpdpAGFWWEFHlZ.XeZL671uMig20-ygOb6wRXFzCn7CJj06tlZ6b--hsrolVj4FIzPiwWT2iWTBgXzGHU4tbMU8j5Vpq_m1HPrhiatiUprK1BzNs8IVS9rMOKOttlwZq23gST-IxKYWh79ZNXqH8UnrWxULpySuos2rKcVQMW5HsdmzejwzIrrIWVf4cA5wazXbQt4LabRwVlCoIKwsY1Ggmpq6VMeYXb2KdbXfJGn-wFjyh0nPZy3p3d8.voehLhd3iRgbnIF1vWF5nA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..NfXR2kIu7P9SEw_B.l81tC_RIeS8Itxa2f9yFUlo6RNCF09tXKVYwDfJF-BeKAwsW0BRjeSTzzmgAhSsbhQ4291OJ3d6YyWUTg-fQr4AiwWY4xsVmhpp9h851kWw45mkFuCMfbfOKqoy6QVKmUu9N4e_SsLWU8fRxWnHOSHY2IP8Yh7nfYMWBBcyD57ZStrzgI-um8Ct6diAnQs2KsErOJCYZ6gHGsWbvMlMdrbafozXmkNCUPnvhZLQSS-U.fMutdpioLbEXW7OII-jFYA",
       "numeroSequence" : "122110921132203",
       "dateInscription" : "2022-11-08",
       "montantTransaction" : "-500.00",
@@ -671,7 +915,7 @@
       "indicateurCategorieTransactionAutre" : false,
       "codeCategorieTransaction" : "PY"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Sb89XUmcz1YfedVv.Kz6vM-9LoEG8zqXt4zyoE2ELFmRFSIrAfW1XTFxqCyd38CvKY6LEBDkrqQmgOcigtY9N93XXWL1_iGzTDydnz9ilK1C5WQ222xwuvc2wix0nPQpAKX09vZxWdz-tLFVQunviyhKeJeQbT1e2WxcsWaMQf6mzVUI71XyoRplZn2b7FR57m78sEWteRU_SIUfO58sOQM93gmM-W0YkdqXpm7MaaGvRO8nGCREmxUIKs1k.aVaEx8V7pWFDZckgZr-GsQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9.._79peieDEtWU92gP.5dm84C48nQVBh5pnHJarEWPYNsyhciWpdND6SX2KxwO4kQj7--sTaaum7CnjucT8tezfAUououqhf79wFzXMKzZ20X8rgRT-h6P-tIAp2qhyLWZWmDwRzfTHFrZ1VowOxQp5Y3ZN74FTVsHOjwlFodeHgMZotST3uEK1YSmHub0Gmwjj6upfSrA_t67VMaQ0jEeITTseoIt3AfC9klHH5hTcUn4LS6OumDAfVgeRwWk.Zc4ps7n30bnxvG36UT6QKw",
       "numeroSequence" : "122110921132202",
       "dateInscription" : "2022-11-08",
       "montantTransaction" : "18.00",
@@ -698,7 +942,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Stationnement"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..C5rGlMmg3OZuqWzC.dgIDNBJ1o2Z87ahmWxnqe_PZhZ8awZ8YsXfxQDzzmTERWXtTgYsjpjh-sgoEB8E1JDswkailCGktaOgsG8tlgfXbk3EEtXlLNqteGE9Nuc42gfAdX2R-z3g3o6TIPhV0nIFWFUklczwIjNAGqY4rLsDByYalZkkrZK4QFLh7bUs65njBolL0CnL1jw-eY8aV4oRdOsjZxOY43gRnC5tEG-L07t3FO9XGdWZ2uYDXBIw.V-Y_fQuf8FTGQ1CS4cf3jg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..wW1tecKB-ieZ7qkb.1AX5f49RqHEaXgOMdlxwNWFmA0L1GlbRRWZ2DGMiFsEYUH9B90yrnci-lFHFfU00Bpq0qrypxL9xrhQ0oxPcxP-7BViEObDEQrRQBMRU3s9Yko12FvUYf-V10qubp1v0EVkFsYICdJYKf8o2LOABBD0qObEYMqUG4y-or5C2tovs75yoqFJnl6bs3Z3lSXVXm3TII5Dr4665ZkbdY3my0F-VApZpVRJPM7yKTgvruew.xfy9HX2aYNy5aaA6aNdChg",
       "numeroSequence" : "122110921132201",
       "dateInscription" : "2022-11-08",
       "montantTransaction" : "1.83",
@@ -725,7 +969,34 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..ZQWHS1fi8HJBpUVn.8hLJRmXWsPm-Wv7b2unZJggD7YoNijA95dfsGd5V8Ix61MXVAlxJsl5edah_WC7-FY8_qNUTx8upZVKoInavjj6ey7IFrBnZBzsiTYgLpbx46PEw-rAfNdOjsQvwyG1Rp2B0wYMZRoyGxrjwQ-5xXOX0t6ReCXkC4XMo_bXa1W_9AVu7zeaHK5UbEAbm_iwVhQoQSVLI_-syzkoFheArhrQ9WQRhpxXpJSC7QIqGrEo.RqexqJ2Aivkph_EBNf3zWg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..zeAtsW8gi0HpLesA.O-gCKODXtH05hsQvf7CCX0ArBi6IRA9CdbBgQpfTP-Pbuq16CSq93oEvD9o18ibjE_3WQ0nIEn6-1edj3bIVnP04oBcQYZaQuJM9Os5GRRVLYr9WM1b80QWPaZoLXDVejlVbLnS8k7-54-qOei-JgHiZH89IgV_t_tdH6jon9rMuOPZBuni6pu_2Wo6OwYfIPXSOrq3OZ2FFRTq8DogqStfSA6H-X7V1MW5VrQTdLy4._EAGEURSTYaVdG-bK_geMw",
+      "numeroSequence" : "122110821175501",
+      "dateInscription" : "2022-11-07",
+      "montantTransaction" : "206.81",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "COSTCO WHOLESALE W556    CANDIAC      QC",
+      "descriptionSimplifiee" : "Costco Wholesale W556",
+      "dateTransaction" : "2022-11-06T20:52:25Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "NADINE ST-AUBIN",
+      "numeroCarteMasque" : "5598 28** **** 3012",
+      "montantRecompense" : "2.07",
+      "tauxProgrammeRecompense" : "1.00",
+      "categorieRecompense" : "Tout autre achat",
+      "codeRelation" : "P",
+      "categorieTransaction" : "Magasins de détail - Autre",
+      "categorieParentTransaction" : "Magasins de détail",
+      "idCategorieTransaction" : 51,
+      "idCategorieParentTransaction" : 50,
+      "montantDevise" : "206.81",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : true,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Maison"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..GtKUvTN9wDic8T18.KWfuVZR1TgIhRwxsRbR6S86W_yJNbrFxGEF7W9f6UfP2-EM4TF79o2a2FSfSvkRGw8KcV4IZbvAhGLb6T--3TIa2NG188PrNTP8ooAzrKcYwg2gqhiupYlBBIFilvEmHaWppY2dRHcJAZu7TYW4fJy9kM_DVZxe8HzMQkE2WC-KJlbiJt8BJdl7lRCt7nM9zvolE1zsbnKxrJYhKMdKw96l7dbejuAkJFfEU4-ZnXZo.MuYn3EWlEPEz_8_PDYGacQ",
       "numeroSequence" : "122110821085406",
       "dateInscription" : "2022-11-07",
       "montantTransaction" : "188.00",
@@ -752,7 +1023,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Amendes"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..lvVQ2at8m7jzaI4y.O2kfb1ZHJokgwBegbdczkaz7Kud5GrN6R0osA2OeLUgQlC2RcPQfQroUdtjVJvyuzmSA6YkelK6BRxeMchIMYgAPHwgFsgBwa6MFoL8fECZk4AJCsICfBs43qOS2qmZZXrMVv1irPrhAv2-0LFjNNgBvR9gwNUZOH5_Z2KTNyroZv4aqqM4WkzezYkPEV_q7AhAX3WOdw1MzXWs7xCOkeMaOxxP-pD3Ft-7DEJla218.fKXzB6xXCUSuJZeTvbL40w",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..PtZ3H1CmWwoRCZu2.wxusU_5lYJZw38HflVf7DcwPLRdHYy1zvsDwdT0kJChzY6LE0LMku7KpjrOqckYH4l_FdvLDOgacPEeJKY_Ip4lj0JYN08ed0KxMT_j30hGpTOBRcSMW2jy0j9BQRsUCy2LDw13wfmd1hNJeN7UWxW968csldfT7fsMqOm_CO-714VILuPbEyLuz4C5w4_lA6PotJ9e0oBKPAUUb42YcF_jccaGUd7ZgfVwHi44ccEM.rJ8N0fqkY3Ja9N_IEpQS7g",
       "numeroSequence" : "122110821085405",
       "dateInscription" : "2022-11-07",
       "montantTransaction" : "138.36",
@@ -779,7 +1050,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..htq2KnOM5O2nrSf3.MrqyP5nH_YVnRttGX_ysb19zuEeLbyA3ltuVl6fzmQQR2gh9OrraDS5GUvat1CBHx246lackBLb6OqLUJ0YqxEiWt7MF33ZIw8NrEwwIiVLN3snOX-JiTB4K9Mm3ApYI8fMfJbmIzFaQdMgS5mlPKzE6ZeDqRoIhY2ODOcz-L7tNDZYO9OHa5OZ3i2Y1c9p_dYs1J-4MD-c1Ko1Oh7ne7vLN-S_SEodIXcddEWLIA1g.pg0998DtQcicPOqD_wmLlg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..ZsvvLCvNFAc6e7Dc.sW2-n2Rsj2sDujvuO1zUm53icfKjLJldJqoSP0KwfeBo_V8JDcA8mBWXV-lRt_vTZRu6F7kMSYv5JwEbvk_Vh4iGld3E3PNTFy9kwUr0akoxsdNaJqXJVkZrEFxnI_1jsr4HJ-yfQuTfjok0tIDHYo9f9_2E1rxnNbK3fwDKtrkxGyctk00O6V_52GLmNaoEsRa0gtvPZ8cqBPmjj1L0q6AoMSoJ7Sk-bTo0H1RBYXY.0dEHNlPKL6JkxaucrbNqeg",
       "numeroSequence" : "122110821085404",
       "dateInscription" : "2022-11-07",
       "montantTransaction" : "14.90",
@@ -806,7 +1077,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..JsOCXB4WwL0_geGC.5HOqxMnJyhZ0cxgrAulGoOcW3NHA-Uzld55dAsaXHkuTZe6suWbw8lB-UigRK-aphwisEEVGQYuHWnx6hvI7C_t1creLK92v2eJu_aTlCpTh8WuFZHUDe5m5qJF91iz0z1ockZ6YspW6rOlv4_u67bU259ofiGVlVLA6WA2crx4YWYGFrWcJBzfRCz3fvEb51UijYr-83F0tIC5A1WRFgXc6d37vksgWUdCOtzbvhyc.SIAEnFlNlt3t1nZEv6BetA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..8nDQOfnI1EKRF-qK.9pyCeDR5nORz2P0P5fTl1YTf5-0mdJ4VI9WZ7oh_Cmo5avkMxhUX9a-W10hOTIWZIGDcV6XS6tkHsk9mZuezH_XWWSESn-Rhec1fVds70BSauhvBmCV1FQ9NW-qqdeWBPWoP_bmav2XcDix8OWT_k02iLnHudDMLV_IT-o3CSGK_FDaJWiSS9QzFgs5mM0pybsqtqjrb1N7N_RvT-m29MwnQ8N7nn-yDxahhZjAi0sI.c9iMwJ4TFFdc0MigsAnorg",
       "numeroSequence" : "122110821085403",
       "dateInscription" : "2022-11-07",
       "montantTransaction" : "5.62",
@@ -833,7 +1104,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Maison"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..HNmlm9qAKDIfIMRz.orJBxbeeAMX0Zsce7rBFnqvcx2a-AY4pm4rympF4LKPe-ifW-Lv2tAkZ46Q8DxZJPCFvaup1r_NQJpZXxFRzJ1C3SjcOuyG6i3qFURxYcEEpFtKVOd0AgY-GorMSHgwAx6nWyqvhpXat0rQbo0ErAx1d897dB-VX7KLuppxBikKu-SYr48Uj3ON9qnS9dyXxgmjc_ns3qIEeKPURTPzg6vYC8qIR9q45HF-kTrEUgoE.jlYyhF7z6FKbRlAceHLr1g",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..bJ2G6Xski_dgc8eJ.7EbFxpNZ_iBnKw2caX2Sk3A2-q8-IBLb2rOKzHnZeZFOPyEukg9dUojKlZUQFwRUjfy0iZmF1_Oq831eW96kYVsL1UrnPgP8OyeJWZp84g5gMVujdQ9_xeFNK4iU9kWsNO_XFOfhuJq5XMaUikCveE0EjHuVOcbEoj4jiy1uYe6KrUGoWAUyMaQYeXpsoMokeYD58vWPIM2dRhfZSQ2ty6-PR_POmZQW8ANdsk0ONHs.795gOv5ReBOxQZmYa57j2g",
       "numeroSequence" : "122110821085402",
       "dateInscription" : "2022-11-07",
       "montantTransaction" : "31.18",
@@ -860,7 +1131,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Hah_BbFryjiUnb-j.s9JqdeN59VUkGjD9H5P1M1n0UBfmRGzqLXNvL4NKFGsPv3hSKAhImUzxHWNBHo99MhFAAA8HTc8epnRjzYuSy6qMak6hKFI_He7K-Auv-mORbN4Yq4XW5nVX7Wh4QHLX2di3ephEH20_11ilupjEecCrgwgUYOjD1BKHO4iOcOCGfCEAgVJ5q4lGs4IVQyJeh_NPRRz_HQ7Q4EIsveJV5VJ2opUGhLB8kOTW5-u5Br8.60Lo1FCrMhtcaMtRXQ-JKQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..qVmfX06qQ_KnAUSW.krPE8H4_zCEU3JM1IdY1ntGdGCJlGgpbG5xuU2wfVDry8ZyYP1vFcZL1ANTyS2wAkI813msdjguSsp_bMvJfwfj3Jp0kkpg1dqT2nA58QrTVzeczc0YITYOct2HkAAXKqvpWtcl3pJNSPp8yGrBYWqRirrPEy28mbS04B0i7aPGLickmi8TIeHd9hpnZ4VvNoNKK4PKuNOFcSB-XLh32H-18Lf2Wf4XggunZgXX6QdY.HtS3-Qyd0xLZ7rAGC7VxzA",
       "numeroSequence" : "122110821085401",
       "dateInscription" : "2022-11-07",
       "montantTransaction" : "44.53",
@@ -887,7 +1158,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..YUPF20SQsBOBnS4d.NaiqLWqN6GRTCrGOGQUrJi98Z4BrzJ-E883gluI0SLmqTw6rrcFAOND8itpbOJSho9Zs7bRPYZITkra8qOjKIFiPTI7lyc9o5DeqRL4ibXR2Tooxfnt0zabaT6MZ3vZj6MEXh1-lA6fwyMYQPBhvL5xJGYEDutVcqx6vH8V-rmLgpqujTFAcYLwxqEnv89ia47W4KYodvo1NowZKKKJI4IplQL8g0E0VHzhGtsL7-c0.321LbuM8H8clmf9PsXPH-g",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..hi5Ea8YzxR_cVCjV.GNEaz8eqfTFY6YNx_k0yVrS8-8vnKomMkQdljHAnhT_4G_5VPuttxa3lejm_pzr6YfgKZDVhDguyiFphUm6jBFUptGsmJWZwrXnJc2j4pB1S1r0rMVZKbHSz62fsDEhuDuaM6QdN4tRbSo9kZCU4rDbr_28HIh3EfX36wzn-jOxG1osAodiiVtPPz_5f76W0EuJeYNy2e2RennX8Qnrzwnupy3Ozh-odmyl5LRLrlYg.VrDFmrmZbj5RY2D3yc1Y-A",
       "numeroSequence" : "122110721095804",
       "dateInscription" : "2022-11-04",
       "montantTransaction" : "5.96",
@@ -914,7 +1185,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..oezs2gcaWqioMf_B.jKEzxxqzkwOL77fEsYZKNlK4c9bJbqmw5R4Gp2LrSe1bo8799X_JnffrfeHNHUK535b9Ufzwk6XVZ3kvU8jF3KZrtM9m3zzHjnBhMUpgUMgrYGocee1EBshXUQqtAhm2t6wmcER6wvvqCCdTGC8RqfaoJtaVHBHeIN8WTHLEGm5xcwWMHa4uhWDVC3auWuSNt79uY30XMGpWAG3-d05b6tjzApL_IPp4w17onrg-flg.PVtOJKZgH4VXq8JYg30Ymg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..a2cR2blw94lERsop.LzaCFhi6PoXqMPuXerdTDIE3o2kpYUtTb7abGZPa5bhcSUXHeXyj5vvajDsxUoZV8V2KQnMPEGi7pljlJtBtz2NRzeQhmq19W4lmqIRmvZNjymZQDr__-ENlHyhZqeaL5jx3e2mG7dyuIc9iuMBpgtz-qTNTtwC38TRxaJPKFwVe4uW07HjdCzq20XlZhkXiny637gXbab4d02t-fsOT56iuj7y4NvBCviop5lbFwzg.q2L_MbbRB-vUDV2_XgSgcg",
       "numeroSequence" : "122110721095803",
       "dateInscription" : "2022-11-04",
       "montantTransaction" : "18.00",
@@ -941,7 +1212,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Stationnement"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..HOptAaWoSubXEkF_.JsjLfQWipWC9d3pbNkeTsJjAFhqi38f-1_wR4dxShCLvyRkE0K9kZReppYUfOMN9FVJMpuktv4lu2X0RTfETt6GVidAtRi4anXlQF_rbJ-5g1pVYnzlse4M0rUiQadlXXjGni8yzX7xl9D1sAcro15IIvad5r8JuLPossC_pdN5zUTrqdG5QJnmLA6LorXbQa1UiZNmVFviVGIuw_w1QrNXtapAvJp9WPiC8vF57pEA.REXVRTQEPeWVS_ujrdlfRA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..qxlSpUI1eUZ6ThVz.kUW08273mgJIxAA3QUbEYIA1vBWw5H3PybYhy8DUaCAHYW_BxH-TUUT0Oty8FvoQP8T9KK8Kd8rCgFru8dt2a2DTtGBnE_8s1Q8vMJS6X4pdj_j4ShH3MD1i6kfE_ptapWOJAU47XrQXplkkMUtqmTyNACnWNl20wkNMhPmMZ4hvZ2aq6Ul-aH1UDT9-2W98_m4lputWO-gKmbLYeQyngaBDttAGrz4oJoEkft6zmxw.sc4OPg0yg7nZqW-RoKlY-A",
       "numeroSequence" : "122110721095802",
       "dateInscription" : "2022-11-04",
       "montantTransaction" : "93.60",
@@ -968,7 +1239,7 @@
       "categorie" : "Variable",
       "posteDepense" : "SAQ"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..DmNUXTZaSaEWWjBN.Bf9s2TvL-RowXLQ1iJp0FIhfPhRrLv0oeYTazQuebgHDvJoX0bEmvfJfza-tyPYc3w-DPNPXYFTnrW778OQvCy_BqRrdGBi53K3Pyu22wslWLmXIZHVlkWwGp8F0EBwSuzz7tkQEuph-mtASZlmi1YFLuyfOP-XXgN9AoHhz7RXQxeo5Aaze4ciayw1vtMOmRuGpVTF7f-jhrg-O8nIi0Q90xybKeo59jd6ndTbH6qY.L9MxUTEWjDjOjo7wymcR5A",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..71vZ40FEcplpliyI.stzFUWZhMkSu-5ce0Ai6-_fyt9ow97ZMSO3RkC7-hNIFxu4iZ6a7pHDVsLH3fFj686dCWEHsPghVy4JGhGNWaO11-1xO86zHqTW244IFHn3uTlh_W9LGjVIQmcnyW9Fj2UZC1EEXsKExzbj_7Z5REPJD5iqo2Z8HObkm4rY_QINnhXlmuKOtx2UpuChg3bsSF7KccXwe17ob7Dqipu54qcPoeXMAu6Wwa-XDzSKqRIg.kPX4z_94cVlIlcGDs9dDRA",
       "numeroSequence" : "122110721095801",
       "dateInscription" : "2022-11-04",
       "montantTransaction" : "18.00",
@@ -995,7 +1266,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Stationnement"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Kecrk5LgPIWRaix2.jfeHKPGC-OG460-owIOfK9zy1qWNJ312q-QilT31l_jhh3CqXN6OJNO-e2r4edKc8opLSuxEplOCPGlg3ICBrm_T2m1PuBP_VD5dOfaW4ehuFfVxfDezvgdP8L_GHr4ceva5L1XUvdtnTTeapQeBKqhyL_8Bvlot_PkifWE7EwJbMaR8hHvmY4x0VB-Ry3SqwJs0R77OG1Fs8UZRJqP_3UBpl-fpTyy_7VwD_bnExDo.X3GoHyWLEBf4r01q95_CcA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..H5VaUZ2PtBdA5Qb2.iCHMKEFJGCPoH5I_6WAYxexY4U4_vbyPm5uibuPJ7S90iI0uyS1bpxfp_BVUrHOVVS9lqK99uClV4cG9bdVsjpM8q8qoRfUXLwwJoiggKcWRxDjjUlAP6Ldx1IDLljtp6HwfbUT6OG2vv3WLBjwcmPJMipCWDMuzMen1IV0b0UbMRb9oFW1SxRVKeeTU9YB9s2Iss70ZVzy-zRp7P0Cs9M_QJAtzm7RiKRhCWGFIx2Q.kEmVdtBuLPJdGlKUzhmrKw",
       "numeroSequence" : "122110421084610",
       "dateInscription" : "2022-11-03",
       "montantTransaction" : "48.00",
@@ -1022,7 +1293,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Esthetique"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..8kB1WxOFiJY7-xAb.Vx094s46YZ_eogbnBI3knoGr3QMZT3pw5G3fpH525YAPHzz3cqyqLgOqNWeDjn439LXPt6h0pMER4jVHvRtm79muWA03inncINOYzYbx386pi_1dyTXIg6r-pTkuyRszRi-tVXErMoRLsTyQHgUx6Kk7KuyHFHy0m5G1YoscmkefsYqh3tRy16CCHTAm7bv3a4ii-PpneiVvLrgoqWxJLRUNWqU4Sv48rgCbFeCD1dA.ScT--YdlxrEPrThHLL4Myw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..xKAU0NiQ8mxLaHod.NuMY1bcLmiiSERhNB8WFcfL8S1RbU3j-dMvVfQm6NQUGGYnXHm-tHAyI3ldj4x2F_rqFTv2QIJdhn-XSMyvoZ9yIW9Pw1fvKYlVqLc4sOGQon3wWGi-8L-8JdvkyRGy7x5mgst1pEEIdA0RYgFsb0d6q1LuGbhre6AYIzsHPe8l8osg4-Dx8k4zdTa3OahaciDn7VObSDhevcDiaxKM-lU9jep01-f1mfszGie63WV0.o7y8S2Jk88iaSKk4T_Ep6A",
       "numeroSequence" : "122110421084609",
       "dateInscription" : "2022-11-03",
       "montantTransaction" : "99.36",
@@ -1049,7 +1320,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..WXAyI8JgcHkmh8k6.z0x8meEctbYDZ2ASwCs7CuVoDBSYr1og4wMvxUlbNTde_wyW9cHlD2R5yes33cXE_m5GEGdS9-SwrupOJQ-ojHv1VmCGDgyZ8fPECj_TCsL1MElXTtbUbtKLOXrCvtVel3D5rhhEJE2Oh_LRHlV1oEGLEd9TKc9p4bVrqAI8T5vZ8s67xRL8daEw_IRPa0WsRRBfF4hRiI7NpH9vZbxEif2F-ydbtbft4bsC8YRppIU.Zy661iZoOkAK4M2J2E3utA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..qDVgj398ELLCX_Cp.8uiyAgJ8s-CD68-cWc0hKF8zOCmFt3zCBW9JUFCkkk5JdBmlAxdWaoHI3ZRcGOwIDVN9hT7BSn4lFbcgYFpHipsu_eRSPfsUzSmb1_ijqq1eligmmZUW1BLMWllzEZFCo6Uj9EroczAXGIUX2KMUtcoFpH6KoVAaTFkKgGbjJZMbYHccK5qhZLuhuBqpv2jr9pGYHPomaf-fxHMD4hyMHSBLSk_fyD3FYkObq-ND0I0.kO0T0LfEvS6tI8r63Zi7xQ",
       "numeroSequence" : "122110421084608",
       "dateInscription" : "2022-11-03",
       "montantTransaction" : "9.96",
@@ -1076,7 +1347,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..pyC1ZpxeXim3wioV.L104cIMCK_eLcw8-KaKwPqNfp1631KRQlJK_G-lq9t71CiUvw9cHFD2zyB5zDi-KWyxuwz3Y1ieZ9andJPMvJKQW1-fkNv-BjaUQn2Dzti1fGun-xLvAbU3tiJDaDS49ELXIH6MxK0Qz1NbTOmQYLQ8tHP3uNQiexbynhoqNUpbCLuU995w0kOs1BoxJCwQbuYR0juJYky4q3260BgTTIQjuJTdFPlJ8zBHi0MluzPk.PCyL8mnnUop5CkH2yK19YA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..sMlXmVO1mpimpsO4.SNpATgrmTjtEcxtI_MBsXBTW5_G-1oGYPv__vIlY5qu8DoUW1_O60wBuJzwnOlDXMuP_llH8XGdNAOuFh3t9Al_XeqAhPFqXN29DJ6zCwtIlAKAifJKpqBSH5nVsno9dzuHi1gEXorDkZDUPpUgs-Q7PS-Fh1NXaRqo0EPwZyFZq6VL25mNlKMQmHaGZ7BC-gkWxZR-XAuuTg90asraeNdU_yabTiZ6o4qsf4rNHEXg.l23zKO8Rk-_1F68AuI4Fog",
       "numeroSequence" : "122110421084607",
       "dateInscription" : "2022-11-03",
       "montantTransaction" : "-2817.00",
@@ -1096,7 +1367,7 @@
       "indicateurCategorieTransactionAutre" : false,
       "codeCategorieTransaction" : "PY"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..JTrAx0cGHCqf68XX.h7XiSNVDxTOPwmgw4e2yTxyPo2AczQwCNONr4f6sfLAaI2LwOvSA7puvcLoPM11VA74ISS2aczqe4mUoprV9Xt3CIOQpCHgQ261AUHqqr_yNAv7_vGmrqnoGhLN30Yh-8b2FfyxUPQhjqzOV2zfAXB2yO6AvkxKpmzrgzui-85Xf9W75F-CiZYhGHKHrfNYvlCVQk9tgh_M5GyJOW23e546bypGM26vblZ2lNgYjlbY.nps_3bawZH34S953oRwUrw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..QsQE3B3pI0LKyd0y.P5SkwTB1Om1uzqRLiddmKAwtbLaeiTI8CiTW6PSyASw1xKNtzQ1MEsyIAsh8KndJdwe62oG8TblYxDwlCtjfQw9CdR62u53JXKx16Xna7ZEcQ8kGdX-CJwC_1SyMOMqjzUasmEVMR57LoJph5qNvBdRGPUFTgGqlMyD3WapR9Oxi9Bz_1nq3ANBFDSjo1QhYyKUtL6GjfL3c_IhuxNXJezPlaH_6cYJB6YQXf5eM7tc.aiwhiYUObnNQb9Z8myiObQ",
       "numeroSequence" : "122110421084606",
       "dateInscription" : "2022-11-03",
       "montantTransaction" : "12.06",
@@ -1123,7 +1394,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Pharmacie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..jNdcLH4NbSg5YbAt.NiKotc_9jEqVvFhBAkvM10Nhsw8tHFFNL_ekEmrn02L1C3C4lWX1AaCPC3pQK0gG3hgAqV5mvxQs9Ctoyouuicj193ameU9sZgiXukNRIvMuhIDlPNTVzuBtV0d9w5QKGtrj_ocb61Ba4oJIUa_e9qO_3zDWF1Hsd3Aq5mNSa-gXFNmtDBU26AQSKlbhLtWofZZHPrRn_RACA8AabenUVhJG2rS4yzyjpUiL0dFAWEk.ymcMVfAC1T7wir8bKpaQkg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Ru8Ycqnr8Fa5pwHC.NcxB6ONeC_6muhXcNH6vfhlvAG1Eos0oItmZF9HJP_93pJlAECqWfvrhN1FOjfE5Rv17Of6_Iy3nPXTMSHemrOC9TGtcthQoSt5zAv_Aum2EnS5IjhKnrrtfoxcD4hT0V7MK8bsHm0Ksm968jc__VzeuvI26uA8IfbLx2z0L5yiQ9nMfeAlmaAlUE1zqcWrgWMlQ-L5rX474L3omSOTt9U2gjVMhTuN14OtCK_SFcT8.1Jp-hKvwi3iZEO8pRpWwDg",
       "numeroSequence" : "122110421084605",
       "dateInscription" : "2022-11-03",
       "montantTransaction" : "5.08",
@@ -1150,7 +1421,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..1K86cDIrXKCbeXHq.04Z6uePoHQEVQNzbp1VOPPxyJ73b6GSkO5HSJdz7I_q0-sQ4B52TdZ7z2vgPhGV9lj2gMeBPDB2sokwMBcvylxOaSC3iFE0jbBRKfI39rp3FqK7G3v52Fvx7W1sgwVff3P4tEOFgxN0u-yQCTExmORb7PUDK5Q6i4IEay6TRTFRj9c3JACbYWcutQYLPeMn-ygPM_COtAOmnzhbqbaS-qc2-rvaD_uHI4E8zmEGkEFI.Lfs8MXblghElHVqXmWcIVw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..NSuK5oM7usN1uNqi.PEwpohTuPf4-6QWuBa1g8CwDKZj5XElJ5yEY3SlCX958ja6LDqUlyCnVx3BQGs0P2w3i984IfC4kpOL2wWA7qWQMO-qf3qJF3GAt2NgKcORQ4lNO-3pF0wtj6urBUsyI9mD_y8Lo0uJSpyO9-qkG5XZUocMV_ey_JZ_eaVIHZcJ1o5W3pYjHuA_DrCIpQ4FOnTLr1D9-9VgtgegFGk9CT_CEgCRjs_orjLTDXplwsdE.YJs9juav5N6h00HZel_TDQ",
       "numeroSequence" : "122110421084604",
       "dateInscription" : "2022-11-03",
       "montantTransaction" : "20.12",
@@ -1177,7 +1448,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Sports"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..qiIFIN5AV2j5hZSD.cg88rzl0j-D8LZ5kBRZl9uu3z-bJbF4cM6fYubNUCzB6BIxWqBEYmQDusLbnS9hRWGSvlnpACQE5iCWsdFnSwNqSBCYmzOEQEw34TJQn6n7SaJVt-zXtmIvQAEwb0qq0K4oaEWMmYeShbh-A9Z8T8l3WvIjASz8Rggk2VfHBBfLrB-PXtZ8H9yAEXoypUDr3FJBMdlYNeHSflV7y7CI1kaFEORTQLQYc_ntjnAwqT74.vpuP3G3HLH7OcDH1gsQSeA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..mC1wIrDstAfUWlEm.FL5-zWPC77bMJ57zWsRFMoW6uigTZ5puR8LxErv4OMjMWn30FDpLBB2YUFGrTOMEhAWdu_lzk1WZBXoXIz0EfiGltjWfir7uRZD4ZY7zWehoRKmM1FWInKzcMA4IeqKHPmeQoPWLJA160ZXeWXGYa-RsTib0pU4xI0tjE9TuiNRYEfeZQLmsVQ5qJHkLiCM4k1nAMOZXzicuvXabkSdXYg5M63ow-SL0lGVs0paBxsY.DePCgolThB3UjFLjhAHn7A",
       "numeroSequence" : "122110421084603",
       "dateInscription" : "2022-11-03",
       "montantTransaction" : "14.38",
@@ -1204,7 +1475,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..MpJB0Ofj1hcbaHsc.Vkh0Q9vwxB0_pdvSNiv1sDtxEjDn7yAqTP0KvrxXI-DKQr-0wLIHa0sAmE8LTxB8L-l2XtipL7a_gXSOj8BxS2AM59_SzmZQYZQ3FEd5H2AN0gZZc3OciSVXAdKDl2zNGubyYQVmE6P9HTYWpGevoDH35jimRYGXMD96DXqQ-cAB-aU3SWcyp2xVkQBuTRroSXTsR3Mza0y2_f2oD1wpE3z4Kx4hhQyT05FNf2A6zas.fdq0tsXeNZHUcBaxnrxZnw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..8inzZZpJ7byCKs-C.7wP8QPoRhNA1NAKRov3YBtpCHmYiyXXUtIMVvEP880FzN6pWlLWcNHt_qD-BYPDH0jycweHPeSvRRDgdxJKLj9iV5mIoi-BculxV4oZLH80kVaDHrP4NvyjONvMhOo7mxosNpQKRuVJOjHgwjIPc3EngIdsH3zSO9fxTaXEX_SXFIuL4MjJ2ulpu4fz4FYOThuR3eA2e47E6URXSxe4Xc819Dg5mtNlteKqaeEW_Umk.k5LVhoRmhNRwon9EW9RgDw",
       "numeroSequence" : "122110421084602",
       "dateInscription" : "2022-11-03",
       "montantTransaction" : "172.46",
@@ -1231,7 +1502,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Mariage"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..yfIlqzjRxOesPM5b.pF_v9ykvJ7596CwIHMrAldbep0wwNLBM9u6mi456idPic9my0jqtZlAwa0odJRdHmKoek7QnGWV7vGA-rdurTEMdyqJfaLMsssiVEDNC4iFC7gSdDwY0Sw8NiltTl_y3Kgv3OF2NLsyf0cnCSE-Y58oho9ClEfd1znmfjbSJku7_aIBXvo7EdHU52nR61i-ifRX_9rvrMCKkvZoNVOSvmnoqGkPphiqmoMGDx60m7s4.C42tOOHlAKHKIPeoFt7ICg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..oxSimzCdXyua8LDD.dK6gXm5hEh8CFTsFZRsqpPWJRdov5rjYUUPfjnX0F6eZkRmvjkpYLvJ12nfCSWfIOo_iXIbEcNJ_oYMro-ZVB1_tMLRaCtzITsES99NtMuQzE2V2CHefPQfiNIAlLmMmMEvMYEsVuAC0IFBk0vQcRAQnnbMFiw8DSBvCY5NQiTRNM4W-5lBmjz2ttrAZpmZu3B6E7MQ6yU5KB7IE4_Empx6oUEkfGOIjna8uZUDiB0E.96HEz1KOgH0MHBGwEtMFWQ",
       "numeroSequence" : "122110421084601",
       "dateInscription" : "2022-11-03",
       "montantTransaction" : "18.97",
@@ -1258,7 +1529,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Souliers"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..8TxbzXia4Yf370Ey.oK2qbO9JCAZLspcg-pfPSIZp9yCYcJ2gsLLVvlpRlVpZ-d-4pYHHW2VJ2EuDHWnJfyPl0YT2ewtlP0Un-IX3-H2AIDjiMdDBs5F01JHnA3UXlB02D-_uVs-dEsfpY36vgmZ7dXDsFGWtFpX8zHgCApXXfgdEaNnBUX70RlfqWG-rbPJqIhxSn3Ev0CHfP0tTBxdFrUNFdl79NEbidxbSWtmCuwsa6cXvpR5p2au8bWs.4X6xCQPIqjOx4PCjazCqpA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..-mS6luoYIOwGSQRk.owFDU3TwoZP1986XdSxVGESFk_1CISV1P-UJBjdT0sIhBsRiZRCggGjEyuzdSOkS5ANsxjVctSqnr4RZO1mjy5Sm4MzN-pL85PVwRuNccsh_HfSDpX2fUaVmVZLfCVLJx0J0ZeFl_avq-TGmS_pBAq_P_mC932Dk3l6ne0Rt7Tn62_baHDsIziTH7NLw6ItQLEqsAeec_6Vee9Tx5yw1EyWH-19rUAVF60ZrddgTkP0.EWMnpVuw8D-OFhOOhNxvNg",
       "numeroSequence" : "122110321070402",
       "dateInscription" : "2022-11-02",
       "montantTransaction" : "30.51",
@@ -1285,7 +1556,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..86lAoFCmoWBShHMj.QgJfTEzguZXjpu6a4cdGaEeGsFPdT6LJMXQWS4Xam9hj2ZcQo6iUpzr6kmy8_6G8NHdr5AlPKhEA3LH5WupsKv659bD72tX2He34nf3qX_iNZgssX8WZrD51x47kmSTl1vTwodZF1OA-vhPRp09JWT7g5OhNANjGVdoK6WLRWd78a2DQNNAOhoDTktypq7emg6MEUYoqix_ByE_HmVPmqSyI0aBKQEDbK466zY325UE.YwR56kqt6cUX2BkRnlGnrg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..wq6XbGR0jYuKWx9g.k0fgr-t4uhVUXuhVo8B99q4pYtBuyETf_nUVtCHJ5XRlEZzmiFg0TItOrY0DeHgeBdTHd6WSj-wZItraP1v9IZzHA2CR5BFlus6X6pjqv_zxh6mJoEzPJs3IPS9gn3VrZdL9gOA54bPKkhUm3FkXgllZaCnTvhJUTL5awdCk5o25DEUvKz3_zRrWoXP13mr6rEtgXkHHJCmdQ2vxcUYZX8hz6BLG3n3eWMeLUZdA3Ag.vS5LX3qhWtoP7v_M3Cf-iw",
       "numeroSequence" : "122110321070401",
       "dateInscription" : "2022-11-02",
       "montantTransaction" : "249.24",
@@ -1312,7 +1583,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..a7Wz3cTOa-LAnqTF.qQzKVe88LyTUtA5350F1YVFiW0eMJwhbx-loEiC3JUj5_uKJ0aX2IEVWOVF1PH-0SjiqkoXZrRqwR70qEL2XFptu_N3FfaYRwqkcRkv1FF2qAlhdujwXF1LV_YY-AyCJGqAEPPNk4-ZytB0aaq303CqS0rScgc9-tFurQtBP-TNi3eXqeRjDgNHrhUwethQofhvmqiH-LtWb50Px6Hz2vRIBWbtvrExlhsnc9z9RjLM.r7t_akI4Wf_3WPJf54F_uw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..zWgMLy6Lm9E_pD_i.Pm1vkm8Zl9suckZpYOrBD8jcocJZcW26uhe33Ierf0hI_PyMSHTJeXHM5gpPZopK6YWEBxdjW_ih1zXKRD9w0u9jnja8OCxaZu4LazJZASamRNHOtVTLnU8moUgJxqshlpSF-K9O_RjdlzLuWsWza0kNhugInW_jJR9YNNCMb_3Huh_30M3aJW7Bf2fF3NZIrz4JQlQpRHHg-OyUhMhCaPx_BJvuG9kNoKTg-t9eH5M.Clut6HwxJ8KVDUD-0mz7Hw",
       "numeroSequence" : "122110221330605",
       "dateInscription" : "2022-11-01",
       "montantTransaction" : "101.48",
@@ -1339,7 +1610,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Esthetique"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9.._3wHrO_8ucXM-WQT.UcIiKRTBkD309wZZfUDF9XHtS4bzlNV0XukqA7JXGDa4hdBU4uV4UHidlGSB5Io51EGUQclDKJ2qpg3FICan-MEbYcIj_2oGOhrcql6bEEf18ik_kWwwMrwjXQNRrP52Fgm_lB6rSmAwHgvI5KSqHRYZQK1XwBtVMBnkdWHwI9z2M5UVYfdhBoyfEozIkZvuE87Jv9LQUAZaJRCd1TOE6okgYEEK0f9N_fIOOP1VJGM._5hZ2Xf8CkUVkJ_i5Vd8Ag",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..b5f_YO4MQmR8dBdI.XL-nUutSteS49r4YGAOkH6WTfZvshHn-K8Ll7vCEnb673_UevuJpvZEPTTLCYN7o_0p5XixdHTncKbZUQsy64sItDAzHISRUceif1FE87-_puPpSTaZiWyX7xTfs_UQZlwGvglDhu7HZjyjUhF0V21IwTiWEZQSGB9YsmU3Qa7D8d8OhnC_ZLi1g0jeE6UFYjQLIiNGHqD2jiTTeN4RFqw2BFtJd41DsiIBTq10n_lw.ADjbAZjrsFBV083O2foeSQ",
       "numeroSequence" : "122110221330604",
       "dateInscription" : "2022-11-01",
       "montantTransaction" : "-294.50",
@@ -1366,7 +1637,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Vacances"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..fioETq63rG7L-jKn.QUE8SaJRQs38YBzJnXAbDRJAzqUTascr2NtLtA8LSlobC-yZlr0NuTA-kX3Y8MR8RRohw4ASIebWDI4F2bOd_EKcwVG5vGuzDw5qLs5US_WKYJ5iR7rcPCjEmqOyxZ0Wo0lCv13lwPZlOXyHAN04nuX_mZJR8QhOIsQl2nzrUeXPPjFcwl3P5ChpvALbfMogmbb2eY4_qCJD-n0AhST9HdX-dMhZK1f4JTyC4Ht_0oI.sHLpTjWTrbnOcNUAmYhU6w",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..aqHZJGHRa-P6Uui9.DwRKL8oryoBPhHOx8CMZUeNA29xi_L0HLVi2kghG2auDT1hkvAHiVDC1xz1hTSIqkgJfxWhDJ8cosL15lPAuiVG6dBaR7OV1HGf7WVHgiL5_xiBtKJ4rfrifxy44kIEYRZdLWN2N9FFfQkSdESTPG2rbwzxEuUfJRE65cZq5OtycLfyWveTsZJqGRvf1oyhJ16-6CEclkGzSpDmEjY0RBMue3Bxh7KBbeguG0wyJfg0.RE0HXnHl02QuS-kE0z2EdQ",
       "numeroSequence" : "122110221330603",
       "dateInscription" : "2022-11-01",
       "montantTransaction" : "-294.50",
@@ -1393,7 +1664,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Vacances"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..G3j9nFQ-pNisvQE5.JtBjS0LMYIve6X-x6xRx5Oj5U1WRbAnIvsv8IQ_7QMljexnROzb9oB5mi210LJbdXt0H9JSzK4py9hzYee299TIYSoacsJ_ONWr1J9Tg0Xz8OBHSjg6Zc0o8M6zbSngqbQu9O7YazL_UNUYL5WJUj1-krGc3Av1LXN2BaL_WUQ6KRmDEyqOfSO6j95HBBWjvDDthMVXYUK0XaJO2sCMTtAHG00AyRtyrWJJKP3G_BBQ.LR43KiCG7TzouQpsgJU6mg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..t6XmOGbknR7yYrqM.Qee1p_U2HpcalxgTz8ZxPNYCzakH_PrYXL0bAikJzYCOVpblWbDcLyhK3KqqeHiNPC0Vc0xxua7V1aTASj4gdIoeEUBgEcADIimXVBv4Z4jt4URNzDodmSevzxNQPqMIiR03SkSD6-KJ0IGsZy4rmPvqVZz43E91nIJnpRmsUtE1cmWyr4E5fJiPIImh42kBST_4I8b2P31GXjo6nfXzgJE9BgIckZnK8E5lMNvpw1Q.vSLqW4vtIvhc3VwFNHFsSg",
       "numeroSequence" : "122110221330602",
       "dateInscription" : "2022-11-01",
       "montantTransaction" : "-51.00",
@@ -1420,7 +1691,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Vacances"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..9jY8Q1qSN__qic32.575CQaMO9FrZ-Ed-9BqxOrHcbvk5XHXDQoltcmrP7hs3HzEn7LBX9e7cxvOVoJZPFKMfjhIphV9U-lFzTm3TA-fR3jI17yM_n_b7bGYEq_UH6Pw9J0lCkN_OiHozDa8WlmPhy-lFEXyiVueybvk1jL63BIzgHf6zPNHQW0oGf9RQ1t_gJi-hyRL3iGwM6HnSYGtQrUjOkDY6hDg5B2fXOupZr_zuvU2Dk7SJYfpF4H0.AUQktqKK4bAMpZYi-X-bUA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Q0xb50_sygIBOaZ8.-kN3QyvbcyDf_ZEKpXMn-HLYS-sN9Hu9TO2ZM9zvjN3glw1kbmiaz-JnK9rQRWJI_fBc7hjDmF5wykTbG7YqRlRh0B4WQPw-unqtq8ybbmWQGYn7Tq3OSkr7Up8i3DSzH0uauif9Pw8P6qjmPar0OrelTlGFE-d_fa2RSqutIXr3i41pvo5udCx_EH7F7D-btyIwqS_uzs7Di7QXpdfma7WLPG52URN7RdFFzASS_Q8.aJuRS4Yb5de70lrYEmRThg",
       "numeroSequence" : "122110221330601",
       "dateInscription" : "2022-11-01",
       "montantTransaction" : "-47.20",
@@ -1447,7 +1718,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Vacances"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..dWlhoNXbOgMtBJAD.q3xqOhNGcpYDc420mZgpq9diLGtec254O1kvOCfxvlKF0cl3NA4B0CHWT7urrhGupllxi9qvpVWo0SypSz-A8rOc9XOtLdU4z24pGvPiNMj2uU_RRx22HFC6g770Vo-_NwqdaeC5AgssSJ-FK85i0Z1Eq0sxW3QZfPTVYJXL9bzb2b6NMBL9L48GPT_5U2HV9a1pxWZAc-KBheO80pomacoxADUsyKhPszj8OIHLirY.YzEcawli06KOXfSn--6GdQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..pJaSNexwk03sRNJ1.xIT4vRy-mi-To2IDPDNLO1UJfp7Jwsq9Xaog2CWSli6zJDPTKeKRTBbswh1NdQOtHh7M7fdEBDhdfYBfSm2GnuX_Dm4UwkNwxw7dA6GgalupVD-eGtirP1TVNDEiwZ336UlWigKyh_MNXLNTBXTfg7Tc5Qyk-F44yH3TqIQiS-QL73Wrzf3KsX4LUELV3QFLy8Tzj57-SFenS5ijIO3eAl_a9XtKXhGNGETmOSznHH4.2m8QcMjeFU9HgHB0DGrEPg",
       "numeroSequence" : "122110121530208",
       "dateInscription" : "2022-10-31",
       "montantTransaction" : "118.60",
@@ -1474,7 +1745,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Essence"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..xuN0oxwG6fbHVU0B.i38Qvy7go000D21W3-gnw3E46YiNNKoNYAyhY3TAI5SlFNLg-Fg3oWWcdxJE8lHH3AxTU_JwykXmX0dxPCrxZDs3LuWtENmkU0fFdwcmzarf4od03qOJboqgViF3LFMhr7I2S2JF1L5atmi7K3eh8FOxVmKkW_McOmGE9lOs3y0Gd_UUDy3Y0SXrJ30ytemRMPua6Jx3PbeT6CYUkmSU3MfrbvMf6LVcZf7mG9_KwCM.bKeW-gCSEWcOBW8Rrhu3Fg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..WRUrh7RUXIXURNVi.HrqoDDFXEAD2k2O9VXiqHSt2TpsIK_5xTqiZYeigXWl58rmEG0ZfK6L7JMatWVvkjTil4ShF-B20It1OFG2iMY0kVJOo5Kobso2uvo0n2xPNbw-URz9Kdb3p1RZ7T-8kUQqAgwUmSFDPKlQguIOjXMJIEXMsi6nDfnGgFLXYKBTXAWWlU0nJ5I4X0C849qiIAg26vEUWiguBHjPhZA7uy6cmKcPVrwARX7vPujLftrM.UbF0jWZdHSKLZztmDNkV0Q",
       "numeroSequence" : "122110121530207",
       "dateInscription" : "2022-10-31",
       "montantTransaction" : "40.24",
@@ -1501,7 +1772,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Sports"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..XQ6iVFr1lVxfHlNx.9rtlLPR9pnuyUPDnQLv_41vvRt0vkU2V0CSX_2Bgogu-u7LGrDKhrI-eAvDSg-zbP7E5EhMgMuIEKfvyqnzSqMceVGH1IoZ94eihGSfUM_Jb45WuJipIBrooaSW37yBNQtOQKSFyPq5SdCfOR-JYwgTno_68grHwD6mi2h13DzNBAuPeBv6adh_SyduO76tfa34VlsWTor_2u7rEgugMsThEc74kzWODBaz3NhVJGoo.ryaYiEi2aYzCHeBdyRKr8g",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..3uXyoEFOke5Rjj1x.Nm9JkDRlmUTvDy4619GyjZwwnIULWWUIicDC4fnXoBLZEcJ4P7huP0_rSCLREKlt2-0WAhpHMbuUabLz8PRCbPAa9P-qIqsfzRxAAZQWn4O5zHmx6gJ9wxLrrMI99TDfe31zuSH1tiaS33apTieVXiV9JIoSgFSir85ji-75gYBWmlQSaRUAp9pgemV6WTITp0zj2Bpo9eHznN--1uwLqOZS-oqnaPiGjGKzbMDB6Lg.kxqQEKH7yxzpJPYFK-SXEw",
       "numeroSequence" : "122110121530206",
       "dateInscription" : "2022-10-31",
       "montantTransaction" : "2.75",
@@ -1528,7 +1799,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Maison"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..5TspEm14mzoczzK_.5vgXSZcnHcKXTBqwxHdnV7ySSFtoFTJ-FJUFqhdSZwsFnyQ-CjN_9WJ_JYMIpLrZ2uwHPPrvtaGyu2j9lSkjUgScBYs_tTBYZ_bYiRLTzLuErCVE67aMlo3YZKVysDF6NSQoW76cwBs0l17JqI9FsYn1Da74NRAlHT4iIV5ThcWDrBclSh5dZzoHd6iClUw0wDePkMYBQa3IkUWrlynO7eqTcjf_QUyomEZ13I7afhI.tDCecw2u4Q2NrGFEuJZWTg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..tiyrB7_0o77ffHnw.Ax2ZJ4XNbhbcuxoAZr0nxRXol2vzkGRctzG4BofjFLLlPQ219mAHXTd8hhonf20mfrDzyumAEFRD1_6MW8e15ugBTYHot6weFKl3yy3BkjNJTmBmtG2qwCtgI6Ob-OBM75PprxiZdYMdtofvVHZGn9xECrA95KP78lJjECco_fKuapBHpE_FpvSgXIhonFjSYco1uglqlxazGM6BL9mLOaxHE0VcwzzS6tyRWVGr9JM.w88FVOzhQer486iu7-1Vhg",
       "numeroSequence" : "122110121530205",
       "dateInscription" : "2022-10-31",
       "montantTransaction" : "144.18",
@@ -1555,7 +1826,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..TuEEsBVPUAUitbtK.yFxWcoCwC5aSnJwfHMcYkmiEPTFOjBTbfiYgbPqtMw7cR78ePpkEZd_f3K9lWI5EF96rimA52hTjYb4A1MpTxUz_9BPptF1Eej9KFU5WDcoElcTYXTOiGo8eFyu0XeSebxJzBZuLQEixKU5JgeXslYTeDmARgkZ_yNiwfbb9-FsicTs1aIkJMxXbZxxwDm3D7P9oLbg3JQdMPRYU6guzhzKOQFK1y8PbfXz7Go6QdDA.elpHGnc98GmZrvOGWPyRKg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..D4JhBfG9Hx5fcyfv.tSsp7pUPQKiq_zjmUcx7I4PghfXrfJqe5RthbuEYZnu-wpRqHr7_5u_E4GfBAeTd9n8XOWpnBAGc8EiHwMZJzVhcxGt_vSDoDQNO2jCDaVazovlozU-OFrFEo3_sficxD7z65cAu-5pR7V3I2Cn8rCqLU4pd3CH-fQ05FOmxMN0a1roEJMQxvTKWoyL5lXK3bknBIIvJIL9RaD6Baom1wt5iOwSsAlmRJg1Ermjrg0Y.7Clmp-oBLUR8-SojeB7khQ",
       "numeroSequence" : "122110121530204",
       "dateInscription" : "2022-10-31",
       "montantTransaction" : "36.14",
@@ -1582,7 +1853,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Mx9gBQVPibJY8IOP.Ty3WwUHSbzaDUzBvZV5MsqonqUSPs9_IWcBNaIBZJcDFd_hD9YGbD2aLTQtTu83LOT077mGkQzIHDzNNx66ZLFk5Np8vdDbOrwzjAPrHdqUv0zOY6DgxqvVugHwfqQ7KIxY3Bl1BQ6o-O4HvSzJRkRZJM5bAku6D0DriAAqvt7gA0I0-2Zq0idcaoFLQei61cycxu4kDmufUvcYuXGS6CoWvWFsE7edzC9URmV4jgCc.d3pudxWAXaAGMSu1PeKr-w",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..yx0pIuDxnqgI9Fjo.YbV6ukGL6oSkHoivhxkwTZKY7NsJCl-XRj_iSI_luUoLLkaUsd43ofz94HCSdLhHo8FDaGOUtNbPPusxotkMYgQqpW9UjFmsjsuJl9eCpKd6JlW3s0cGp9kBjrR47SjUAGvYvGwV5oiTLVPS6kyGipSOmLthr_euqqOoFkg7iv_cJXH-ANnTXccaZ0CzA6peLZxKGDICIDgBkJL3W8_kU1DIulqP2AJn16CgmRVob_Q.EipCtkBWXWYdEIZbnYZGKQ",
       "numeroSequence" : "122110121530203",
       "dateInscription" : "2022-10-31",
       "montantTransaction" : "36.74",
@@ -1609,7 +1880,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..7I-GvNv458gqmDD0.r_sV2j18vuU0F5YpkIsMW8LJ7FFJIcG4yXqfCRq_8c8LSu0qxgZj2V0kNavBkjWUli3y7_9PUU78LM9-xujqJFIvmUbvkH5ZUqATIypkJe3wYliE6zThKThMLxdVdnKtWG9fukT3i89Jbpse7B3Mm1YG0i_5fuyorRO8lhZn6gEYEfCEjXxTai_J2ohjnIctdIexIFedBe225QabjPWd0MgR9IaTKc6qHmUop6PGHPE.uxrqq-7m23oAtr0T0G4m_g",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..-bQYQIxm5qG91v73.hpgeyIdOWb_VRX0h170f6q6ajD-Ne7eI5g-4wez3wun3uhfxrUcHgnaM8Xt5aCA8OBElzBzTBE3MY3rEQ8kCaVwbIKICmPsRRLqkzn2N_dlNskTOpfyXq_r8mwgcfNYv9_1KAsmDeavCamNTjrlfIj9KSc3G2DECAVIOwErQVp-1mzMK8bON45_lGynMGCbLBuAEbrAYdNKHfzTiRE-24vjvlAWBXJmL-jRrFCMG0H0.rpfoROvPMTlDsXmifl5ntQ",
       "numeroSequence" : "122110121530202",
       "dateInscription" : "2022-10-31",
       "montantTransaction" : "130.06",
@@ -1636,7 +1907,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Maison"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..KUoArFA9L0DeZfhY.tQW040Afp4yAlusuorhJssnOR40xpvTJCE83kqnUdZ1aWdiP1drGBm2-0itLXdGGP-LPSCBjmCUailkMy_q9iXWCMAEGcIRC_uVri7gkJGq6obvNBG4oMSQDdXOVI8wVHTzE3m-eACD9iiGhtM9yX7owbRjr5dn2Hc5WMy6f__V0smp9Znr2lbkC14ZUkT-6kZQ1tmbtvcXE0R3sTApWGkVpOY7-0U0v1m8MttnGbuI.z3w2DpV8AiRJvQhiizwtcQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..POTc99QcKJpGgHU6.7WqseEk4V19OlnceupST8HpmmKXQQgYqTGwHWbDbIVGQ41FhJRxYfnZvrq9kSq5Q1j5UQog8YIs-qsuv5iQmgUvtV4EppWVynemtq9pkv_UD3I2MLcdPUjrDnVVx8wpfA0jYRfryi5kZ2MJKpMcGaqdqXPyyR-WNsb8YHps-Xlf4KKsIh0y25BZMvZcFF7TbL4ZcjfaX4eicjRhet-pqbd2cOxF6DuNU7XpLI2Fq414.PITOVYuGTRqkKaTAym0mEQ",
       "numeroSequence" : "122110121530201",
       "dateInscription" : "2022-10-31",
       "montantTransaction" : "56.09",
@@ -1663,7 +1934,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..1t-Q9ZC48qLLmYAU.a9v1mFdzan8_2MV4RgO2-g020KijwIiwjonRLO6OvltpDwajsqQlMtQZCDOdS5vUawlv5TbPnTZ2cfMXW0kUIz4EFqUXaVsVYkPrCdSUmZNx-_Lx78X0fLJT58Bh0TidmXK4utTGRl1GKlqkaiUGa-Gm59dzegqT8585W1otugTfMfY8P_A96RmCUexJgeAML-AKfXaPruKhOfIoy49LLsB5VMXIn26-iri0S879MGI.SlAOTTHuTN4Vs1vaGa3Jow",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..SDj62SiH-mToeHro.D0r1H9Ej86v4Roh2HGevC3YNTdl05fz8AmybHPnu6uz5B07Io8CSrg62gfM_JC4bwH7tFPeArHHzeWT9FWFGdxS3Ytfcx-tiM7FEV8Dy8Bty8CeQGTqFgC79JdW4g_Geqh-R0SuEiDrjn1TWCFnTvS7OGofHkKw-OAzEkiqhw0wxyjfasmDKBqxGpLAe4ms0ub53D0Q_ez_FnuMGUrIygqjfZO_X7IkbBWEs7anyAAo.BO58oDRpI6bpHEzSRZN8uA",
       "numeroSequence" : "122103122131105",
       "dateInscription" : "2022-10-28",
       "montantTransaction" : "10.19",
@@ -1690,7 +1961,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..X-nAJyrB4REmRrMn.Hl9gGIUEf8sEufVv7l53zM4P7HqT9nLJ2LKAiBmaaQLawqkKsEu4oTJmlD8cKJGMMi9aFmu3gqMgVVudPJyYjtKcGoxLHB1gInUZNcqIVGv07_sNlf3C4hHlCxNsFcDeq17TzqyvLgAu8enR0Yg2Ct0TmSx63c9zW_K20PQXOSys6EwpuIfRfZm7nL13mqon8miDzno2j3r5K7-ixCGxbY6H-eVrozcscHOsdo-ybCs.DwpGymMcYCDq6lFKWcQ20Q",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..pIcOEJXsa2Bi-jmV.MgagbHNqofFN4dOQacPwPbJ6fvUfn14sOdOG3DHEFIlP9mUI6-lKZEdf0PGad2R8f_Ec8BPyAa-3Lrb4tj4rHg6ZKhoX2MnUD605sbnumddSKwTJ6YGYuv9lAcGa3CzLb-MBD-mC9nQsN_a4TfCqE0BmdTvy60F5VCNdng_KM-xfKF-mGRfDpF4Op-fdoXyO46OuLlVfz6wHYYiqPY_U1XcolIHahYB7sX0hViJM73c.MvWb2__mSVAQXGs7C6TltA",
       "numeroSequence" : "122103122131104",
       "dateInscription" : "2022-10-28",
       "montantTransaction" : "9.96",
@@ -1717,7 +1988,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..x98kBsbyduwlpegD.tFHbqrTyoBWs-MsuK88jwk7YU7Zx2Fq1TD2i-gMuV7fmT-GIH_eNV_2hZeD_3R4vVsDQy6z-YLtV-9yEKdrt1rjzUaM9OW5_GxxkDnLfpMnyJdChunzdXRYrG7bNT3_o45NHK6nPsZRDGb3Mn34l6PZTVkqMZI79mTYYrEcY2bCIFjyahO2lNvaQfEYgD-0w53SN81XFRb3rDHalKHA6UcdZFd4WEPy58KyaiLa0wo0.PDMgbIOp1ssJVbLYvJvrVw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..yIhMqQOvaN_yVCF0.G58CJo9gyjH8Eh73T8U85DYbe72ElzMLtGJ9JdqVzSRXn-bonQF_4vcT07jXiqZQiHz-3zh7rFTS8b8xrt011QABAIRPYLgOsxo1xfzXBYockqTz73gLqzVyje5uV_QokEIrpCF_j0ormaNtGNIuN42cEZqZ54uxMF7RWUCYeXDl40sSvxHfNdV9cedVNVcoiDYJZPaZJfaz8PWtmxcsf4qt4ajyB9ccfL2wbKpIOjA.fb2yNSWw7WkzjZv9NRIRng",
       "numeroSequence" : "122103122131103",
       "dateInscription" : "2022-10-28",
       "montantTransaction" : "-125.00",
@@ -1737,7 +2008,7 @@
       "indicateurCategorieTransactionAutre" : false,
       "codeCategorieTransaction" : "PY"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..MY3NgKe_J5dqxvs4.4Z8bt7eJBMg4AvoLwmoRap_wyK34pujI3RqboZFbKlSdk_fS26oYhRjR_pDm4QnmTDFoReYZFPYayD0Zkn7IPVs6B57wmqLmBL3OcyZMkQsYMy1BoNOe2e8wG8MDDVrBDVqgkflMeCfvakm2C9sxIrqK5u-pTbqZ1pssrA1HfqqRXSXx4M4DFfkeDpIt9mZ5qP0H0Uoq7S-HVj2Lq51DdSiRp7tpIaqO7e2upJQjG0k.yLdYXoXQQu4_QMDX9jj8aA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..70c6HntwvGbdbW5F.56JtwaM26yjDpud9BXmAYgtLwA3xKHHi-ZG-uCUfj_2cFKjjigBFHtGYhuueIuo688MczATrzDVRS3c6GnQeLkonDyX1X4c5QpLTVW5WeGkljYAwK_RzxqHPKB4f7mA2WWhPtc8fJXH13-3Th62fqmqHgjAX0nuCFRrcP3ltA67nVkHkFN8QUcH0fHMlIDYqw0q5DoyzmgxD0b42DxfjBh0dx3ziWnTOxgWh0LYVow8.1o5jhnOLvzmAxK1kaFgkDA",
       "numeroSequence" : "122103122131102",
       "dateInscription" : "2022-10-28",
       "montantTransaction" : "7.57",
@@ -1764,7 +2035,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Stationnement"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..m4D88L3EwBbqOZqt.auugxksIORV9nzdUuNkLU7ochu0M_5qwBrYM2WsDnbNX9Oiw39GOhaNAQJbRPcZBrCBTUMoumyRMI1gmT2atTTMVjH2uXLSTnlsj22Bc4IrCGt9L04d5vDTmQvrDrKpr6qHk85qVx07sfnpDjcE9onhKlU-2Ey5vEKLoUtDqfB9gFOHtaX4msUI76134auG-p0wsJc9heBqpjFX3_LpKuQM7vxUCFkRHt4L5ZENIong.MjIgROsn_E7UDTgbWgRCTQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..hlwxfgxXjMRoI2kZ.rrP8qRJZiru2fnnwgOHdzcBSSu45nGH2MzIL0rxwe7nop4fT2105gYEgUTbHmSo8kdmcd3NEX8vnsV1HjEu19VIUc45_7CftKZRJdold4YiOFdDDYVPJ4facZhRxC_3zENHguF2T40k9TMv_1P2UoGStDXmgvlpnAbRvyhAcHsCIr4OR89czw8yVCChrn1jchTzXGRnN0lrYaiXEU3oCBJtPxL4GHQs2U0Zxe37ADzg.R_tdp-4_jywOIXo_CsURVw",
       "numeroSequence" : "122103122131101",
       "dateInscription" : "2022-10-28",
       "montantTransaction" : "18.00",
@@ -1791,7 +2062,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Stationnement"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..MbDrE0UJ03MPTagi.Yk1iZ5Tjk8Z0XToHUZHtWlwjVTpmIC7bSS4Nr-zwzle7mlr3FI7hy7tGRwix01lBPU00-Xi7UDQmTi0KMjBhsvoKyYt8SgtiCuartF9423Pg4tR7RvPhkefgXtJzkMDqTnMt-gPoPKcGokUwYeX9EM5KjAhQ7A9O3lTx3q6RUVkr_w_MgxonMVkpv7qcf3MamPm7pmE4cwGQ5EuCdyNLuQqhbE6ZUp-wfTKg96klnb4.Rhjo3WuGpq-AJwxvDuA-ew",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..KtmRQWTOUknaM3aG.bx-Z4esS6gRWNt1lxVUOeP_wtnKXh5YqHJFUzXGTPtpngio2OBmS7D7vWkc6o5a9PmFipAdKTBnf8gt06kfsuUjFMVc6ftbF8CET-hyL5ajLcL8lEfLAmQiKUkiDv--LwNNEgIdV4IDrdd7-8v1FiFIkoNjbc3lMgKGXv_e0qWDjwdrXHCtXfbLgelbLhjamFf-9COeSgtaq5n8-yMv8MUE4pw5iT-3800MILAeop8g.ba__V66h7aU5-X1Ja-cirA",
       "numeroSequence" : "122102822393105",
       "dateInscription" : "2022-10-27",
       "montantTransaction" : "24.50",
@@ -1818,7 +2089,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Essence"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Oz3PEL2pRohNxnBc.kljZZSA5b6ixKBtPpSHKJVEob_mxaZG43R5s8ctlt6uxKbdt5AX3S1yKZxgyCj6D4cc0uA0hec41uFsq78T3FGsnjG-A2Vyg5TT3qm0HXJRVzeZxhe2SAYClEai4qzY6upUiAMTtt_KobHfIX_IXUyp2cV84AGmRgGF0NADzrDxrRqwl0rxbTQMqB2aaR3xbStsIw5RxCNAqoHBsh4CYcZ4pWnjA1x7BcyjnAiUeyRo.DU7W3fpLEftY3yjdroFALg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..4_ha5CO6GeL_39OP.WDxQQy0keQTs_nwg3nxRIRglgZq673cbnaAz08zPd5qgZXuPALYGTWP-n_WMLV_vDd8XQMEERVT3I-RiSKcGuj3sLhe_9lclzeKpLMpXBaLxXXbi2jqlgIOfvdMDVICwXs7oLsWn4y7JqqTqwKHIkC1cMypWlptahaMDKbqifmQIHq1tDICdANu5zlcgtqFKqFS8nznjhXA4dgYL5Ob5QsCsjHivl6PgtYLEop3po0A.Bbhoqr6jDSECsvgz9TSFeQ",
       "numeroSequence" : "122102822393104",
       "dateInscription" : "2022-10-27",
       "montantTransaction" : "41.40",
@@ -1845,7 +2116,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..pM5OdPTRwxdVU4BJ.s9fE9jzf5rjtCyYoAbvwzIg--TVo9ZQ5I0zRC2mkRlCpZBvyJYIzX_UjTZqREz-DR9Jg7MvJdckjY-ZWdulz1giupnXpppOWlfuohaqFy7cderhD_-dYlrFsc_lNjs63uFmUfpH9RDKJCfG4JmX0hCMVcq4qifIhgInimg6DDv4BOXhqSssKyt9cUS5zKkFCJ0Z7aH_zg5IlH0e9sIPS0mR6Si5suff_0roOoZZbOtI.frGxr8rxTrtsHxXupP79AQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..rEXfEQPvlAP5gaAW.H6ny4V0IHP4C5LlTeKRCMpAhX_F4oFof7DsQehajncN2WpufdLw2iBrCyOPPAZC2N01irJBzJD7TeI7pHlFNt0qPSTCZTjcBQYuDHyTKgxxijUysQJBe86F4T-1ITqMQaW0ruG3R1-H2QC5Wv5knvfB1xZ7B--jMB0OeEtkuennnoJti-AKKjdEFJdgCFlVBPfWPLWN4QhgKDM8eGEqE8VLJwWqLaiWIrB0IFCWvSeI.dAwzTnNCtMk0uucvz3yRXw",
       "numeroSequence" : "122102822393103",
       "dateInscription" : "2022-10-27",
       "montantTransaction" : "11.11",
@@ -1872,7 +2143,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..UrgYJSkD-cgw0was.QP5NvGo-8MyWezok1g4jhPxu6iw6_sY3lMZYXNSgtkHsW30nMqnDG8C_O-hRDmelyxjnRKcNcIYtBmn_VyKEIh88_LfvYfewtmWip2qIwchRyJhrJ-mE5t6lUfOLy_u04H2vLCoiMAnsOgp9Rw4Bwiu54XnYdTNuhTU5JL77HxEgWL1z_p8wZSP3yZFpwniJEWtbHuXqHUnYgWO4Wdh2vb0F5_-4z6ewe4kyyIlF0NY.6dXgHY0LVyWT5AKkNiiPFg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..tLs-eMtB2oWg5yRr.3RbKgkGNaYnt7pOHPzueuhiR8KVW6OPLRj68G0FZmszM9dCaRWSMVwnloIrZS639x8QFXotTLJ20VZGV0yDQmoxTcmacpDpxXjYWfVVgvcTY7tPbtW-D626DMZ6nERnxYmYO_pFENFzpt9FsOCCywOOtyXj7gVrUgm8ghItMOrSxA_vSe8i3-al2N77hjQ-NuY62d5pHSEqh9vaoqD6NxqojEEp1h3LtaxpePJ3YRbM.Zr1-M5nv-tRwNq5s5DF8WA",
       "numeroSequence" : "122102822393102",
       "dateInscription" : "2022-10-27",
       "montantTransaction" : "4.81",
@@ -1899,7 +2170,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..uT9wQFUFa1tOAhVA.LnS-Fhqb3tWmAQfhfKX4j2W5PhNlq3uz6EhJtfgCMRbICIPwrUKM7k8BwAzHv5ybC4ERX_1C9ihwjOr0_bgS1PxyBbbqSZEMBvQHAqSV5GV5usfiiMMku_MJ7jfdFOMDrgBBPjPYzjwPMNfN7I96bBc9Zkqp1C18Zx2k5acHMAK4IJ5vxizXU9ZEAU5kPU16pYimidJ2XQGpbfaSzEJvceDaO9BwhLlJdwzJ1BUmV-A.tqAhEXhaXRrDyCX586ia5A",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Ag86JAejtMq0Ql5p.WYggfTUZ-MSiGEAqySbiWHTbWmm_Wm-eR22akJMW79GlL1ugTcr7w1TiiK4QnC6D_cnbSv67Ca0prqhG4q7QagIEsQMVenTcYTpH90Z11M27jm3XSPE89QYfM-jkYWSuBJkCuRfglFDEoDIMtok2v5gNSozxbphjMuAs1XTbQ03bsMUR5Up_hO7oajOXBf7ug2pW6fQLJWkYeD_C05DAhsswA4haGLkBPIpJAtdZcOM.XNVrNZYDU0D9TVP5x-lOLA",
       "numeroSequence" : "122102822393101",
       "dateInscription" : "2022-10-27",
       "montantTransaction" : "26.38",
@@ -1926,7 +2197,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..uj5TVyelCUNdkg5m.-lGZKCHjNmSLQLBy8cK2IeBru3NzgsO377lq4jlikVKSFdVaT7mQb5qahZaS0muzG1bJfQBaY_JeK-1reHsCm4fMjhMBA59eJR4fwTJdS-2gf_vm_bgK5zHrYdlFcrFVwRdFvEFrXHw8SFErQV-cztu1wr8MNLSYcla-Zq_GcHXNh0ZKb_7jl0u_YkZogcbdkqQmu_tvjX9bBztIZfCWn6ITCF5R6B9yS2696DtkSBc.n7xOLIIsYi1v-7PG3b2GAQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..EyJPlpsgnB4LsXzi.GwKxlnjSaINpwI0FsTweHR4SYKRUa3Ml1A4uWVBraNwN25MEoKz6Uz8xMX_3S8KblpbIslfTW0M00s2z8_vRWjpTBA0Y5U4EBrwuxbD0Tke1nef5MBScSCSO7tsee_m34bWIF4I9XEvOXmEHvBV5C7yvmjsNssMbWV0IzjCNYceyQtknvq2bHziL6rMcfV8P5YllsH_-Zm361LHxWMlKEb67sZQzS14VXnvMSlRs_jU.hOARmfyCu9xIvubHV-51JQ",
       "numeroSequence" : "122102721230103",
       "dateInscription" : "2022-10-26",
       "montantTransaction" : "-500.00",
@@ -1946,7 +2217,7 @@
       "indicateurCategorieTransactionAutre" : false,
       "codeCategorieTransaction" : "PY"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..IzRN-tXZVtQQUq96.6gdF79GvDF48dbuPJseRj3AuDUlnLA2KFPBN5BCQ3KmcXkqS4hKggkEYz12ld9aoBPus-NUFuDEy_IVg3C68eectFOEC-fuYOCTdU8axc-6NQAP_3LMUrBzjijtoRc53asz0d7KWsPvnpQzrCOOruiEHaqYTaDVweB3mvYnDgptOf71mckEocQ4o3WIngd2026UlxEt0-avPAyntVzKSHz2sxHOM7SssP15YdB_lPJo.RwPlJ75BTnyarpM3muCvVg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..T_ZAL6BEBx9tS9d1.sbjNT0RcFQY0KRXpnOBzpB3xJDoyp9KmeDlIKD15pvH-Zji96FpluTJs--912tFkEIOpY48vbEgW5ceR3yFZ4JvXMwxBFxjMyzX75HB-MfXVHAOZ18QDc7G-TKKvF_G25C6Z9ZxrEnVPwynp4YbtEgo7KupL5QVHGQOTH6UNU1771ab97Ea1XgPEVgPj_XGQEq_YPx7V76j937VUG0Ivj5AHVQoPO_LLunb3lMKW0ew.evgwJlQRz-hcCddIxeLdzg",
       "numeroSequence" : "122102721230102",
       "dateInscription" : "2022-10-26",
       "montantTransaction" : "31.45",
@@ -1973,7 +2244,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Nh992jntQYwy7QX-.hld_x-19oC-JkHHtDPSsoZqjEm-hZ9xiUme986-I0CPH00LrQN98cdYFWbohBgh9_K2ZScf4GcK2W8xDmuM7aGolRGmHKkE13FaEEeHTMUe6QZ9zDjD8CJoOQ6PUw3xy2H4JucU_cZRV_VrdnF7WByQAJb1Uwrh7hGGEcPek9Hd-1o7eLo_qk8IaNsfJoG1ImQiNP1oKTcJJbRxRTxT3ForhkcYquiUE5gcZA59dbjM.ttIsqA-ADXN3vLXv2FPe_w",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..SxXoQGkZ_Hu3OcsC.DPovwYMcjlMeNJkA07diRzfsQ7uKp7Md8rRwmskaxlTAlZCNmBXve6FnP2RGuoeqgoleUbVZvBAL8Ke9dcaajFYtoqnald9euNbMD353Yhx4Sz19Gt537gSFh-B5jWetrF_K5THm0mJp8NvEtgyG87lETtmvUETFAy3gRDTmIyvIGS0GytLSayb40nauF0OQu04foyhPj8SPvWLIDX3HS01iZ-JC5rEYz8L5qm44m3w.zDodqiA0kdYIL1HAvWKycw",
       "numeroSequence" : "122102721230101",
       "dateInscription" : "2022-10-26",
       "montantTransaction" : "14.96",
@@ -2000,7 +2271,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..c_IEU_A0nVXESwtW.8BioxTH5o8z86d3XRzEtheWCDWGTeZa79xudQqSsvAkoa9YxqEXqideOogOCECPUxHC9Gb1yQQx-ogulmnPtwJbHjvruQP5yclqd5ntekRWcFC8pY7OF_YRbcE7gpVX7kTVLTSxJVMpT8dLeuMc5fHkRCXTBKDokVxyyWHR0JeaDm1DqUzRHiNJ5mzeJJqlgtXYkOqWZSQ3HO-nCd9WjjoV_4goDq65IDVaNL8f-PTk.zqe579PPb_syKU4hWFIqUg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..AhapExxXaZNWuSoH.mJ0twvCJPVEXfcoBFdLA-KJRu8_QaWykBV8wfU7_V5JU0hPQXnFX-uS3_cdJEo8eYq12e2VBjmfeyLY157Y8287BFs-WgpfrWbH3v_1P2JetzmBIzzDbuhTpN089sFmSZv-oJMrSr4n7M1elKleGdCxw2X7CociXJh1mVmahhJdALg9V3IjVGOFwB36uNYQ2KSbG7cTwVEsC0HXe5EDOdDD3pYGfbWG1zbn7YCtK6-Y.VYPNONsKmIm6RKnCcnompg",
       "numeroSequence" : "122102621254704",
       "dateInscription" : "2022-10-25",
       "montantTransaction" : "6.90",
@@ -2027,7 +2298,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..VYgBcyGAjOTPgDye.1Zg72EiQics9_JU6_oncyGK04eVHNHOxU6mPjEZbQu6yrt4F6r_S95WNutRzSCiZPVDvskxvsl0St-MQupWbFgvyNljd0NaIhOJe4CHs5yULcSvtO05vnME4UPiSZPHhxwNPr7mmfQ-WeOpswtRb-pnmq77Wga8dgTTrcviUuYx8gljpvzy2yN-hAQQ8kYoMBYQXHTb8Cn54acV6atixt7zbENh4yg4gWkfNv71-D2s.lYWPwOjY6u-SyRw9CHSnNQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..UuPLO4WQN67xNx7p.K1XrXBuFZfzk3MH_ECT5UXhVWF0z53QuTHC3HYMOfCxR0uPTai-nogpusFSgmDTQAjXmtu-i4LUCUEPJs9npcPdYtIhwHnVn6ZbU-CK9Y7btbuRmVzxNld_W2rYfW9W53ZJEiqapNv-5PQM-hFMAyDGzfGUtt01g9ANMPTQsosGvSbD_SbfZUzgaKtz3Mj4Oja776wKFw36MP5dmk8ijILrs9f87JSsDlCIWPVwA-8g.EQ-tGewm3URuRdh8CBjaBQ",
       "numeroSequence" : "122102621254703",
       "dateInscription" : "2022-10-25",
       "montantTransaction" : "18.00",
@@ -2054,7 +2325,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Stationnement"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..QQQq_8mrtZMqhSbO.dYVtYaWYlhNq0ei2PkF0C4UriOqY4gb3XYrI97RSSG9UdasbM1BH14xklMW0eYqm48Tw_sDXmjc74zMLrkj2jKcN-fcGE7VW8-ENEIERvGPbcxNxO9oKdY5_nfWz7dvaeDU0KTgg-fru_TWqFqAnL7Vill9e3BYbkGtoCBUdD0M_kzbscAeFO8s2SfFQODQiGuu-qzMN1M_QLUe97XLuDzJOgPzfkNiIvg1iip7R6R8.743Rh22aRCFmJYMgMmPIkA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..8n3Dqt_f6AkzPDDQ.VVUuF6wW5NxtJMKj3RUZvTyoajcNUAcpZpdIxRdNP5BXyJyOq3pt1yoXT_4E3vG3Aa5UUD276PZy6Mu4s6nx_C7dwXLPAq-eVsZPS_3ekJ-CB9va5BRxhWbfBbuFRwN39mRbBQUDZzazoKk5q7VHBvCM-qNSkHrnDbbuwvPrg3Ll7C8743tfmgpBwaFOp0BhoEyjHmFMnyuM7twAO1rCuWcljbCcMKpyS0AxYKbzfLY.d7YqY1FMGjPXZkpkzWxYaQ",
       "numeroSequence" : "122102621254702",
       "dateInscription" : "2022-10-25",
       "montantTransaction" : "10.19",
@@ -2081,7 +2352,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..wA7ivLvAK_8nQ4wn.Mbp6nNr5Wmi-4kfeTsNIdeHrg16FbrcV-Z8kY31bkBoZ8n56G9QdGNIv265OUxlM2Qn9iC4rqx-1yEm_5f22ssfhhjqI1e--pYzvzyWgn38epstTKeW4My9ukMNQiVz7uf3dvmxLBVa8RxELBE4ieeqkdPcrvfg7oHIrTK6duD2g4APg6Jhdi6CJT-zkIGR4tZ0Zd3Nbcyv5X3W5w3Jy-B8jkq_11m5WIJ5SUbLgMso.i1Hn30MACjyxJl4V_3BDfA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..hzDqoS6YYFcbLhun.8KbX21JMob-f5JAXLQ8QNNlCZyQcpwnQfMtrfQ3HRNphbm_GAwl86DTwrMr7qLDqrH29j7U0cPIpsPdb2UHR3inYfF_gqsTRtejkj8gfy8clqc3FJlGU3WiiwzzZeGF1kC0JjeapGcidlnZ4xMnHbYWegn4ueMcsU83CoOiLHou5ls560D1wnM5HLMx3KGwuhbYDa4zmLV0rijttCV3TvDc3pvYhpspubrr-jQtuuz0.gwlYyHkIgrbBn1g7qmTIJw",
       "numeroSequence" : "122102621254701",
       "dateInscription" : "2022-10-25",
       "montantTransaction" : "76.75",
@@ -2108,7 +2379,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Maison"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..w2h7Qj37lZGnpD5k.N5EmZRVJPTroAHuR6OogtTpdxvl0Z8CixSwULxEvZHpMwxF-OehNkmPDEeCMIKWOJX-gZdOwZTwcr9MOE8EffSBaCshLSVF3aGURGL_iVHjQwhQaLpI9nsCvD25dktD91S_-FnLsIHTZK1TZrZbotfb1iqRpaxM1STk0Pij6bsvzfqBr1xJDjBZRg4NQal0NLbpMyYuUn1DQOJpMjezS3mymFLrjAy1GDIqyxb6VJDY.rf1WNncGFruk_CrF8n8sQg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9.._rXjR8dVybu-evyx.AvkgYGYi91bExP8CFTO7qTlANcJHbwwbsLC8dEtQDKRmLYvF5rW7VqKRSWv49-74RjB8P57fcl9s_7Uk_wAKl0SxAIQdqTSJVWXMDsbwbwJBb37wpJOyEC77L4kUyDdK-AtDzL_pH9TpJ2i83JkfxBnmKazbu1xIzGNdHNSpujyjn2Vsn8mg-1XssGJ9p2b3yW2jK1ySo5fmTGaXuoyE1UtGNTy4tYvTrbKM3e69QYE.8Cv9SJZ23Ct9N8_26AT2Pg",
       "numeroSequence" : "122102614542401",
       "dateInscription" : "2022-10-25",
       "montantTransaction" : "200.00",
@@ -2125,7 +2396,7 @@
       "categorie" : "Variable",
       "posteDepense" : "IGNORER"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..SsEawMMypq4PMkV9.7jZ6MZxvgjTc6-IwCYY4fw-j4cgsfpCZg8GHtznVhIdHu7TurA-Iwk6AcuNVmGdvMtS8cQHV7tL_du6dPk3xPxT_649U61HycikXRLTy1bNKGMqYwXeIUe8-LwD1gQMJO41rdQ8KUcsf2wRj_bPV7-5qWlOe19iCx9ukYFnCI2lkiCHY3s3Hlk5E9BL45z-S0grvB0wRDcZjWSzYAmUf3CX937MKX2hcaTJ7G9kujXc.y3MW4HEFjIhYBDs-ZWPtew",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..85h_pZj8uhufQydH.mo2CnI5xZwtD3c9-cvE8tB1xlqCMqpjMIhHXldpKNkAUPbvL1ILkmjD8jAsgQVgOzZHJRuU3YOceE_26WaJ4vQVapZ0klDBsyuRrAjVQ0-lNSHFWy3VkUwQXL7jQ-tY-HV6jbjODAqn0zByO0Bda4xuS4Exq5Im1Y6hhDbM54YDIRFHoSnF1LKPqjm0xdWSFFJ2PHGARWElZdN_-nBqlGB7MAyfW36ndAiVY-qu6-9U.rkn4wN8UpxLXcaJcGVw9bg",
       "numeroSequence" : "122102521490506",
       "dateInscription" : "2022-10-24",
       "montantTransaction" : "24.16",
@@ -2152,7 +2423,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..T04vnSopb3GktZMk.z7KH_XUuQQr1eV31t2xxiFek9idE80e4zsU0hdNYwKfvbjfISRLkMMUxY_N0vOUcyhUIfCxkAZl9ERPumBk-44yWcy_KY4oXKhJM2rsswYacb5HvUkAOoD1BNAEU6D1oeOW84WPKhPO_lhyYKktgYci9kXigIA6a_IWmtj8sGyne1rbOmHUnkDJL32WsPVRJW-HZAir67-CEycQ6wg6K6UZ60FQJUh1eMNh8P-hS24Y.I8lW0PHQaVb8qDm5egRsKA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..1_ftU0OkuFrqZJ5O.9R_9Lb_6PXbU-RQBZ4xKYT9MuxvZLmZTjz79zB9G64s1CrCYsT6ye5CuAT6uGie1mvsgeM8UwMVmp3A7tqiRFR8pd_qh9YVUyGD2eS0Bq9AF2rnrfnad0bZmjdkwewQ8GGMb5qdBr5hgb2TyUNapQSzqzJzZ5v_4QaMMN1n1G3DUM8WsPWEgXoaCwMUhw71iEswkv8fYNIQtNqKG5y73LixjFq34ZZXK9kxiAnG1pQc._V411BGZpIYbXEqQZutMiQ",
       "numeroSequence" : "122102521490505",
       "dateInscription" : "2022-10-24",
       "montantTransaction" : "216.64",
@@ -2179,7 +2450,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..sM_on4o8jE5W0UE7.pWoOqNiH_4Wzg8msEuBg4WbbSWB6jaDFS-K92p6yzHea22e7LodoEoi9-N5XZ1_zaeXS4wrnf-M15_aZ3l4ATowCzKqkwNewLhQIJ_YjppLBXOYmJceq9j431g7E_EJDiuQ39fjoueYt1ppA0gazVYiTr8Wr6nvllfAxW51zMwvRi-gMQ9cnkjk4yhWBy4JkS022Eejh9pEHC9WdYPzRlPFlt8NSzLkceiN1YT5uRi4.3kYpc6uvdFV7qkJuVrPG-A",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..IrDNbljQ2DMnFBas.iACKmD-I8LXZetlnwm2jUV6Jx0Z4_l58BKBdoH24D9nyPYswtH1zJAt6QX_nuNCCT0i2hRfMPIm-Ws3gXVjk6loETgRXxTqDY1RLO8KYyozRCO8cH5NV68ZV-EJ5-D37xX37VwdvFgwMQUdieo_OZkjnjKfKYB2ELR7l5lh0HCjPvos2gxrJ19gDL2wDGynXDgARlWG46sCR4QV19UiqfTFDj4FQ9XG2m45a6Zj2mpc.KnTQzSaKK-OIc-ifKVXzag",
       "numeroSequence" : "122102521490504",
       "dateInscription" : "2022-10-24",
       "montantTransaction" : "270.10",
@@ -2206,7 +2477,7 @@
       "categorie" : "Variable",
       "posteDepense" : "SAQ"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..6Ht22c_oLAvgwq7o.5Vt2AfYhLJD83o9DKOzR40uaVXJkskUkKhOWYABroVLfrw2Vii_4cURMmkm0PFq7xCtuIvIeifXu8CgimPTlDmbUBNrJOXh6ZtY6DwOdzFYt2cwpVCzubKIXZu_BNbxiAotZoMdZud8hChPTW2fbHtcNLIce2UMZMtfO_twGEfxQNfI7CkH5-NIjc1DbxhMO3aBXHpvitFXB4gp2QSmEy_QyBXikZy9b9TfBQfkoDdw.Kki_Gd4gRn1ZIXW6GGoGAg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..rr_Xkg_2iCo9hDvU.kbxnpH5Jtiin3oGfBH2m71ZJRfhbbZ3fedSxDiWiPeVybNKvps-ds1rIJ_HladHgICUp7_Nd5jE1g_ksl2KMAd62BnjR7rFcKbLSHImnTlBYOd3gKeYFwrhnTp-ey9D_vmnM7FdFjICLx4C9IOlkwaHWiyQH0wPV68xGlM1cDKLh3fOtF8VBsxNUPr0lyRUjrNBjgbBRrKKFW_19phuUeH9n3vIBAzFSuVfHGLUUhh8.lOYKVs2qfiwG5zu6qcltaA",
       "numeroSequence" : "122102521490503",
       "dateInscription" : "2022-10-24",
       "montantTransaction" : "259.05",
@@ -2233,7 +2504,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Vacances"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..S2reQsyc-hbKZKXA.n6o2QsmIN9qdXTJmpS_c2X3OqZaILNbMkWYO2kqNrrP8W6IXhMNAMmRzS4U5NFruR0qleHO4ikuT3gQSuTtJIUAvfpWDplNsGVPIh3564NyvL1bAJ74rmbbTKPODe5MxplLYEIx3Qi7eRCeZ25YHXJg4OVUnoDTgEHVA_Rrfs02Ki9a1fZxA5aK_onJLcTB6qLW8q5mxRSz6DVCDX0Uiyp9aHSg6pwoH6Q7bPzeLddg.HK6r7_5rOsweN0zx0BMe9Q",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Dqo-Oj8kImjLJNaL.PVfKZh66q1t7h28DXAWGDcTyHvmk7a5LhQVYTx3lDmULKe4CZGdHE0Hao5htKuxuvAY3GgAnbXnnNlYzej65Wt_0hS0Lr3G4b-vY84n4Oxau5qQ3iWxxwiffX0jg4ghZdNBc2Ytxx0TU3OES8zxmfNpmnwdwjr93q6w0A0HfrUr_Va1fxRus90PssjbHGeWF3UV8KEHjDGkOZ9rzjZuguSZ-tTGyoWTifSaf5By3KFM.8tTbW9J6PyjKRELUtF53UQ",
       "numeroSequence" : "122102521490502",
       "dateInscription" : "2022-10-24",
       "montantTransaction" : "125.78",
@@ -2260,7 +2531,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..paJ_mEE-gxb48RgK.ojVpQTK-E3CNCkkx9rFr3F9DAPDD8d6IEz3l6lYQ4Hx3_NqhhAq5kqH9-31SSex_QuHVhAjXszDNkoZv6IAIf4erzowQ3K6TkRlYSV09Z3ETxAh1mf1t0KfmPWfEDpXJGITYRB-wePrmbYyQ_XGkxQE6QOkLNC33mY61ANKYgxNf0OIDbPVjUZo10-IIr8RTT5U-Iq6urtudv8I-PECfYVIksgYq4STvrhtFfaFlFn0.mMekCd5dPWApmxusB2oNDg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..2bfNARnE6weO7kKv.QiFBfBS3nQWuLid7vz00oyuId8SnSpbZKNRY6bGosNXbRcMlwHZSuveV79cwsZb1TlVsh7eYb7Xz24U5ZtP5T4Z_KLbtkxH--S_GnxVxjO82x-Y-xsBDExidP5GX2i1rYoErlNkUHV4OMkLf7arYhujaHhRks2Jb4s4ojgpe8NDol9C0LbcmsQeiXkZCqCR2xhl5AdVIsg3DBJZyZbgNlx76iisqZB7g_21tujV8RSE.VQe_uO1rACXV5vmYLc_i-w",
       "numeroSequence" : "122102521490501",
       "dateInscription" : "2022-10-24",
       "montantTransaction" : "27.98",
@@ -2287,7 +2558,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..z0b0WJ9OFLTLdINn.O665JULotyBPQzqFfukYXVNJqY3rTKUAcKhV1eKSr1Bb4cmENogIiYmlvYW8qSCZeJKUYgOFvxlXHSGrmp0vT-5x_QYlUCaycOyofBRPCRSD1WOQ43Z1HvNR1NIesX67C6eTQvYJ_Zw5MoPc8TD0S7ZEKSkvbgngBAcO5kZMCJeyOI0IbRyHCNS9RFTLRF2q-lAYKxtjbkibdPnGP1Bchf5ziCQ8dDG5U8EwdUSYiZY.kUhrH7-DHfplnhUzVSvZJA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..zcJHHfhDfgU-EVxu.LyW3TVwtS_cee_kHkg5X3treNRQdx7nZgQr_AO1GEQkzsrU-uDNv8N5x1quSLbq6fDd0fxdG0b4s7FBTDEh2j4QaY8_QzgFSpy7qfJiSyjCIGQ654qO4waAXdTwhUCRb6epU9zlV3nps3JCsXbCiDVWANnfX3vR4zUsJzznYwFnpyf7lRamedfmvj-bAlThny6b8rFLFABKKRX8ew3pKdB_dOCDWJvP3Ej3jDx21w7k.0KjokR7inDNC01-x8-mBNQ",
       "numeroSequence" : "122102421140401",
       "dateInscription" : "2022-10-21",
       "montantTransaction" : "39.45",
@@ -2314,7 +2585,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..KddED33rwrRYUkfr.303Ee2cqfn_PhPPfrHIpM6AdgMFIxu991AjaZrXo_Zd4mum8RWkrsqfL5AqLOHf69neR0QRrYVnw6g2NAHwNM52unNoU7nf4S6IID0GzED85-AuyDhdWxF7kgESE8W04tVCK6rYcIBTQd6sIvShgXzp7Kzcz4HmwQnEgFB8p6eXcLppNYiufJgjELYL6Wzt361FI16KNQ2_bt7RMHQVmDoLhXdeaYF6ejnNEVc-geNg.5PGsQFYSgT7eVxo1qT8KwA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..pMQ1rpRfA1BTaC_i.1VU46D6hsYFGKx2p1HT8e2AFwYqwM7NSBnaqbbi1s8ivGU0wShjyrOdD3X8u_68UicxCLMp4wPF85U7W1pziKMsI8EBNzAGK1ENvpEWdJmtjQ9gu1i5G_9jyWavWeah6_lffuCR18izr5UZYQgPsHlGSLKlzNDPQb8c9l0wr9bhIPwVf0WrWJmIL4LkdGJHGBiJ0FOlITaoeEOfv6CkcoXaaW7dTNGPcTH894InP1Sc.lJaRoMnqTzwpliZ7b--Ojw",
       "numeroSequence" : "122102121092508",
       "dateInscription" : "2022-10-20",
       "montantTransaction" : "-1715.00",
@@ -2334,7 +2605,7 @@
       "indicateurCategorieTransactionAutre" : false,
       "codeCategorieTransaction" : "PY"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..pf_DVXIqsxlKauCK.WN5vqJKMxxEXkobhp0EDIdYxYBi8NUMuxq9dfsfUPNHQwVduZDxwerJZYYvF5KYnOTDpjiB3SYm0mWRBZeknb4_t0x5hY-rbE9ryjNn1oBjzT9lRrD50aze_yVVZX1iGAk2UnDKfittw4o2soStuK69Ur3rBjFayxJ6A1W8sD4REDkx9BL_Tqgz0_Ai20C2LYCI03wuxwdmqS5ZFLpmehElBC1K-9lY-O-u_fVEUl6Y.Vt9GI9P6DgAmtnplsq4dpg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..qImUiWVf9qTDbSZm.daGn3Tozlq1ML8aAeNSi977KfH7zeRzGPR0caVXdaZaUZ-mGMnVnWGySbqKDA8sSCKUxT6COzURgO5N2OFC98GmjOpiIE75H61KOHThyaES_eHMmYVNP8xGgrTu_vargIihOsJyR1aOmmi0rEmjaMei0hmIRkRVSP45UwDfSrT2ZTuiPVjq5gofxcDTxw4ZWnRCQSd1daLiNz_Ykz1OQtEw4ggyAukvjo5NeOgsxOsU.X_I4b4hlzfOWma5-8O5NJg",
       "numeroSequence" : "122102121092507",
       "dateInscription" : "2022-10-20",
       "montantTransaction" : "7.28",
@@ -2361,7 +2632,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..AvW6o-Vazh2h1m6S.xOtmpv3cJ-6L6yMO4ZS9T2WB8ZqunX-Uidg9Kd-p32JPliIdPMSLxVasMqKnsiiI5djhjNHmGlFA062ivsaEb8qSQaYwrn1YAAhoLvET_-ynbfmrWEHgUzl3IBuZuAuzfHVnmBs8e5F4tvreorI_TpXdR_VLVSeNrhaeD6dAcnH3YcBObG6piVmVm0Nqgqh54wyMzM2oZRzBJ8v588w3mv2sQ2UE-LnOP1iupTnncIs.E-6Loz-WE0LllRNrjCU8yQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..O02BoDAfdITWY6Y6.OirjtpwqqnnCnVgtpti3RwXbZ1AjOJxrhj4HVrgJl7akFwgF5FQ0BCxT_dasK1BLowqX4rWGGWCqrbTQmlM7VZWLDAQKKz0kuYxcdYncos84iVUMCeEXLS_-MS-c2HX-4K1VnIHsg4ZNhKyaefWkdMOq6homReOle8b5-tZvjaCcBSQmCUCdde5EUVS_c8pibn271e5tFd0sRLNsu6zoGax0AEu8v3-dsxDrQ8_CD2o.Uq849irnCAlYgw5e_AAkVQ",
       "numeroSequence" : "122102121092506",
       "dateInscription" : "2022-10-20",
       "montantTransaction" : "18.00",
@@ -2388,7 +2659,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Stationnement"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..eCYR9V5jx1SBhgAQ.f89_VtOa1n7U_wdltHVlkfYXZYWRw7bIdM_hvhTLm8iT4noMYHJeoPS6zNV06Kciv8TBJWshxCFSYmjn8XqcQu87UceQ26LSdVWwTaC4nqZqB0PLjSeYzhVIYwHOrD1h5ZAVcpwSYfBNhICvzH6ARB6FWW1YjeSwMjVmRvu9Z_OztpBXl7RghguArrp4dbXKDyjeq_MtZNEWMP4IFMPvTcIsmANpvLOWZszkcTr16A8.b1DrNsypN4HdypMmkz_4Rg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Q2EDI8vJpWNkLEQr.eax_n3O9wOopMyYR7q426I4rWikpyITlkBPydTZzNRAg3CRTtktxCFJx_4BZugdpoFGQ4haiOR1XHmkMPoa1-iKaY04HljciE1BenlMpIbyJyUxTgh_P14TW42aHNhtTsctD2JNBJ4GI_FbmQ7JY-lkwSXI3sZHSDqMEAS5o1SroLalslOJhBzl4NoDRr5MNK_5PBdJUnNmGNzRTwfqzhj3BaJca6CYQ-TGATSpIOro.pQAUUy6NBw7L0kjDOOZ9rA",
       "numeroSequence" : "122102121092505",
       "dateInscription" : "2022-10-20",
       "montantTransaction" : "2.42",
@@ -2415,7 +2686,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..vKi88V2cLQzzmC67.90Q5D1DbAzgHrJDZ1YPeWNYOCWEgR_Uk1tM5D7_eY4COZborw03HdAB0oOYW1N-d-9P2p3WLWnjWKgkSYOT3F5t8YEw8lHSZgLNe21YQQuxH6uCuAXds5oi5mvBkGICLOZW4xfNscJxEAD_gPJFJMg6fOTzxiAYvvmJ5yUnR1CCQNrdDaQDvdNYtCm2HyBlPLGng6_9GZ62DTjGhH17LK6ynxwWiR2CAykbd_ktsNMQ.yMHy6gL0A1IfqiYnz4gK8A",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..mR3gwF2nQVw_2ay3.8u-c4KZoEo1qr7DBmn1lBP_iwrc2SouobxbuYkQn-088OB_lRsinXL43WXypgRkcaEXOLGki704BJqlZPX4wX2cRgEDwn6ZyLW-A-GbJmbP1ms3sDmxpIiXUJX05MMOv1ncIbzmdAZSb8DQOHZik5R0Zxgqmcmdsmlll6NbFzXhYfHXTopdZA0aqGAJJSn9FyILML5HqAweStOK5GYpSZtvYB4EwX8anK8eLcsy7Lic.wER-RoHHYFw2oOj1cXWgQQ",
       "numeroSequence" : "122102121092504",
       "dateInscription" : "2022-10-20",
       "montantTransaction" : "11.50",
@@ -2442,7 +2713,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..qafs8_2pKwrvxGbX.rmq9pA0IBxSlLqfawU2seJ7Mj79gVGlE_FQoD_jJyxeRFr81J3SPBfzn1_wzVYUNyZrJUhWw4ZoKhok5LGn3jcqaYn0Z2gjVdskicoNNqGRCxJf9tWsXWjb7QlmYNEp-Wgpbv2GrRh7cfF8z-g0sdyUlOak3quEpOgVsenVXS6FrwWhIiRTffUvs3hNyWczB1MOQHxinFjxmgB1-5KmrX8iKFYHm-ZdXAsM5vN_nNcs.5y46Cd0dy_Mnxj7upltmDg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Ah70dwLfW7Qr8AGF.QEHtNjZyGj9dqY206BBgXp5LQbDdphAWdNGo18-TFxnsHclcq_d4raEMQiBdHdf8pvmqLDePOytRFf8_LGWBYu6qRJkHNoFk67vfE4spEdyO9P6am96FCtcsp0C5N41eihpwrXcMSCHa1FQqkZxrwEntkAobQThXHlf9nQvKWlMJIOQq7-er5k9AK1U3p9r-nanOH8pnS1X9amJkeKtg5Zky__LXg5bCDGUVweAwE5g.-EoVRCo8UMm_e9p7YV-B2w",
       "numeroSequence" : "122102121092503",
       "dateInscription" : "2022-10-20",
       "montantTransaction" : "12.97",
@@ -2469,7 +2740,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..vE2zt_mImrdHEHf7._XcEiAsgyG83Ac1brOAxM8K4RuToaPB7IYdcjYS5TckB6ukpmfU7x2ZhnOLAjZ_YVBRuGUpYR6DFbsl60JNEMZX7G4n4r56og9Pvt6fj7FHeABTLD3oESXwKGHGnbUlSBebnU3Df7ItteV3YBt2RW0Xbym5X8dp29D90KPG0oFAQUe8v_XTrC8uXPlPyLDntgy_-mfKv3nq2L_RCmOTCt5QR-q2Hft3kdP7EgcDS3vM.4i_NRyu0RkV5CMsSFmblKg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Pu_jSQWdwlM4kkgM.5d3nfj39owPdKS_lKfXmZ0yoEtAeibldpk2ifvl_IaVNTl3WXrbum0BRbTLx8BDYm0jDSPvq5s_h9gvjiKEyc-S-xKFo-mO-MdHti2UG5xxTALYPbj0dIVoYA4y3ydfAB4CHA0rk9ruhqpH7d6r-VdxRiE8fwgRPWoil1YHCAh3GOUbFUeHb7Yz5Eak3EB7EeYde-dckhDESNvIf8GM9b0PTfbmrihsF8Do7Thq_7Pw.k6s2eYJHu-VdB_9aK-HzMw",
       "numeroSequence" : "122102121092502",
       "dateInscription" : "2022-10-20",
       "montantTransaction" : "100.00",
@@ -2496,7 +2767,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Essence"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..jF6Ce0JDUq6GhKkL.O2-PXABV518hk4wrnbCjrfL8HgAk4GEOOdn9FLVtHDB_wu1K9oe5fJpO9XUvlIaWSYQ34lA1bt21mZXO4F5-WX2pCOff_tpYjImfnrrJQ8SFeqgoa_ZfmgGcvk686ZHBSJRN6dtVVZAuUYymROS8rGNbKkiooHyvucFJoKPLiypibRx8CzxUwJOER8iiVhfukw54-Qv1zs7M0QB9dr4fzvdEAJBNyR1-FxDBOAH4Ey8.jtSNKoXCYZpELO5pRZHQag",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..SxLwPaINvpEn-fsF.x9cdRYOfxdphZYUTUAmVbceVCzFENxYi6xgvJGgo94CwtvFy4Cko9y512e8-knLSnvaidTrx0H13P54F_oU6JX0YSARgw1PZLg6eZRvza67tBTjwlC4LkjUGQ7MXfopnTnDIHI_WAA-W91HwGjxANC6Uh0dP4EtYZA81sFcJY2acP3GzzjXJqF1IG1RwK-xS_4ewTV45A9R6B28ZWZCVP67fmE3MVlcEhMSy6tumiFQ.wJPsxodapW_xljNrXkVfGw",
       "numeroSequence" : "122102121092501",
       "dateInscription" : "2022-10-20",
       "montantTransaction" : "14.96",
@@ -2523,7 +2794,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..VkKHKFYlcFZkdnBR.3fOQsaVhj68CoPTdixgyWBcA_ylqN1KPgK1n10XGaqwaPFAqOTKFHG712gl2z3PYzY3M5HgFAAQ0qYkAuyHkkItIgCeZbhPakN__M5vUZA5oKFoPpAPED28bQBOujhz129r0IO2AKvC-EZg-3eYtfOcpnoYJZdxuCLf_WKfWgTXV3ceSxonpVH3_JBu1Yhdv5VcW2IDKXshjlAvRAeQBeK_aVdrTVoDV2vjmsUBH8gs.cpC2teNxgxhtIZzDmQiR9A",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..EJm-CVAS3YQQr5VB.JGPwqIbsCb-hSNInoNco4mu-IFzJTSENwzemEuVUbVbTioXx1wKEKwYj0837kJF6gQmIifBQhnWgJdVCXbYJTQWZnXL5kcx8_yCuql4IEKqufF_GV_MkZCFTeKH-DzzQxwrcX3q24RRFxT0qYCi0TER1a79WwZDY5VQ2yy-WEU5qFnmEjjyuLnnGRBNsbOdPxAfhNJAXp2BWt04emj6TxwdJgPQASTuk0QDCIB07fY4.DErSncwLfokLCb5snHRPMg",
       "numeroSequence" : "122102021260906",
       "dateInscription" : "2022-10-19",
       "montantTransaction" : "566.08",
@@ -2550,7 +2821,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Entretien Autos"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..0GG-OMq70Rub7fxd.wxIdVtsvxbRYjhujyhY7oasSAkMTOTvWzhL_FhQFvBcwpZSYcFJHZHQL1nP5WhhPzSSGQjx2O7sprm0lm8mqQC-iLZ5IgXse9FRmhOm1GINATmoQpf0QJlhygmdv1IhAa2WkkTAOM9JrHkcQDHGFUOuRVQ5p1-sxxWwmt1XFuwxsnjKILObrSDgER4Ev4jxsumoHRW2tE4_qWkyx2ZdecW4UFKCGt19ZAAVAkJPAL6Y.bKgsMSZnxfKxZpJ2Go1gVQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..js-Nv-hS0O3rLbi_.6DMMdLxdp02l4yG0K2hKO15buxX6VtCDT_E01854bZkL9zvaF6qGsJ_sVOegDyx_7UzdzvG1c5EFITx71P6wbkogQ6gN_3GxUn4CHq8rsRiwjyg5AmUnrGRqXgHYzcozdRoSM_8M0ilqg5uvV3GlRWKSinrJ0k9XoWhR8tL67d5e9v8mbFrq2LQrE4J9-SeCPTBKJIP8YiPLK_OjH9ANTZeuPxy36Fdlg1N7GZiFdKg.KR-1-jdnhccvsgFrBTcnaQ",
       "numeroSequence" : "122102021260905",
       "dateInscription" : "2022-10-19",
       "montantTransaction" : "229.74",
@@ -2577,7 +2848,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..thGYVjSEpvy5-MnF.8Xf-Zmiqi0FG5haCpToC2UZwkih2Fc6tCDhktxHm986LiTKZmGf0QMc0WqB-e0t_-aA28Kvb-sMM_GsGEXmajmJUYnlQdg82i3UiLNn0hhw5eqG1EKgYXZjpdFPcNLA4wj-G0bNZ0cf2d6LvmGYRcOJz3n7Xj6-v12q06tYE3qugCiw4Ake1QZQxc_klE4nAJxyfZbGNMXxI3lgsdlR5ZYl2HKL3o0Sd9EX69Tj-ykw.JVKTvyd4Nra2Oe6O43cPAg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..xXaV8Ct7Cds_C9ty.gPYoLyxsHzQYQjxAeBrPzMKjohdcTB0T85GKdmfdgsihhTyqXUTj_3U_SSuEExtolQTe0n3_ThpOoHF7WO4_zRAlBaVeeSOVRjHMSyeuscmrUsaZEp4j4UjubM_xwVCpBnKB0wei2QV62ezorI95Hg7tWUyoJ58bcc44oZ5YxQnbUVl-bCUieq5lRmKmTbEvWNz75erYLrvfbWb9rQWIFdvytXovyQz9roBSgDRFrxE.NuQ-ZEqVQjc196OG9cTl_A",
       "numeroSequence" : "122102021260904",
       "dateInscription" : "2022-10-19",
       "montantTransaction" : "25.27",
@@ -2604,7 +2875,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..IYNw9v6qXmxyoUF0.FJGDXgVnN70qpLXKKgrCVfgMRDwI1TjZIBsvImCs47BQQ3SJrfYd-8EGnydJTdpDkuK452445g0qmHqW_ZuhM0-sxbGXKutblJtkqqxvlf47JSc4gfbV1OfQn64FIea_HbNn-rltsMlW-PWFPp5zlrgaiW2TOFvwOW3Xh8dGK7LwxMaYaVE-I2C92v4zZtL-PT3hVQ8cLKXfqkhd3vE4h8qgZeiLjbZjo8r97f1iSRs.kgzGu45dCrT_PGGNHPhqvA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..1Qh005K2ut7U-dtn.UeYFQfTZLf1QDHKX3QtwkBms4GjDFJ-FvCZmWLg5VxEdigwXWX8051pwIJgk2sBIhzYBjp0qCL9VbLQQUSMfWtGy8OwfsbA5MwrZtnnWpY25x2iQLasyC_0K3gcnRiCfVm9MgZGpQZVTHVIJwGx7ETXUv-JV35QYKAn6BWYWKh0ouNEbUC_AYd21lLrlJVLrEMGLGLr-GdgXux28EVP7DTaIxeZogb66WLh328gZeUc.jXApUnnO6Waj0kwyXaHLLg",
       "numeroSequence" : "122102021260903",
       "dateInscription" : "2022-10-19",
       "montantTransaction" : "165.55",
@@ -2631,7 +2902,7 @@
       "categorie" : "Variable",
       "posteDepense" : "SAQ"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..x3mJWbV6lDzyCqBH.6VdjObW4tZLqyKd6WPbvcEKvY4vXjc3a1ZU-Yy-ZAcmvWJF9vpEr2TEaaIlYxKSMaG6Zslb1Fqg0vtqHGVpy2TZz5_v-k1Yxj54qi4w2G3zMbZ4YlTTi5zI_2zJFVX0H-efW6PKkG0cDyTj2DvcquVOod_o0zeJiHB_GxZoBreJZMNTryxiGvMTOEDEMCMTXtNrjAe730pTGAPCvX1JF-UGbMeYssMkQlJE4zXvS3hQ._gvCBAVJnYIMRyEvVDShOg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Kx4D8iDGax1sieSB.KWK9_8NEhuT8KVI_1Uq0md4vpTh7zMu5wy97YGHd8Jm-n7F7g6-03leFMXfeIUhpxS9IxgZlTsN4EwNk8RLVKOHSR9Vo9OSOO2NYW2pc6nQ0C2Tb5SVpNZheIs53C8pH3HwPodHzyYwofGmnMY9FuclpNXwPQCeDUN0ZabVOLxusK0YZYPDx0qNxU3-LwPFUx4ZNLZD6Y1YMgiYl_wAj4F46ePXLxGlvQ3EXGVDnBNY.C5_6urH22CZoaSzO9fYtTA",
       "numeroSequence" : "122102021260902",
       "dateInscription" : "2022-10-19",
       "montantTransaction" : "82.74",
@@ -2658,7 +2929,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Linge"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..gonnq5wcQdK6Zku4.jb_7xpwmd8YApDivjdtd0f6l3vJ6M_wGTRictp5AFH4MdXIEzu0oQ9MeM3kedeEwyg06rYRFQu-0acwrxAONeUKsYx2suR806TTXDN0RtvmTU3-rgNraGfctCieukNI6BSHDZHKiI3ZIYQt63tQALnn28pwcXFKl3eD_8PsENNQ5-UwIVDMPpl0z7U-DKhyIGHItoNhs_oelIeKIAUVv4ewmnAcbj5vsMZ_9sfE0EUI.Vg2kKP33WgRoN52IZSQYJg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..1pefd3pTxTtLWj5R.OA5jVyGAFLJVFxbmayhgRM1WB9eAh0juwwEPwgZ6b98kG7l0yqrfdLpIhLQIhBqRlRRaobf_eBsga6E_-fE2vbwBGvXL8otM3ovjVS27CHdPT6s_y54o1ezItFmh7wSNT4w-FHJw6E7KVYm-WPBbpJdfPKZSYk6pAffPGYsiDen3E57nV-Dsr5x3-81vX7awRb1wXcJkaArS88S123W5LvFwkeMwE625WApXYutnGjQ.8e4oSZXP8eoRiztS6f_bgA",
       "numeroSequence" : "122102021260901",
       "dateInscription" : "2022-10-19",
       "montantTransaction" : "13.27",
@@ -2685,7 +2956,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..n7ptTg4IO1Ak0nBi.j8o6oLF2DUOLamPX3T-QOeor-zGn2Gq3SANaT8R13E2gnoZ0iISzH1xJfU-qeBcGGWIvmkxSfgqnR8kvz6KQk1NsAJpUKE5psXLEHcPOYnxL9rx5HDbWcHcbTwlW0fvWTVNpEh_1OSCSP3UH4VujYcEtEy8G4J-mi7is01o9pTPFG3p4fjNqWeKqZBulTKXqRPEHh5RIZxRxbtOsVALGu0EVciLuyrJtGsORIMNBhyg.PDlJTrn5Gtpn3cv9hjZzRg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..KMplZ2YQ5IDiG072.nim7TsJOtGdf9NykMlrPYKxROU26f3xgOdtAtrtSzvLdnebNjOxMXRH91kGe_N0ckUU1yhtDHEmECEEXJ1__QtGYsDy7-TD2v8Kw49JAUkFNSuexYe8s28PZaEFXixG03P9SNoBE-DydiPzCUQNYZdZ2E9EX-oQrGbRNa0YnCvPPrIl5Odd_EmRmdYhAFRZGy_gkdqGncdgsGCKQIuYdrZ6MUj5NT_6wD6BhXr6nsP8.F-qHPYY4kVMfrL7gcZk6tw",
       "numeroSequence" : "122101921221303",
       "dateInscription" : "2022-10-18",
       "montantTransaction" : "66.20",
@@ -2712,7 +2983,7 @@
       "categorie" : "Variable",
       "posteDepense" : "SAQ"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..LTUnerGshVFiaoY8.nDRNNpTOf2-Z-d3oKf9RNzMTMsFbTqUF9oajFJ1gFU19e_uoVwZtog6R0RBu5r4lhdvuhOgi_cIS6G13PKqK91FsXXovIz5dxP2DnCegm-DXp09NNj7zt2TFnM93x3on3l0pE4oXOF5NudZz8tHBdlrR9qdEyPuYp82ZgDF-f2aYdB7U3wI6_Z14t6peLfnb2Fh0Is6uZI5teqiD7bsuvDl8ulSKu_9akDDWiN0Oka8.yR3627PBrQuBlo0uvE2jkQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Si592s61b-ASj-CL.MlF-l798N9mDMdFcbFP74LZaEkWWToNmLsrlrP1kGLnBL9-Ocu_LXG8tKtlWM9GbdIsCjfDgjNUBLNWLRKiWX0a8_-oyrWAJAxcazv_rP2ZFDclwv76uBQv2zt21M31lNxtyItDpOESPsXKbJv-VTvXY3Yh4GSesKS14D7i904NG4evR5rGPStrklTzORGc44OqL3S20EyDgnlubHzcOmt1sVV9X-PIH7H44rx-77rI.mPNW6Dagr4YKj9QvH_6CgA",
       "numeroSequence" : "122101921221302",
       "dateInscription" : "2022-10-18",
       "montantTransaction" : "11.92",
@@ -2739,7 +3010,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..-WFauk_pixtpXiTB.moc8IM58XWcONySNcpdOo1AgVM-qpKCR_U4N7ZtUw-sh71nhIrBjomCRqRnhwidv_rWIAoG7baBGv8awkkTpHq-7GQYAjsk4ddxj5EjciGIKK4gGyHuhIsnxDHmV-qUnKWP1s4r1PI9K1OD4wl1_GutNFzl_cUKIRQBtehX7B-P7IiAgIXhLGOXeBCRgu6vDl9bC6LwJ8W90WMNb1nm5S8KWd6P3tXY9Tw-ADlVMz1I.NMfXAka1kzpt8I7ND0wIxw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..jyrA69AUlbtzsrg1.O2KvMIgOuZSC5Nfj8BNFaPJ38PDinr8S7uY_cEYERHVeBe1vf-unwZADgfDkxkCM7vRsj56DJ3tcntXsh0TvVxgmvRj3I82QrPbUhDrohMOXFZIk2si0IV_287w0tmzRCdhoyPx_pChb_Y-38QAQE1p-tFHWckumm36x0TWdO5miAhXNWu094C1ooHP_7NITfi2hDQRKYpNo2P-F-XQIzNtkK_CCvS-TWlvARPWWdZU.MeTGbv7IgqBlOo-rbaF83g",
       "numeroSequence" : "122101921221301",
       "dateInscription" : "2022-10-18",
       "montantTransaction" : "29.15",
@@ -2766,7 +3037,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..d7dGF0g-boIDFKPc.oddHJwiwVzbBKX0MTZUxKpCw9Dpg-wWmqyGq9ebJxqKOHvGYiCCko3Ws75eQrtj0_mjplZZ6slKhNZWUhp5VidRbqwWXhq4S2-IdBoqxj2VOxohLEGLuw0OURUJj0rtOaNph5RYp9KR9CFy1Tua8su79Xc05ImAwI5AoOaIkmQ2uBkBWRV8OFHmkBCVC5JWlJGXvc8kvEywPpX0UmusV2IAWVeBdnc_9OeSH3dz0qDQ.8mq-S3Qh2a8SUq6iz6kpWw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..pYzdYEHYBG12Ts7q.VLDSK6SG9ZYGAXM180RRCYJZmNXXojFGtYQZ-qTGcDrlW94t_ZNxfKiwDl5snIuCktFL0YHHvLYd9ufGA41LojN7jgxu65HMp2K2fAI1K5mJ5eQDX8DcW9itXyjAELc_XAdjyR0YbYozndSiduw4Uo9UuoVtrJKSW9q9M0wP1Exvwhzez5DVDzpvNXV75mzNyQykVRmSli2JqyuxFBrxpIK0yp8d_2UfTWY5h2KY67s.e0aHsqyGlACXi9nGTaVV6w",
       "numeroSequence" : "122101821393801",
       "dateInscription" : "2022-10-17",
       "montantTransaction" : "2878.60",
@@ -2785,7 +3056,7 @@
       "categorie" : "Variable",
       "posteDepense" : "IGNORER"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..OMj_n-nQY_Guwk7j.7yS-Yld9smo8_5AlsSBAXKaS6qaxDcsQm75Nzp0nJ8t2p55KXdBfcgxvN6OG3ycoErfEMexwoPOoIjSZ_XP5ajLs8satFJ2AEeKmi1ap15irqhQ_Gz_BJOQg0lygnr6s8mdJTcLuS8bFI5CGvZadqwAZWAXlABlOXitJ14nPpm-K_uDfGEH7GjH1yC3XGYI2gTOBPtbF9brczgY9YCBCST0Emdek79dRj4i9mJJH1p4.9fW7keHWxBbQiPRulaG3fQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..SFBvXcGMSIxCHZoX.PH74T00uY2XaCUw04uzS16XK9qwH5IHBc5rMkOJ-Ys5PpskpSz9RdLN4jlZ_cIdknF7iYu-1nVgHHLVqwvLabrw1nNK1Rj3vKsYHdYyEBHewSDNlkke1MuYPpo8Oabs6QlU3s8fD9cEFcYNDwlR0h5UDym155oK8S0HeEmrP1MCgWIrVqu8ktaSyEqH8cCCIfXEoMwEbt2h2349d18QSok1fOSie1DRHDZ8_gTWDSYE.fHqltgynW8Su7w3tTczfvg",
       "numeroSequence" : "122101804114001",
       "dateInscription" : "2022-10-17",
       "montantTransaction" : "200.00",
@@ -2802,7 +3073,7 @@
       "categorie" : "Variable",
       "posteDepense" : "IGNORER"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..9zuMI8jvECadTjW1.OVGAf3VbbKGLSrmVNtH85eDBIgY17NFUpbYg2lHkwBif22sh3Yf2YG_NpTFEgAl1sSlNHPu7olD7xWcCWZFTiTVLEdK_bexmZfGQE8VtsK6QR7nwoBs7io8OA_r-BEAngK1qAnC3iA2ZODrybwLE7ebLkdTGL0VyvVgpresSY9m3ZXTMmRH4rg-1yn5DjMCiV9PbdAPYIc5BuPob7t0FFWl3B6zP2fL6ggOG6LDfiJA.C05qrJmpwTyynBD-VHwceg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..UwZXImLbNAlP9oG9.rz-r-bPU9S_NY8pZRaHPZj94A2KdUfTdbT5G65_vIollKD8ykT_WoXtvC3Q5nWGXEX3CiB6y4_8O4YAFqu61q7ZlOeGyvQ9_rXPdgfLfikjyNxnClv35SbPTxt25FzhxoZ4PEwZIViWgratKQBDTcTS4l1IfUsrfcnVAl416tdgSpPRAFE-NGxC1EKJEaocY0lz48pKzyTjXgpmRGf6fXYeXtpFsQaL6O53EvHLL1vI.UbPMQhXYuAKeBfHGFWeysw",
       "numeroSequence" : "122101721403001",
       "dateInscription" : "2022-10-14",
       "montantTransaction" : "3078.60",
@@ -2821,7 +3092,7 @@
       "categorie" : "Variable",
       "posteDepense" : "IGNORER"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..xnSBAl4gxxpSViQP.ZcvuL2M7OXvKhNbtRhMam3yTYUBCMm-_Lq7sIoZRN28dwWqSCugEsEiRqIW5D4mt0LzIraIf5aPgM_aYbVzKsE4YKzhCvsxE5z0uLr-lUmCu1UVbsqTB7lNU-mT9CtcbAE7-Nrsqi15bHpmBmPwgwnqSuvSd90whXRGDM5NG0GGTcugXsgwzRF6nBvmPbK0OhvqLJXv3kdzZHz_VPsNsoUTrGyGYw8cOsDuzbu1o0Aw.Xw9T_TjXF-iMpnfGKYhtdg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..08Zrvg8ovT5UneeP.6gyAgQVFKHCAeHVjhlh-ikIC47teYFdbkEd7GXNYocZiTAD743EMykdpJOg_-d9TR4tjtBYMwPVb9YrYGoUkqkY_RXalkqjvkFh6VCmEfmTHS3a2ksTTZX_b5pKMMm-4JdCnHxAwP4h2YHQWi-Ww9jqXxWlxHCDikYsCk-xQE_AMow0LxwKTMWICF3Rd75WXLRbZMiHN1-CBeFMCdjX-h6Bi5F9li65KzzBSelcjfYo.ymeRWZnG-9VSoCmY_RDNbA",
       "numeroSequence" : "122101421271701",
       "dateInscription" : "2022-10-13",
       "montantTransaction" : "49.68",
@@ -2848,7 +3119,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..hoc7EfUxwrpJ4YNq.jR8Q8p1zgZhg3h-nOxHWlglemGMHnZM0hXPagtRptd3CIoNlVHv7OLwYe23eQbHLrAOZauXCHCC6jpjnA6soiayofMxpWqreNEtOB5yBmvdV5lbuFMQaPbHONu4vKDCUZTubOdlojKDwHWQda8cK6xwOtRuUc0Tw88UwbnnQm6U7L6V-lZXZG1XP094n7xWoCMBXFLDoFb9HqzE1VOyGIcUPvW1RgkZCe4d_Mit-s8M.8jbIj4XyeIAKd_QZyKvaxw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..dbBhemwObA-67Hfj.HlyrZXSz6R0OeyXHNxUxurbW4Cgrt_EhLcu6BHpoe9qgFGRyJy4dJ6uJgQ_jH7WQyZq2uBB3evPKY6wudwogqE78SyFkjRKj_nBawZJwoNTSrjtswOU1ZfVdnvvl3OZxAvDWyG9_qUIlrSTz1u_ZHs-Udq4dGsRGIEtwAyo1IXlbvAW-8JS0cIAoptIy7DQNg49Sn6Tn0OIt945m1rYq4zphWKk9_cWLCV4LV_UGJyE.J_cA4rD0f4TUX8dH73ki3g",
       "numeroSequence" : "122101321165702",
       "dateInscription" : "2022-10-12",
       "montantTransaction" : "-695.00",
@@ -2868,7 +3139,7 @@
       "indicateurCategorieTransactionAutre" : false,
       "codeCategorieTransaction" : "PY"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..ha8PNGhlmG8aa_5G.VX3d2Lgu0Lfm_jREg4CcOA3Kh8mLcvKv7254m7DRbvQ_6dU5C095_ITaVGi4ds3ujiN_kACp-39CarJtjfdwdzbCU-zkfRejMTpWwZihojpPNepzVDBxzHUNLPJ2hus3QgYNX1g4C_c_YUwSWOOVlDFF09L2X75BPgsYAkFjIiBxU1njihA4d5ZjhhF6JeQeO0JZnVbok_RQeCwuVAXyK_lA9OA9qdjtv8vTEshU7XQ.1IKfTAD2gP0xLgm7IIsLtg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..4GS-ZpjL0-f730Kd.oPxI7KcDJv-y1WLEWVC2jVWMindz0efvvJolLJl5G4ZIItt88I6GDoKKkT92Pfxaabi7SaIhBhPtIidH0va_uWjOa3vHdJYMj24DwN34G4VJrPjKkyT1tY7Lhx6IMwZUbzR6btg-BYj7T0tlwVspSSMuhUGcdBym8ilbTxBBTRTMnNLaLxmyRL28JTe5BcRzgeOXuwh8oucH_tDGpJE_u-vERc-8CW6BIZgv0UCZI-k.4h2sY2xNay3Z6e2mvNt5ag",
       "numeroSequence" : "122101321165701",
       "dateInscription" : "2022-10-12",
       "montantTransaction" : "14.96",
@@ -2895,7 +3166,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..PXF3Xc2ET-DUPkPr.ktzOefd9wCQWsqbYSrrJucQrekEI-gzmJj7GpWUezV6vKTAKFLZoAupEuQtaJzJMLUaJ4f-ICaDxbqkvCcIvdbXIykvdfhhZlPOZ5rfGB0dx94vGF7_qIt_DBCc3tjyRFnFSqNdkqmC5W7FaHMcZ4td6wuFOU_BZsscNQr-KPpy86YzBY8B7t2-9R9hkbhhRytFPCnoqwICH9MnsPFP8eHYX0MgyS3Twt-pvq0juLHk.Y7N2CeUcIUbhJyegDbDDgg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..YBYdwbX_UL8R8YAQ.KJuh3qbTlAT3D0tliSV0_V39bxecIgdf2VmTcHzpibpQCmNsF-q1745swWayEo9TGSHiwvwpyBZxwj2D_-AJkzgsxJsig8brhnozD5fikrdl1VFjgWSQMTfMExl22SAp-Yxpz03Ozvy5hBvMDcb1OjyYuAQEc6kq3YrCjWhH8m_Hph8tIjJlKcQcwoukfjEOcTwxdnC7nlTXAxB1MNK2tu_P7AEurz-rMmo3GDY4SDo.bKbHK-8KcOiaHTr4WzlhZQ",
       "numeroSequence" : "122101221434608",
       "dateInscription" : "2022-10-11",
       "montantTransaction" : "48.89",
@@ -2922,7 +3193,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Ecole"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..y6_zdHeg7CqNdnQb.kGvoArUmTfMWxcDY3EkB4HLaUbh380OAISaRkoim9SoJKadTsjFGOQwi34Mi2Go3AUs_XG07SFPeuuflL231HpmJUPdML38d--YW669PGYCrSK5IVb1gPnGgpEKwPKw_nEV0ayGX9920DvOaoaZHfKxwZ2C29W1ITqM3HjtiZ9mvAjsLFiVSs109y3QLRbL0ceTVR2R4kQz0AryVrWI1ZUBc2zQnwls-zvedjeeFdos.ILRk-yA9sD6JUdbUBgdzNA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Uj2SyNDsT-kXm_IE.sT2ZCSorYAVHVTzfHKHK10W7ZNM7pb6SGYVuDWf5uJrlQ1BNX2sA24z-tCqU6m3-Q5_5sMcxEwwiHLPo8_pKvSI8ICs8rdf3i8U1YK2EmEk2J7Yp9aqrixKuMM1tP4Zl8N6dKrIPiGJ4AerOKBV7hoJplwZqzckJS2Z8-cA4B9X2F12fyzBzmxuMF9NkFqYHoK3wjGONqjntwqlOrGQux7aOlbQvYcpwhOb4CzglEfc.5FNRiWRK7YzLi_n_kU3Eqg",
       "numeroSequence" : "122101221434607",
       "dateInscription" : "2022-10-11",
       "montantTransaction" : "7.28",
@@ -2949,7 +3220,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..oKZ7XTjqftoKlvi6.pFB-AOi01l7ncpf8NQsXqcArVlAz9qHNx_vic_L_oiDQevstPVayz_qbwK5V8JMIYUIacH1f-Q1hRQStfNEOGJjKW95zAbYyI-9GtPjx7YI5r-ZDWKbjdReOXjBJOnVDW3LQBzKOTZQa7Nk0FXM5Y9O6-hFR5v0bDpZ6reY1qOTzLp7c4mWigRCABJ0WNSaBcpC9DEiPO4QvfhCh_oKFc8ayhlE1jUqQZMGVyQoCOh8.qy5vX4qHHtI6PC0GfelF-w",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..s2arycaqdHERG5ui.H8QnouTZ3TGRa-Nov8vue6uYOuvzbDds0DRGwe3IJ-EfuKkWQqYo54ALrdNPLVA1k56L_ssB0rRkoQU5exKVgkeHWebka4x6uONp6uA6SLB9gtX-R4r61aN2i8S9_e4ItLPnppQHzCdkf5WDjTfVkQMd_7aUUYifn-IC_SJmCq41J12pXH4k8QcVKS6BIhnF6_xGWyqCKVP-XTdXobHpVIJZB51q7EM6h4VYbXOj0hY.zhAkPtE8-5MK6HgEbaOXjw",
       "numeroSequence" : "122101221434606",
       "dateInscription" : "2022-10-11",
       "montantTransaction" : "16.66",
@@ -2976,7 +3247,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Pharmacie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..p78WvIrZ46ELv4-1.sI44lVVh9O9wEQIIGGG1bkc2YEXt8nasZJpuFLh9bKGwE8yjOk2kLGCXiqlaGChjinSkkTRPv8hUymtIir-tW1r1ZS6QHkX2cf9f6pwaycP-RJYtHD67KZIh124GqBgOvQtH2hAGcGVBaFG3N1z56yxRHhukW-38k02PTi0HMo1YyWpaZqwNK6WA3TVOYiHNb7FCD6Sa_yDUauZ-2pxCAeTf2fNaJNrcMoipnyMwpCY.VB_1TDcZwy7ZDOzFZzoncA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..DiycIPh-MXWFcdrB.DBVXUissrQdmrK8GNGXA7okHyhXmNOuDeEBzQw4z4v_BRmwPpwXQHPAm9McAsrHU6XpadIzZZYhrfOrZko2Usri8fWRqDxXCUbI4-OoATyLHHWMpE2HTcsNi8HOC9MrIDAM7ZNYW5LjZNY36VikYvmDrJOj9iQuMqeRX4Os3W7DRatYDNsq6SUyMJdpmbF9PTssEQ3mRTZgbTpjMHJDCDqpG9RQ6Bvm0g2UeMpUmTos.-gviSdZbz0gP5_kA74IR1g",
       "numeroSequence" : "122101221434605",
       "dateInscription" : "2022-10-11",
       "montantTransaction" : "8.99",
@@ -3003,7 +3274,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..kNuvvmtshpFzI0IN.m6iAZEHWRkF8mNJgEoczL3tI1Nq6ZPTLF73IUXLkAdYZ2rxYIeD2gXp5KAz-HqY4E_vrN1WtewFSfxy9YoarE4o-AI3vTKj6_pK0WNjBrKXjLqaLp_hhmuGzfgJjrwlu_XWakBb6gSWBiAyl7bKaV1vlpp3cgGhmMOe51G3N0PwhnCQmLBDmyxJiBgpicn4gc3-RYwQ9lgEf0fN1tuWWaSaRCon9ktJDTNq27CRdZz8.-IZLRaQOdPPs6bMxJ1v0fw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..hRV8-zn9dBbgS1Lj.kx6wdPhodpYzgBHkqVkbDZdJLsiDQ5zjvOxOkp6HALvoueXQwJCyNJ_YsZsWTDJR1oak-9qqhJmqTwuCMYPGEEohI8JtmYw8Du-QSOlqv24vrNAUp60T5jEWzBzdteuwvghvVwSEhhaozK5H74l7e4DLU4tHVRl0wRDyHUM4EJ0GIwjqzolR-J74Gp7nOCBvAIW43ONoO3DFeuz6UnagHtxaETk9OPd-jrgTo0Z-gS4.4gdPj3tqA_p0jJzkjf1SfQ",
       "numeroSequence" : "122101221434604",
       "dateInscription" : "2022-10-11",
       "montantTransaction" : "24.13",
@@ -3030,7 +3301,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Streaming"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..I2Ge81GWMJ6LIkn5.3Dm313edUBMQ3XHIoeOPRA236HUWCw-ecEh6lP9WwNK-Reirp120ph8XGx53gCPL4aL09YFJM7ZeCGlSVfd-KULItCjpUo5b0VnkTzw6uthY03oT26hf8wouobQ6DcSlMwtCvTyLjufdRR21j2ULrDGbA-OQVoy_HX35anwCNuhh7ZYks7F5qjqC42xgU0gGHzzsATwuvW7uxUsTTs8IS_EjDmbumS2xxMGDD9BinIE.kZjyXKV2w8Sp6kVWEu0jkw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..YyhL1dJ0mBSLofPU.FewZbCl8_XReWniOYyUVE7BUhVVbURROM9XIRe0j0_3cvSuHBcVyFAfrbjWuQQagde9TKNxAVqszVFlV0YMAFEmFemvp9VKQ3pZBCWDBPv2C3lS3CZbczUQszLd4UWftBzkDuHxfyp5J0yr747qKrSyRg7o6FkQSGnTkgLWAAUlw0nxzUrjpQoUzw4GewHfC__5cdQx5_2GPW9LDhV-R_RCUb1tvsTbn9uvPYb5t0S4.Uk_ch6mHfWla2V0VkOGpBQ",
       "numeroSequence" : "122101221434603",
       "dateInscription" : "2022-10-11",
       "montantTransaction" : "135.40",
@@ -3057,7 +3328,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..5MV2U9kL2lG71v9i.nxTTyXTNeCnNh5VvhT2LOkD0iwfmmKFF1MIIRLU1gIdRByM5-sXBdmQMtJFUeIF8x5EatVIpNtbAxb-cwD3YFdYooBUo2Z9AwwYb0MOaS8ocXjrgijRpj5u8EDMsbvg5WURvmoP44gHEHVxyd-P0Gx29naDLF4omYnJu-arUB4ZA_WOxi3u94Fdt_Nk8E522NKikQRDQ8UtRrD-1kuHELPZ6q-2DSDh0lQUhsdY94GU.SKxra4fqaKy4hxHaOT_ewA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..H5HOWNEos5SJjqxR.-UGo0yuSkcVF7rRewp5Bg1snsR_Fo1Ng0nBaHr92OWVa5mWvllulLqFolDo9_lZasD657LfmUIZ9tYTkM_U7vHQrCrZB4h4NasVEsmfnPEIoqcKGNfWFKvAw9md2M1-hqV5w-Rk6ijMEn4ZpCM27nBjvFMnbieqII0V8a98qN4GZLv2aW-clTs2VgJBZI16FQ3X3jUwMuCmkB5p5P3ZffdXPtDGKn90uWVAH5Xue9SQ.GatcniCgvBvUtYEkyEodsw",
       "numeroSequence" : "122101221434602",
       "dateInscription" : "2022-10-11",
       "montantTransaction" : "5.99",
@@ -3084,7 +3355,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..UDWJTFhuczoI51Kc.msQLKGUxPE2VNOgqv-cigFS7Xvypt5YEa3m7h_astE7JibL7tm3CKE0vye7evGnJUFjASulNF0mlOSs8ZQ57B8XqtZbPA9p_6Pb0psVRTEoXTs_YyGIGKQADv1Vk2-DDtvwtHC2myU06bTi--6KbIqsisaVBLcaRMzRzxkZ-NET2cTuLIKOMOCdnoCpVyYE3gSoqmT8SDXVquxO9vQEM09GlaibHyWhi-xO7PuStZ6E.TRqrhqMUWxZ0b6V7ma9FqA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..n0L5lDD_pRwF3mYY.ZoAi1rwc7ngcHR1otUGq6EB-5NOYoX1rllCKj5KgPfHClBgD6LAu7j-3spEqUwAEL5bynLsn6YdhGr9pWjEPplQG4XZfeHBnnby3jsTBoSof8wFubNzCk2s-efTCZJdWbneac9_rNOnGzkWU4h9nO-bg4ysMa96unldjU6MTxTtT_C4ZCtYU-_IVYaHibSRQNdGlNEIg6P1fsizRPWq4kdFKRKQPnHQZ7R4yKM6gWCw.b8DIER3c_E1HRqnmEDy1Qw",
       "numeroSequence" : "122101221434601",
       "dateInscription" : "2022-10-11",
       "montantTransaction" : "21.83",
@@ -3111,7 +3382,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Pharmacie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..HUNQqHtvQf49Eytp.wSaA5dipASSThF9l45bkBY1Mpqf7s6BRh5ymxRUwd8EV3phWYlkYnWA4YH8NjTPoquZv38ybbmVcYtLX3hcD74TxqbmD0HQCoaoolysWYri4u_9Via2KCIfhyMus3_-r8-g-vRHF8gZHhEMTqlfT12DTQLsO4w_9K1YADJac4sk0zkI_zKYjh8cjtIQewVLMxnrEfyoVblTcOppVCRzxZ9M0VnF1AZHqxV2u0dT74Tk.qOMHb8I3QadFKjSZeiiV1A",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..mbJ1yyGBXFF9Io2E.r1MelIhTyup7re5uwaccWIfSHSxPowzWEiLedym-R3dHPGZHFWw3Pcsk02F0OFNw9qPmiB-JPo1Zo-M2Np2yLlaamw-LGTuLFSw2FQc2o7ANJXZKs-0v7pLug-wD47F6qGR-BfcKu7_ZHUNn45dsDAbjllLMOhv7I1Cr4uoS6Teb3X6u7NAUPXPMRs359U8JvskNrE7Ls53c4Ti3VUWGKzxzESyRiJBJiBGHe4pZp44.K9bygRGxPOO9FgHSKLKvHg",
       "numeroSequence" : "122101121291605",
       "dateInscription" : "2022-10-07",
       "montantTransaction" : "931.81",
@@ -3138,7 +3409,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Entretien Autos"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..x6fs6z19TgNUPJ9h.AhVUUjuxmatCR0q3iWd650bZCAR54MjhlywsApKIgWT9GfuPlRqSVqE9N5z2ItJqXTfWmD4iBD56DQ8iCQ0GLQxyL6avNI9L9uakeAGsdOJqAyzK5Hdeba68E8ZPpnZEtlDDD9cw98nyEgG73PGz0R6_shL_w-9ESy8wcn4lJxg1IkV1P4aWAiO8SF2WyoidA3cnvaQ_vSKg93RmqcU8bYAKLZUyxaA_eU5ZboWh_E0.QgDytUfxS1iJRGI-1RKfuQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9.._0BWd6Hm9qjSURX5.QwgQVgdwO_bO9ivVTJiwmCMOs-uDpPfpz8jaj6zzxTpE--UaHOyte8uwggNraQPZRovWkqZJCkEeT11A7FC0s2Kz04ZXNVZ4AHtvX3PpHYw_Tzxaf_shENLhIF2JxsFnZ2nScc5kur9j4NaQU87Rha5oItcsOkxn4DM8-vsaMqD6miX4b9d_1VQoNuA_hO-oJ_DTwaB2qso_UyoBYfMXAXn3Mo5b8CJPQ1TIbrpOObE.UdEmrYOggZWy73PIWXIeZA",
       "numeroSequence" : "122101121291604",
       "dateInscription" : "2022-10-07",
       "montantTransaction" : "87.95",
@@ -3165,7 +3436,7 @@
       "categorie" : "Variable",
       "posteDepense" : "SAQ"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..a_7_y1qdi6-M0PDe.t8TlbR_Sw0eXzTCl209aGront2N5yGuuLeTjtxFGfkAwLCn90ycE5Kt7Qv9L0i5EYZZXiqwFcvQncNbI0_vz1ptvK1JUKy0xO7mlczBMEIg37d5tmT-tm0Czpxxm1lZYY6SeqAcUErhjswJtlIaL4OTvgmpVe_2Itx2yioESIuFGzysU25czCTT4BaEkODU0WgpIa1JMQt3FGRYTzMkk1s1pbX9qCtsM1C3vE8N6cjI.MYm150BjsWr5nLrDJ8-Sqw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..SgLBO4N6rHw1wncu._feAx74gcLyZM_M6Q1eA01M1aZXoVw0xspuJyRpWdIWuz4FY1DnyjNaydM9J6nH0TC-gVVYi8dCT9O25FNIIJD-8yvbdH8p5USyTq5ifijoRNAZ_KEE0ebVOGOwV2ZM9t5c6VMT3gYg6NA5dW1TFfafpKM4Y1_mEBnzV0ubWhl2eddvdMWXRlAO74obkS_J6n-zTAplsqGF5iWBKtJ8flU-ZLY7s8zVNX81PzYSN0z4.V8yzqxu6HWUirALUzM1Kew",
       "numeroSequence" : "122101121291603",
       "dateInscription" : "2022-10-07",
       "montantTransaction" : "10.19",
@@ -3192,7 +3463,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..IrzffvMMACU-uPjI.-7GFJNyK3CgHpNzjUoXanZQN8nsprxX6-mBkR1v4OgR_crsIKSJiD4quMCmM6NGGN-lWTpdn7bFageqXdFjVMO1aO-0BeWsGk6theJuggpbdtdGExwUq6PIXNcA4nf5n0FKcMA4GN1ZSEVokxXW8cWLlNox8pofC9bKrA5pfqsmiwG6MgxITDZ_ftHNXX4UU131XhdDqv52GpRM8Y-tOJrYkwO8naofcO7drC7zh6XI.ve8xpn3HAYRMCYxLVvJJMA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..0KgxoWtbXpFBW8iB.aayaWhU0KjR-3FIxDiYG0lEhvSsaWfUW_Xptalt_c0ivE6U_7KqXThlnqjnzDCLyGM_6PEB9G6oDzCMKqGxKPM8Txad40gZOVL4i8j7HNV1R0Qw--JSt6yqOd-Cq-oPKS11-DNOAWZo2YAJ83EzE6Yy8rR1Sn2xr-0snUcI9ng4iK-2mev0jB5HYYwOx2EvovROx1W1KsrBQSR6cd2POpYnHXaClzcBxdjSkb8RoMTE.YpXqDASZZUcJyr6BZLBO_A",
       "numeroSequence" : "122101121291602",
       "dateInscription" : "2022-10-07",
       "montantTransaction" : "5.96",
@@ -3219,7 +3490,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..4pdX_McNjVZnkNGZ.A0oneCcNyH-mEzgfEpm4sXZLWv7RbgLkdXCYYa_eF8HTU9AuXCFl0p9c46mnnF5PyDGeSjkwj3KvFGTA-gRyzkh6c4I_a6a9qzrwqvrRjNEbupHy-GBVU3HX_XAwI4SVy72TnRMqIu6BVixodlowMOOD3XVZzuSzEO3pkIzUeQLhK-ozM1ug3CImZBU_1sv4hzsMb5HUJYehraLuuZPhf6Z5SFJRxLJKnTh5hQ2MBCc.z5q7a3qO4b5hBG6RImJtXg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..LvbocdXFBe2rl2dg.sibBUxkj0lWMAyWA__2tTAsjHezKqZ0LkKg0w-NwVSmOMbJ_4kTxr8PhNPJr5_ELL7Ltu-PvVExHKFJN63K1Y72GrbgDdHzpXK7Q36s6GoblyekndgbwmuZ4zFlsW8RYrtDCy3SU5BF11ahZdZP3ztMdYMI30JjUOzB97Xn8ymBWqtODM1ObNL_Kjxnrx-59AQ7j1Jsu2ITBNutBXhvvjhH5gZIPfOwkOOoGjlcetRI.jq9LhZGVeAH-cJ-5MaiqKg",
       "numeroSequence" : "122101121291601",
       "dateInscription" : "2022-10-07",
       "montantTransaction" : "63.74",
@@ -3246,7 +3517,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..hZNa8TgPBrrxyMKi.u64jTsjgwQOMkWa7B8N-2b-3jujLIDJ4QU0Kr9Wtbnv9mxMbs7wjHZDNPhqb8Vlxo99WBtMxXAevV44AQMqiLCATsDhEiPfrS5TYLYDAQRSxKX6iyfSqKfH6nY6wjEBHtLkP7pgrRWAftEwb2ihhXo9xW4arZYfAOi7EmYy5iUa7WYCxj97YiQ2OvTA1GfVnyfORLJcjkn6IiuRRDwWtRqdj3KC6iu86MIJhwQfxtsw.MTU35RPtPJL2JDVIyvrJrQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..xSJ7DUSwM_Y5fdwV.P2OX3-8jbRz60eA5Uo5FKanC-JdraQRtTRWV991tcLXaTyhNwViz43VFbwwYbvv40X_4DT5F9OcnsMcoO5qmjbig87nnCwcidH8QfMz33LJhc7R5_rn_3Y0ZsoPJI_rz9cbF0K885OLesp4cqDk9OCOeqz278SrWIRCGS9JQanM3t-8UbjlbIotYGEeK8mxIDWwULyM7R1jLwGRJMgcMCjarx6g2jA4_JVs7jN8xtNQ._U9J7E6yVSFZHa8HLzbjtw",
       "numeroSequence" : "122100721291002",
       "dateInscription" : "2022-10-06",
       "montantTransaction" : "-2000.00",
@@ -3266,7 +3537,7 @@
       "indicateurCategorieTransactionAutre" : false,
       "codeCategorieTransaction" : "PY"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..bThyS5Q4nH6P83JJ.dY44QHx2wkfmVl5RJsjRiw3DBHDaOFcFFTmhh3UKkW1c-hoxRlojmhdT2y0I1E-N41idNyiqNcqIuWFvJmqyg2iLyE_NC8Od5AC6e1G0NB_-73Zf9nZRRrq2EBxvdK2H64ty2jO16ETbkdPrN2Mxvvd0LRuN6bN6Erzz6ZeDMqZ_MqLQY0v0b7a08Uwo4ZDknsqJBFgUjADwbhZLH1DxH_-0ThkIi3LqqDGqoFQOcn0.ogJYn--PjAvw2GrZOlF--A",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..chyjRvQ1Y5BptgkS.rrnO7utLfI2OxfZUVs_kMbRVUpG_RTBdQAWPbhNCFJV94BRCv9C9N8WXdf6C9B9If9qxUYYUt1OJjII-a598lZdoQSaUxHGHa5acRhbwDzIvB9UvYKI614y1w_kd2DMNfCJHutqHjS8vX0AzCOxHT34uxXC2RwxIBMeYUvdzfrqdoD2KuE9L0qCc68Oxoc2tSTahAK-N3gJ9uEDFPYm2fzpUiealsqN7ChCQINl2cbI.rHtf26rxNgUWM0HZEv3aSg",
       "numeroSequence" : "122100721291001",
       "dateInscription" : "2022-10-06",
       "montantTransaction" : "60.12",
@@ -3293,7 +3564,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..6UfVMQUBD9fpY69t.28xGSIjPPFpxrsFOiGrqYVno05uo67Zn4Q9b-pRi8QJsytxKUYePsUHWAnGwAP0hAubltBvNUGaiQu1y1SFtDJk6MLpDPjEyr0yDGhlVP14d6wL1MeRtLQg8Oc7MK2unGMX1J2RrM42Y4p_kzEMnA7lGdFyx5Q9cqajALYWK0Sp-wzADIA5F6avlKrJnTn60lfgMBaVdeUyRFvOtu-XoRr66B5EdBZ9GZjabv3ap1fY.qJlMFZgOCOchTJ27KF-jug",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..xhppIpyf39p9CvaH.YwTPBGqjVBPSeZB3otA_J4mhpp9N5DCs4Vmjb2q9qUZyrY3ATnTHA8roI739nAyInI0wzzlTer7RA9MNuB7325Sw3QU9Jns-PT1eIiGG1kBBLXlOp_nQJ2R7hB2Gqq4znrQ2Y0w_-vNCsg32_RLp4m-KqYIOmTKuptOJgcivLi0joF5WAxgCnKGUPynJVYJuRDN3U2_vnjstaDX7FVQ_u-ceM9N1qRrYRukq11X08ag.cX1A09jLLh3AvmIBZmTJ7w",
       "numeroSequence" : "122100621181701",
       "dateInscription" : "2022-10-05",
       "montantTransaction" : "2.80",
@@ -3320,7 +3591,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Cloud"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..64mpN1Xn9Pz94qHN.5W8GhgD4AE3HBcwS0SJc2dIFQJiKp9h6yYu7MNqpVNpdwd8PGkP5iwZZWPF4lOtpVpYQsXF_Z79Uguvg5ilKbPujCVnDVptsVDcRbs2q0s4Vx_SZfNoWsRS90wPuITGaS_Jczq2kgW430zjiWxmeQ_xWALCz7Xk6hlLP2C1F3k7ZSDFcDe_UGFsCIEdjK3EqyZGsl4fXpiSMjQ05pQ-iz4E5IK18meUIp15VGMBwEmI.BBEgViMX1AP_pQhPKJLi4A",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..aPtaHymo2yZfmAq9.G50Ell9v6alX78ZKIRRqALl9k8un1zyQhpxWMLYrtt_3eBDq9EmOg1drzSJY2JeCPHr5WCu7PqLixGI0AEPqmA9RUpnME8OjgU69VpUYZ865iGDfJf0CYvlftA4jvgxbQpV615b8_02_WGeZEitdB0BToMEQU31wmuCPFjz-mXT8yuT0eKIIZe_YvGDaN0NsSQTqGhTFDp_Hyala6UEgMPn6DYo_jxT9lL4VMquJdx8.c4iAgj-4Im4MvAnIr93_vQ",
       "numeroSequence" : "122100521174601",
       "dateInscription" : "2022-10-04",
       "montantTransaction" : "18.00",
@@ -3347,7 +3618,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Stationnement"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..rqNM7v8zp0yAa1YO.Qzui8fgZTuNL_FnnjDgYe_Nl7G8xW-9les5Q9d75SjhaxgQq4yRfnEWML43Xhoh7xaRi8aNHXRKuln2xuzSQeC3n2WwBWUS2O1IJQ3-r4c19kG7HcNllQrg2x56NvyphXnysBx5dNTf15ozMIiD5wIbi8NWyscHnf67fh23PCQscKgFz30CiQggRgjbhee8vsUyY1_QttirszPtZS03Yfng_TtDEGsWjemcCDGLoCQA.d6PAcksT_hb6Nq9JuJASaQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..hSuzm6y4ng0wycAt.edK2HwK0DRrjyJ0omN5AUWF31vAaqYUOvFf4oR-_cEEY19neDbP6yumLhWf2IK9YtG3D0cGVx30gTc_pIknCwebf7tdhvryXXmRIgJ_Nx6_wntPhE9Vs67Ogghg2gpxi_QPqKncaqRipZrW09dugCzRmyT79sN6VsA_tmWRdB27XQLOCSdcJaTkcoR8kijQlZml4DoAZ4x-htmMzgZhwyPuxn4Pxm8gv2N1Fxk7rcHY.sPQy7HrB5-hAmoqxj7lkIA",
       "numeroSequence" : "122100421312511",
       "dateInscription" : "2022-10-03",
       "montantTransaction" : "9.48",
@@ -3374,7 +3645,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..7UJEwDJUBRXmI3VH.SnUv2PkFeuK7kDsy_2rHHezPRsOFdSEjpeE9AgrDkwwTayuf91CW3wkks_w3ZuRd2y9MGrCqaV9cDzKq7VgkhK_sTh0QBhqfZ9LjvYP4pKQ_UTyDC0bzPYuVuq-j_hrK8M-niJdOhAyTDknngAanHf16iw2YKpdv4Duw0E_rgHW8SPUlYsaLjGrbg1IN6d8n5VkeyYe1LK8LDLhkaizDE2-5I_6iPpEfMVYXTJRlbSM.o-hsOlY5U_wPXEHiD9xO4A",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..site4vlFx_biFayT.4XQg7_MeMR-sN9_BpaCHuQhHU9c0lA0SVN7vuTTYHATPgoeTVP7rvL4kLpCFuh0ORjD8sUvpuekKDN-7DDJ89K9HeQNU6yt9KPGsLBjPN6GHND5HF9tgXw2kC-YTd6vsPum7KWDyeogT0RUSXsU4h6NiUnkU9L6Su8DWTb0XN1B3R4eX5sCHdaYb8Vaa4aoBBF5E79vacmjIZYYd3H-9m5zTwFgFB0_xg8o5icZcMV4.UhwXTV5EQxKlqJ1DQPV_bg",
       "numeroSequence" : "122100421312510",
       "dateInscription" : "2022-10-03",
       "montantTransaction" : "156.25",
@@ -3401,7 +3672,7 @@
       "categorie" : "Variable",
       "posteDepense" : "SAQ"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..wtGW5WbaVVLZ20hF.TBVqgrSnB-kJkhPXo7a3nh7AmfaDDqitgzZSoqFtux4marB80iPj5dmL3X8mes88TMm-x4BNx6-SyoZpBIpEThhNaDkc5RjmhktdTza81E1fGxRnB3CyGWb1umpFwnr0LlLQitS-NbVKFgjbd1CX9-f7RAUlf9rcymB_nGMq36h7fbcn0TkiME0u51kZhekaaDj5dPxS_9XBBWNLb_fMtlO8ecMj5GwlJyoaK6ENEVU.9wBNOPyPttyCBl5UhOucmQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..23GmRmODLTxvEStw.vBwN5svovRJlPk4Uf3QvjIJFb4yLBjoPLdiMbfnAqOSJbvszY-5r7sY1sesN-gUgdFjtT8cypPaoiKGtBuaoPrw6QE5lwxaU-DHsnXY3-S7z5pHdY1YkUbN4-eM-A9PeWpTIEzFxvzllWcLVwuT9HERZCrUW2d9f1hKG1wxdMDJCAlxlX_vnZ8wJS0ccIx28VndzN6AFJmTIx9TTAJWLi-A-eTZNZw96Hmt7TDmE-nI.I8ZJH-kAHPJ4EbddhWmOsw",
       "numeroSequence" : "122100421312509",
       "dateInscription" : "2022-10-03",
       "montantTransaction" : "54.33",
@@ -3428,7 +3699,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Pharmacie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..xzY68ro342VUYpdd.9DB0IrXqHAgU0Z17-wAhZeCYSkWWKNXiHikhPeS3SnFtNfN4w0K55zTyHXpSjmXOXRw6oGMssCbH15w3lStSix8AGp3Yu7ILte5xRGU59iDS4UoNW-XGKALnlJQYFsgOB1DFLSNo72S4iN7wi97AYnsRagbOHE7T0bAahYnO3iw4POuklNweVpvtkuy0Cwxc4EMVo3JzkpyZ7F8sKBZriI29oKpARcDpR77FHWe-nis.cEUb1HplFJmquniW18MmFw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..dql7vN0UDlDmTAb7.aiJcXGTYjE3f5babmkI8DrYiZlTyaKPXWMS5Lvhbqf41RUBxyRrKAsXrx2dMVWzq0qCkLwiS8cVVUC5kIJxK4l0jI1Wrk7c2npTJhvvX9UocSybV089_tBz6ZDszFzCFTRrHGD8gJmhKx7dED_5s5NmkxwHlCcu7_pIqoc4yhkuwTvaXb0Nzp5KjtJWrm1VDiBADx7y0SmIBQWd9oMupSYkrEoZ6dl6tjXms5-3bFyI.jJsRTVgZtBKJIZ4PFNNasQ",
       "numeroSequence" : "122100421312508",
       "dateInscription" : "2022-10-03",
       "montantTransaction" : "23.37",
@@ -3455,7 +3726,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..IXNoXiyaOqKHtgpF.LgUk-_brN30IOuNMAbmJwqHXqYkYLAdemlGXRau_eQ2tN_tIZ4YiBFSo_NLtytigiE8gUZNXSOwVdl5tiQxzSxSt3x_W3hdMsgsS0xsqTplYF_C5iQiaYeR9dnG8H-95VRk4XBs3dydf6H9r_VJlH9D27S-jrKzQPHw49WuUQDG5CeRi5r4v3O65kI-lH2B07oi0ZBtOuSq1IVASoLVT0LA5A3j5Ezku7yRQOtW41C4.KsTidBhSjljdtrx6NpNRYg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Bo_fAlH3XSz9SO4S.uooGPfTs1jyxHXLEQGw4LMwNj3TmOZ9mkhOpIZJlAT5d5zvWR39lWqLOGaKUTOr8WLHo8egXgDXf29SIqu-0uZMhn7wPQub9H_2e_Qo82JekGuKTSwERZdpqGtNkonbmhdmlGv61KEboH5TVEvQccAifF6ZxexU8s-e_Kih3GXh83hDu_tOvDU9BdtW43WN3utA1yl5gBQY2zTvcRRIR4uSaTkrQFYUnaJaLX__gNtc.YLVwJzappamCyg7KKSUKQw",
       "numeroSequence" : "122100421312507",
       "dateInscription" : "2022-10-03",
       "montantTransaction" : "72.39",
@@ -3482,7 +3753,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..z5PCaa3VnCYRyt8o.beI19FzN3Bp67OgCbnYWOmJrM1NIWjo7v7ZMaO_10wsYwqmlQcQp4oSSxvozE5p8Sfy-VkgydYoboECffBcKBURkCzbaPhhJZltoksUe3DCj5DxguLI3HFbD8nDhqxAkN4Ftyv0vbVJfsTVrBHy_MoMyd9x2VooBpenRiNeBVSbTCu0oOsN_9g7rCDRJvWIgB7-_K8Tfba-ZAAieBduXfU37uVXYemnLWffO4PUIkK0.V4odE0HV_nwC6Jv5CbxEvw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..8vH3Rc4MgnP5Kxmc.XamnOZVUGXJQ2syOcnOMqnaYngKElZL4SAzuvFq078jFlgH_x3S-MyWeZELgtx61oFqK4WIBpY6HbbLHX18N2KkjpuMo9owbGn0SfDJ5ACOXSzmkDnTDEtannR8qJoAOQ5ORPevyI4VjpjZE5qe9WW0fRlcVxFO-iL5v7Norv6xyZ_tav4es5w-C0FaHROQmjFIOWqs8QNX7xp6NwVo0gwePp8cUQxWIiIvkFqJfSXQ.j75DxJFPPeCmqYXsILKYpA",
       "numeroSequence" : "122100421312506",
       "dateInscription" : "2022-10-03",
       "montantTransaction" : "221.91",
@@ -3509,7 +3780,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Linge"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..D3xQSo5yKAXXgreB.tG7cm2uskm1iCEF8s4kc4ZByWuBOZQzruP2FA8aEdQJPBb09IpUPDKsxEw7luzL4GLF0JJr0LD_BH3DxsZRfrpK4t1I3Bu1jdNwnLsG8qe36SbjIqqaND_KX9TVmN0_zoEcZnXQUcqeJ8ZzaxwoazFPOsuAijjzT7QBNboizS7glqYzPJD1qZhZzReg7XsNT-IJTBOa0LqxD_XN331xBnB8s0DFhF6zTpDkaEDbNilg.PA43SU0UnIsfIXUhVB_hRw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..cywHcatBkRzc0NXX.vt8UcD9xcVSSWyRxe702J1Z2H3Z8966mb0TtE1WjLfbdujdvUe5OU3L0sFU4mzNDTqcA4-AEEJKJinaq06TrY5HoAumzP-X_7uQtLb17pyH68Rzh6ssawPAHyPHC_R0mUiKCEGSDLat6QmDRG8ObAAATNnTAJAIxlk9KWSZZwqfutg-3AQFdjywznDgn9KAPd0rGDSUd2hTF_Zgwi98wDrS20v5rwpBwjjZWRxqSw8o.9lk7Y3_6Nfka2sBCLcI7Yw",
       "numeroSequence" : "122100421312505",
       "dateInscription" : "2022-10-03",
       "montantTransaction" : "13.65",
@@ -3536,7 +3807,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Dw6VEWvcw7EmhIcR.rFrYlJJZ-rspX-IKUDUzJdKEzycBebfw1Hj9X9d5GFtp0fgIYxyfgMndT7l1bE1PZHW09oob69j68f2LdTV6x2wFYqMEpULkO6QYu4Mg7Y3O4DjoMnEf-5kH8ss5ZBcTzxkj3ms9xFR9X76kfJt6yref07I19qQ_lu36eyCT1iYo6Rh5CVdTEI0Ew1ZYmJjuocLwiO67rYs3AENelOoHeyPh-ubS_aRemShNQ0TuWX8.qh66piNlbJP4gv4EPe5tVw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..8OMydIz51ofOU-cj.fMPvhdn7Nl2S4dDpy81imQftbA0J2ZEcDD8-JVeRZv3VnkHpIXq15QNJ71DTS7kKo72-LVR1i2-YVwzwviv1zCRJQ_h1OVEiKc6W-UO4MTK7swSdsu2tKprnb6Nt-63P63WjH4u8sXdb-AWP5LR8t1s0RN7Hi-F-z_oVVeYpHtHPU9Td9KiHtBbPxtCYKphg7mAYEw74Cd1CtJv8xEbl57N3MR3kPxWKyTlHkwmyQGE.kfHzJHi9uE3vs-5jVQqCKw",
       "numeroSequence" : "122100421312504",
       "dateInscription" : "2022-10-03",
       "montantTransaction" : "6.29",
@@ -3563,7 +3834,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..m-gGj2d6W-oxeJuc.BC-_J9Q0VGecYw6vN8cwwa468h-CgHTinbZY-GqF2F6gQ3RYzwdMkRvgWZKpfpVygCaL0cNDh3_p-ZMDcvOSkBNEJ5IO319hbNq76Gn2Si8X9zFd7Kye9MuQqvTpjxSIPyujOLyHqEhH1pWBgDXUiZduAC1oNfCXfKJnNojGo8j7QiUQlRjvq-nq4x6R3kWqhMlnU9Lapqc9w2U7ipAdKBSNr_43JvDptDJvSg1GPyQ.cp-hoMwW7iwTCCags3J9QQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..ePt310L1r0BXH7bN.-uDXBcTnBfmg1fB6otIyHq38SRcLAm7X0equvaZMAnmjjdMX23gWWm3Z5bujd2Ua4EOefHbSB0bgKiXCgHa-FDiQBXlZ2kjSuoU2BaS1Ob1ZoYHke_97vPlQzlPZBf-wZGoMennRjlHXkf9tT1VHoEVAzqSQKowJLZ4BBk0e-dDjV9uz8n4BkocOWrY756D3TWyjrJ3p3lOVfpAMk4RhOE7VR6nfr4om3E__tX7IVrY.cH5nPrvuoXb1H3CW6H-Hng",
       "numeroSequence" : "122100421312503",
       "dateInscription" : "2022-10-03",
       "montantTransaction" : "3.29",
@@ -3590,7 +3861,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..GgKFnawae9TYa3Bq.q-zVyW7iJOMiTM4eD1YDNB3xLUS1ouw4_9fjKz5_DKuJtp5BOTObYeznVbt6dooXjAuT-ybN5zdGlouCicJGjEouqU8FhXRMQT4l_0E2GVRP0j5xuTDKmjVePbwnXto_F8DvuHO1oVMW_dGenPl-1DQR4tlHREeiVRb345FOz6SV2tCs6uMe8rmeDPTZvYwxWf45vbQuCQOfNLJUjbR1QhnXF44eZPOzb9a9aCxJNHI.YEWxX64ADrZ8MDgXrp13Xg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..rsdmLOc1o4a5E9Ow.HOqqEFmL-lRa_9ArWXMhOql7yO4LhUZUGMYKWigK6JsjJvMkCTyF1AwZpX4Gj-LQ59N1o_1dqvrZK4tR2K4EJudkay7DPB8Yxt3OUHqiQdV_KQCiZYg85CusId50o8g1-1-AfcFinBj7as1HK_nwtQsyyMMHvFFrnYzdybEcfujRmRP9GM7nhB9-9vPQ96eD7RyMsrDEps62ECn4KuY70Pe-BlOL1ckSRkjb8C-Xc1A.G56b7FpBX7hQlhEjB7GEXg",
       "numeroSequence" : "122100421312502",
       "dateInscription" : "2022-10-03",
       "montantTransaction" : "172.14",
@@ -3617,7 +3888,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..OGy9iznTSx2eotNt.F1aUlB_volf_-SIjNSHhR1MUfUecFIDDwjOBnsapuCmWR2fSgF8yPV88qPnakbuMNaRoIv6uzPzXi7TrtUHEkQs5zE2439eE5lCqd0RO_PNXR4UQWyIKNWYpRB5_k0098820H4eJRFEsXy3pcSu88ncc6CrzgXcUwEZAKrKoHu5xrUeBR5YQT8ZSgc3sTXGiZdsh-NNGfj6jdJAk5FjDWQ1E6Hg4XKP6XMiCnAseUiY.xfJYYnC3mhSPKQubX1AeJA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..qt_v9_hqbu6O_Llp.1ysh8QG1bIqmUkO-7qTJ5OHBQ2yF6c5ffwI7Ghtvgr_Ny7F1tonwfpnrvswlX8pGEb1LZlTONesqy664uRFF8RIviMZTP8ZJ1TYH__wmxV-hnk1XJeU9Je9h1aDefmPF-Td_-Bbw7we3oZjwIDXSAeN7JILgsT3r1Pdq3dxbCkOT3U6wbBXQZd9qS4F9NLqyK5fhg_06StExvs2lZNx9et6xS2kdcAKUxjeddWZOjXU.a0kYosxHsjDCoS0KK2QHJw",
       "numeroSequence" : "122100421312501",
       "dateInscription" : "2022-10-03",
       "montantTransaction" : "22.45",
@@ -3644,7 +3915,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..NRZBEJJ1ulaP7Dc1.mI9h73HpHrS8bMPXwx88vP89MgLkBcAOsDiGvZ_JpzJogwjP1qbvR-pni_3QCZn3G1glBh72mqJRO24zlSj5Ly5fcjJ2cVxuInow11vaqwRX7LVx2kD5ZPCd31Unow457s2zFpaTSD7KvgG5uanV3w6bEplZio9J3i9nUtI3qMcVYPJkh6FTP7uy1Y-SIvk_z2aqfUYGHi4cThBY6EPg1Ax6mrXv2zbFdYipzycqbd8.FwMwG7mrf0HDP1b4U4sUvg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..2rApM5YWXGfrzEzp.COmzKtBW_vCuu63CRlOF8jvhHtkl7vkcRvp4u0DqxqWzVwzSGsVz-OLMJaAe-VQybligNL1gnk_RIOom1q5UhGxXvKgOxUL7uSelg5bs2bRbf1iCYAFaatsFT2Nq0nns98HGGRwfcTlZ_Wz6EbsrrmOlrX67U1W7paZDhbrx22004tLy27MKjm6pUZRR2lTCZd2ZqTuBqS7VacABeaHkh41CVb9VLvUmk0DUTXjX8cI.gZELEToYYWg4it8eS1jfVw",
       "numeroSequence" : "122100321260109",
       "dateInscription" : "2022-09-30",
       "montantTransaction" : "25.78",
@@ -3671,7 +3942,7 @@
       "categorie" : "Variable",
       "posteDepense" : "SAQ"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..JOkZkXDskATbW-0n.gqPtVtAs8QQfgFDRpJiwOm7TSvuUMuC5XJ42V2Yv4CENVGZpQWiAV11tPwOMmMNaszPnhN4IY1JM6Owo21iYUbqYy2ThvS7i5PNGsgYIFsa_-hDEml5Z1y_4A4iW3QJQZ1UZZVKMeFGaJTmcDUAeXKdzlCGG9tx06Bob7KmS05Pwtkdg22Z34OjqzlhPrncx4Pljyu_Cc0BSv8KmmMKb5H5fWWeSxxIbkLcLOeIdwvA.xFRYVvr8VtMd6S0yoLrEvg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..ZvolZO7z25zYfxc9.IUsIKDcC1usm5qyJ51zqvUG-NKqZStptblEsjFM5B9lfT14xM9uQQXOnkdFxBONRVRxZByBhk74DJE2wJuy-dTm9AR5bLJefRUV10fqo-QPCGjWAxM3oDhe9r_E_SD1FXj3NRCJYtrSKfi3FxL85gcL7xfJzGrbZXOLJNGIcc3pfw0F2CPzliPPdFqxlTFVnAFOPnCVAl6xYMdceavrVbtjSdhVu7iXTP3bpjjDh6ao.qBmqakDLAvldLPdKd7sTOg",
       "numeroSequence" : "122100321260108",
       "dateInscription" : "2022-09-30",
       "montantTransaction" : "111.73",
@@ -3698,7 +3969,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Pharmacie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Qqah1LCLDErLSabp.mwPZ1PFtisXMxckrJ3CYOD9KsnAvFNUP6dCGwx_NJMgiasei3C7Hs5f_ydBXc3CMwz4rmekdozhtFuG5y6ITuCQwr3HZUfcdHXX3V1naHeZkKXnKYzEVsnpxJp5eNE6fb9fSxsr6esE5F4LMzlTQ9rYWJnsxVzQR2B313UMnqHulgtJ-1iaAKzJVcTyCWXjNQlcsN1GmG-0tpiUjn7qz0aWJFagLgrt1m6lxAb5ZmEk.ffLU_E8IDbtxVcepYZdITg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..IzU5yfyPxVpYDzKv.LRADoGKg4BcwSm4rREwlK-JvlaGy-60fixkZVXqYeHYwD08O1Yx7uYVKmR5eKbYfeoxH1i7p2KHt_7YsqkXr0gThS97t33r_Ayqa-WjF2YqvpL_C--9P9WamViLWUpPdE48ya2allQKo-gDOiXDSrAqZRLIeK80zV-A0mygnrUIs-s87qoKiDvJ2NVPAmYd1qsN2vT1PiDsrb2OUZSPoIeezriMEc-sTxPqT53dKSE4.JbqjMwdqYkYRy_5bMGmbfw",
       "numeroSequence" : "122100321260107",
       "dateInscription" : "2022-09-30",
       "montantTransaction" : "3.85",
@@ -3725,7 +3996,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Taxi"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..tu_sKEYycB4zwvvx.KUlDTKnw4q1ZGhHL3n5cdiLoLwvQGlEv-v_KIhz3V5CY6n-doLy5tVjTP21mOXurmpBxHpimnDi79KSIJwdMqeXZ5NrB8MTxV4o_60Y2HNgHaWvvPygnOXmtcOHd-MaNjyISa4Qqxh8ifgplxtNP2FFTF3iUud2gC0uJDOs4c7LPF1-sU86LvoDl98pG-ho4p7l_lE-8AEVg2vC1w3m3xJVtJZZsdYIpl-8KqIeh_cc.a7f-L9ZxCxmSI2eC8EjWyQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..BEa0str6f3DoMEqZ.ylIlXgPMkkQYCWDFRdEB7iajQ4sJ8BA7Rya6OJllLFa__620GA0amacJ-slk00xfFOuvrsauwftRjY1NQcGTxI09p1a35jRP2-fUnUXVH40v1k9wMt5cucwuK75KMUPrLrJXpBxVKG80BDDAYCncqp5_KYF9zOXwEohngimetnxNkj6Uhd575Dd6nIz-MymPYLDo1or-oMcam20t4Vvy2bivpiHt7ZuumX7Rro4Uvy8.D8zuBw9iGAcdJ83gcZHVuA",
       "numeroSequence" : "122100321260106",
       "dateInscription" : "2022-09-30",
       "montantTransaction" : "33.32",
@@ -3752,7 +4023,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Maison"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..2CpYGoH8aGnEeBdv.nHrVuFCKNjSO3fosTs8omHkzhbr4r7EAAA6W7jYYS5rGtQ4L5qMVkS490JgAZxmgc6QJyFSBe4BB-7suKf0AHClDw9z4uZHK7bkbI3H8j6HPejke7DKjT0dYDXD-Fy22Z-Rgy12Te7gfLWcrLBemB_0-rQIQ2wuQUMdSWwcIUR2Oze97jjF5tTpaw7_7CMBZOAQ9rcBOt_WgmnDbFO3wWaf28qSkQw38icMMgGLBKk0.t_U8WF4f1c6clKQAVi6kpg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..UWK0NMPtQmyO-enz.JamJXV32aTUcXHqON3kP1U-iZiOpLIOY0l3J1eLztKHWgv3Nhdhj6FtQxSRNkYpDM48nrZvJ9fDTel8Ew_Nqd3Gxt1AJYQfFzXY_rPsXIKDmU0fp1gY02WVVXT9e8xOlyWsDB3W2MK_0ovpeOTfeSpwvkB7ZuzalndcC_BBLO3s1QlFKbsavu3Q7nP9hkyqtC26SX1Q6dOPN3D_8pO039k4quSrb4OiVhtNCvo8XlbM.-jmRpWLlAfhIYblYtuGjjw",
       "numeroSequence" : "122100321260105",
       "dateInscription" : "2022-09-30",
       "montantTransaction" : "80.47",
@@ -3779,7 +4050,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Linge"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..XcceJlCyAMpy_vNl.sm5Xr4ZAIrUo-MDAkhMq0dfMpcFKZV3MobJcyi2TpkSMhOW4UeCgNfiooxWQTGXZ2UD3MG5QaA4Fji5vMB6FE5YAuWccEmHc8Hhwn2TWJ3paPCTqvh26BntFAqBnnj-rej8Wk1QRs3OfuhvfWyeXogRmRYwJWV-V4UuJ5tTYlnROJlsSHl5KUUYSv-02BG9ahxJh2xoIVYyH-njr_E6MqbraRLFQGMHHhFHR51abe_4.and94wOpe9nv5JO4Uu-suA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9.._1NFuuqwoReICm6u.A-xtqesP26jR6gw3Rq6tSg2HRgnHhVtkGmkZH9M9GTq2rWPFhDmfiuXIv8nylcYdtWSmBfXiUeRWS4CR5KAiXxkFlLZVPHPy9394FEyi4CaobaJivBL0KZCZwYgXl7NNyCXzABDlmKXwgZG94aGUPBW5KcpwJDP2JgXGB3hiQtUHbqA2hU1h6pkwIR0Dke_2wpr936DkRr2ZeKjJN9KQ--lVFCB5VpTpSzOlhTKE3i0.OQ_5USjdJb3iuiMubZA_SA",
       "numeroSequence" : "122100321260104",
       "dateInscription" : "2022-09-30",
       "montantTransaction" : "226.35",
@@ -3806,7 +4077,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Esthetique"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..WxNRwwFqkWOW6rHC.ViNDebFVofXmkbPyv5T8TgycCFsJz412qE8RzqwGQOStqqp9yuLbNjJM0mfdr5F2S23OXkS3iy2ixrS96EkimbSaqrC8ZW_Qdv7XXAx3HkVujGgV1vZfFGGw9T86BRbAj5RHvO7G4HAdLM2YQZtGBgc0Fk_eGDPZCIso0eEL_eU5ZGZxipMvqTY-caRaLeSpgSOcqMr1yGrZokNCFDCwPh7pP9Kei_cEJUGIeilholE.aEr_CjF2bpoyvWvDtMWpQw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..dmGcrbzyHwVVki0w.vfSNquHnCiIAzHcrxnt1BpoQSDN9Uu6GKXtQPhKvN_QpW9xkkLryKw-GpP-UPZM7no932C-6f-ZpriPjmTgSoU90sMO1JrCa88SbJEc9CU__WMlArGzi1cEbxBzTq04_B7HIe290soEBjhWU-IIz-iE2UJS72a-ram_yQeycY4YTcFrExGEsm1YCnD-g7JMaygEoQnawszLzQQfe3IJxuy0mZTZLQ0mulib7f0WxLOI.bUs2n8hLU-zS2iI6Au7FeQ",
       "numeroSequence" : "122100321260103",
       "dateInscription" : "2022-09-30",
       "montantTransaction" : "85.00",
@@ -3833,7 +4104,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Soins médicaux"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..KWDvS245hURwW5XS.CXpmbzprvUqP9zBPOUJyirJT854ILrBsuLbZyWJPREHb2hrD0x1hhPOoQKpeZR0yUvHFM_qPqu1o_ioqDCCgFWlGp9IJpxMp8ESZKLHF2YSRnTmDrBaIpPIXg0afeMObEwTHUCwF9dYWcE-lRs2qJK1zL420avYBiwno6HEgLlpfKwmc3tmHR6aMGLjlQSTNazEy0Qn4Y0oKNoHuDGbcpJeMTtjEtDIq0Gf_YwLTy-A.gO7f3z0uneS2fWDrp6u5vw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..-IXEUJ8lKziNeklI.XOUcCa-QnPwmggyggWiGNC-PwbYk09Har2T5jSnbEHU7qG7Buew0_DDU11rr39UirBfEeqMBT8ZN3VFhfDuOg2NBShab3QhC0IOCF__9UW9qa9HlFNmQ0yBzcDCgzTSv-2XTYMnF-uEBJPwTnf4PTHT2lKb7jHwjUDOuuz_eSczPr3ClXu1yFR7FsDd4-qLe5NCsD6mXjrzuRnZ5fg3hMgvuh8U9zksuYL_SWXU55b8.l7QBO4_Fawh0wRCIjq03iw",
       "numeroSequence" : "122100321260102",
       "dateInscription" : "2022-09-30",
       "montantTransaction" : "14.44",
@@ -3860,7 +4131,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..RWBfhOUGYcToMJHG.oh4jrCFfI8zb0YsrGT43gvMwBQKvcfKcsch_B87F7K8Pe1JcRqowybi2DapZDg-EWzWe220apKDHQpbacATe00DiaDF_k19yL-wW-DaYdZMbvFp94zYJDWAzvSIa7dc1umf6D0TFleHOAFynzY8JXWbAjgHHtDcUq_JxFc8L-a_FLP_ptf8KXIfQldeMy-Pahy1bQvad3RaAYx114Aqvq5ZsSmHUDjeOQVAnDwLk2lA.aE_exTKvWMB07J6ppMmMIA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..mraDhi_c_rvpyrzn.8dn8_OTaTtrbWn032y-Nuaz9KH2UK-hvcx121FNIxFqDyI7ocka2R_qDnunjjbh3J8-HrIxuJ1GlPBmpvni0144iGB13_oQA07oFNCe1bccNxIeRYpZaT9zp26rrGaJIae03JzYT1ubWhhAlIX5oE5ovRuYTd3sw_aCgRV1_Xysi7FKI8YM9EX2jSxcE5QoUKg9SFt3b7K0iWGVVhxkYo7aMqexVQU9qF8asfcNpEaQ.BccDZeNPqRzLr7owVbPGwA",
       "numeroSequence" : "122100321260101",
       "dateInscription" : "2022-09-30",
       "montantTransaction" : "57.03",
@@ -3887,7 +4158,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..1g1t5h5JfuPUqT8y.UPxcDzAHIq24owXwXLVPdwtP1V5Tjy3OjkKOg_9Vo9gglQKIcgyi3-t6pFWKqINXhuN5j5FCnMqQaEXuOQZzmJoKJZ5POaIwANbn8ou_7LIlKa24GpV2_61np8pCdUmfpavaT2jfjm9yrOy5w3hT37Ao5tiojLjpWw4vpkUSkLeXEc67yJxlFsOBYmDIT6wBgcgZHonOPd5K9NWNRWfMqEXlxbUlpk6sw---In8HQk0.VZ9xdVVA83-LbDJjWTY1_w",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..8hy3dprrUDswuJYW.K25_ThR0OP7V3YA2bdbNPUh9EL3hAbwGWqtfuyHRkoUhSDGcaFN8CiJAHH-pS7y6UTg85e25T96a2Ayagpl3FM3RrPCKxR8BxR67-RdzFlasHJRQlcoJBxADpxMP_B5XjKIQfMBXIir1x-3pJhn6kXFF2jWoF-jiJBqxvaTRT4gECn_dGfDJOV3Uwit5TIvL_br0WAG9OWFHTEjj52DZbYuAxsYIJlmKPEKC7cFCgXE.fsg6HPg2GO8z7iytbwhT_g",
       "numeroSequence" : "122093021265104",
       "dateInscription" : "2022-09-29",
       "montantTransaction" : "20.70",
@@ -3914,7 +4185,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Sorties"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..BpVGyIi0Cdvo4iH7.kAVqkSXcgvQmZqLtWUwc5GNP7j0wVlRBhIqs8R70ghivGkVa84Zpp_8JNPp3Cha-bucjQ0EiZ_lr-pRIE5smvx230BD6jJg3elWXBkqw_jSNoMPi3SVk85QUtyjvEtZQ4odGC2HObV3Q-yPFTAjefn83u2hFIHQ9TsjY7J10G7IKDLue9tGmbiPpeFRNbqSTcDl35pTqrnPqW_l1eq59yuzhllqakXBoWI6CZ4IHh-0.4Yzk0q6f1_JUW1JMGTK9ng",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..z5REsV0rz3WAhKsY.yT3pmjte5eKm8gSC2fzpcVCLfWyGx9Qziao940zlVSKrHSyDqLD6XWNP1zF52rlwUo_uShWn54M6eoqWBYEYNiATM18KYRLtslMKd_J1QsEQmOLKBHfMUWRcKdgEOk5JpeNx0vYdxiOjSt7VGfcmCYr06UHT3QFbIov-EoFD0OQeubdsHaGKSYXt5sVmlupRS-AXA_5CeUbmFN9cEkC_8oZwROfk7_BiQwETq5XWvlI.UKoyo1sY7T5jYbXFbt9i-A",
       "numeroSequence" : "122093021265103",
       "dateInscription" : "2022-09-29",
       "montantTransaction" : "15.00",
@@ -3941,7 +4212,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Stationnement"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..wE-JaL0N_9Nrepiy.kHompwYFsW0XtMKL9bqO1lKTWMtngd6VN1RVLWFEQQ2gwAF6V5Q6HSOasdViHorzbQx-LnEo_OxtiyoZmIxAm6zJeX3wtkuwQ_Sf43N55ILJcXatm-Udn2LmZ0UwXr4Uk4hPIrzElKhriM6eUyafTeboyzhY3Qk9jgDsEQo_LjPkr2M3u_unUTdBFn0b-ux1Yh4p8DlNJOBsmGVIA8qXx3YUKWt8yTcLC_K8zCuRW60.514qRNv3dOuQOcWXERPHKQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..VxH96DhaywMuT6IN.q0d3hV8BkPbIp2GbRuAF2ZdGBRgSbwDo3BwaAUaNQTrmBX4Ek0Iy89vwPuqkK1LqTcbv9OQOvooN-qVnZbNdBh7VxpnAwUdrk9ylf1wy-emWkihBEjjEJ8dwQ27ClqIQjTEhgI-9g6d1T2QsoJSRpgcv7Hx6qAtBQbfBO2Y_VXYph2pbGoJz1R0qmWLRTeprnSMlgA8u2SqcI93Y1sQ6o3ucEBL_SKCY2QCJzWtZC38.3Rde_vTm_L7Y3TqSrX9FPA",
       "numeroSequence" : "122093021265102",
       "dateInscription" : "2022-09-29",
       "montantTransaction" : "9.99",
@@ -3968,7 +4239,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Restaurant"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..EZSbKdlyPJVeq8Jo.XqTBrkVXTVGnbsvU77k0ZEzzOq4CsBQP8kL43ngtqzboeTgnfB-pzr1JY_Ij7UYc0EbKiZKX2aulCM8CQTYqrC6keJ0vRuSYyd77r20x60Zo5f-JnsVeuHRIwj0-loSQshB72AR-GkjIkoL4thlTV_W7fceXojrcjOx-_O2lV-qxVHmqBMBlotqcTb43pXJXKlaN38rNqrEhrzxcUNvNkyDyrd84u8fy8AqhAXIg7i4.wnZBDhQxnPlAKpHiMGTRuQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..FyogTe9Eyp8F0IQ8.sVpbgmfjoC3Zmb3Ef4RiguZ8CGnsKeFmH2ZbGFnK1TMeYm8aFJOaurfLfGm69k2F3GgjNJEbf55fTcJMbvz03paYLbkRCy62rstBZs8oFHfBNky063r0lbHThHpI2rZCRc897TazEqIwXfDoUcaxn2j35v-Kzv29nopvhF_6J13KuDaCUjBDk7TZattkSBqh3tw6uk7vMCAlpi3o9wjuG3TcCtUVKlGyzq7_4EjMeI0.ffpmq_AkeoxjDtMhIwzlqg",
       "numeroSequence" : "122093021265101",
       "dateInscription" : "2022-09-29",
       "montantTransaction" : "63.07",
@@ -3995,7 +4266,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Vacances"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..1C8_kbLwX_G73KHh.1JMi3mTQqHXsP7NNkAB1H3cr_XJLYyhSOW1ndCjKJmYEVoi7zahIqQRA8jIlX-_cpTq1ybB39nTT4ikuuosMluRQZVm6CMxN-1M0NPPutdVVIGezBSaV0j37KBQ6OmkzqGwyqg1LoDsLWn8FQRbTvCsN9OEHZ352Kz91dYooHHTuYe2KI95s1C-AxXKaTSjs2WreKceuoDpQOwIutRRow16MHxyyLhhRfhfGAp-Eud8.uq3yVWp5lW5cd0uMrkCE4A",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..H6ZhZQ4202_h2qH6.MO49X_GKGtPH53v0SI_nNCWFy-xCZURcPQpUFqqGoelGJ-KpdI9RGea4ZqrydqQA2w1v3Yr2rdHUwdal0miVUKTc_UkGhrz3JYBSiTEhOYEFqEUgvCMruQvg_03mrDw1tT5ZJ70qZ15AcV7PdnxWQgWXN0HH0gKboh4TwT-C6Ao31am5_OVtRlyk3MbAoF6auGl9eaq2yln_3IV5tW0uQa5yL73DHCth4n9Pla8C1TU.DmqZNZ5mw0j0EchVjCm1Hw",
       "numeroSequence" : "122092921193302",
       "dateInscription" : "2022-09-28",
       "montantTransaction" : "15.00",
@@ -4022,7 +4293,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Sports"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..EtD6IIJWgbT4VKFE.voB7VBJvzA3jf5u5X8JCIvuZgngbWAU_rhQ8i2NgutEYA9-0COQr3sU5Z-mhF0FOH3HC6sdhP5IVwKg2RTPWnKXJfx8UoqZ68JqL2lNc7ezeFQ6bQTSiQPlSVmbMN5qeYfubOusGpyTnwP92fIvrcXJ6bAuCyQYNAidCdkNpvifjN51y1cBqEoVAmQEOtyvTfGxMiP85yHSiPj76_Qg3c6r-8CencqebFMWakaKnTNA.g05pD-jcS2ouIVFmuDh2ew",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..qrDkmay8x78jSZLk.5QIoQ_JvlmiDWY38zUR_jRdIzh2fj4l-xEv2gQ5T30f1XPB-YeaUHngD416Qk6mHUB4QVR8sYY0IfX2LpkW7N3ik5Rc7cpdpgA1beSr-1FM8srRU8jYgP98caRHX5wtsatup-FjRqv1UoCfWtgeCLpSkO8VNnctC8oYLAVgJOzqHNmbRwxjpb7VLkF8OPJp6hqM5sR4fb5QC7XiXGdFUFsfLIXiXhrOIBekmdd6kgJY.APu1RLlRda0RLFiP2okriQ",
       "numeroSequence" : "122092921193301",
       "dateInscription" : "2022-09-28",
       "montantTransaction" : "13.41",
@@ -4049,7 +4320,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..xNozMimu-OaNmoak.ii0S8fopNY1mNKe80FebcH_-MfehW-6zZW3L6Z47DRc5_8vXIuPNm5kHU-b_zz9ctCf0a4Gf4MTOK1IRQlRoUTFzOk4KxbtLpu7KhQ_wnckIkS4ql2ZbaoGIa2ZNVHkRKjYWb2NtIsp_epnwO4G6nob44wYPOgG96A4sS74VQEkmdQsM64FfrD72OjMXVZQQaeDAC-WW6Bwv3wvm7NwV7LNx3PaJgjn0xirGVDGzUOY.nlaTjY0AbwaTg_-xmJmVbw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..e_aFjZmWA8MrfnGs.p6mIWWHs1xx3p2sYhLUX6I1nTnFeubKGRq70LruY05hmCGg5NvBQub6eQq620GvGqMUqz1-HJGj4ihSVhF_6EMQRtfedufx04A9UjB8Tga6CG7F2KVLaWJmUv4-W5pu4aRl8sK1O4AeSys4EDJG90vP8SiUR0VhCCCfahBWMRko72dvMaqX4cWxIMWNB02fWPDAiG6F4ayZ_G0Ovv9qkTUPaDgcoR-ieZlpe3KgJyfU.Zw4wVa48f-IEHAMPvNVRSw",
       "numeroSequence" : "122092821171603",
       "dateInscription" : "2022-09-27",
       "montantTransaction" : "-510.00",
@@ -4069,7 +4340,7 @@
       "indicateurCategorieTransactionAutre" : false,
       "codeCategorieTransaction" : "PY"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Bd4QbRyn8rwYjL98.TaLPep-Fub6G7vS2L20c2cjTbiaFPudOsFfuaoRsBt4RSK3lbOB1ZzDWFLUDyng7GTmVnfFbM72fmPRW7uLSySdhnUc7543XjLNkCDzDVpf8GJ1BEBsieIy06deslcCUu9xAc_7qcHutmq9f6M8rz6cG5Ss5sWsxiPKsfSX4Piauwkl6Kzp-NWUPtAPkxkrIf6-aEZdqtfqeKe1M3wzPalLZ_CaZtWc15TxKpmFxHyU.XKFWshePbCC14c6WrNT_sw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..JIt2RluboxjpLee-.9lyYXR_aAcNUITvOEKGE_D87_rcOGWyajcd3yHeqDvPAPx7MRlOSLsXqxV_iYzsQcqoHQ6UltdWIaF0afoqY9iJucbz9LWgplRDCBrmwM6e3pxOPdoJtZod0xremNzoywwvKfGj4YI5gnIgL2VxPbR7auVXy9KfLXNO2Vkc6Uc6WJN_DeHIq9spmNVkDMaG5teucbIb1QvDHeYbD0WrwUcURujwjBXN39vu7S-WBkSo.532cUyhJJXPnCuTRnJT70w",
       "numeroSequence" : "122092821171602",
       "dateInscription" : "2022-09-27",
       "montantTransaction" : "21.97",
@@ -4096,7 +4367,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Epicerie"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..4gn60FRFwLQ-MAa5.1h0URSPqMw6xSPYPPY3ZbkPxIlgMZOqX-Y3uBclvJXq7sZiwz-Xv7HybtCAevSN81LxGN4vYLbPCjdqoXFGTo3imRrMu4JXhV0LxE8qxxMABRdtBhJGyhH23LCFtdoXW2XZovxWAbMyr2u45F91dpmot0eIwkNaIfso5YPGgvt74RH988IwwC4DbGohp4Z9q64WCSdQcsrOR1NNan5fOYwbXB12TP6RyTZ0HvnAu7Io.DhoYxh2DRwdcJ_CAfyYUwA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..2SJrXv2LiIWuMyBt.UBQllrvrdQU_0V2qkiayKBLrcOqjFLLeVSp96ADR7ArfrqrriOD1Mqo7VbMg29d9hbVwYjcjXs0KZjQV_vC0XHYIgK3hT4s0r55Puaid8cpDBsGCTMCoTea4MzA_tgwawdh917NRqrTDFpl7Wb-9_33iVlZ2wtYZ3kwGAk3snt0XqOGPG05RoYcn7UaM5FohoYZzrGCyYsfEpphKQcXjRnLPBDzUYmlOYYG12Egg1yk.WqquEEQzHd0QtML9FmgpYw",
       "numeroSequence" : "122092821171601",
       "dateInscription" : "2022-09-27",
       "montantTransaction" : "13.72",

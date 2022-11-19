@@ -112,7 +112,7 @@ public class TDProcessor {
         float debit = (float) transaction.getDebit().doubleValue();
         if (description.matches(".*Envoi.*")) {
             matched = true;
-            if (debit == 75.0 || debit == 85.0 || debit == 110) {
+            if (debit == 85.0 || debit == 110) {
                 if (StringUtils.isEmpty(transaction.getCategorie())) {
                     transaction.setCategorie("Fixe");
                 }
