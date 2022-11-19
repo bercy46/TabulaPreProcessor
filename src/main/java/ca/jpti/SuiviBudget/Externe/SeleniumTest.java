@@ -35,11 +35,11 @@ public class SeleniumTest {
 
         identifiant.clear();
         System.out.println("Saisie de l'identifiant");
-        identifiant.sendKeys("4540140303690591");
+        identifiant.sendKeys(System.getenv("desjardinsuser"));
 
         motDePasse.clear();
         System.out.println("Saisie du mot de passe");
-        motDePasse.sendKeys("A6I!i$K4BA20Z8td");
+        motDePasse.sendKeys(System.getenv("desjardinspassword"));
 
         System.out.println("Click du bouton login");
         btnLogin.click();

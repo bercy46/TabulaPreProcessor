@@ -40,7 +40,7 @@ public class SeleniumTest2 {
         }
         identifiant.clear();
         System.out.println("Saisie de l'identifiant");
-        identifiant.sendKeys("4724090153491913");
+        identifiant.sendKeys(System.getenv("tduser"));
 
         try {
             Thread.sleep(2000);
@@ -50,7 +50,7 @@ public class SeleniumTest2 {
 
         motDePasse.clear();
         System.out.println("Saisie du mot de passe");
-        motDePasse.sendKeys("TDJPt05032");
+        motDePasse.sendKeys(System.getenv("tdpassword"));
 
         try {
             Thread.sleep(2000);
