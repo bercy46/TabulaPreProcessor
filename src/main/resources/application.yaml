@@ -437,6 +437,8 @@ td-transaction:
     '[UNIV LAVAL]': FIXE
     '[UNIV MONTR]': FIXE
     DOLLARAMA: VARIABLE
+    '[PHARMACIE ETIEN]': VARIABLE
+
 
 logging:
   level:
