@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component;
 import javax.annotation.PostConstruct;
 import java.io.IOException;
 import java.math.BigDecimal;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -80,14 +81,25 @@ public class Main {
         transactions.addAll(desjardinsWorldReport.getTransactions());
 
         creerRapportSommaire(transactions, totalAutorisees, PeriodEnum.WEEKLY, weeklySummaryReport);
+        creerRapportSommaireHTML(transactions, totalAutorisees, PeriodEnum.WEEKLY, weeklySummaryReport);
         creerRapportDetaille(transactions, totalAutorisees, PeriodEnum.WEEKLY, weeklyDetailedReport);
+        creerRapportDetailleHTML(transactions, totalAutorisees, PeriodEnum.WEEKLY, weeklyDetailedReport);
         creerRapportPostesDepenses(transactions, totalAutorisees, PeriodEnum.WEEKLY, weeklyPostesDepensesReport);
+        creerRapportPostesDepensesHTML(transactions, totalAutorisees, PeriodEnum.WEEKLY, weeklyPostesDepensesReport);
+
         creerRapportSommaire(transactions, totalAutorisees, PeriodEnum.BIWEEKLY, biweeklySummaryReport);
+        creerRapportSommaireHTML(transactions, totalAutorisees, PeriodEnum.BIWEEKLY, biweeklySummaryReport);
         creerRapportDetaille(transactions, totalAutorisees, PeriodEnum.BIWEEKLY, biweeklyDetailedReport);
+        creerRapportDetailleHTML(transactions, totalAutorisees, PeriodEnum.BIWEEKLY, biweeklyDetailedReport);
         creerRapportPostesDepenses(transactions, totalAutorisees, PeriodEnum.BIWEEKLY, biweeklyPostesDepensesReport);
+        creerRapportPostesDepensesHTML(transactions, totalAutorisees, PeriodEnum.BIWEEKLY, biweeklyPostesDepensesReport);
+
         creerRapportSommaire(transactions, totalAutorisees, PeriodEnum.MONTHLY, monthlySummaryReport);
+        creerRapportSommaireHTML(transactions, totalAutorisees, PeriodEnum.MONTHLY, monthlySummaryReport);
         creerRapportDetaille(transactions, totalAutorisees, PeriodEnum.MONTHLY, monthlyDetailedReport);
+        creerRapportDetailleHTML(transactions, totalAutorisees, PeriodEnum.MONTHLY, monthlyDetailedReport);
         creerRapportPostesDepenses(transactions, totalAutorisees, PeriodEnum.MONTHLY, monthlyPostesDepensesReport);
+        creerRapportPostesDepensesHTML(transactions, totalAutorisees, PeriodEnum.MONTHLY, monthlyPostesDepensesReport);
     }
 
     private void creerRapportPostesDepenses(List<Transaction> transactions, float totalAutorisees, PeriodEnum periodEnum, String reportPath) {
@@ -139,6 +151,68 @@ public class Main {
         }
     }
 
+    private void creerRapportPostesDepensesHTML(List<Transaction> transactions, float totalAutorisees, PeriodEnum periodEnum, String reportPath) {
+        Set<PostesDepensesReport> postesDepensesReports = new HashSet<>();
+        if (periodEnum == PeriodEnum.WEEKLY) {
+            postesDepensesReports = createPostesDepensesReports(transactions, PeriodEnum.WEEKLY);
+        } else if (periodEnum == PeriodEnum.BIWEEKLY) {
+            postesDepensesReports = createPostesDepensesReports(transactions, PeriodEnum.BIWEEKLY);
+        } else {
+            postesDepensesReports = createPostesDepensesReports(transactions, PeriodEnum.MONTHLY);
+        }
+        List<PostesDepensesReport> listPostesDepensesReports = new ArrayList<>(postesDepensesReports);
+        Collections.reverse(listPostesDepensesReports);
+        TotalPosteDepenseComparator comparator = new TotalPosteDepenseComparator();
+        StringBuffer sb = new StringBuffer();
+        sb.append("<HTML>\n");
+        sb.append("<HEAD>\n");
+        sb.append("<meta charset=\"UTF-8\">\n" +
+                "<meta http-equiv=\"Content-type\" content=\"text/html; charset=UTF-8\">\n");
+        sb.append("<style>\ntable, th, td {\nborder: 0px solid black;\n}\n</style>");
+        sb.append("</HEAD>\n");
+        sb.append("<BODY>\n");
+        sb.append("<H1>Date: ").append(formatter.format(LocalDateTime.now())).append(" - ").append("Postes de dépense").append(" - ").append(periodEnum.label).append("</H1><p>\n");
+        String currentPeriod = null;
+        List<PostesDepensesReport> listePostesDepensesReport = new ArrayList<>();
+        boolean autoriseesDone = false;
+        for (PostesDepensesReport postesDepensesReport : listPostesDepensesReports) {
+            sb.append("<TABLE>\n");
+            sb.append("<TR><TH align=left>Période</TH>\n");
+            sb.append("<TH align=left>Poste de Dépenses</TH>\n");
+            sb.append("<TH align=left>Montant</TH><TH></TH></TR>\n");
+            Collections.sort(postesDepensesReport.getTotauxPostesDepenses(), comparator);
+            for (TotalPosteDepense totalPosteDepense : postesDepensesReport.getTotauxPostesDepenses()) {
+                sb.append("<TR>\n");
+                sb.append("<TD>").append(postesDepensesReport.getPeriod().equals(currentPeriod) ? "" : postesDepensesReport.getPeriod()).append("</TD>\n");
+                sb.append("<TD>").append(totalPosteDepense.getPosteDepense()).append("</TD>\n");
+                sb.append("<TD align=right>").append(String.format("%.02f", totalPosteDepense.getMontant())).append("</TD>\n");
+                sb.append("<TD></TD></TR>\n");
+                currentPeriod = postesDepensesReport.getPeriod();
+            }
+            sb.append("<TR><TD COLSPAN=2 align=left>Total: </TD><TD align=right>")
+                    .append(postesDepensesReport.getTotal())
+                    .append("</TD>\n");
+            if (!autoriseesDone) {
+                sb.append("<TD>(Autorisées: ")
+                        .append(String.format("%.02f", totalAutorisees))
+                        .append(")</TD>\n");
+                autoriseesDone = true;
+            } else {
+                sb.append("<TD></TD>\n");
+            }
+            sb.append("</TR></TABLE><p>\n");
+        }
+        sb.append("</BODY></HTML>\n");
+
+        Path path = Paths.get(reportPath.replace(".txt", ".html"));
+        System.out.println("Output file: " + path.toAbsolutePath());
+        try {
+            Files.write(path, sb.toString().getBytes());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     private void creerRapportDetaille(List<Transaction> transactions, float totalAutorisees, PeriodEnum periodEnum, String reportPath) {
         Set<DetailedReport> detailedReports = createReports(transactions, periodEnum);
         List<DetailedReport> listDetailedReports = new ArrayList<>(detailedReports);
@@ -171,6 +245,88 @@ public class Main {
             throw new RuntimeException(e);
         }
     }
+
+    private void creerRapportDetailleHTML(List<Transaction> transactions, float totalAutorisees, PeriodEnum periodEnum, String reportPath) {
+        Set<DetailedReport> detailedReports = createReports(transactions, periodEnum);
+        List<DetailedReport> listDetailedReports = new ArrayList<>(detailedReports);
+        Collections.reverse(listDetailedReports);
+        StringBuffer sb = new StringBuffer();
+        sb.append("<HTML>\n");
+        sb.append("<HEAD>\n");
+        sb.append("<meta charset=\"UTF-8\">\n" +
+                "<meta http-equiv=\"Content-type\" content=\"text/html; charset=UTF-8\">\n");
+        sb.append("<style>\ntable, th, td {\nborder: 0px solid black;\n}\n</style>");
+        sb.append("</HEAD>\n");
+        sb.append("<BODY>\n");
+        sb.append("<H1>Date: ").append(formatter.format(LocalDateTime.now())).append(" - ").append("Détaillé").append(" - ").append(periodEnum.label).append("</H1><p>\n");
+        boolean autoriseesDone = false;
+        sb.append("<TABLE>\n");
+        for (DetailedReport report : listDetailedReports) {
+            sb.append("<TR><TH colspan=7 align=left>\n");
+            sb.append("Période: ")
+                    .append(report.getPeriod())
+                    .append(" - Dépenses fixes: ")
+                    .append(report.getTransactionReport().getTotalDepensesFixes())
+                    .append(" - Dépenses variables: ")
+                    .append(report.getTransactionReport().getTotalDepensesVariables());
+            if (!autoriseesDone) {
+                sb.append(" (Autorisées: ")
+                        .append(String.format("%.02f", totalAutorisees))
+                        .append(")");
+                autoriseesDone = true;
+            }
+            sb.append("</TH></TR>\n")
+                    .append(tableauDepensesHTML(report.getTransactionReport().getTransactions()));
+            sb.append("<TR><TD COLSPAN=7></TD></TR>\n");
+            sb.append("<TR><TD COLSPAN=7></TD></TR>\n");
+            sb.append("<TR><TD COLSPAN=7></TD></TR>\n");
+        }
+        sb.append("</BODY></HTML>\n");
+
+        Path path = Paths.get(reportPath.replace(".txt", ".html"));
+        System.out.println("Output file: " + path.toAbsolutePath());
+        try {
+            Files.write(path, Collections.singleton(sb), StandardCharsets.UTF_8);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    private void creerRapportSommaireHTML(List<Transaction> transactions, float totalAutorisees, PeriodEnum periodEnum, String reportPath) {
+        Set<DetailedReport> detailedReports = createReports(transactions, periodEnum);
+        List<DetailedReport> listDetailedReports = new ArrayList<>(detailedReports);
+        Collections.reverse(listDetailedReports);
+        StringBuffer sb = new StringBuffer();
+        sb.append("<HTML>\n");
+        sb.append("<HEAD>\n");
+        sb.append("<meta charset=\"UTF-8\">\n" +
+                "<meta http-equiv=\"Content-type\" content=\"text/html; charset=UTF-8\">\n");
+        sb.append("<style>\ntable, th, td {\nborder: 0px solid black;\n}\n</style>");
+        sb.append("</HEAD>\n");
+        sb.append("<BODY>\n");
+        sb.append("<H1>Date: ").append(formatter.format(LocalDateTime.now())).append(" - ").append("Sommaire").append(" - ").append(periodEnum.label).append("</H1><p>\n");
+        sb.append("<TABLE>\n<TR>\n");
+        sb.append("<TH align=left>Période</TH><TH>Dépenses fixes</TH><TH>Dépenses variables</TH></TR>\n");
+        sb.append("<TR><TD COLSPAN=2>* Autorisées *</TD>\n");
+        sb.append("<TD align=right>").append(String.format("%.02f", totalAutorisees)).append("</TD></TR>\n");
+        for (DetailedReport report : listDetailedReports) {
+            sb.append("<TR>\n");
+            sb.append("<TD>").append(report.getPeriod()).append("</TD>\n");
+            sb.append("<TD align=right>").append(String.format("%.02f", report.getTransactionReport().getTotalDepensesFixes())).append("</TD>\n");
+            sb.append("<TD align=right>").append(String.format("%.02f", report.getTransactionReport().getTotalDepensesVariables())).append("</TD>\n");
+            sb.append("</TR>\n");
+        }
+        sb.append("</TABLE>\n</BODY>\n</HTML>\n");
+
+        Path path = Paths.get(reportPath.replace(".txt", ".html"));
+        System.out.println("Output file: " + path.toAbsolutePath());
+        try {
+            Files.write(path, Collections.singleton(sb), StandardCharsets.UTF_8);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
 
     private void creerRapportSommaire(List<Transaction> transactions, float totalAutorisees, PeriodEnum periodEnum, String reportPath) {
         Set<DetailedReport> detailedReports = createReports(transactions, periodEnum);
@@ -216,6 +372,36 @@ public class Main {
                     tableau += String.format("%-9.2f", transaction.getCredit().doubleValue());
                     tableau += String.format("%-14s", transaction.getCompte());
                     tableau += transaction.getPosteDepense() + "\n";
+                }
+            }
+        }
+        return tableau;
+    }
+
+    private String tableauDepensesHTML(List<Transaction> transactions) {
+        String tableau = "<TR>\n";
+        tableau += "<TH align=left>Date</TH>\n";
+        tableau += "<TH align=left>V/F</TH>\n";
+        tableau += "<TH align=left>Description</TH>\n";
+        tableau += "<TH align=left>Débit</TH>\n";
+        tableau += "<TH align=left>Crébit</TH>\n";
+        tableau += "<TH align=left>Compte</TH>\n";
+        tableau += "<TH align=left>Poste de dépenses</TH>\n";
+        tableau += "</TR>\n";
+        String[] types = new String[]{"Fixe", "Variable"};
+        for (String type : types) {
+            Collections.sort(transactions);
+            for (Transaction transaction : transactions) {
+                if (type.equals(transaction.getCategorie())) {
+                    tableau += "<TR>\n";
+                    tableau += "<TD>" + transaction.getDate().format(formatter) + "</TD>\n";
+                    tableau += "<TD>" + type.substring(0, 1) + "</TD>\n";
+                    tableau += "<TD>" + transaction.getDescription() + "</TD>\n";
+                    tableau += "<TD align=right>" + String.format("%.02f", transaction.getDebit().doubleValue()) + "</TD>\n";
+                    tableau += "<TD align=right>" + String.format("%.02f", transaction.getCredit().doubleValue()) + "</TD>\n";
+                    tableau += "<TD>" + transaction.getCompte() + "</TD>\n";
+                    tableau += "<TD>" + transaction.getPosteDepense() + "</TD>\n";
+                    tableau += "</TR>\n";
                 }
             }
         }
