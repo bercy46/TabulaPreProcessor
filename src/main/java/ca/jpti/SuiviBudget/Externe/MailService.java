@@ -16,7 +16,8 @@ public class MailService {
     public void sendMessage() {
         SimpleMailMessage message = new SimpleMailMessage();
         message.setFrom("jacques.poulin@gmail.com");
-        message.setTo("jacques.poulin@gmail.com");
+//        message.setTo("jacques.poulin@gmail.com");
+        message.setTo(new String[]{"jacques.poulin@gmail.com", "nadstaubin@gmail.com"});
         message.setSubject("Suivi Budget");
         message.setText("http://jacquespoulin.zapto.org/suivibudget");
         javaMailSender.send(message);
