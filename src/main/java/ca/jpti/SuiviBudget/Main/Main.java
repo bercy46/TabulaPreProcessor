@@ -1,6 +1,7 @@
 package ca.jpti.SuiviBudget.Main;
 
 import ca.jpti.SuiviBudget.Desjardins.DesjardinsJsonProcessor;
+import ca.jpti.SuiviBudget.Externe.DeployService;
 import ca.jpti.SuiviBudget.Externe.DesjardinsClient;
 import ca.jpti.SuiviBudget.TD.TDProcessor;
 import lombok.extern.slf4j.Slf4j;
@@ -30,6 +31,8 @@ public class Main {
     private TDProcessor tdProcessor;
     private DesjardinsJsonProcessor desjardinsJsonProcessor;
     private DesjardinsClient desjardinsClient;
+    private DeployService deployService;
+
     @Value("${startDate}")
     private String startDate;
     @Value("${files.weeklyPostesDepensesReport}")
@@ -53,10 +56,11 @@ public class Main {
     private DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
 
-    public Main(TDProcessor tdProcessor, DesjardinsJsonProcessor desjardinsJsonProcessor, DesjardinsClient desjardinsClient) {
+    public Main(TDProcessor tdProcessor, DesjardinsJsonProcessor desjardinsJsonProcessor, DesjardinsClient desjardinsClient, DeployService deployService) {
         this.tdProcessor = tdProcessor;
         this.desjardinsJsonProcessor = desjardinsJsonProcessor;
         this.desjardinsClient = desjardinsClient;
+        this.deployService = deployService;
     }
 
     @PostConstruct
@@ -65,6 +69,7 @@ public class Main {
         TransactionReport desjardinsInfiniteReport = desjardinsJsonProcessor.process("VISA Infinite");
         TransactionReport desjardinsWorldReport = desjardinsJsonProcessor.process("MC World");
         doReports(tdReport, desjardinsInfiniteReport, desjardinsWorldReport);
+        deployService.deploy();
     }
 
     private void doReports(TransactionReport tdReport, TransactionReport desjardinsInfiniteReport, TransactionReport desjardinsWorldReport) {
@@ -171,7 +176,8 @@ public class Main {
         sb.append("<style>\ntable, th, td {\nborder: 0px solid black;\n}\n</style>");
         sb.append("</HEAD>\n");
         sb.append("<BODY>\n");
-        sb.append("<H1>Date: ").append(formatter.format(LocalDateTime.now())).append(" - ").append("Postes de dépense").append(" - ").append(periodEnum.label).append("</H1><p>\n");
+        sb.append(headerHTML(ReportTypeEnum.EXPENSES, periodEnum));
+        sb.append("<H3>Date: ").append(formatter.format(LocalDateTime.now())).append(" - ").append("Postes de dépense").append(" - ").append(periodEnum.label).append("</H3><p>\n");
         String currentPeriod = null;
         List<PostesDepensesReport> listePostesDepensesReport = new ArrayList<>();
         boolean autoriseesDone = false;
@@ -258,7 +264,8 @@ public class Main {
         sb.append("<style>\ntable, th, td {\nborder: 0px solid black;\n}\n</style>");
         sb.append("</HEAD>\n");
         sb.append("<BODY>\n");
-        sb.append("<H1>Date: ").append(formatter.format(LocalDateTime.now())).append(" - ").append("Détaillé").append(" - ").append(periodEnum.label).append("</H1><p>\n");
+        sb.append(headerHTML(ReportTypeEnum.DETAILED, periodEnum));
+        sb.append("<H3>Date: ").append(formatter.format(LocalDateTime.now())).append(" - ").append("Détaillé").append(" - ").append(periodEnum.label).append("</H3><p>\n");
         boolean autoriseesDone = false;
         sb.append("<TABLE>\n");
         for (DetailedReport report : listDetailedReports) {
@@ -304,7 +311,8 @@ public class Main {
         sb.append("<style>\ntable, th, td {\nborder: 0px solid black;\n}\n</style>");
         sb.append("</HEAD>\n");
         sb.append("<BODY>\n");
-        sb.append("<H1>Date: ").append(formatter.format(LocalDateTime.now())).append(" - ").append("Sommaire").append(" - ").append(periodEnum.label).append("</H1><p>\n");
+        sb.append(headerHTML(ReportTypeEnum.SUMMARY, periodEnum));
+        sb.append("<H3>Date: ").append(formatter.format(LocalDateTime.now())).append(" - ").append("Sommaire").append(" - ").append(periodEnum.label).append("</H3><p>\n");
         sb.append("<TABLE>\n<TR>\n");
         sb.append("<TH align=left>Période</TH><TH>Dépenses fixes</TH><TH>Dépenses variables</TH></TR>\n");
         sb.append("<TR><TD COLSPAN=2>* Autorisées *</TD>\n");
@@ -551,6 +559,38 @@ public class Main {
         }
         periodEndDate = periodStartDate.plusDays(13);
         return periodStartDate.format(formatter) + " - " + periodEndDate.format(formatter);
+    }
+
+    private String headerHTML(ReportTypeEnum reportTypeEnum, PeriodEnum periodEnum) {
+        StringBuffer sb = new StringBuffer();
+        sb.append("<H1>Suivi Budget</H1><p>\n");
+        sb.append("<TABLE>\n");
+        sb.append("<TR>\n");
+        sb.append("<TH COLSPAN=3 ALIGN=LEFT>").append(ReportTypeEnum.SUMMARY.label).append("</TH>\n");
+        sb.append("<TH COLSPAN=3 ALIGN=LEFT>").append(ReportTypeEnum.DETAILED.label).append("</TH>\n");
+        sb.append("<TH COLSPAN=3 ALIGN=LEFT>").append(ReportTypeEnum.EXPENSES.label).append("</TH>\n");
+        sb.append("</TR>\n");
+        sb.append("<TR>\n");
+        for (ReportTypeEnum currentReportTypeEnum : List.of(ReportTypeEnum.SUMMARY, ReportTypeEnum.DETAILED, ReportTypeEnum.EXPENSES)) {
+            for (PeriodEnum currentPeriodEnum : List.of(PeriodEnum.WEEKLY, PeriodEnum.BIWEEKLY, PeriodEnum.MONTHLY)) {
+                sb.append("<TD>\n");
+                if (currentPeriodEnum == periodEnum && currentReportTypeEnum == reportTypeEnum) {
+                    sb.append(currentPeriodEnum.label).append("\n");
+                } else {
+                    sb.append("<a href='./")
+                            .append(currentPeriodEnum.label)
+                            .append(currentReportTypeEnum.label)
+                            .append("Report.html")
+                            .append("'>")
+                            .append(currentPeriodEnum.label)
+                            .append("</a>\n");
+                }
+                sb.append("</TD>\n");
+            }
+        }
+        sb.append("</TR>\n");
+        sb.append("</TABLE>\n");
+        return sb.toString();
     }
 
     private String getMonthlyPeriod(LocalDate date) {

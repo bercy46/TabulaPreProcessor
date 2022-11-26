@@ -1,9 +1,9 @@
 package ca.jpti.SuiviBudget.Main;
 
 public enum PeriodEnum {
-    WEEKLY("Hebdomadaire"),
-    BIWEEKLY("Bi-Hebdo"),
-    MONTHLY("Mensuel");
+    WEEKLY("weekly"),
+    BIWEEKLY("biweekly"),
+    MONTHLY("monthly");
 
     public final String label;
 
