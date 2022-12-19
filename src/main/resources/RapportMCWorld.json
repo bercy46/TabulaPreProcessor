@@ -5,6 +5,90 @@
   },
   "sectionAutorisee": {
     "transactionListe": [
+      {
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..7fNa1bQ0O66GEf3Q.7J_8hE76OYDF2gZ3C2ZewHIBPicf6Hzb7qR9ODaeRNW8IeKOD1cLtEJpspXlR9tVJ9EAeFu6UHskF1bgiTHz2jV6jMATzAdmp43uEKTaK_Nmb9DPI3sGPgMyJnQVJh8kWXM1YVbcDW62g8VztX89VdCKvbV-dmaJJ4AvdfTZCR4V0bVue0Y7bqdk2KVIEWpWV2JEl5bIdlQUHTpEvVxkPDUzW3fGlc27DO-Q6any4nVVaGqiR7hrSw.SBLJZoExJ81zOmE_iBjW1Q",
+        "numeroSequence": "2",
+        "dateInscription": "2022-12-18",
+        "montantTransaction": "241.22",
+        "typeTransaction": "AutreAutorisation",
+        "descriptionCourte": "COSTCO WHOLESALE W556 CANDIAC CAN CA",
+        "descriptionSimplifiee": "Costco Wholesale W556 Can",
+        "dateTransaction": "2022-12-18T16:25:14-05:00",
+        "devise": "CAD",
+        "nomEmbosse": "NADINE ST-AUBIN",
+        "numeroCarteMasque": "5598 28** **** 3012",
+        "codeRelation": "P"
+      },
+      {
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..TxoMgAg8lfcO06iZ.Tqs3_KjgF8Yck8woK2-z7rq0NXs-gsz_om8dGggDMEbvxJG8ziG8KXtu2mtm4B35a-QSXWXjUbmlBNtQ1MqSG2aJhPOabmJuNlRG3Wv9oti52HpLxaKhjLMwq5oSdX0EN6GEI9n5gnxmOBauusbP5CrK26tLC3QGxD78jE1ue7jk439x68NIrC13S8EFCdSKP_R0HsxyyOqWrwtydkr1ftL-zpgn15JzC2Gyq9H5N7zr2uxscAbvnA.AXONE0p1FS9Z7oN0xz-GJg",
+        "numeroSequence": "1",
+        "dateInscription": "2022-12-18",
+        "montantTransaction": "406.96",
+        "typeTransaction": "AutreAutorisation",
+        "descriptionCourte": "ARITZIA.COM 855-274-8942 CAN CA",
+        "descriptionSimplifiee": "Aritzia.com 855-274-8942",
+        "dateTransaction": "2022-12-18T09:11:47-05:00",
+        "devise": "CAD",
+        "nomEmbosse": "NADINE ST-AUBIN",
+        "numeroCarteMasque": "5598 28** **** 3012",
+        "codeRelation": "P"
+      },
+      {
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..iR9w0d0DKuJOSt-l.EaU7MwaagDNDhEd2i1CWHrPB0UE34pJa73YRMHiuUDK-BSvda2CKMM6F0rLzS7hj6NbLReWcktDSAnH0RXYB59JgZQ513tWTeJsLr9vnjvg-V4iXRMMOPYqvRnho4r28rOwRAdiQT3T_5OQxyThM5XaK0f3VxA1R9rPSnhE616gojxDcDXsuPCOxI-xjZs4t6fePGG-PDIuQHYFol81RwUto0tAPNcxrxOcJXUtMek2H4YyI7rxpVg.cRG2YhhBT2H9cBcILXL8rw",
+        "numeroSequence": "3",
+        "dateInscription": "2022-12-17",
+        "montantTransaction": "1.48",
+        "typeTransaction": "AutreAutorisation",
+        "descriptionCourte": "APPLE.COM/BILL 866-712-7753 CAN CA",
+        "descriptionSimplifiee": "Apple",
+        "dateTransaction": "2022-12-17T13:09:09-05:00",
+        "devise": "CAD",
+        "nomEmbosse": "NADINE ST-AUBIN",
+        "numeroCarteMasque": "5598 28** **** 3012",
+        "codeRelation": "P"
+      },
+      {
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..vSOMrTb4_L8rGL_R.16mAKbrv8kUxEHw4AfaN8qBnxagxF2dXKfP9F7B3Hbe8ka-FLTg18_dphYdvSTRMglRpuMCvrDwKcQ8gUZ4qD2D1V9DryOzrXlM56XJuAcPMHVZD6iOmdRS27s7KBw1FTLKZYGbGqp6aYhnDE0p1HBMAfi_9PfZn43COssVtQO9NJVgSe5nHRZnTHP-hOcQAtVauql1s_DMKt9_rSZ2TD5I7GjerXfNJOYk62Soi8LXZflWtsXdCLQ.P4Gtgw1Wpp96trocepwDVg",
+        "numeroSequence": "2",
+        "dateInscription": "2022-12-17",
+        "montantTransaction": "28.69",
+        "typeTransaction": "AutreAutorisation",
+        "descriptionCourte": "APPLE.COM/BILL 866-712-7753 CAN CA",
+        "descriptionSimplifiee": "Apple",
+        "dateTransaction": "2022-12-17T07:50:09-05:00",
+        "devise": "CAD",
+        "nomEmbosse": "NADINE ST-AUBIN",
+        "numeroCarteMasque": "5598 28** **** 3012",
+        "codeRelation": "P"
+      },
+      {
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..5C4jiGs1xtp5XjYm.5eELiwWWOXt7arOvGp2EkBiJzikDrI78qq1aT2XbD1U4eYmMT55Ime9xJXN5NTgOUdA27w-rKU6Qly551qdCvkSMORFsmvKtY6Uq-sEEHfwotLVJ5BE1eYjbqFdGto18WE5lD4I1aejp3Rvi_g0TJVz3sZUlCRYqzvz3SP0fIW3SJocUOaTswSdwsXZjQ9OmXth-4ISGheL7OUzlgCYhfvwI_4RimBfDbKrrJgyz2bxzjgiynWKrww.pCOaTU8fvhP3ILezu5YBdw",
+        "numeroSequence": "1",
+        "dateInscription": "2022-12-17",
+        "montantTransaction": "2.86",
+        "typeTransaction": "AutreAutorisation",
+        "descriptionCourte": "APPLE.COM/BILL www.apple.com CAN CA",
+        "descriptionSimplifiee": "Apple",
+        "dateTransaction": "2022-12-17T07:50:07-05:00",
+        "devise": "CAD",
+        "nomEmbosse": "NADINE ST-AUBIN",
+        "numeroCarteMasque": "5598 28** **** 3012",
+        "codeRelation": "P"
+      },
+      {
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..3hOqM8Z1UkS8vdO3.rHwxjOGmeaXQUbqy8_L8L8az7cICkwXgHzzmDZPThgvkMc0Q1EcSp01oJKjY59N-LubnC0y2AdpJ9AchXBncHNFmhWC7eYIGr1x8RkQQo-beFziDCwlPyv0LcO0u-Rxbc5NNkBvdKWfbQDzqOm_-76CwD-Nv3LmZvXkmNjFIuZAUVpTzoTEVxg7XeumwDe7KFEBY2RODEymgOtzIP8CPgJ4AyLNSTm1n5E4k5X_1M2A8tgaQIrlaNg.w7Yi5erbQG7DLM3uFwA1Ug",
+        "numeroSequence": "122121700242401",
+        "dateInscription": "2022-12-15",
+        "montantTransaction": "0.00",
+        "typeTransaction": "AutreAutorisation",
+        "descriptionCourte": "APPLE.COM/BILL           866-712-775CACA",
+        "descriptionSimplifiee": "Apple",
+        "dateTransaction": "2022-12-16T17:22:20-05:00",
+        "devise": "CAD",
+        "nomEmbosse": "NADINE ST-AUBIN",
+        "numeroCarteMasque": "5598 28** **** 3012",
+        "codeRelation": "P"
+      }
     ],
     "messages": [
     ]
@@ -13,15 +97,109 @@
     "nbrMoisRecherches": 12,
     "indicateurLimiteListeAtteinte": false,
     "dateDebutPeriode": "2022-01-01",
-    "dateFinPeriode": "2022-12-02",
+    "dateFinPeriode": "2022-12-19",
     "transactionListe": [
       {
-        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..zrxCTuZfR2sfmc-8.5nsnPEm1cvan81L_RYPQeE6hDJ9X-p8Zers0lIdpqUVzUX4tvQ2xtTCiu0KrtqWrYTLRRGdBnFVJf1XvfPWR95OhnZvd7nHosgZjm4uvw-mxl2Oe7KfykekW_J_2-NxfsSwNQx65Ku_1pbfFSWWM8jBewwAleQPDm-EYoupxEayqcXVXU4EAMILewnWr7niYly9U9K6xrrDuNujO9cOqhYqBH5h_z3TrcOWDCJus3MGq8b4wo8RiOQ.kRW7snJPhl0vsVuwVaJZjg",
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..EkKtJqA6NhSeJEDu.4_HeC-jPNVs_3-3jevEFR2myvCv81nJ30-CGdPHHfdfBR1ucRTd3gDyHEbq5ZzmhJwBZSRqLMYXtS5j5pSN2JKaSOD6LZOZxToHzk13Iu--g8K9XFpsn1pKFjgjUADcYXTnlMycCEg_LKvp6eLuTqmqOpduWLkLTkyv-z-gEHoR2L5ICbcesX8RjZ2mqs9RC7OcNnsTG1wM65bdQEAPGxI7b3-cfyPoSCvznEzx9tYfxJ90tJxLqLA.9kCwXVWYfolbhA3mXWzuzg",
+        "numeroSequence": "122121521124401",
+        "dateInscription": "2022-12-14",
+        "montantTransaction": "73.67",
+        "typeTransaction": "Achat",
+        "descriptionCourte": "COSTCO ESSENCE W556      CANDIAC      QC",
+        "descriptionSimplifiee": "Costco Essence W556",
+        "dateTransaction": "2022-12-14T15:20:43Z",
+        "devise": "CAD",
+        "nomEmbosse": "JACQUES POULIN",
+        "numeroCarteMasque": "5598 28** **** 3020",
+        "montantRecompense": "0.74",
+        "tauxProgrammeRecompense": "1.00",
+        "categorieRecompense": "Tout autre achat",
+        "codeRelation": "S",
+        "categorieTransaction": "Carburant",
+        "categorieParentTransaction": "Transport",
+        "idCategorieTransaction": 80,
+        "idCategorieParentTransaction": 78,
+        "montantDevise": "73.67",
+        "indicateurTransactionRecurrente": false,
+        "codeSousTypeTransaction": "TR-ACHAT",
+        "indicateurCategorieTransactionAutre": false,
+        "codeCategorieTransaction": "PU"
+      },
+      {
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..cljUiVLOuiWck6l8.hSoX6ShSIbd7UB3WZoKkAHnwB2B_or3nJotV339LrrKf8YMFMKAq9Fkv5nhf-PDwhDfau1DP2SoIeCVWmNbhhzhF-aBjHIbm4YgfpO_G0kDpaVjWPdvn2V1yXH4y0JhriJ3RtuR8Nla9YFPygy70mA0PVepB34ltKbXWoAaFGLihIB7itG_kr8F-2GxNytQ-mBpgUUGMqOSsitCVwORjHVV8unDUf2ETjKK72ZgI3Q0.jFPPHqrD3c0fCnnE3cwxFw",
+        "numeroSequence": "122121221180901",
+        "dateInscription": "2022-12-09",
+        "montantTransaction": "144.35",
+        "typeTransaction": "Achat",
+        "descriptionCourte": "COSTCO WHOLESALE W556    CANDIAC      QC",
+        "descriptionSimplifiee": "Costco Wholesale W556",
+        "dateTransaction": "2022-12-09T21:09:23Z",
+        "devise": "CAD",
+        "nomEmbosse": "NADINE ST-AUBIN",
+        "numeroCarteMasque": "5598 28** **** 3012",
+        "montantRecompense": "1.44",
+        "tauxProgrammeRecompense": "1.00",
+        "categorieRecompense": "Tout autre achat",
+        "codeRelation": "P",
+        "categorieTransaction": "Magasins de détail - Autre",
+        "categorieParentTransaction": "Magasins de détail",
+        "idCategorieTransaction": 51,
+        "idCategorieParentTransaction": 50,
+        "montantDevise": "144.35",
+        "indicateurTransactionRecurrente": false,
+        "codeSousTypeTransaction": "TR-ACHAT",
+        "indicateurCategorieTransactionAutre": true,
+        "codeCategorieTransaction": "PU"
+      },
+      {
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..mOWpK3qejpc3IHBX.8SbIECl9p_Nn7Ixb4t4XbYt_Nl7sNTXqbHQih2CUnR4-8wA9NLYZpeiQMDMEnqQFoCrfbJA2FiJCmawM_HW5io7kM4ZGrvEI0eIZ6f8pR16pNkRWLpJ0vh1xZIQvz3ZpG5daaiw2P4znKr5i_riz7VQcyjLLVuGjskRLpjVDRM0CQb03NNXSwkkY5KZ7Q7f1FrsD5XUhO4-wkxRheezf0ifkBdz3se67KreaYShFJcg.LXhAVVfYetdrwNcqnk3xyA",
+        "numeroSequence": "122120821111701",
+        "dateInscription": "2022-12-07",
+        "montantTransaction": "-310.00",
+        "typeTransaction": "Paiement",
+        "descriptionCourte": "PAIEMENT CAISSE",
+        "descriptionSimplifiee": "Paiement",
+        "dateTransaction": "2022-12-07T05:00:00Z",
+        "devise": "CAD",
+        "nomEmbosse": "NADINE ST-AUBIN",
+        "numeroCarteMasque": "5598 28** **** 3012",
+        "montantRecompense": "0.00",
+        "tauxProgrammeRecompense": "0.00",
+        "codeRelation": "P",
+        "montantDevise": "-310.00",
+        "indicateurTransactionRecurrente": false,
+        "codeSousTypeTransaction": "TR-PAIEMENT",
+        "indicateurCategorieTransactionAutre": false,
+        "codeCategorieTransaction": "PY"
+      },
+      {
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..YHIb5SQixpB--nCX.jhtS3GBWfABlXPkepOrsZ31P3Xa98Jmz2VEfRATL27rz6XSzIdPR9xM1aAxhBElTEQMTVpXQsrvCCBhvlpwFB81V9rol8mizZPRap6-aLnIjzO2AmNyYuqEb-d2Gt4RskLf0IfE5j-AlH0uKR3FTPUsLK0o3kTy0ZhRnvtAezwr2f7mIIU3Y6tWNMZSsm0TsH2GHeXkFwIF8unrgarNJOZnkt2g5Pb7b-4_1a6F-fOk.gNw9rIBF0iSX7fawYMMKPg",
+        "numeroSequence": "122120821111702",
+        "dateInscription": "2022-12-07",
+        "montantTransaction": "-26.48",
+        "typeTransaction": "Paiement",
+        "descriptionCourte": "PAIEMENT CAISSE",
+        "descriptionSimplifiee": "Paiement",
+        "dateTransaction": "2022-12-07T05:00:00Z",
+        "devise": "CAD",
+        "nomEmbosse": "NADINE ST-AUBIN",
+        "numeroCarteMasque": "5598 28** **** 3012",
+        "montantRecompense": "0.00",
+        "tauxProgrammeRecompense": "0.00",
+        "codeRelation": "P",
+        "montantDevise": "-26.48",
+        "indicateurTransactionRecurrente": false,
+        "codeSousTypeTransaction": "TR-PAIEMENT",
+        "indicateurCategorieTransactionAutre": false,
+        "codeCategorieTransaction": "PY"
+      },
+      {
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..9nqCEI3UeXqahq99.vgV1PgaTzE9xunvyn5hkiFLG506ZH_1uZX08RyVEO_0Fd0i7TwHJDX8XiyOwqp0cPd5nqIMZ62jc02Vkm-rSxkkq7xTNoga1_bzFc5XbBITz2-KOFFOb4C1s7JzSwT5p2qpB3vYrhYWGgucsFqk7N0PFX4MfJUnr-oyD4fRWqsKJCJS2iGXgZySAWai4UNezG8xqqlze7HpByRDsoWvEvkViHWUq5rmHqHamGsdYBCs.OOGwjdV2pIRXywtkMVhtLw",
         "numeroSequence": "122112921214903",
         "dateInscription": "2022-11-28",
         "montantTransaction": "100.00",
         "typeTransaction": "Operation",
-        "descriptionCourte": "FRAIS ANNUELS",
+        "descriptionCourte": "FRAIS ANNUELS                            ",
         "descriptionSimplifiee": "Frais annuels",
         "dateTransaction": "2022-11-28T05:00:00Z",
         "devise": "CAD",
@@ -32,12 +210,12 @@
         "codeCategorieTransaction": "MF"
       },
       {
-        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..1xrQJ_cr3-Sr7kDh.ItyNiH1gq90IQ0Bv3xz299DHdrLFyPMy0PsqZK1Vt2KekQwoIPstU9sELueigXHh2Jvtukgxr-U_Bp3c-7qDX2jSryMJY9yVgD8GjiEQwToUN1XdWDyuGr_Y7laJfeMU-j7UwVV6epf-jNWggKkA0jDJxddQNOZuztIAGy_c6TwXnOD_EPh8fnlWX_o7i1H39bj-Moubk8xarJsuaBEBuTVuo0csAiByJtUjGh1n9PcKOK2PSipy3Q.5V4a7148YvLcGFuzWDAv1g",
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..rocMbk71n0Mq_7q8.oYF_hVlj66RLyp4ZCught_AG2t0IZXdY9pBNm9AawItQQdOnkwL1gzVXe6L3VzNOBqF1a420CqipdUKJZ5vx0sU1pegFyYkB_9Uagl9YEreXfgoxis8ileEp3Sa61TH5zrXSB7U0vwMbKyvAppnIoAx-YoB4Fyh94xpD-fOoBASrx5iui6gydjI5QNLAUyNC2_v6tk1BLrsROkeWyeEgTIBbFBriWouq00rqxSN46uw.ZxNrX21iCFC9NVEGGZo7dw",
         "numeroSequence": "122112921214904",
         "dateInscription": "2022-11-28",
         "montantTransaction": "30.00",
         "typeTransaction": "Operation",
-        "descriptionCourte": "FRAIS ANNUELS POUR CARTE ADDITIONNELLE",
+        "descriptionCourte": "FRAIS ANNUELS POUR CARTE ADDITIONNELLE   ",
         "descriptionSimplifiee": "Frais annuels pour carte additionnelle",
         "dateTransaction": "2022-11-28T05:00:00Z",
         "devise": "CAD",
@@ -48,12 +226,12 @@
         "codeCategorieTransaction": "MF"
       },
       {
-        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..PqGDHkWa2blltPst.4sM2oHkYsE4UcSHohCiPT6SZff_Vce4Lpt5re0rf7tou1dtU7GiFlQgKHeGBc7WfSua2n02vV936cc648-IXdgWf1RfNoBPR10HXRk70oduBElkIHvafT5wqh74fTaMCWwA5kHuLqb04Ys33aJHWo_OUCCn8WLgaexbTvOoezfaENMJfvzTPAGsD3dqzk-uy1diCEJU-TQLizuIfJNyndIIP6RBd90mfYmjZ20W-JqMvkRjIg1o5Dg.onnlkZLbRDO-C8tXtlkd3Q",
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..9fpXGXBZ3PYIyrWQ.tGmZQEMNq3wmzhWzlvQskppWOYixCfdN6D9O9amyCpcWCx8BORBi2prR0l8s439d-4aXsZicVkmeJcgHL5soxhgQdBnCC4gyv1LIlRE3vD3Qapmt_tpdsszO4HH7nS_9qRqSpVyQ16UEpdmpjBcLxtzM5qW-VVpmyk68LWmKzytkjSAbgJZjNACQTFU2sSGeNO3Qd_vOYK8izZYGEjTZQBdjQH5kWlJWbTwQWGv7zkk._9uf_U_wI1IsxFcP_aEXtA",
         "numeroSequence": "122112921214905",
         "dateInscription": "2022-11-28",
         "montantTransaction": "-30.00",
         "typeTransaction": "Operation",
-        "descriptionCourte": "AVANTAGE MEMBRE - GRATUITÉ CARTE ADD.",
+        "descriptionCourte": "AVANTAGE MEMBRE - GRATUITÉ CARTE ADD.    ",
         "descriptionSimplifiee": "Avantage Membre - Gratuit",
         "dateTransaction": "2022-11-28T05:00:00Z",
         "devise": "CAD",
@@ -64,14 +242,14 @@
         "codeCategorieTransaction": "MFR"
       },
       {
-        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..LGmezoydT4U2wUpe.keBBxNBjluDhXZGv25Gr00a1gQlwqA8jXTzQHAULm41wJuPn1LvPf4JDmO6eQm5H1dpVtfegiVNL9RVx9oQdsdrw6VQ0h73cUaonAcYGlvLOhuPeBicZlAaRv3MsRpsiyJt1u6GSDMwZEbV0881xRiMKaIIr1dqU_cx4S7N9ipkuFdXZGtshZjrXqRf6wxlIRV82xmK59xcx_8truQ7xl98I0iwt25hduKNknM0dZq-hek8XCtGeIQ.P6xOvg8vQ7AFusaURenOyw",
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Zv6zdP3VFxGANvFv.gaWup1kBtg00PGkzE4pdFEoXaYE0aLO81EI_7c0s3DhjAnq_t5ymztbCMcEzHPUFodOlNl_96o4cElHnlzUnHQykyUOwqgdpTDaLHWqMC9EaUnvphK9gwR64X4lnB8g6DID7Em83S0r4qIP_pRU-7OKLgeA7DNjlWrdHi2pj8HwyUgH_mMIwRmPpz1vqkcJn1tFVZCKQCPWDLQjXf25k6_RmA7-AbD3qtuC9q4KaH70.49xWGytVZY5UsDpsyZzyfA",
         "numeroSequence": "122112921214902",
         "dateInscription": "2022-11-28",
         "montantTransaction": "162.47",
         "typeTransaction": "Achat",
         "descriptionCourte": "COSTCO WHOLESALE W556    CANDIAC      QC",
         "descriptionSimplifiee": "Costco Wholesale W556",
-        "dateTransaction": "2022-11-27T15:07:19Z",
+        "dateTransaction": "2022-11-27T20:07:19Z",
         "devise": "CAD",
         "nomEmbosse": "JACQUES POULIN",
         "numeroCarteMasque": "5598 28** **** 3020",
@@ -90,14 +268,14 @@
         "codeCategorieTransaction": "PU"
       },
       {
-        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Md-4kBLSSD5d_7HB.dTElp9XRREzXpGV4xmq7vrGgYG6-7hykws8QYVUwqYBEEONyv8ErJJ0M-6fH-IqeMonZjutXAwZmH7hJHdXR0TU4DdGwULoEw_kEqSKnqqR6WsAM12YS8ikME813BQk9AK2P-Owysy1uquVjxuUFIDp3TcHhL_eUkVu_R3lg1GYXBclGoDEpJte0JLbc4lQWO_iyyLEepN58vpikaaHAVWYDB3W6hqztkybIDMFCh03ALyVU7WKKXg.UDOv3uGeA5Wr9lHj6EczKQ",
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..QLjG-UDRCuJox-J8.f5lbiqLY4i5fWe85f3cR00JAdScwb2MU-hiR0_f7s5BUY_JYqdgJaIrosKEcO8eEbdByh4LkWSbJkifpuL8YWlX9SG1827O84TRN6jV_Ir6evypQSVSHT1mX_8fh1CzQhcvowwGL0vKj8JXCpHyKQXSAFNG-vBcFSJzDfv6Qt_PlPhQaGJ11n9P4U_aRRrV7pVriEtnKU16kTKp1J1UtKz2AIVF2p6SDinEQ3Ppph9M.rfbp3KaKGVEFBpIrOD4bKg",
         "numeroSequence": "122112921214901",
         "dateInscription": "2022-11-28",
         "montantTransaction": "74.01",
         "typeTransaction": "Achat",
         "descriptionCourte": "COSTCO WHOLESALE W556    CANDIAC      QC",
         "descriptionSimplifiee": "Costco Wholesale W556",
-        "dateTransaction": "2022-11-26T14:01:12Z",
+        "dateTransaction": "2022-11-26T19:01:12Z",
         "devise": "CAD",
         "nomEmbosse": "NADINE ST-AUBIN",
         "numeroCarteMasque": "5598 28** **** 3012",
@@ -116,7 +294,7 @@
         "codeCategorieTransaction": "PU"
       },
       {
-        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..ZGbbQhIxeBiBrFyx.0QAOeO9sjtjarPziUfE93XyUQr-ULTdTk-RlFjuwSC1lJoZJoalwvsVfVaWFiy4bjOxNx7Y6Vj2N0SpDZdV2_JuvOj_U3qq5tXkT1tOz9I5SDV6vy8Le1TU_XuS-77AzMTEfV5rse9TbBNOdi-k4vc8sqtddES1E4yuM2ACPJ6m6vYqpt5VxW5HjEO8TeF7PbrzTkGvVr1RrSa77Ap_nRzQjtKvvTNeg3i72w_0nDV8.KNGKVZMPPqx2KeOhqUGd2Q",
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..yjh_h_AmJCEtEQm6.ySpiHXNkLRMONZpJkay5S3177kISkqNkiDIGGw5Kf5O7nh_JNuSqQ7sDPa_9Jty7v47rSBcwG_sbxDdB4nWZzOL_pHdNv1Td35xw1AH-34esS0kPbn24nYn14ksc5ZQ818IfGnIWgo7rYYJbjJa2Q8fZgXH5dlZ43ly3K3fVeMNNjufdjC8B8ijEeUhL1X48cELpk7okgUxH2ECGXgYjYErz2C2TFlUd1lReiPRP3jY.J2HD4ZK6HvwgbZR9MKyd3A",
         "numeroSequence": "122112321104501",
         "dateInscription": "2022-11-22",
         "montantTransaction": "-272.33",
@@ -137,7 +315,7 @@
         "codeCategorieTransaction": "PY"
       },
       {
-        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..p0GUtN8vOYc1TpH2.fKwhgy2gUBz1uBAMas9USEn-AJ-uSV9brxn8CuHSO4ghOYGeBkYNtOnk8SKhaC__zi74-Qaizt9kx81MuV3UCTqDEOPwpy966SH228rUMZ7eR_POcET6Du3X3BbjhsmVXyuExBLwNGFcku1twPSDd9OT__-sbdUmmG9ixaozGZoB1uydDqw_QkyM34vOvlYdS8-MIss7W5AiEhNhZst9w_xGj4O3kQvfTjyNgjJeJOM.KXsfZH07CMTBr-A76FrlZw",
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9.._mbo3DiQFU-FBx3o.y2eKRR3UaX-p1PDLRn-76uXPU2B50vogAEVl6dfv1cRNLx-Gp0OkW2eYeqN1jNKnFqfPBHzSJbTlAx42rSiPQGshZXjLaiqXJAHwI7yuq2QY11n-nFV1j4tSf-XVWTF4Dlktoz8Ac9JbT7-TuqTtoMAR3qX5fen3waaSywH7Xcp-zSquNz5FR8l7D3aChHHa1If3Mz06-2Izf5S7zuQX5n-VVEpmjtdDJiVY5zxMYDo.pZlhuontKDpKcKSV64E_BQ",
         "numeroSequence": "122112221193002",
         "dateInscription": "2022-11-21",
         "montantTransaction": "89.70",
@@ -163,7 +341,7 @@
         "codeCategorieTransaction": "PU"
       },
       {
-        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Qm5XYGdcUPV_Oole.65eShjfEUxiy7SKEwsKnZr7NGoqx6XYQrsRNlkf18f-4KV8JVuRm6F7wXSUhg6dmNYxUeALl5W062H9aPBaCF_XadJ5IkK9gVB33la0Qhk7uHMtI_L0xP18pNSW4Le3me-AjqXEaccCTxheq6VUP9jlGS5sc4_6VUL4URj7ihybrPRvhsR5GWobGCNj2FFpV9OAJhQjEGmFWQahUCJa4a18S8VN-JUrK0igEaxfpsdo.28vzzYOBFHg1mOksxGiTPg",
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..PIHJ7f2hJ1ChhdCc.XbxkCXNRLAHT-qG1fo654HWgXlWOuKgCLE-0_0ib5vKB3YXMjyKxbKA8GbhOF7_m7xkyGz6kKSA_aJBtmaLkCI5GyaQmijvJUPYP7daFT17BTZVfBH9RIGapFtNqG_0ziW6l5PJhNXyp0RgJ1z4WNioAuSnH2OpnQVVrWo2fLwZsM8IGoAiAJaX6Q5G5BGkWvKcnYbVin9JTm1KxrprcAVJGV-eTaXlZkUXM6sPBBvU.aQAHjyX5srsLoNPwGol7Ow",
         "numeroSequence": "122112221193001",
         "dateInscription": "2022-11-21",
         "montantTransaction": "100.46",
@@ -189,7 +367,7 @@
         "codeCategorieTransaction": "PU"
       },
       {
-        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..KnTBDTQ0X-fPHMjV.Rvdv9-7XYP1-r7xs5fg6a21WA1_c9Zjc8XGWZbMSI90mjQIMgwx-rXS3PW43Uh8Izmh5gExXa34Ux5XnGHg1MvG-HKbBo2pH-W0BmdHfnePDA1ICDecNk3CBfYwaFArfaLVUG4ZFKeaTLnZuR77pD-cY7KwvTgbaqWYXZfjGRRc-TZFmChOOtfv7nXVe9hnqemH3uoAEOMNEh3L55Qf7ZUbe4bQUfrIq6Cx_aa1jD_Q.lgO_isrZSaN2_H02fp2uGw",
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..hlW__PTEnxOSXbu4.31w7CBeZFWjYwoxcosZbJi5tKgzwUvhWmK9e71Jii9-HyUZcMxF5rKPVXhNErHw5d2ecsHmZi2YYPGlmJB7sGbIuIbbxNJPILwy7ibdQ4_WwrF8xHnFJ8G3DDjMCz4MxRj8nT825783krMTez4MM532fKnP7GYmQmfxp2-wyE2ZwJHR7Yt_jZTzoU7XiPdNc41IWsCwx1xJdVkNLILp85NRNEZhfASN6cfgYvISNI8U.ntKrU6ieZWm0jlRgQUqiKA",
         "numeroSequence": "122111821185402",
         "dateInscription": "2022-11-17",
         "montantTransaction": "82.17",
@@ -215,7 +393,7 @@
         "codeCategorieTransaction": "PU"
       },
       {
-        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..9bETHKy0svB79RB1.N-z1A01rw6xhJnBAHB5xefnGoluZHI6bENFoMis18usd-VLKLI3bZ6-D7zY7YLIf_DWuoozrLDuGxICEw0x8YkJefXV3Ml3iMej33krwAJdyepJCXIGXMrnv2DU7ZIjuF-qfApVL87pqdi645dFAMnWB26_Eo5yaYyg-0d3OitE5P-MEEgBJB9m63VgpRv-zjSFMz5O1OklGAN-9XdERap5MV0DTDfcLy-GkNwbx8GU.kZ7iafcS4dbb1iJkgyomNA",
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..iOhVmj4wSEyMMool.ID6eEu5tY1XsfQOWIsH4FFOf_rjMuev4cNZH1WOUU6-PBi73VV_WBi5iSqxc53hCU2Dkf88PEeg4b7--GXBR_5JplP2X0PNNnl64iY9PORDgHeQBqKVDBCzpAvCCVyUk6G7PzY_wMfwUu7iiiXSvawYZpZ_DWVLUDHRXCj8QdXu52Q_Lo5g98J3Bq6B6XqmXrcd7It1McJd5WhntJRtnLv2xErDpee698mTBiOGYDqA.RfhGN4U6gaHsT8P_sA4jig",
         "numeroSequence": "122111821185401",
         "dateInscription": "2022-11-17",
         "montantTransaction": "-458.02",
@@ -236,7 +414,7 @@
         "codeCategorieTransaction": "PY"
       },
       {
-        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..9uUqw5jPWod1HVZB.mxl-n7zCih7tHLR4uohVvVFoatACd6SL_7TxQqktLy0S9moCRS5uxsN1AvdOcGY4BVY-G9n2Vch5h9ODML6tlbtjfwSj6Xk6fVAEiRuYITfO43bpZ0vGCpGWOylKl7S6UmQfdyM2C4M89Y94oveRtKj-fOSNGRh9SL7mWClbfa4kWlwD7hdTFWjQ2X65Q5n8JTGfjV-DdyPSXoTMOXyQdvU34MhhNNlcr192P4Hc6us.e3awwDf6KJx71B-Pxoqwvw",
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..c2QKD0giUWwgOKT5._9e7uiz3RNeSxqSAJrBNKYwb0uZg7qrMTrDDjcJBtJwbPhyLmicWaoR0YgxP2ZJa-n4-NPJKvSi_LiuiskZa1onnskq2YFfK4i4oZcfnuGOp1q1eUnzdHVyVhku9lBIHWuwGHK1st4v2kwdpdC7idUte3MnfsP76gpYP0Dys8Ju2ucCpzb6yseHj_9Gne7cqh0p4uAfIPWo_pO6w1Y4BtbiVE-7Dq6ZhQua-oWuTqfc.kYvF5pHzzjVulm3aGugCbQ",
         "numeroSequence": "122111521290704",
         "dateInscription": "2022-11-14",
         "montantTransaction": "103.49",
@@ -262,7 +440,7 @@
         "codeCategorieTransaction": "PU"
       },
       {
-        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..usMDstpr8Sw0o8Y7.l5Ska9ToCm1XPzAAZ3OrVjbBuchBsNVEwgFkBWgl9a4kLDm72aELf-wbm4bcJiTxEiNt5GmpnXDhO1Z1jn6WEL1AkuCdcHvF5kxG4ZOBtkrOtKWztdYhrwIHLI2lPIZ_5ayLOiPkHjLHcn1zqHUSM-IOPcHCfpGlrOxbzNTOkeXkLZb5WkzwhdLV2WHPWSmpJGCeVRGNc0oiXasaIP4LBuDvgPcFROgPQD49phBv9IM.ZirXVAe5TZlXjJrR9zkZXg",
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..GuNk6eRP3RcCffEv.jeN1AALe3K-e2IS_zPriYi-4-dbaDwuaDCz_TwB-cOrDJwE0rALFfgDw81qGxqd6Yp3WfryLbP7QNDvifkbgbBHUjlazwYfS02rRGYlTquUlKYXeQxuWoDlKNo_LudU0ViMg38BStu2YN9wRbP_Xyirnw9HAflHM2HmeCVJ1uUAwFGqyE1OvFPSszE-_VNfT_K64ozqlw9bWJkR7V860wP20qtbmZ4zSup5e1PlX6YM.FRCcVWxksFriIaCAz0xNRA",
         "numeroSequence": "122111521290703",
         "dateInscription": "2022-11-14",
         "montantTransaction": "88.92",
@@ -288,7 +466,7 @@
         "codeCategorieTransaction": "PU"
       },
       {
-        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..nVDBt35-18jv-xE1.WRxwFPECIN6JnlJV0vQ99DkMgI8jHeKZP8177yxljAz0WH76jADu-ZDZoK2PYnvI16nvF118NtZ1P7Pe4u40iwlvBmWFJgaSHfRXc7nEm6YIeRdV3tnpiosag_-7WhCnWYGekytiB4QldFNlEAqwQsy52guQUICtwMoE_cLYlcuCp7EkspB9e-rpv99bOoH5NGOULzo1wCkHRr2BPdA6C32_gll4elzQ5V39iTEnPgU.GD7_Ecru8ogQ1sc8AahESw",
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..bLRGe9JGO6aMr3LC.SJzoeW3DsYdqNgybq2S5IZNtcoX0_X6foAN0PnvdbFYlv-HPNt747usVkSeILMVVfGtWh6xFaw6O6laoLsvYVppSiI9KBHxpbGmwzGIaq5djz4l1UypIBPSnlf4bFllBeu5O2bP891Eik4xf0nxml2b19PQ23tnoFRDtk43CAR0lAdxLyEuhzaOqRfBwpvfgUFAhb0CH3HiwV8_l4wZBOyKf88eTCvGrFAgsf_c0T04.DAbeFl0--CbQ5rMsQDIRzg",
         "numeroSequence": "122111521290702",
         "dateInscription": "2022-11-14",
         "montantTransaction": "86.96",
@@ -314,7 +492,7 @@
         "codeCategorieTransaction": "PU"
       },
       {
-        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..3_uZ1ezja5b6c7xC.Oj9IXN0QxRY2cUpPDPfJXun6f8kTVgmph5yIMN-7swLhz_V8vvDq41ZO1iB1r7keRdxO-eiNVXMhao3Iwed78_BrBNDrIDR9MCy7anO7Aq2ylVYFq9Mv74e04vn3apjX_f4A0ZJwqnr0nWmHrdVQzXD5VQ6HHcVPmg4Orqh1v9Y7M2wve_YE7oo1gtIV-QDHexWsNg7BnvOBTaEZVO1DhcM0P4oz0iuFy46VApAGqzA.LVoYAMLf1hY0p3q3Tvq4Gg",
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..-IdMKCetIei3FWyQ.xT2dn_14_lQ-KgWR5o6DQShvncgbYXTQ4_nrIWwdtD-xHOxHnvSCgNx0D-hu3VduTYvpChGUN3rOe5lxUjmXVosxNZfMdO2c_yl2-D-I-Fi12AAy99PZP3PqyfaEIu2Iw0vX24N7vzXHwqhjvHG2f5dIaJLbEwOgI9603JzzTUQ_EN9UCI51U4uO_ftsnTLlPkUCKkQv3kRJx0UoJe58bm9tH1s8OjxKCvFO6a34RxI.ebBm3VcugJfCorgIhstGEg",
         "numeroSequence": "122111521290701",
         "dateInscription": "2022-11-14",
         "montantTransaction": "58.80",
@@ -340,7 +518,7 @@
         "codeCategorieTransaction": "PU"
       },
       {
-        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..R3gRRiPDBw4bon4S.N96mTU2F0JrSid-wDNLBfe-_eOfnAyUBqpkc75_LzyQgcXSJthSF9UG_CawIxBsSFBAVBVgMIQpKbl55jc0f81v3u5LL1rx5h0hVhOin1HOcfbxiHrPQYPr6Co4eHwihna3rkVdjJDLSTLurHzT9RMuvF1m7hCA0P4LPkhtDxY3IAU5kWDr43M_ZOIbTAGWJFX_hhl1ys-7va12DUsgpEwFHqe68ZLjvGvOgDCn9Fjw.nzgsfzs90UYzIfLaAVx-2Q",
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..LjlUO8sIjL9ATZaT.c8OVKNM3VF1-dedB6gCdW-CBfBxJmCHb_LwosCC6-KbE4C1ERgnWLzZ81iUqqdyQCyGaJWxJ0ziMoGxjpMQ1mvwhTgY9FNEh4De9emGOJxeWmohDEg278qdlOg6yvToWrdwKWHBfsvT78fKBkOvfk4jv9WcBXQr2-M_PKwhxv3zuQQ7FAh1eyAsGqMe9TJo-m2ZGAGlpvHZDkMOKE6k4f0ne9JpYjoTEl9lN-rkNNio.emiaowhMwXiUv8CIUoLEUg",
         "numeroSequence": "122111521290705",
         "dateInscription": "2022-11-14",
         "montantTransaction": "-86.96",
@@ -361,7 +539,7 @@
         "codeCategorieTransaction": "PY"
       },
       {
-        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..a8lEH6sheGxdrBtb.Wq4eVB7nLLbUfnwY6YV3Z_JV2oVZ7Jam6MrteWVt3cFvUSUwrpl3d6V6QLn2JFO-5Rsw8YlQ638MBeLOpc3mQoKhKOpKWXY8kMJ3VqWczK8Rj5NqYPh_VBCR2SMt6YhBTB74ACXBErOxpVQvauje5_X0A9vltsiO8Lk1kqPKpgtx1FJBMCDOWMfwqoWmpShFE-9KeGFM0pLdVluSJ2WLSRqpWyaZtn9yCIJTJmOlPIk.B04pE-IgpeG6xE-hWA-b2Q",
+        "identifiant": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..fxpvpb1PqeljntES.andRmdKLB0s88vLLXet4DmOuHHMNiGL8Hb1hA_44q_osSKPNEpL9eTYXGxcAtmazzNKfD2OmTQdAuXhHQgY8xT22ZAxtGlUNA4OeBvupM5cfgSUouHnybqAHntHvn3aGaECKQwtQtuDJdB_rcP-LsxQyIe9koR8X8wefMwqVonAzCk_HcW5QIATx_vaJLjWR6Lu8Q-fKcDhYnLhDxLFE6-Bwp9jpH6VhCOj7oycw-T8.NshwXBlcXNBzvaSCqyh5qw",
         "numeroSequence": "122110821175501",
         "dateInscription": "2022-11-07",
         "montantTransaction": "206.81",
