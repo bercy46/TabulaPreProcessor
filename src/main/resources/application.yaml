@@ -410,6 +410,7 @@ merchant:
     '[STH #144]': Restaurant
     '[REMISES AU COMPTE BONIDOLLARS]': Frais bancaires
     '[PLACEMENTS SAMEN INC}': Stationnement
+    '[WS Investments  PLAC]': Epargne
 
 td-transaction:
   matchRegex:
