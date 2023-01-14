@@ -19,7 +19,7 @@ public class MailService {
 //        message.setTo("jacques.poulin@gmail.com");
         message.setTo(new String[]{"jacques.poulin@gmail.com", "nadstaubin@gmail.com"});
         message.setSubject("Suivi Budget");
-        message.setText("http://jacquespoulin.zapto.org/suivibudget");
+        message.setText("http://172.24.101.14/suivibudget");
         javaMailSender.send(message);
         log.info("Email sent");
     }

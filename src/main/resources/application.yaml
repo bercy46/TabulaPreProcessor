@@ -411,6 +411,7 @@ merchant:
     '[REMISES AU COMPTE BONIDOLLARS]': Frais bancaires
     '[PLACEMENTS SAMEN INC}': Stationnement
     '[WS Investments  PLAC]': Epargne
+    '[VOILA.CA]': Epicerie
 
 td-transaction:
   matchRegex:
@@ -434,6 +435,7 @@ td-transaction:
     '[VIDEOTRON LTEE]': FIXE
     SONIC: FIXE
     '[BQE DE MONTREAL PRET]': FIXE
+    '[WS Investments  PLAC]': FIXE
     '[VERSEMENT PRET  PRET]': FIXE
     '[GWL 1115759]': FIXE
     '[HYDRO-QUEBEC]': FIXE
