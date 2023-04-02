@@ -45,7 +45,7 @@ public class DesjardinsJsonProcessor {
         this.posteDepense = posteDepense;
     }
 
-    public TransactionReport process(String carte) {
+    public TransactionReport process(String carte) throws IOException {
         List<Transaction> transactions = new ArrayList<>();
         try {
             ObjectMapper mapper = new ObjectMapper();
@@ -128,15 +128,18 @@ public class DesjardinsJsonProcessor {
             }
         } catch (Exception e) {
             log.error("Exception", e);
+            throw e;
         }
 
 
         TransactionReport transactionReport = new TransactionReport();
         transactionReport.setTransactions(transactions);
         transactionReport.setTotalDepensesFixes(0);
-        transactionReport.setTotalDepensesIgnorees(0);
-        float total = (float) transactions.stream().filter(o -> "Variable".equals(o.getCategorie())).mapToDouble(o -> o.getDebit().doubleValue()).sum();
-        transactionReport.setTotalDepensesVariables(total);
+        float totalVariables = (float) transactions.stream().filter(o -> "Variable".equals(o.getCategorie())).mapToDouble(o -> o.getDebit().doubleValue()).sum();
+        float totalNonIgnorees = (float) transactions.stream().filter(o -> "Variable".equals(o.getCategorie()) && !"IGNORER".equalsIgnoreCase(o.getPosteDepense())).mapToDouble(o -> o.getDebit().doubleValue()).sum();
+        transactionReport.setTotalDepensesVariables(totalNonIgnorees);
+        float totalIgnorees = (float) transactions.stream().filter(o -> "IGNORER".equalsIgnoreCase(o.getPosteDepense())).mapToDouble(o -> o.getDebit().doubleValue()).sum();
+        transactionReport.setTotalDepensesIgnorees(totalIgnorees);
         transactionReport.setTotalAutorisees(totalAutorisees);
         log.info("Unmatched labels Desjardins: " + unmatchedLabels);
         return transactionReport;

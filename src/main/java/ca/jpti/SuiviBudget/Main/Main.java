@@ -64,7 +64,7 @@ public class Main {
     }
 
     @PostConstruct
-    public void process() {
+    public void process() throws IOException {
         TransactionReport tdReport = tdProcessor.process();
         TransactionReport desjardinsInfiniteReport = desjardinsJsonProcessor.process("VISA Infinite");
         TransactionReport desjardinsWorldReport = desjardinsJsonProcessor.process("MC World");
@@ -430,7 +430,7 @@ public class Main {
         Set<PostesDepensesReport> reports = new TreeSet<>();
         for (Transaction transaction : transactions) {
             String posteDepense = transaction.getPosteDepense();
-            if (StringUtils.equals(transaction.getCategorie(), "Ignoree")
+            if (StringUtils.equals(transaction.getCategorie(), "IGNORER")
                     || StringUtils.equals(transaction.getCategorie(), "Fixe")
                     || posteDepense == null
                     || StringUtils.equals(posteDepense, "IGNORER")
@@ -516,6 +516,7 @@ public class Main {
                     .getTransactions()
                     .stream()
                     .filter(o -> "Variable".equals(o.getCategorie()))
+                    .filter(o -> !"IGNORER".equals(o.getCategorie()))
                     .filter(o -> !"IGNORER".equals(o.getPosteDepense()))
                     .mapToDouble(o -> o.getDebit().doubleValue() - o.getCredit().doubleValue())
                     .sum();
@@ -525,6 +526,7 @@ public class Main {
                     .getTransactions()
                     .stream()
                     .filter(o -> "Fixe".equals(o.getCategorie()))
+                    .filter(o -> !"IGNORER".equals(o.getCategorie()))
                     .filter(o -> !"IGNORER".equals(o.getPosteDepense()))
                     .mapToDouble(o -> o.getDebit().doubleValue() - o.getCredit().doubleValue())
                     .sum();

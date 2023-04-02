@@ -80,13 +80,13 @@ public class TDProcessor {
         Map<String, Float> mapTotaux = new HashMap<>();
         mapTotaux.put("Fixes", (float) transactions.stream().filter(o -> "Fixe".equals(o.getCategorie())).mapToDouble(o -> o.getCredit().subtract(o.getDebit()).doubleValue()).sum());
         mapTotaux.put("Variables", (float) transactions.stream().filter(o -> "Variable".equals(o.getCategorie())).mapToDouble(o -> o.getCredit().subtract(o.getDebit()).doubleValue()).sum());
-        mapTotaux.put("Ignorees", (float) transactions.stream().filter(o -> "Ignoree".equals(o.getCategorie())).mapToDouble(o -> o.getCredit().subtract(o.getDebit()).doubleValue()).sum());
+        mapTotaux.put("IGNORER", (float) transactions.stream().filter(o -> "IGNORER".equals(o.getCategorie())).mapToDouble(o -> o.getCredit().subtract(o.getDebit()).doubleValue()).sum());
         log.info("Totaux: " + mapTotaux);
         TransactionReport transactionReport = new TransactionReport();
         transactionReport.setTransactions(transactions);
         transactionReport.setTotalDepensesFixes(mapTotaux.get("Fixes"));
         transactionReport.setTotalDepensesVariables(mapTotaux.get("Variables"));
-        transactionReport.setTotalDepensesIgnorees(mapTotaux.get("Ignorees"));
+        transactionReport.setTotalDepensesIgnorees(mapTotaux.get("IGNORER"));
         return transactionReport;
     }
 
@@ -136,18 +136,18 @@ public class TDProcessor {
                             }
                         } else {
                             if (StringUtils.isEmpty(transaction.getCategorie())) {
-                                transaction.setCategorie("Ignoree");
+                                transaction.setCategorie("IGNORER");
                             }
                         }
                     }
-                    if (!"Ignoree".equals(transaction.getCategorie()) && StringUtils.isEmpty(transaction.getPosteDepense())) {
+                    if (!"IGNORER".equals(transaction.getCategorie()) && StringUtils.isEmpty(transaction.getPosteDepense())) {
                         transaction.setPosteDepense(posteDepense.getPosteDepense(description, transaction, unmatchedLabelsPosteDepense));
                     }
                     transactions.add(transaction);
 
 
                 } else {
-                    if (!"Ignoree".equals(transaction.getCategorie()) && StringUtils.isEmpty(transaction.getPosteDepense())) {
+                    if (!"IGNORER".equals(transaction.getCategorie()) && StringUtils.isEmpty(transaction.getPosteDepense())) {
                         transaction.setPosteDepense(posteDepense.getPosteDepense(description, transaction, unmatchedLabelsPosteDepense));
                     }
                     transactions.add(transaction);
@@ -156,7 +156,7 @@ public class TDProcessor {
         } else if (description.contains("TFR") && (description.contains(" 6478799") || description.contains(" 6479221") || description.contains(" 3296586"))) {
             // Transferts
             if (StringUtils.isEmpty(transaction.getCategorie())) {
-                transaction.setCategorie("Ignoree");
+                transaction.setCategorie("IGNORER");
             }
             transactions.add(transaction);
         } else {
@@ -184,7 +184,7 @@ public class TDProcessor {
                     } else if ("IGNORE".equals(map.get(key))) {
                         matched = true;
                         if (StringUtils.isEmpty(transaction.getCategorie())) {
-                            transaction.setCategorie("Ignoree");
+                            transaction.setCategorie("IGNORER");
                         }
                         transactions.add(transaction);
                     }

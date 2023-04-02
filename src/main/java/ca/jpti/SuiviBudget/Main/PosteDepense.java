@@ -14,9 +14,10 @@ public class PosteDepense {
     public PosteDepense(MerchantProperties merchantProperties) {
         this.merchantProperties = merchantProperties;
     }
+
     public String getPosteDepense(String originalDesc, Transaction transaction, Set<String> unmatchedLabels) {
         String posteDepense = null;
-//        if ("Ignoree".equals(transaction.getCategorie())) {
+//        if ("IGNORER".equals(transaction.getCategorie())) {
 //            return null;
 //        }
         Map<String, String> map = merchantProperties.getMatchRegex();
@@ -56,12 +57,12 @@ public class PosteDepense {
             Map<Integer, String> mapCategories = new HashMap<>();
             StringBuffer tableau = new StringBuffer();
             for (int i = 0; i < categories.size(); i++) {
-                mapCategories.put(i+1, categories.get(i));
-                tableau.append(i+1).append(". ").append(categories.get(i)).append("\n");
+                mapCategories.put(i + 1, categories.get(i));
+                tableau.append(i + 1).append(". ").append(categories.get(i)).append("\n");
             }
-            tableau.append(categories.size()+1).append(". ").append("IGNORER").append("\n");
+            tableau.append(categories.size() + 1).append(". ").append("IGNORER").append("\n");
             System.out.print(tableau + "SVP choisir un poste de depense pour "
-                    +transaction.getInstitution()
+                    + transaction.getInstitution()
                     + " "
                     + transaction.getCompte()
                     + " "
@@ -70,16 +71,16 @@ public class PosteDepense {
                     + originalDesc
                     + " "
                     + (transaction.getDebit().compareTo(BigDecimal.ZERO) == 0 ?
-                        (transaction.getCredit() + " (credit)") :
-                        (transaction.getDebit() + " (debit)") )
+                    (transaction.getCredit() + " (credit)") :
+                    (transaction.getDebit() + " (debit)"))
                     + ": ");
 
-            while (userInput == null || !(userInput.matches("^[\\d]+$")) || Integer.parseInt(userInput) < 1 || Integer.parseInt(userInput) > categories.size()+1) {
+            while (userInput == null || !(userInput.matches("^[\\d]+$")) || Integer.parseInt(userInput) < 1 || Integer.parseInt(userInput) > categories.size() + 1) {
                 userInput = scanner.next();
-                if (userInput.matches("^[\\d]+$")){
+                if (userInput.matches("^[\\d]+$")) {
                     int id = Integer.parseInt(userInput);
-                    if (id >= 1 && id <= categories.size()+1) {
-                        if (id == categories.size()+1) {
+                    if (id >= 1 && id <= categories.size() + 1) {
+                        if (id == categories.size() + 1) {
                             posteDepense = "IGNORER";
                         } else {
                             posteDepense = categories.get(id - 1);
