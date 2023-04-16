@@ -5,57 +5,96 @@
   },
   "sectionAutorisee" : {
     "transactionListe" : [ {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..OhLGUxtOEsciGKhn.rnggaV3fBtjgpTKpgDMKXcXxTmZ-2roZIh7Lsj5uWU1up7rPZqD1vAMTl1eccZgHElrNhyyRKtJhvmWdvfat0wiIYtH91V4WnbWCo27UCXNb64FJxKxMBVR8127-EnseJyPKF0Z7UfsvOeZomAtpWwCLw8zXSqIhQIsH1uXGKgNnYCn6EKx68sjprmAXNspmlfODSg2yngZOCsicya3o0rTBoqL9zk4_QRomj_NvxpjO2kqUj3eEFw.JVv9BIb40EJkzbwyfZKNpg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..ZIrQgqh3vDs0_-G5.Zt9cW5Y7WJd8F8YWojCufrb7KRcdCkPOB7-zhunonc4NUmq58kyTLQCKV2yV0X7tjjG1i1hvXkNq8dEyfhYB8HRoPlfcnqpjIJyh_t-w0R2uQ1jRi9_3MkGJkKWdzCmPYk_UwNmwlAeL8jqXiFxSjnKKlwMEJLPQ3aTFxYa9JgFlmPdlIcdjt2Jh4H989lwUTR3KmnhDqnfzeHAoeHSPI-ky3_FV7dmBP9QsUpS11BWUwfl5PFfrtA.s_ycz2GasXAzZp_L2b-h4A",
+      "numeroSequence" : "5",
+      "dateInscription" : "2023-04-16",
+      "montantTransaction" : "6.25",
+      "typeTransaction" : "AutreAutorisation",
+      "descriptionCourte" : "SPAQ - H. CHARL GREENFIELD PA CAN CA",
+      "descriptionSimplifiee" : "Spaq - H. Charl Greenfiel",
+      "dateTransaction" : "2023-04-16T12:34:19-04:00",
+      "devise" : "CAD",
+      "nomEmbosse" : "JACQUES POULIN",
+      "numeroCarteMasque" : "5598 28** **** 3020",
+      "codeRelation" : "S"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..OnxELxRAzsGBH0tA.t3lb4GMHGhZZo1KJ-CUaAJwc_njSsZPuPnyUu_HHw1Y1cyTBjmpl6t1t2B2fzWYg7E0xiq9nwIq6D9_34F0Gvi5GtnCUXmNZas8VK_LA6jPlI3-FwxPz2P_YAnVAF0l4J_Te335mjnUaMD1AM16EFgxDURoZ-h1_8UD67wPQAvtgD7SSq0j5AE0vKrCwPJlcG8vl1a6Q9P93fbW5v7ddbrszQQoae6C9rNDSbfrql2N6gWzHHkR0AA.VVlXcLmhjOQWD1loPvlRwQ",
       "numeroSequence" : "4",
-      "dateInscription" : "2023-04-01",
-      "montantTransaction" : "35.99",
+      "dateInscription" : "2023-04-16",
+      "montantTransaction" : "155.11",
       "typeTransaction" : "AutreAutorisation",
       "descriptionCourte" : "COSTCO WHOLESALE W556 CANDIAC CAN CA",
       "descriptionSimplifiee" : "Costco Wholesale W556 Can",
-      "dateTransaction" : "2023-04-01T16:50:17-04:00",
+      "dateTransaction" : "2023-04-16T09:11:16-04:00",
       "devise" : "CAD",
       "nomEmbosse" : "NADINE ST-AUBIN",
       "numeroCarteMasque" : "5598 28** **** 3012",
       "codeRelation" : "P"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Rg9jNv_175Njtqep.ex0VEHDbnqSiSjkXEKqLXrmY_tsK7s3P211upQe8S5ixh07GgONr3_kSIFImdlpPzKicqRnOQXEbIcWQJFTOYctcNRmr_fWf08HBoFrH0R1DAWvKNjAh7ZW5eR5NdfW_ByGzXDpQ3pVagFDWLudy-mC7XuOoD-N7LZ-YPJdGl_poJ45YASfrEh32W6AQsJxlxrqgtju1jXP-8D1p0p0aPkNKQGYIxKGnCPeLljN4fnMB1PP1PaUkgw.R2OriZCVeiYHXIbJJlGhIw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..MAveLtOtgMEO_i72.xc122NJnpuZMTL8QrGS_qrFxTw6TSq96BUGExWxQ4XVAJyuKnmB2HP5fYSsr0TZYaY9tsR6l3QdgV3O56e-V0fdJ1n9uxJUPp9dV2X9E9ru_jkgv57SsaThEaRFDkwM1JzuYZVk2wCNMIbgrzrZiMdd8h7zYgdCYxegRDz5oth8PHuuRest0S4cTwD8EOmm2Y3mSZHr7fD8CTFM-3bv7uHpYoG7-iapihTh1jX5RUZbpb0SqDsJLPQ.4yGKvofKURcmJZQGH1g99w",
       "numeroSequence" : "2",
-      "dateInscription" : "2023-04-01",
-      "montantTransaction" : "78.43",
+      "dateInscription" : "2023-04-16",
+      "montantTransaction" : "19.39",
       "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "COSTCO ESSENCE W556 CANDIAC CAN CA",
-      "descriptionSimplifiee" : "Costco Essence W556 Candi",
-      "dateTransaction" : "2023-04-01T11:49:08-04:00",
+      "descriptionCourte" : "SHELL C21952 CANDIAC CAN CA",
+      "descriptionSimplifiee" : "Shell",
+      "dateTransaction" : "2023-04-16T08:37:28-04:00",
       "devise" : "CAD",
       "nomEmbosse" : "JACQUES POULIN",
       "numeroCarteMasque" : "5598 28** **** 3020",
       "codeRelation" : "S"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9.._zetXpUkdC07R8xg.B4ErWaEx_n-HHXaU9GWgWfism8DlaXT7CW-LvoxqLWGvYXCdA_bXdOt6tpbbwkRPBeIO_aLn_O__oBalmuSOIrY7P8jXJcEJysbou4iLxJTnAOpTwABJu6G8Gy576ytYoMSfTB6hXEF0ATdzYKWK8z_Evsz1K3_15yiqGRsHZj7N28zKV8G00ca2TPKcrlyBuFR4UCE1slqOsaghXbN4YdVjNAh-DYcDfPEmSQ4PmJaHHhGKis-CYw.UN5TouuUKqywXnDl9GYFrw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..UYkV2iV1vTI9tPv9.jalQg-m0t_bL4rfEqNvIHcaCLZqjf0aTKOgbzbrHaXsZdS1Aw6fDaL6r4PbS7MJ5D2IPBpA5LVYd3rQsMSjpG78ZsA2ByJ6yBX9WkrcILHOhFpxVMUGiXrimuK8XcisXpmPSzBQflSjJPj_exym_qNQwWYOnyzVGZD6ZM07nG23ezwJIVLTs4-zsblSUrb4MI_4YiFHvUEWFPmXJuHmPPxujzLlHaOHQ3PFq7uWnmZW3g8wQXIMGJA.GiJmTwH8bhe2K5J07NtUGg",
       "numeroSequence" : "3",
-      "dateInscription" : "2023-04-01",
-      "montantTransaction" : "-200.00",
+      "dateInscription" : "2023-04-16",
+      "montantTransaction" : "-100.00",
       "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "COSTCO ESSENCE W556 CANDIAC CAN CA",
-      "descriptionSimplifiee" : "Costco Essence W556 Candi",
-      "dateTransaction" : "2023-04-01T11:49:08-04:00",
+      "descriptionCourte" : "SHELL C21952 CANDIAC CAN CA",
+      "descriptionSimplifiee" : "Shell",
+      "dateTransaction" : "2023-04-16T08:37:28-04:00",
       "devise" : "CAD",
       "nomEmbosse" : "JACQUES POULIN",
       "numeroCarteMasque" : "5598 28** **** 3020",
       "codeRelation" : "S"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..yJZ4JvTPf951rAY3.fy-80snXcia0FtrTtQ4C0joJtaGk8cxL5MzcMIzJWOj20O2NnX_4mI0o2nEc4eZpyIjp6qa82UWl6rDh0HyKYlhPu-OV2PlrpjlmUaT86uRwTTMThnNZZ_nv0DBGw_wlaSw4-v4LTXfVom2iXYAENxRVttqcsrcQSaFV4BX04D_pjMy2UIL4kxAZyqCDFCQepp1d_lF_3wZBzKxjypPoDaYiCREZZZvvXQVyibWPNxilEL1AuIqVCA.zihwbG8iF33SzKlNd22MQg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..bluuvZTz4XV0kO5J.VgwvVOXhPM_6mD2XNBahCEUs2CrBoWAZoBOcItbiKxBFW9KFzCnrQHqpUZLtNRDPkwqPiPhWEdhX5lEb3ovy0MkGFDbEDwc43CokGX3Jt_IvgNcEx4VopMVujtso6qqc7yTB01IisvI0nawui2i_Jj509R2La14p9HqJxUBnXuj8ajU5xW6822mo1MxHPf2mwaziHPYhsdN36hr5hJX34PFKVZuhDg2_mehMmwjZhnuOSjAigZwinQ.GqfLBt7_cS9GY6OLjMmBZA",
       "numeroSequence" : "1",
-      "dateInscription" : "2023-04-01",
-      "montantTransaction" : "200.00",
+      "dateInscription" : "2023-04-16",
+      "montantTransaction" : "100.00",
       "typeTransaction" : "AutreAutorisation",
-      "descriptionCourte" : "COSTCO ESSENCE W556 CANDIAC CAN CA",
-      "descriptionSimplifiee" : "Costco Essence W556 Candi",
-      "dateTransaction" : "2023-04-01T11:47:21-04:00",
+      "descriptionCourte" : "SHELL C21952 CANDIAC CAN CA",
+      "descriptionSimplifiee" : "Shell",
+      "dateTransaction" : "2023-04-16T08:36:31-04:00",
       "devise" : "CAD",
       "nomEmbosse" : "JACQUES POULIN",
       "numeroCarteMasque" : "5598 28** **** 3020",
       "codeRelation" : "S"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..1Uv2n4BZpftBmz0T.9efO-VeqfufmwWGLoBRZumS5wgWucZYjRF_I_XYJXQJ1WOuoBJlRmPIIhmwByokMTz27UP1HL6QpZgqK5jsj47bshT10-FMTwYiSCBvcr18Q70JOfK8WS2_bFS0-UMJXt_431p4PnA0h74DqiYsep_CPcEDgL5oRIb2_CYYFP_uAeKJTc4wcC4XniuiUTtdThzVuHTNiRHk7l8j1WPJ4Kl-XvQ2BYrkB4fFitGjIJ2EEbBiWkeN9ew.XUzE5J7EJtWkrjDxUAyURA",
+      "numeroSequence" : "2",
+      "dateInscription" : "2023-04-15",
+      "montantTransaction" : "10.75",
+      "typeTransaction" : "AutreAutorisation",
+      "descriptionCourte" : "SPAQ - H. CHARL GREENFIELD PA CAN CA",
+      "descriptionSimplifiee" : "Spaq - H. Charl Greenfiel",
+      "dateTransaction" : "2023-04-15T22:32:10-04:00",
+      "devise" : "CAD",
+      "nomEmbosse" : "JACQUES POULIN",
+      "numeroCarteMasque" : "5598 28** **** 3020",
+      "codeRelation" : "S"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..kNIqTH9qxNc1c9Tt.nyYynVz-HPqJVSHVF2zEPP5MMknpjq4I9BcJu6_7_Xj5_ZF5WdtLIEf9TfWEyNVX012COWyX1urq2WfjAFqEn8xLSEyrjZP6wF3mWRM2CGnHjnJkpd8XcxHt3s8XXjUzHCPP3d3QTqu8j6dp-StevNTEsbYS6gVLF6ks_WMZLwKS0ogEMmS-rF_58e0FPWH8bRSnG-u1uO0nznVKxq-qCMuL_LWS3kguA26PSJZLQYRv0dA1lbA22Q.mRzjVNcXnXf3kFqDeEaXVA",
+      "numeroSequence" : "1",
+      "dateInscription" : "2023-04-15",
+      "montantTransaction" : "24.13",
+      "typeTransaction" : "AutreAutorisation",
+      "descriptionCourte" : "APPLE.COM/BILL 866-712-7753 CAN CA",
+      "descriptionSimplifiee" : "Apple",
+      "dateTransaction" : "2023-04-15T10:22:38-04:00",
+      "devise" : "CAD",
+      "nomEmbosse" : "NADINE ST-AUBIN",
+      "numeroCarteMasque" : "5598 28** **** 3012",
+      "codeRelation" : "P"
     } ],
     "messages" : [ ]
   },
@@ -63,16 +102,160 @@
     "nbrMoisRecherches" : 12,
     "indicateurLimiteListeAtteinte" : false,
     "dateDebutPeriode" : "2022-05-01",
-    "dateFinPeriode" : "2023-04-02",
+    "dateFinPeriode" : "2023-04-16",
     "transactionListe" : [ {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Jf24Wp2QKmSRACFk.hPhOUWJrYsDXBrSrwYnWItAF1Sucmb0MY03L5WunaGw1alUmazCXFJkyAYVKZtvK--KNBcx-jbs38ogyButCNTwYICw_d9Xf55gPcs2Y4HJJuAHwzqaZ-_rvGEEKQX0DMvApXvyjo_2sXz84KBnKHzFRhMjVzr8mNot3Z-aTjngzbMUYGY7K558eOrbiLiWK4QMoh3HS4_rqLi_bkc1jp1pqI5-f2yAw9gX101fZ8kbRrLJ7szDBng.3Xyeig9NSz2ouwiGOSkBwg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..6-9Cx2DEU-dMIFCl.1DeDnmRbUz8kIS_M78o6KeqV1Li_8XxAt8JVdzBng5wN09_qtTjy6BAJfhvmBi3g055Zho2PSfNHcdmsuOuz_aAXBdw6jYBXRQNhnt9uIu_Vu8GJhNSiYpAZP6M2r7fAK34luLmam5pKdRzGv7in6pU87m1q0FxHUpsW16QgZFrTtG5IU8zss9RjE6h464CkGRQ9QqtAPN4a_sQLjTOAuVAZ4BsN0bqfFZ3XKvNLJOO0njzVI_sf2A.4NCyioDXQSe_0Cci8bK-Ng",
+      "numeroSequence" : "123041321112801",
+      "dateInscription" : "2023-04-12",
+      "montantTransaction" : "-490.00",
+      "typeTransaction" : "Paiement",
+      "descriptionCourte" : "PAIEMENT CAISSE",
+      "descriptionSimplifiee" : "Paiement",
+      "dateTransaction" : "2023-04-12T00:00:00Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "NADINE ST-AUBIN",
+      "numeroCarteMasque" : "5598 28** **** 3012",
+      "montantRecompense" : "0.00",
+      "tauxProgrammeRecompense" : "0.00",
+      "codeRelation" : "P",
+      "montantDevise" : "-490.00",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-PAIEMENT",
+      "indicateurCategorieTransactionAutre" : false,
+      "codeCategorieTransaction" : "PY"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..79-HAK_8NtMJn_10.g6sDAYjz_HQkMyl-dyVEGOLssQ5e4eIrvr14JP6U6mDQNWZFhE73ModtWJL_EbtpgVZQKgLsy0ruU-vcQEFogxhm93fvef8BCUUDNWz3tDbUVckID2s5cKOKQcN9P_eNF9URofOf-_4XZUYPeasMDnXXXedlaClNipl1JEFjnymRWkbzEXTjnFN0sNH3iz51VIc1-sODVygDpfHHPYsLHog0S69mUQ1JRIdVyNpLuXg.CKGnXGaRpTI0wmG8KTE6MA",
+      "numeroSequence" : "123041121262302",
+      "dateInscription" : "2023-04-10",
+      "montantTransaction" : "78.27",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "COSTCO ESSENCE W556      CANDIAC      QC",
+      "descriptionSimplifiee" : "Costco Essence W556",
+      "dateTransaction" : "2023-04-08T15:41:27Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "JACQUES POULIN",
+      "numeroCarteMasque" : "5598 28** **** 3020",
+      "montantRecompense" : "0.78",
+      "tauxProgrammeRecompense" : "1.00",
+      "categorieRecompense" : "Tout autre achat",
+      "codeRelation" : "S",
+      "categorieTransaction" : "Carburant",
+      "categorieParentTransaction" : "Transport",
+      "idCategorieTransaction" : 80,
+      "idCategorieParentTransaction" : 78,
+      "montantDevise" : "78.27",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : false,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Essence"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..64tn11vSigmMVwAf.B58otq52yXG3Si8Wjx_Hy-lAoWJltB8cQQF6EXq8j-mPKnYuMQsa7v37w_TI8Ge2oftyVNk2axQQUjVmgxleUSC8sSFNin5omRjUWiCX4abyhL6a9kkwUkpoWV7QBKjHw0IiYQBAW0OMmm5UPG9Id4qxAM1chJE-ChhG9ofWqvlOjpkUwxQ6sMDXuwkNNG0FGGk2XYODG7dOvPKGWgWvMpriMI9WKOyLZkCVD7DYBYU.w3xXTaiijgKjD0eCVqfn1Q",
+      "numeroSequence" : "123041121262301",
+      "dateInscription" : "2023-04-10",
+      "montantTransaction" : "26.43",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "APPLE.COM/BILL           866-712-7753 ON",
+      "descriptionSimplifiee" : "Apple",
+      "dateTransaction" : "2023-04-08T04:00:00Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "NADINE ST-AUBIN",
+      "numeroCarteMasque" : "5598 28** **** 3012",
+      "montantRecompense" : "0.26",
+      "tauxProgrammeRecompense" : "1.00",
+      "categorieRecompense" : "Tout autre achat",
+      "codeRelation" : "P",
+      "montantDevise" : "26.43",
+      "indicateurTransactionRecurrente" : true,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : false,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Apple"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..FK7xwITpNWjktkh0.3Qx6x6QzPkLmFauSEg9Herhgx2pkCgoktByvI2mMwVIul5S_g9HHGwIkSi_II36zKCqaUlqwLwC7IZHN5s2uokjA5rLbCFuvEDkepUfuSqR_9fp2ZR3kv103L_8V9lcnfF4lu3SMrB7vazH3H9P6bVx0gZ6s4uYcTjNiE7ojzdyKuYRYLdZPx-37dUdE7aujiVG_FzKyqcM2pOkfLYByv6XOIRzFtYXqquDkmG5kUnU.pZrAGYr96j9ocxlIGNxhiw",
+      "numeroSequence" : "123041021260501",
+      "dateInscription" : "2023-04-06",
+      "montantTransaction" : "-400.00",
+      "typeTransaction" : "Paiement",
+      "descriptionCourte" : "PAIEMENT CAISSE",
+      "descriptionSimplifiee" : "Paiement",
+      "dateTransaction" : "2023-04-06T04:00:00Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "NADINE ST-AUBIN",
+      "numeroCarteMasque" : "5598 28** **** 3012",
+      "montantRecompense" : "0.00",
+      "tauxProgrammeRecompense" : "0.00",
+      "codeRelation" : "P",
+      "montantDevise" : "-400.00",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-PAIEMENT",
+      "indicateurCategorieTransactionAutre" : false,
+      "codeCategorieTransaction" : "PY"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..2F9TMGfoTtfevPQy.51_t6Ls5N0ZBOGGzeu22LV1D01gJltYcC1b3D5bZOBHBw8r-eLr9YNVWgcfZhHKD5crP8w1NDNeXyUWVGlXKMC9oWXYXTbWtpp4Px_-pdTBlgydCXseuhHZWuZuqrESijv_M38Ylk1kXtY2AqyiIXNC_jSG8OZ_RIVoZSEB2TtANg6wUrGREQaiS8-5c7JeseNu5--J4CDSr82ughVZzlpUeDNZ0AsDdLP0-LCRe210.UxTrAr7IP8KfQDEhk-Nu1w",
+      "numeroSequence" : "123040421202802",
+      "dateInscription" : "2023-04-03",
+      "montantTransaction" : "78.43",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "COSTCO ESSENCE W556      CANDIAC      QC",
+      "descriptionSimplifiee" : "Costco Essence W556",
+      "dateTransaction" : "2023-04-01T15:49:08Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "JACQUES POULIN",
+      "numeroCarteMasque" : "5598 28** **** 3020",
+      "montantRecompense" : "0.78",
+      "tauxProgrammeRecompense" : "1.00",
+      "categorieRecompense" : "Tout autre achat",
+      "codeRelation" : "S",
+      "categorieTransaction" : "Carburant",
+      "categorieParentTransaction" : "Transport",
+      "idCategorieTransaction" : 80,
+      "idCategorieParentTransaction" : 78,
+      "montantDevise" : "78.43",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : false,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Essence"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..lAX9yomz0S_DXzWO.lLIr9zQUwp5NdWpYGvplxyszUyKujiVuLKV_0mtWgeP5YcGt5A2cueQodJ8SAHjeMvZn05OX4H8LjNjqFrxspke_L69AVfas8gy2SBSYx_kFIj7ltAxEXDB2o_sT8ZdIIDMSNfWY-zZAH8BiEne33jITpgY78tpcaSAm8Z9qMNwWJ57UMTjBo2tSIhvu-x4WAGmwDJHJ1ASKY002JAA47lFTrDVo2N8l3xktg1bRBxw.r2FMYBeAezG0uHgZaEa2aw",
+      "numeroSequence" : "123040421202801",
+      "dateInscription" : "2023-04-03",
+      "montantTransaction" : "35.99",
+      "typeTransaction" : "Achat",
+      "descriptionCourte" : "COSTCO WHOLESALE W556    CANDIAC      QC",
+      "descriptionSimplifiee" : "Costco Wholesale W556",
+      "dateTransaction" : "2023-04-01T20:50:17Z",
+      "devise" : "CAD",
+      "nomEmbosse" : "NADINE ST-AUBIN",
+      "numeroCarteMasque" : "5598 28** **** 3012",
+      "montantRecompense" : "0.36",
+      "tauxProgrammeRecompense" : "1.00",
+      "categorieRecompense" : "Tout autre achat",
+      "codeRelation" : "P",
+      "categorieTransaction" : "Magasins de détail - Autre",
+      "categorieParentTransaction" : "Magasins de détail",
+      "idCategorieTransaction" : 51,
+      "idCategorieParentTransaction" : 50,
+      "montantDevise" : "35.99",
+      "indicateurTransactionRecurrente" : false,
+      "codeSousTypeTransaction" : "TR-ACHAT",
+      "indicateurCategorieTransactionAutre" : true,
+      "codeCategorieTransaction" : "PU",
+      "categorie" : "Variable",
+      "posteDepense" : "Maison"
+    }, {
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..QAfSH7Ja4piLV_Db.5NRyNQV_dg0xFt3atTYQ59jAhS3AU3BofbbHUo1MICJoV1jxYpUnxLxUJDLdzNOJ3p3ytrPVzHx0-l9uw7ZzhA8oUIeXuvb5QG2qfVjPqrtojPQNcnklDjudGhQSgEBhbnxDs-gShvQqRaHDkZ-hu5UXVjG8mXynwRwurblnEzlL6n5hFZgXrFL4YYb541nloENat8tFdT-azSuIvaAoTR2_xqXOgOp_SAQ8Xb_ePUM.rhReVbgL07Nnl02mrKZFkQ",
       "numeroSequence" : "123033021094001",
       "dateInscription" : "2023-03-29",
       "montantTransaction" : "24.13",
       "typeTransaction" : "Achat",
       "descriptionCourte" : "APPLE.COM/BILL           866-712-7753 ON",
       "descriptionSimplifiee" : "Apple",
-      "dateTransaction" : "2023-03-29T00:00:00Z",
+      "dateTransaction" : "2023-03-29T04:00:00Z",
       "devise" : "CAD",
       "nomEmbosse" : "NADINE ST-AUBIN",
       "numeroCarteMasque" : "5598 28** **** 3012",
@@ -88,7 +271,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..57DmooJ6PcBzUA20.eKulFIT0Q4kcEocjM6iAjECUjt7ycp58Sjy22ydHlAYEbLhw-ZB5IOZONkVIsIwxkrQIRr7JUrd5xlWPOI7FHrr23LHZIv-iGinAebpxPRjjHq4ku2ucfSijS1J2uZrY9OUErM4Z7czWfCjucBioT-9QvVA_YuAfaRktf6UUpXIFICkpoUTcCm-to2UAvdjwRtc8a6SqQlk4XnLvoZ4NzAgYGsyXK2_bvENm-vMbDws.s9gzMFLwc2sGFWZ2GrXONQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..uOwCW9HCwNzcTkE0.mszNZtAOcHKCIYcVpOW9O42EcmY2T0ZsNSB_n_EtF72nisvZQcJmlwQFeBNJSkKjrVoH8LExngf4v8zrTmF-6aqhgWQoNrqiLuvHQNP2VggXuyrwaUsXxrE44GhQbn5uv4gBE4xkHWV0JH5ThBphBojngzgw86CFAhKMsvhqZs8y32fkSh_doe2omFvmO3ztzjQbx51R4kfCwqGNDRr5Iy_AppnmGA8BSGIgbNU8QEs.z-Qa30B7NUcM32WyBAS5cQ",
       "numeroSequence" : "123032821184301",
       "dateInscription" : "2023-03-27",
       "montantTransaction" : "72.41",
@@ -115,7 +298,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Maison"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..obD1Ro50HxI1Slhu.7d8ruZzp8EGrKAzlf4JHjCOzA8gt4rprKuf2zPIv74K5-pb3O-5Fp02333G5SJdjO-GWvheRoJ-y89Fkh2lmG03ns1LvLrzhgaHXu_djWeQHwmpFqGcRC5f1HKha_2waGJd4HCT-i5OV63Z2feR2GFR6O7ex6D_QbEsKTuGekm29nTeov85kFTFRWxN5YYVov-6B5q8LNQoG0HgTBjNR4YJCxyn3t0aIMMJ1P7jMO9A.mN2CU3jYsHKsTj2JFYOuHA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..aZAgDEVqOSqpCJ-4.Fss0xTCk-rf8hPZtg9jsHpGvgt4pqen79FbKjw06zcUM3QH5nmtG8wyvghVu4N8RVUvN9pnSAEzhZrZd1E4KbLABeY9J2u-rPTzPCHoPfPqPbyMg9v18ZneLPugVUl64p1BL6Zv3W0qotr9xn37w3QnCW1D8grbZ8DfESwNPBL_nNDwERwIqvSSlwxYks9yKFrMX34k4xRSljDI8YDdYLQWyoNOU82JwIzZYLly_vQ4.UGvWX-wG-VaN9-3mLaAzsg",
       "numeroSequence" : "123032421154102",
       "dateInscription" : "2023-03-23",
       "montantTransaction" : "2.86",
@@ -138,7 +321,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..uOPOq5vvS6LgproJ.KVAKZJsuTgQkkEbHmDnB6KM4LBcADWnAvG6Lq5H6eOKqx1DRy1clYTgAAynPLnQphMv7PMRm4pNcWb2yrsBhoHeIjNTM506S13SV8jb6Id7s7M0qKF7DcLN7OCtiUlwSwkPNaweC_0M9MrNcincglXA-FdMbcOEOgTYDVo21Sf8oR9ZOar-XNK41eAC8LTw-R8ACV4EGIT3uA1U59cv1RANKEfNHpWU0peOZea982Dk.X7m14a9WCOGgt4ufcWgiNg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..BGYh5s5TFQNXHDMM.98MmuK-brwhu2Xmu9GFosFrfLEptJO6azrLDAsTMxBp1m7rWkgVL9fSdIXA-mzH7-cacm3md-XtMaXft01Nitb3QiqNH5jtoG-9OH7E_pdkHrVLRm3RwitKXQ1Evn46F_d5FSekxGZYnelgS3ZCnLWwZsOvuKf5BzGqG-MwOb56EMgxjDTGxbnYx9O4_M3IH62xzvhnPaU5VeKmYa2MnSTSKIRgRGEib83q-GXaCjRI.BWwz00miSILFIgY9mbIsSA",
       "numeroSequence" : "123032421154101",
       "dateInscription" : "2023-03-23",
       "montantTransaction" : "43.63",
@@ -161,7 +344,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..y9WZa4UGeuDVUL8y.pe4hHxw76Htonhbuf-StLFulBMOuT_eWqruSRcfen5p_zTXQ5RVgCsFXCxiNtz5wRL-nOK2eUd-u_O-PygHCWfZynpI9OVBeE8WloxDROW0Qeo_PAuyEeflw5UogrZn8FRvr-Ro4tj5dPBITUlhWCSF8oheYSg6hGmfb-sQIIvNATsLQDR-0fWA60M3ewhLjXaWmqdkltU29Lx0L7BsmMazz73vUd-tvVsHb_ceiQ3o.d33FrNPvIFAAFU7UItCQIg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..12S9B8eqJ9BarBsi.mPnmYOD2mOdMf-BeNXcIULoqhvlxBuyP03L_oT3ifVskDSRMGp_JuYQI_P2l9JMYzrOy5tD6bTRlgvavqpEm2wKVI_gf2RdYJ4hh9SnujCJ4ucoFWhXFyjP_HzxliahuaPNw2Dom22R7k0llHzWcfegygq9WRF5exQkdfE-yp9AT7dtECew5g89BiAkglgWYltELfSn_cF9xRaLyUMepSqV0ixCZvWa10rJSwO9BDkc.iYFFjOsQiJZYr-3wTuk0Ww",
       "numeroSequence" : "123032221085601",
       "dateInscription" : "2023-03-21",
       "montantTransaction" : "78.20",
@@ -188,7 +371,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Essence"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..gHpHRFXc40IL5M-3.RawBYn2fh4P9-rTewzSMiPeXwaG7DVDxsMFuTosjPG1OnmAHHWbAbOZQnNOQGipyotLsp9jWINuwL9sRtivrYAwZn7Pep7Wx-_7B24V-toPFlVwd5wgHtMBsChURUDk3VX0vQyTz6CUFMQ1ep-Qjc0mcVn9T7mwPoWYrKpp1WdB41YoIKulHdhBCMm74zQ4RotOarOJSmt75dEXYdwfF6ponjZ_WFre7c6Ms3m63yrE.ql7o8YuPYhL9fcC9F-v0iw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..DMbFefJJoIJfMpm-.K8aJkPsIjKDmy3tOAQ6SQ7Ia7QLO9dPdF14GmNWNOajF2TbrDiKLzCWGQcCF-TuXtBnQMNtZPJNL6xgFtOXv34kmkUuc9ru9bjxp3UmFc7Pk7jlPypTd78LDpZMJ27o3_el7CB2lYDWV-SxzJvOSsCL1isqpo3DQFs0LWVjeSpN25EJhkyOayaXaNs4VUIfAGWUbRIKkYlCj0m2XvZHbv9lrKwtEx35RuIEuZXSzMuE.t_Sv769TUjyFk--pGu-Vnw",
       "numeroSequence" : "123032121180505",
       "dateInscription" : "2023-03-20",
       "montantTransaction" : "149.45",
@@ -215,7 +398,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Maison"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..bOHKEdJI1jLU00EK.GR8J0Vuv9L8nfYJedm1Q0T55La35bquvJxaSp_o4UqOlNKckyh1zeZXCBgwGIhfXNaeRCIUm390JOpifbwfqdh_PcT6RS6EPc0UzZB0X86_Jep7CkPky5VSIAR2ObzbJ8gCzIm8ZFiLVkzfoCbX7bFUlwjLF4j-BiFZoHp6s-yCOLrqPHKkRyRPc_HGJq_-Ne_iopfVGeqdn0eglBL1Y9uGbwBaAM7iuDb0exyEteYE.u7als0mpibtZQOcIZi4YKQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Jl25fnRGgpo81FFH.fQnsRxWED0TtNK7CBc6ISsLeMsPl3F_gHVGqbzZqHJxO4JS0MM6tzL2oizE8-tm8NPfbAW7YHnylaZ7JaWtIjZsjQP719wO6FrZ1ID1EHxzyuDwQEYycvPUv7l9MmwyMLTlu-QOL22g7Z1H6NinGyIOGs-1jiNvfH1n2QBuOBH7nxxIRZg12Nd7K7sexNmgFcNs4blDesxpsCTCG1c5CEt0iKKrM-tN3I6s374-OH6w.vFRY33ubB1gKx4oWM_jl9g",
       "numeroSequence" : "123032121180504",
       "dateInscription" : "2023-03-20",
       "montantTransaction" : "91.75",
@@ -242,7 +425,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Essence"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..ZCU-VzVPacJ7BXTw.jPAb8I6KoYGNtpsAAQYlEfYf7R5eH3fJBGKN_Vb-L51-lstj8f4Kwxxpo9Wt7982i3JKymlihFi7JsZFSPR6kKRAy_HAFYrSEXihdeJfs4bgFd2-T-pCbcu4kK6-PqN7XJnJWs5nstad-e3iAuVeh6-6VDHpjyrJpsq2_mkFK04b5lSvWxP93_i2RrVLkZnOD-_LnH8EGkoeuM_Vi99tAQ-T0J7uHYJObtovG9_bF-w.lLW_8m41p1qcaBMi28CJww",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..7Lw_XrMN8b9KM0YQ.rb-UVpLpOqNbZNfgNECdCs2FzgBRLE54lz_jcUUyzSjbw53wzIRGLzsjiruBZxoDdbRqzFlLt9hatetucjjH1SSTpo7NoFmtTU1lTYQO-l517EYxPbbDA2IKHbIsVqNMgzPr25TbnvQI0O_0ykD3h4WPPzVo_oIO9MOj4DRmMRGC3kNQLamXS1_zKm9lLooSO_ihf_m6M2fUJ-va9bR94NJfbIshhv_gqDSZ2Q7X7Fs.vMGrD7JuDh7a5pCvaz_dnQ",
       "numeroSequence" : "123032121180503",
       "dateInscription" : "2023-03-20",
       "montantTransaction" : "-127.00",
@@ -262,7 +445,7 @@
       "indicateurCategorieTransactionAutre" : false,
       "codeCategorieTransaction" : "PY"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Q7WeVphSuMn5x3LD.zav3LKS1j9NgBQmLn4d04yKjx-IWhBsOm29kvQZrK1smb3WB2f5vbacCseJkQIGHfa0qV_iV5TQ8gcarm5i-Dpv8jmI6LYFRMqA2RY6vxyK4wPzlimG89_ZQxffyaHgK5PnfecMdYNajqTIM6rmNHufSObZiPSI4V2NuiezM1rzrNbO59uONxPOfnJcDdinVKyFUq9QCrs8cSOCQV9Ksi6fkwsQPgPnmwA5cACzEAuY.Wc6R8zwmgLywtGMFy3PdmA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..NYdrGpEOPmz4PTkw.bptmKrtFCrEtQY4_N1ZfSvbSwAONfAvC7bUGngG7p4vR_i2U4gi_o53kAK7eexKO9kFIcNtsRPg21phw109Bg5aMKaR2RP0Vq-11LZC6bz1XvR56-JyUnJmSThUwKbzLJ6h8tXp0z5V3pWorxZtSEoEqAmhz8HJrERocGztqX8burlXlrS8vjQba9XdUsNz1YGQbJ1i7th1V7i3LRqYwClVUfRckrxCreOIu_52Fkl8.KMS9uwCastXarV7xMQ1p9Q",
       "numeroSequence" : "123032121180502",
       "dateInscription" : "2023-03-20",
       "montantTransaction" : "-150.00",
@@ -282,7 +465,7 @@
       "indicateurCategorieTransactionAutre" : false,
       "codeCategorieTransaction" : "PY"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..IYQ7qHB_nWHRBH7e.HVS5y2SPs9-Tt29GFKPLb5tLFK6lnEp4ODkdehKhSJvOByBHilVfx3IPHhLuCOjBKungQ8-6Fvyo8olLOhbhDXo06nkWsjA7HcgL9gek-VJUOkH9_UJMCwExmgDnavEUVS-ekESCYL5yREpNRR8CU6cGtJtQsPHTzJ38wjPHdt2-UF6zEnOaF1UUnTpGpFb21PK40niIVVtdXXuRj80qWfSnWOK9Jzj8wtY9TKWC5Jo.05oPhQGhUbQGNhBNmXc2ZQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..wp0uR4LXPudGpvPg.obBhcHgPCzzd1s1faCHQBxKX3T-lT3m7rNZ1d3skRKro_oEm-zIm8Ll0uNKqu93AOUGxwxsrEKEM054v1_86qA2fBDyK0e5PScC-siKkFy1DtDgXb0w2jzD5QME82oqJt49SxBo-B-HCiVnKzEyh6tAOqM1dg8T_kL3JHRTL3UlHQbQIW5R65juVaQRtxmeX_rZfVGWT9L01wAka6-SVIKTmr0BomkQ_i5A33NJjZvM.6Hq6kjqNQS5UMJugSkAt6A",
       "numeroSequence" : "123032121180501",
       "dateInscription" : "2023-03-20",
       "montantTransaction" : "84.50",
@@ -309,7 +492,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Maison"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..ncwgL5I2ze2fmj1N.J5k1H6J05QeN6EuZ5apkqXSNBfIwL-HJWXkePseL6_R_JRJq_Z192ogXVXZWcNihynDmbOQWxL4vz0ODYDMYibqcH9bxSNgdGR1jMM3KIdtQ_ZBndGFfgUFCWIwvKU5Fn1tW-ZGaG5gGMS4QbW4DFDuvi0QUW2Vbu3BhOFHuZ-V08tUiYctEBwlKIk24EIUZmqHCFcglGlL5hmE90WT_6y6itdMTnVBIM3c58X5Ec98.JSRIZ2s5KyQqRd9PN6tFyQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..WUNMwOBle5zgqyLA.iNJt8eVv3Y5UPBNXcs91zexdmBZL4uwcWKfRlZ0udck00RE-9yXWmgvYbYquBCRZXA0cRMH9sKrerThDbyLNyKgVdVjv9TQC5CHWrXQLFS9lcnpABukvf8X7LT3YRXDGMNtT-m7nKVpDmBiT4k-ZRobW19jEwVjSnmEInHrNFwGca2kSlhA9CYZrsJyUY43ulb3K6K-Wad1Yd37FZxGIuTil3TJNzAwwGeA2xNTGBhY.Fj6h0bkfKicgr79HNwZ6lg",
       "numeroSequence" : "123031721154701",
       "dateInscription" : "2023-03-16",
       "montantTransaction" : "14.49",
@@ -336,7 +519,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Maison"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..qVQ2_CHCOz_IRoVl.CR9QZmgYdA6jZ71UvMnRPZCg8HirCkvg4EmIihWnM735jupvF8OCpwnfo9qpb-rOTM9r7N-KJWYKsMBmLmw3oDOShyz-TWNnJAV0oiHtSIjWMUcSacx3tBWlm-0_U6gSAp7sg3FO55HDeh2KQWc0ACvIZPCi5AGLbR4ds2E9Y02W2ifr0GJr4UAxO3BzVJ_-bRy8IWp1ajeGNq0bD6JcQPHRAWFHzNrTgAY8ssFq2BM.n9GNJnJr3-D1DjhFpf6nmg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..pMt5c8kbpSpz55lf.kuG1CEKlUT4bbPOvRMc4MnotXfE81I7Gko3Blnn5bhijwegB7OYkWqzDLHzn3pqAiSxnY104uscOAD9DYxbGBl8qome5x7qZM53PDkGnc4kkOL2RGm2-PLPnL3mMtdLGp6n5CcINapygKKYr74xlS8lTJL4CeLGa5q91mtmkESPGB9LQSnttT5QN8wy7-9XuuC11mCriUoQXFdHYr_7IHdpzDf8XEeX_oDgT8igvVtU.3ZZa-ITCfm0e1pEA1kKYEw",
       "numeroSequence" : "123031421190402",
       "dateInscription" : "2023-03-13",
       "montantTransaction" : "138.57",
@@ -363,7 +546,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Maison"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..mmWzY4YgWrkBCxdI.5kPQy0DLN0TKcH4E2RcgqjIqMNf-ArdgWuETu6ou8oQujRbGVUTUDW9VMyPY1W88qg0QVeCcapKxXYzzl9P2VbXZjB3n1-N8R7s0m5l50x12dyj8GxJxBwto2muMRFdQgjZUpvtUPUcad7SC4pB1RP_YEtghvfoVG-WuNCnz1R_fVsfw0JB07kOXz7otbVzm6ShE4L-i2Iuls9vQL2-_SUj55SMpI9bCxmHb11eyfq8.DJkAgMTRLGRFM_3SXDNNhg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..W8XZhhls5GxVysYn.HWsqLKKQftZij4RGNupaMP36MjsRD3miX-3Uy0VdVZqQyj-_J8RPQ2JQN-qohweSVHOFyGtgKAmR4mdM_VIbZocFDZnTqiNJLaTvaDlOyNLB6heTJbQvvdN10K2NWy7hmnPMl6W5fhj-QktgO4MnpVWgHOkM0CVDLMHlOK-NYlz8C77qGcIleyeuFLVwEID_IaCn1wdQ-W49a6WRlejGYr3b_bTP8W9pY7QTOjn2t4w.oNm97CVcu6hPB-jibQmZvQ",
       "numeroSequence" : "123031421190401",
       "dateInscription" : "2023-03-13",
       "montantTransaction" : "9.12",
@@ -390,7 +573,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Vacances"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..2KaqgoW09dnWjAcW.XmAkbwnw46yWzBH7MMKElBQoaXqwb_-Q7kmbkaMItz-ejtzPA9t3Mj1HY4J4XWdg_uJY2Kvuq4yyhcq_mEMT5HMs3cnojlNB8chwTYpCsYZhnmBrlWkJk-czqHbNFfw81QvgWB6IAapvVqfJFZ17SxjwgCirG49W1QYGbd-b6mBaFdvzs1LedaULAB1u8C0a0-x2sqJDJTVb975eW5o8k6fb3FGbg3t88Tirocu0Ioo.U3SkpzIUYNuEZcLlJ5Z2hw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..oiJIdDXiwfdmhAng.7obAHqziczljiD5M3DKveV_U_BusaHSigvC88d6lZDxEWnMP-WgOBWByyeb8wFPXsZsR4LdPZzoQT5I3soO_IFHbRFdEJPpJQC0Sy_zigf33lTNTQvB1jno5IHEJDgLmL4IkXfwPAZWSOPCjQhxsAjDJFGk0c4Cc1i7-f2_OeQE-A6aa31lyF-iTwhXD4KzEloGn1xWM3omY4UzriRLGKM8NBcFa2d1EWCbvKyZZaW0.c0uxORMjJF1PaZuRekNEng",
       "numeroSequence" : "123030921102001",
       "dateInscription" : "2023-03-08",
       "montantTransaction" : "28.87",
@@ -417,7 +600,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Maison"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..7wIbsfXEX0vA7Dly.HGuPELmdgWYcuExoez7ZDeF_gaT_aS6h6-V1uAo5GlsUxqTXahs8x2SRvrWNVSZaMkenMD60qpohp75qTfJ3LAm3rvBPi6mRe7Jvhgkz10IAyTmZySw3cw9gheBggdEHY0lUlnAhrv7-yuGokVYdg-oAPUv5n7m_03GyaFthn_LqHN-9A6xjgQPRmMxI0MvmYsSsLpaPtJbcPnsz8DL6nbHQ1-ADUe1o1JGb_z4BDVc.NB6XcqjM7bftGTYAsgirwQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..E0TFRCFa5M00Q8zZ.w4GeHrQ5FlKmgPnskLOEnUYs5FyGwTiZba05wxKTyBASgKvKFNFY2ksGX9qOp1ntRftiunNtSqHlwlDiRjj0aX-WikG98CvuQKZGAoZw5ppySonaonxEM3BRWo4hKwbKsq9Pljzsp7PQx8o-7IhwIUSOLPYuTktbRITLu0nfCBxKcJP1x4uj_499Am-iGnAyYL-9PUwGpd_6x0Ze4oQ0LSa8x-IosWODlrOZp2bsu4M.fXkYNtAROVIgoKQ-1SzGBw",
       "numeroSequence" : "123030621171501",
       "dateInscription" : "2023-03-03",
       "montantTransaction" : "36.98",
@@ -444,7 +627,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Maison"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..U8ogPJgXNpNhxI7o.TmymWpF5Tkfk-EZ8kPj_c3plYDlPApfbgTu3DdUx2gKHHwf6Op2kEeH-VWuDTQBgXwwAQdz4IG5VSmiECxokuOLjSutZV87d49Z75Ri75WiVrnAfrtOL0aCt-uQgQS1SGWupwhaJoOCJBk0Db3Xi3t9SXbqQ56ZNZaWewOFg9jyoHwYoxGpks54wHeSt4GwR9EF9Xa11Qjrb05H85n2zlsRY6kVk4k2TZlGjZ91yDRI.1X7TwoKnQkKZ7rN0bzUSZw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..30A2X6aplEkEY0zU.SgCbHVYV39Q7teiuQRsgn9b8vEMJa7lLvCJSg8n5mUlzdTO6_cON1MLQt2OmWqMmqWtnU2Szdib_sHYbpwiWeZbVVq9sAEp99FRw0QVy3xiZ3vaVRwViT1b0AQSashpKtU4GFoK7k99_-vWOIZgIG9yn9p5_9Ewpv4IhLui-K6iU6OtzyhT-JNzmUnA83p1oVXZSk9d6dAuGCGOn0h1DGmNZM63YqmXbCRGY0SmwOYg.197uAOMTKJnlUUYfBMWXXA",
       "numeroSequence" : "123030221122301",
       "dateInscription" : "2023-03-01",
       "montantTransaction" : "26.43",
@@ -467,7 +650,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..AGNizFpsX8G9jmFy.t5icSnevJyahYCQqnHuwOgnvRu96bsJ6_khYRInXxQPcTBJi1Lx6yuoRFpXreGUWrnNk1Q4vNR--J4k1Dmpn3O_jQ4-hkWZLTmA6NLlMh1VgthKd1QiXL63n1fMbhwoMrMKHttUe06EyobPwKnt1qApfJSd6RfqOSMn98IpewGg2Wje9TpmbI7A_70yfZMPfztGcWb59bOw5Q0Zj-_pi9pSJmyDGXWZBqL3OAn_Mzc8.EJSg0nO4u3iypeU_c96Ivg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..6LUBtlz3mZ3W28Z3.k3-Ja_SCvjDT5Vx2cFh9rVrA23jqE1npLdnMfSdfw28gz-d59NNFczwu9-bv_A8IrGY8_XMXYe9Um48Z68rQXgCaYRxmomw_gUYrnm3ucnn3pTQQOSx1KxoZurFbh0YXmv9MttxZSHrwqyO9LR0ZbePMTmDl9fu89rHo7l_yA7cbofDsfe_W1DhbFiJ4O4GHuIWDekHpLAKB4XyxfE553LgPXnQFSVbehXCZmszjijA.Le3ortcTONv6F7DdnmKi-A",
       "numeroSequence" : "123022421162903",
       "dateInscription" : "2023-02-23",
       "montantTransaction" : "-397.00",
@@ -487,7 +670,7 @@
       "indicateurCategorieTransactionAutre" : false,
       "codeCategorieTransaction" : "PY"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..JAu-LCixPdOg9sMe.Q_XPOAPmKTpGZ-dQuuHqciuQjMWPi0d7FLDR_pWVlx80B5YEYQuUbQGHZfRYRrhNAi965qN6GK-wsbG93ZneES9tMAle28DJl9XKYKf1oZAU3rro8T8yxjtLV2QgjosyKZaHDaPafGEFyEn_cwWOFmmPy11tmlh2sCh8y8H6Zg5DVBf2oP_F-700NNjdyQYFyaX3Y1AOCsb4-5HB7Vjx8Tdm4yzRS1WMSCYJ_1UHELQ.xHCqvJaqnI78F8tUkyJMWA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..FMiaV-l0CFO_fq3G.QXmyTvyFVoxHz0LZiDeAD0zscT0Hd4UwdMHkBjfUOkGDZ0peFEbQurpzzgjHkxwxcZwYki96eOBXVVCLRmlkb3t7skc9mCqaLMLh44tpfZ39TLwSMyHLgFWjvo3cuc5Viihzh3fptZ91O3gdXbhTUYCmvD9K_X97II2aOLaLDT8JQaj_VEY9CMLdp2WgrvPHh3baK-WGKP1gleuhzBQb1rXc3uVWuxBbCTGtSD-pC0w.LKU_Vx-nQ8JxCPhd5Hi_9A",
       "numeroSequence" : "123022421162902",
       "dateInscription" : "2023-02-23",
       "montantTransaction" : "43.63",
@@ -510,7 +693,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..27H3kgZbEZ7yGdTk.zudwcN8eIwyQPbVluNc16irsmVwO-S4hyg-OoQL_kOUjW51X-xPyR8eyOab2_7kLTJHKqAr8ik5LeDq_NvvEBS5rH-cGBb3oQnfL28xMH5_2iqj0eQGqjAmUwKyxHlEkDZSVVi7xYgOileAbVO7nsXlJfHK6SBNwOkwZW5saVX3wUfJCmfQgGvOu1B5IIa4OCOjfvA1oQpMpVMtjiad3r3zAlw2FbFflGqbtc5bwfHo.HeHttpaM77hmekfvabTSxQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..m9t8bHCFjGKzA2qh.1VIopI3nLLQdx3d7c3H_dOds62X-OIlwYeJo6bW9nLfbj8-gZJrJiHc0RLPfKHwkF10Lw0lgTFD6KiNQphg5e3BqRSjJvhCyO-7J6Z8-CEREJrn6ok-3PfV0PBf9Q6jYxKZcENhzBkh51GmZCM2lUk1Hri5gAdv9xPTn_-CiaulS2hNABHorTK3g33y1bpV_9wQiaOa4FNKor4RiUm600gZQnMIlTjNn6Z1TKmyunJE.Rg4pzmyaamYH5MY1XTu8cA",
       "numeroSequence" : "123022421162901",
       "dateInscription" : "2023-02-23",
       "montantTransaction" : "2.86",
@@ -533,7 +716,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..sjKkWR6Sp0b9buhN.kitaQm13oQ2FuZObkgWX3w2tk4x-D05CLzedEJ0wgQwHbPpdukzTKt-2sssIIfR4abS9ikOxUJKxjlDAVf87-1WzcVtd5roxy49P1T2ko0ELUXbbFJxpuZ5T4GgGhwE1uMzi0e9FC0Dr5oLxgBs9AYWlJEUgN7QKZzT_6TX8-EtcZIPW6QimyYHnHMnvAON5eC3p_D2e2sAhTxhrOw_dohxK-8r1BJQgq_Jn3fdQ30Q.bHaMaCmJtCBuZ-cOcGV6uQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..aRYB56EH2xMCm2vW.FMvpfYTr_kwa5G8Ava5buAmwUv-PW0gqT5SVFeFNpZBiFq472nlR-U96cyxDm0GhBZYMZAiAzgTmx-2XeUHB57Dx2NyWQy6hMQjZvMttKWWV8J9PTyPFFRw7a0R4Sk18BpotZwZL_ZR7Xe-XSP9LB_LLFqgFSDDlGq0EMFWGfz75FQnICGkPk64_L95nvwxDIyjNBi5LXFa-_7W65q6h9unhgMPqucNiUqKylUIkDXs.r7zoSUFVTv_zCqnBzP2-ug",
       "numeroSequence" : "123022121174101",
       "dateInscription" : "2023-02-20",
       "montantTransaction" : "84.16",
@@ -560,7 +743,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Essence"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..nZ_cYyFyWWevnPsL.5F153xLtiBHq9PP4IJEgEaPRXgp5tuViXBA6A3CYigSF9cPol7B97sC_Vnyl1Lw-ruSrBOEmp_q1d4MRUanxLoS8dAQyEg3e3_evSanAr-0IsB0I799zsAOhkYa6bQ8SSago5Pxv9vXPkkuXDVWJfH0rMuvXCHn0-XFXwqYrdlrYFLq7LyU8VmcOQrFdq3VetH9YZGyWyXlYXX76GmXk3Fj4P2gaI97X_4Gmbp5Se7M.bPUiA8hdR8-etarEJ-7YWA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..E2Ix0-pK5B9kTw64.COmRa_NZO0hoXT3-7z_AgHlKYN5TCVdrYqhmPg2ZtQj9x4baCtKCrVuK3kpzyGEEvpz7U91d21tte4oUuS5e8nV5kztEJ5-FkRmCctznXdr7iv0CJdJsIbhDDzOzA9P4SI70x_fwvKBDfsOqhteCQnb9ouxoC6QrJhNNk5FBToaAiBj23KZ_mA4gk4eN1garTwulgP5B5DfJtcDbPvFkseMVwhPFeg75L2BXV_Y35RA.wm-9mP1tQuhkHaFgDpZIYA",
       "numeroSequence" : "123021621084401",
       "dateInscription" : "2023-02-15",
       "montantTransaction" : "-200.00",
@@ -580,7 +763,7 @@
       "indicateurCategorieTransactionAutre" : false,
       "codeCategorieTransaction" : "PY"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..PxKazKVt1u65Xora.6cIdPCVXduIDJ7-tKrJovWi3YxZ8997I0BmHhJ8zhxpx66Sb12Ry2kep5_dEziZB6yEDx0nH_1u_CaFTTmGlC0OTJ2ZWuHsh9JuMbwueg-W9aRB41w5-z9fGsvBYEwBMg128onQ-xzNlVkOV19vhs8TMyrQr7xd1Y9XTWJbOTP-lm-w5iYgWVDPdbxmEf49sBY-vZg26gNSBnZG0AbPeIg9pT8jsnlx-FXSW0FbTKW8.OPtNQqGg8g7RSMvs0HuPlw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Ch07NcwlV_7z4N7p.8VKI47eL0lTVbBNyjUb5D3EYK2pdrooAsBuKNEJZbAQmnzfHfEd5L2d_3ea5veIqDi8pawwThS34XJr24kHgYrYKdPbLpxzlgpV0PBAQj0LG8bwn5PaIYC-rj1XXCKgH7V111f1XukTtDDtIw8KE8rqzsTwtI5KVbZiHXf_Gpc7xOlSMVtr75zFENE7NwLp6xECFdHQT3vFTEjH0iSBEQlX4Hc-D8RhAtuzGJh47M9o.EeLIvCCm4yOUIk-S0EJekw",
       "numeroSequence" : "123021421230001",
       "dateInscription" : "2023-02-13",
       "montantTransaction" : "93.29",
@@ -607,7 +790,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Essence"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..8wvZ5fBXTmObIENb.IwFbGT-IiwUpEzDm798qiKw4ik7jM-m5jcqIFcnnGQZiZ3M5Bm4WRS42qzlxfK0g8PrIgqTC1J-zWiGLIyE6GVKe-Lpj8IORykLowzJyAde3ht08_0NCJ6CcuAWlCozh1IdqN_EHWcEeVejmdvBV9kQ-fDBdJ-_8xY_Kuz__Hj_d5a9rgfKbeCwXp91sPuJeL9Rpu_CR3CcAN7syXszdTOug-_hkT8XSDQno-pMpobU.VmlunUZmMKDk7YmegFQldA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..x5WrHoZJ4cnRSo6y.qwEL4YHR2zJ8xx3kgYuQP0enug_2IFmT26_MY7RfYErQrbNFpR_GEAZd_CVMZbqpdYossJJn_cq_RTuf_bYUUCXdyc9EQsMKZ_kS-CKFD2b3Tn-ezB0sFNW1LQjcFxpB6gjxkjVConsCd2gMGm7M9hAd1hlPhUEQYPhFaq0vjH22J0zIq9uXmJinWgtqDh_8HjAYfQUFlYZWjydcVl9mQKcty7LdcN0Ia14TUSXxFMs.wYi-z8Acbqs_hGouiY4Sjw",
       "numeroSequence" : "123020921094501",
       "dateInscription" : "2023-02-08",
       "montantTransaction" : "26.43",
@@ -630,7 +813,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..VMoPaQa0jReNURoi.hylKnbLoc4wgmIpCMx6zAwfMUb65tfAhI0p1uAypdWlqAY0JO2VGoNorh2dcN17-LetV3WvwlzqupwwNRxgiG9l7TGAhAlqnrvnNke6WkpuJgcpLr56pe4lt37tXF9N1FyET86mdE_IyZMDeAnf34BXbk9gOuhyffTrTeRnujfJHSzus9VvlbuS0GLUQu8kJahr4YOH7CKgqyRao3RI5fbfkNHYqCrHxFIQUKjSzyWQ.c8sJqT-VTvCDFxHsO3UgbA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..xxFhQmFC53LJPrKk.2OcU945AZvoUTKl_FnAXhjftTrXzPwXGWEmRAJU7GuzfaU7Ud9o_Y-pV4yU27N8zGYVENyXNqNPlHYMCCB1Q7ujZHfpubtLEeCHrpoOwwu9YX_BcjlBIUr4S-0BVVojvIlmbjVDxgqf-GkIIcfyIpx_Ff2N517fNDdOwgYPCuSP174djVv1ZK7RuT5P3SdFXjcI8p2rNofRKtgrtieLbQU5QW7Zmz470NoGfz844YcY.q6CEy8tYkO28QZH6nZ2Cbw",
       "numeroSequence" : "123020121100201",
       "dateInscription" : "2023-01-31",
       "montantTransaction" : "3.44",
@@ -653,7 +836,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..O-Nu5CJ4pDrmUr20.hFWN7lCPne2t89PeiOlElEBH40wGw569deqFxuSMtv8TQuzNqLzDjq-SZDZ3x57dRciVbrGSfjR_eUGSyeeMT4ATrJd0fCRFcBxMYUKHSpXB6GZIn8O6Ow89k-uc6EAl9-7Ifp9qFAqqkQzTnSJf4MkubC3JrGv3k48C7tlR5U4lE9F05QejI-Hxu6PNsTF9QXSF-2jCVjBfJrBW5HohqXqATbUQrN87u6HqXpZjlLs.ofuP4fLrf2oPMhzqLc_rEg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..wNLHCULoeSCN-Wn9.Co3eHCzf2f-Jiuq2vGbGz7nqToawsnj3xsO7dxSYzjuREctJv18UqKkZdM6g5gXQJ_r81yAxIAV8o99s7FnxFYAwVGL0BbudX_VymUDBeamfRYu4y1woJi-o-1VjL-AYukqYLImmW9mwesT_KCq24Rfrufw_5w_e8s7GCc-JNxt7BMKWxEkFLLGoERf0PDQ6F-4GKyPNWXsRaweZXBUofNPkuwherqcz-uXNKHNmiwQ.FFjZjwXJ2t9PLvyaaLOvcw",
       "numeroSequence" : "123013121164002",
       "dateInscription" : "2023-01-30",
       "montantTransaction" : "79.67",
@@ -680,7 +863,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Essence"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..1TWINTh1TI5oNBKM.Q5m4TVeVvDfshFCvTtrWZ2YLeTtnE1mwR6evSgyWELu5HDuaXQwtc3EScg7WDcL6sODReSfgDMPUKYsEQJ8c15xVtspiQ1RQkkYcIZTUIQBhG5mTa2J2ef9uFJnawRHYExuJ7-xGSxkQM8gFSWPIBEY70J9_LOr_6Pkuo8bk5j1IwEEL85knID9cJRG4Xeq8AEX0-NfLQadTp-jD_u4YPCdCpPE1qS1mq5DKTKY0tQk.-HUXrZ2KxILP7p9yNVu5fQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..d6qXJICRbb2sfWIN.K1zhtWtQeFRtR8eCzpPxXsw0zvWclMJrtlQqvapvWMyZdjx5tO1xz7BVtkqycXjejwXZkLONyTfHXFnN3Y_o3aP80yJvmbb8Edv6EJZky6ng-D3gdRheVT9U3lt1Hcfuybd3Sod7_A382gg_a8FEh6nwDup76H-0V3AAZAbbEEWAWns3G672ztCs2Z4icoz6nMz_QxiffCZihvdd9922Eg6DlvXoeMMc6te8drT3xWI.KJMxcwLIedD0L5ULb3IIrw",
       "numeroSequence" : "123013121164001",
       "dateInscription" : "2023-01-30",
       "montantTransaction" : "87.87",
@@ -707,7 +890,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Maison"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..jwKjUIyq45szBtdQ.ngqCX_ZPQLCDitWEFa0Q1_wwPYaFa8OLfXL32SPjxdpAKlfWxRhv6s0vHn8ZcdaG6KZpwypuOagfGX0u8znqbRZ8sBfg-Rc1PmqPG-KzjXjZngDOl8u7HPPl4QEZuFDoqaGPgxigcCaSJNI4kaq_PM2YMyamxTbKEsqfduFAbMbT1zsYcdk4v0dlWIQHQ4vVoLAHdD3BnYy9FL3E4V43FF0eFxbvS6TERec_fEi48f0.mBz2qGjIjalb-zeR-hf1WQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..F5KnvWAtV_8IOvnr.0G0i1pGa0e4WAGSf39FY2q9RhwHjN_iM64Jgm3VeEwrr710MAMv1epSRIZmo4G2qQthK6oXIZK4OytU7nirGQD3rlfT8pUbqIN6THtD4iGL8X9UBkJU5jDvNpoKuVKlMONomTxtcOBYIMi1O8dVbF9RxBu2QISGfuAZQh1tQAL7hpUEY_GvgvF4yF7gzv5W-g137SOVnDnm0_t5Qmbnx0xQOaVBy-8TUlOblGdK1OdA.aA9wa6_o-MDlosWwnEdzgw",
       "numeroSequence" : "123012421152603",
       "dateInscription" : "2023-01-23",
       "montantTransaction" : "-1.48",
@@ -734,7 +917,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..6Md7UqnkDGXq64KA.RNg34SonBhVvsyuMOIsG_g2oxXHO21lfgpGWPBwsmNQQVbaHFmTE2Yo4eFzsc96nKUemFUp24uDh1aM5jlcnH7Sdwyr6Z_IwH9njlm4rRbbvcAbfZ5rZE6_5aAtRJbK0LqVNZiFPcpv9k9ZS6GMyb5s-STEItBEEVjT5u6JdDVFmkvK-3l_sCDOSNj9BhU7tVwSJAVgenB-2CjK49q7qxmnp3CMWeR7AM38p-ttUem4.HTi6q401IE_VFUUCX20xow",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..Li-b1MhQWmdPF0ns.sjJ1pj0kn1dEjTiQ0XIbWR04_c4socw1p2Z-MJ_X7YJZHUNTLG3ZtjmKqVLpKIz127Nu126F9ngaFHBYMFfpBPOiyuf4G9j6f1Btl-qqujgZI5A77zYBgqrZ2GgwlXAl50jBQuLC50z4e9EhKzaSY0Wuzswe64hFZhYn_86CSp4ZnjOgrdttOHqNY6J216Eo31WQXJq9EdizvNL6VVzvyBrp9dapnAlck71hlBoPc2g.zlZZHhyHA8cdBDSSVsVYXQ",
       "numeroSequence" : "123012421152602",
       "dateInscription" : "2023-01-23",
       "montantTransaction" : "43.63",
@@ -757,7 +940,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..2Ss8ImgrXKy_Maqw.LMTRy8OVv5yG5g9JR4oDpVqkohry7a8FV1IvcZ9PWHQhx4XLph2r-xAmbs7VLQ4GO2CRZBgJnGvwZ5HEy_d9jFCLJ7AtC50LDKjk1Nz0vQDbTd5PifRpk0XUiWsc52YYFtv03xyz9Az9qOG9-RfQgjJ5-OE3RTky0k4kXnPGDUjV4pNo498bVRY-ZpE3gTn4xrIR8rlq4QMt1tP1NI6FJ32kiv1mHTxVYYVubQG1b7k.xh2xzUIYmrNGga9P5Ojfbw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..SQig5OOHqR6OmeSE.kfl_8UrnjGCsT8sN-aXjYpEbDczFhot9y_J6IR-mvCABTXCkM1dLjGJ5RtHRk4A_BM0JPNKE2lLZnSn8BAIotmUvHLjk_YY1OovdEroeS9uhEB6ghc8hNA_tM8yURGRJOp1dNbHsG8zq-USLYEJ7vQbh-PPnGfnkDfjdAqfAD32H9ML3iFT_VNUvePfu9ePTTxsvtoETM_Tq6eEBnwJocGUs1rN5GG6EpJzIoY43HHI.Xy-qndWDpNI954FD8dCL_A",
       "numeroSequence" : "123012421152601",
       "dateInscription" : "2023-01-23",
       "montantTransaction" : "45.98",
@@ -780,7 +963,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..iMArWE7zXWJu8ou5.KBxHr3Sp4tUwjM-UiwpDcgemT4f-4Vntl8Gfzx701u_RI8t2utMoyObPWly0X9rk2-MitOTDWYJYmuak-iSafRjN6mjoVzqX-FfLniMxd7iG7o_cAFQZj5nQ5KjpKLJdPxwTCSq0r_FmK4JXNlw_afe-1dEIQjwr95a9gkuqwb1yeTRFg_NeWDylFl_On9mpJ42HOmEJ4a0_3KcoE8_mELbDXrf8OVXCB9PY4TEcBS4.yyl_dNzQeK5su73-cV3Lgg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..BVGfyrjL11DMIcKD.eP6JzPquBzq0Ts_EvEm57YR9fHmKE4Iv1nT4hMZIHBLwQ9WpWH2PGen12VVey5scScq_q7HDRYI2g-BVn_ynu5TClReRpKNi7BpdHbOJebKfvM-MGQzYOucHlLfdC13qcJtvpPUjTT_n7HVcGi2bwPgS1XrggPlbrmmixEw12xJ6GtrmdyBW3miRE2xaoWT77tVL-L-yUlKfwHjdBKZaWymy3Rs4V9xKCHECJgMxG7s.J-3IvRiQ1xKdUNBTPQZqtQ",
       "numeroSequence" : "123012321190001",
       "dateInscription" : "2023-01-20",
       "montantTransaction" : "114.92",
@@ -807,7 +990,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Maison"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..kRWqNIquYjOMsc1T.IXlHqUwaLIJJK4Crw78BKMTeX2qb6QtLy6KLFxiIhziENI3-iAcxYIcOBm9lUn5WU78DipyecdKMnVz0hF-FbugDCXjYUjBCL89GNJKtZRyEwhG6HiAB1oIiU53V4stQRqcNb5ka97XLHA2UNtMCnqw0wRwtFecA-vEjEbUHpOV4iGHJoroVFmiPwdw4l1mgaKjACQzD4JUwek-EDvJdfIa-rgu9_AjXJBekPs7oKN8.VeOkGq1HQTmFeF_OBMwXSQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..8F1Gc3Kth4ulPKww.i0PeuRhzXI2A0Zd8Fvqkq10A_R_pahZzv7bbH5FQfKEot0eM-wa20tokr_eKwkH_TBI2MpaqA0MAgMFA2agZ91pAsgH1xzjKDptN7st76Y1dMXA-ZX_PQ0mT13SvPsvV4HD38W-GQLueb6Rfub22gM9lsItAGq2C6l1Nqx1Bwzs3t2CKD8gd2I-NQtWzCeToYzJzV_OULSP_pK5RL9uTGq8NLkAGNFJIrGxZSdRJzko.fXVZvU8bhsFqFsmiXVNRTw",
       "numeroSequence" : "123011921110803",
       "dateInscription" : "2023-01-18",
       "montantTransaction" : "-650.00",
@@ -827,7 +1010,7 @@
       "indicateurCategorieTransactionAutre" : false,
       "codeCategorieTransaction" : "PY"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..ISrBsS-fVbRiPQ-O.sqCSusduSbcS-Qih-LwGD1BN0oc7O_NF6jmvmBZoR11xrNV1u7ZkI6dfIuJpMrHMQiKgq7vQQZWA98KUWF7ogZs_kMq--eIilh2JR7hzj6b78Zozalr0Q3zoVU_rdT-IcSCodhjzv1M6sCcQpZVXrxW0n4XWw7Vv-tYA0kxuciOZ9pj62n2teup1tlKCsNIS-dZc75WJzC6bWWmwJwg3lwI14CmI0tORa4YmPlSI-Cg.PDLK8KT-87GFsS-SAtWMfw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..LYBOecds8ggpWCbU.HKkVRAGjORn_VDiQYigXBw_t0SSlcNPkqNxc9KA_IL9sOp6qVB8I78hEWb0CadgjJyr3Il2jEvmSzgMYYadXzc5t9kFwGcr--iCcv1hHVSyfQzd_Ndg8BfOyiCJ57ZRORaHeRhhVSeQuAOWetVgRuAppcpH18BdsMWH9ZNMCmXrckyt6xiYsMtlS0g_iDpwu1cZIlJlRRJ22Ad7F-9O20HHQqcSa03WwHXCvfpu7tqk.HqoLldapcN1Ghz0XZaobCg",
       "numeroSequence" : "123011921110802",
       "dateInscription" : "2023-01-18",
       "montantTransaction" : "-500.00",
@@ -847,7 +1030,7 @@
       "indicateurCategorieTransactionAutre" : false,
       "codeCategorieTransaction" : "PY"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..vE3kdCbpW_aNpvfl.1mNfmnLGVOTkl4hQOXuikKWG0yvQQehhLmCRmhyKAhrXvR4NceKC-1mg44JVj0_GFo2fH8Xi89RxAavEKa4BHryHS4Q-tXJ_g-RNkN6j18FTx9NfpX-zTqWTKvJBEoTORGuog43rDt0mHejmFylc7YT3PmkRTh_C7hNk7bGspgq7A36LpAMgQJgwrA3eF1uDB2cQb66oFsQ7w0upduUuHvhGg-TavrQ9buCO4M4Hd0U.JWAc7JcdYfLSCzSte35INQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..3btixkMcfjhK2Ag1.rgAkK7btJO7XnXHJDPjG4ADmXeZpyXZT9_zWMXQvYFf2z-liZng6DuEfSQoILAMwHKIxATf32md_TmzldVT0C62YJrF1KF5wV8oBVlfVEzT0Ui3JNxjjerq32zlQPZmUpA-AwkQZt4coup-UbTfVzf7nCBxwcLuK7a4_batw28wv2MBF3iM8OaPz3rjdhkNTBpVuJfAiGIJYAsU3UN3cbflW0FdzbVF4M0-sHH6Cwto.2GnTbdILlvZAtpaRD5derg",
       "numeroSequence" : "123011921110801",
       "dateInscription" : "2023-01-18",
       "montantTransaction" : "1.48",
@@ -870,7 +1053,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..PpWfOheV433f7B1W.r3egVaYPq5fzOBU9sDGQXl3WnPUU0kjWYdx83okNwV9uZlzNeYoY12d8n9Bwz23Q2zskINtrymG9LktGQNImBPevlHSXLPLiWf6bqQLrtIqV3U90BvcitUpx2qPiwA_fkkI_fpOJE8YtS2h8Q9MckglRkZESiSOKDhNmgO03geJkxyoljWpOLEjNMNnI_MrmCZ5OXNE7taQtZ0AVrPN6mhmeiSrw0D9Nzo1qTTOWYEA.5xuOIEj_YfQowYM_vv1SVg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..dlH32TF80g0-TCAe.cc32WXQOiwXLS4YosIH42Tub052IWicnQLJDfSDmZnn2B8imvOkWw9PFoE_lTNRsLSiFXGa3jHzRajPu4vvmeei-zfBklbfEiO49qPP-eP89TYvz2kPoy7qL-pfauQhfa3SmulqY-t_qj3EHYkWLjkoV9NHIHYSgN9UwvJyHY7zCO0tK6QCZ0b9d31SpQZ31n7BBhvc2wqzenSz4Twvd55mR_xhxSNXzIDdXIjikdt8.GTPJzzlvT6B7uFAgje2ecw",
       "numeroSequence" : "123011821092601",
       "dateInscription" : "2023-01-17",
       "montantTransaction" : "2.86",
@@ -893,7 +1076,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..P7eIyx2LJunheS_M.MKXD5HMJaxOYoZsbwjBlMOUje-tafUmwmYj6HJKNLBS3pUAzUuY9R-UwL90ttgN8WmJ5Ws70__eftLJiduQTXKG1ZmUsRGL51tSEm7YNJzNQsSdlr3pizSBipzF7sG_gP_kp33SOH9brYSE23oj8irywqPmzGDR9sOMBdo0dtjzidKdCU2CVGTGOI7lK2S90z32YN70MMyn7jHfPDw_tpyCz3Srr2qzy7t7g4wEuTrg.U_Al8i7_YSrAzzuBxVPO1Q",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..u5PCQ7jOLsIcOKyN.ybSW918uVD0aDqGVdtwP-yhtfRHeOXYvoiVLfF3dsHyr9UgN_2WF1jeoWkq9ZBiAq52YQ_HXqdG21AoQ5W7wbIcogzIjnCFGAkS9itWDRpBosmtTHfrkVAxU_Vf-ce4CFgDtgrrM15RgzcOsY0bfZqj4TLQRcQgrJCi187fDQt_TIwDAxaOdNaPDqNazsLccGEFqDOj4-beVVyKiChcNzrTzaRondkg4UMlX8pVelAY.rS7mXmHctQVdG27IkJSu9Q",
       "numeroSequence" : "123011721151202",
       "dateInscription" : "2023-01-16",
       "montantTransaction" : "5.74",
@@ -920,7 +1103,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..9PEXPnN0gg5owWQ4.zofYfgUTXsyGtzS7aP-fgrvLnWwDruoEsOt_roqf2W0J4KMviJT9AqXvr9byGUl3EaYAnWUoE_3eJzQwPPPuBnO10We9L7twCgUykVSPCMXz4pKYkPuwVZcGYWIG__waooDzxLxZLI9_MtPPBdt-aFaotKt-RXQEYl5MSo5mWXr3ZLHWfjMo-BLW-OtRqt4E4SuEIA_q4a77f6E-N5wE0dgZdHZM0FQEvrX9rp_6D6g.t29m7D8axxpv8HN2UaLtCw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..M9y_vFBFhzdjclsV.jOeUDMbFQBJHNfW1zOborOY3DfiMwyR7_3wNYHRoYbGtxAuQsW0LtlrZJKfWkjkd7sKqsz_Mo3cTZ3ZLC3eXorKH0ipsYXLJvD9mHGSOwNO45STKfmlpzrOnMyFABKqzGQZDN5GDkIAfsU3TyCSSVz4bnb9OTdV6R4k8VGPTdOVrcubDuK1kVOQBeBn-2T77AWhv-b_oSTpv2cJf7fWB074xzKBWQxBaTU9JqYlj8is.5LSLSQ8NtnX9FnDV8BXKhQ",
       "numeroSequence" : "123011721151201",
       "dateInscription" : "2023-01-16",
       "montantTransaction" : "5.74",
@@ -943,7 +1126,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..9SZB-N-jJ_qatV2Y.pUkVA5d_OkiFJ7eqL5Y6fZAUExg-H6iOGdWOe1t3sJk7iqyjLQRIjkh2Tbtd32jFfLhCpg4bD0AEv8aeVlaASnO8Z3vGrN1YowgFPTvCnSiVZQwlKUvQv7u1hIlbIx8FMOjkD3wtJigu_rSAyTE8ToHYXgGbwUS7aNqeqzUKcTC6naOeHpXA6Kmf03IUrKrpVwdDHksW4tug1G_SkovG3NWnqS4lBb5bShSIf0mI9K8.BM7QP0EuKZU_ePelH60Y4Q",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..c6P75ti9J9fXNwvq.gIc8agqMp52DussNJDkWEJ3IAa1SApS8uVv_9D3R0wYJifZJnobLVwl7TUR9W_mVvQnt3u8S8wrHnbaMsFAI-qZ9nHkMPXVvGZjHGgc7fCIvaT0zOkwdIhcJR4mQwfXHUKo7VvoyBgiOPrsr9CsvsvvND_zg0UCe4oQXXiyZ0w8gTSZfckJLk0M6_x10Tm9jZkPuz9uWkgBuR0SwKZeerTXQzOd4UgQHCX0h9jnnfOo.xRUe3nQugRF7MWGDjs64yw",
       "numeroSequence" : "123011221113501",
       "dateInscription" : "2023-01-11",
       "montantTransaction" : "4.59",
@@ -966,7 +1149,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..jly1m2Y5Q9BOcUQ7.CqLGZGFKw_AvTDrnl4rxAFX-1EjfbKByoSgsI7J2TtbvgOo9XgpWZOEmCo9YFHmM_V_Gl0fI969F2GodPHE1gZq3rmnGeva68v_xZQyWfs84iep-wGqj5inGfguy-6PfU5WLv15hGDqSdAPWn84s9oa4wlJ9fb7rGy_mM3Ffw7PSYuDn1v9DbVC_H1Dqi8unlO735IypPC8-ntzSWZut0ilgpSkBLgE03m9dPHcqqbI.ueMrV0f5JC8IDhvOugSByQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..av0m6wmCzolMZFby.Y01y1zMz1Q1pbsMYz7KfRIrhR-rbv_2LV8RtiLG0PBlMWfCn4BCuX6hiaTi8jNZB3FxeLZu3i3Ij2QllqVBMeq_VYXukTKdUlAeC1elVRFgOzwt_cOnNAjKAV-k0vwYBOMQ4THBhQINCwWy2fTSvJdaPO7z6AwZGzP0-jV6LZET_HzSy8EiKvgQ0Ex4U7_Fal_7rR-SoCnSe4yvG9clJcUIBWrSqGB593rS7TJf54rk.woKrkqBYDwRBvdMV-onW2g",
       "numeroSequence" : "123010921162302",
       "dateInscription" : "2023-01-06",
       "montantTransaction" : "37.48",
@@ -993,7 +1176,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Maison"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..OhJmKfrkDUaHB7T_.6l6viHXX9hyyoxLh6jIqDwsoQYkVpMaJEi7lMEmN9WaJdsnzhPQpxMMgzrMXIWchp9Cm1zQBJTcdJLoOZ6KrdYCxZAEBNaJiIJanmtCwOu6EaLrqAWrurTo6xSXqvz2RfI3kzSHPTqKbeOlpxaTtRIYFelmZxNyhv7-SzX4hnJzYV7IEZdfsG2K7g4J6Qd023RhrMbx0uQwzXUUzTd3Fn0irnmj36xoFj4lJG8bi-dc.7TheT-zSobiqgHVoxilQxQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..KJE8mpK849yVzJyj.MFLWsW3lI8FKAsSBWJvkHIubRvAB5Sdf8gOnDfUtauvj0646c7NHq5cIG7LeUOzBImDRRPIrTM2G9l9CoAb-2PROhYpHNFdzV7M0ATRClZ4MD9f2HunEvvFW2FhGXSru4My3ch6n-uPMoLAiQjNpGgJGa4-aPItPtDZkhvgh2hGrW4ABN03nou1BDCHEEviphLVGJuRyuptaWb7KVcC8IL7pCVavn5uLQpoKyVil4Fc.YmG0698S0UBV-hzE7lOWuA",
       "numeroSequence" : "123010921162301",
       "dateInscription" : "2023-01-06",
       "montantTransaction" : "96.53",
@@ -1020,7 +1203,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Essence"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..JGnq_azXaZJjfVnn.SphoGlrzCusrzKZkXPcwXVHY8zoXK-NjhXh8lAqf1ncKQVIZrUvBFB3caF319_6BtBC6_tsRBjXk67_V9hdE2uE_Sk_BR7VBGsFyK30oOF3kWPwuzf4d9zPLIIBRozLnVXlYKVaXt6hdap8Uaxl9sbSdUZ5lYiB9wtHu2EifkJf2POOCDNj1ChGStRF7isMY7aW5VYBlnz1R7k_DMk0FBeB9MIwHrSWJGCM50yps1go.95BzJkF2BnD6FFSKU0jRTg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..9Vlx1Mn0ZlTobXFz.cvTLC7cMxgwxth2mB2yThMRY6G6sudWP6S4SjW1TF85PfshECsf3zisyVqRYAA1GqIXMrNMYOXKc6ORv6O_suzmek8TShkUSTRJ-2fAIEY0mmqpHAMQu0b_Vvc5ptgf-Lxxt3VJzvXBxNdek36y1KC1g1mo-WFKzHfi3kZyRNfLzcVpTlUoihjSTi1KAFwpJ61-7Cu3ZYIq-ZAmNOTC77YtHpyonPKvjaCXKAr_O66o.447rrcioPgjuJoElKjvLeg",
       "numeroSequence" : "123010621174001",
       "dateInscription" : "2023-01-05",
       "montantTransaction" : "70.00",
@@ -1047,7 +1230,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Sorties"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..WNIHrcO1R7Ki8w06.WaPleVZvW_Np0YVMGv3RGqSipNdaW9rHDBGGyYb7Yz1ILb9CHh2fYYch0tV6bSbs3WynfOXPG_A4UVnNqkJRDeq1mYy3AUZ8K-474g09g5OTdJah_BZR5G1z_o-YdCpPIzkoSopdoMaMkpNz-i1u6HxX4GTBSPOE5nCstyCriEUVeMB5YJdFVuiQNPZTVnPHu9g28Md48VA7f63-cOCHobYYgV-pnoI9el6AHn2qrfk.W3QUqrNRIfOJGC6IEcvl2A",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..h3_zPSCs8PwWkaE6.AgZSphiyx5ayTMycFAEES51H3IEDIa5LjXAPRDNfhA-eZS4GJfxAOPrMAT-ub1odQ0zf-OYHeUC5NKrI5l5MQNmhvPomiTu4b4fGxxnYMKJ4CqcV4H_l8-eQCRUBMSwCLuhj7BEi2wBfReNi8GnJxm65BcBgWjPbPJRVZgfucxqi71MA57FWqrK0819Ch6Sfsa5K4BpM05TQWmnJFmTpbFZDTc8xUGz_0OY-rUYhvB4.-sTOBnsBD9ymw3HtnkyGsw",
       "numeroSequence" : "123010521114601",
       "dateInscription" : "2023-01-04",
       "montantTransaction" : "5.74",
@@ -1070,7 +1253,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..vyVoU4836SHJqZQy.q78T41WrVnajG-CASIWYxpYoJD5EYfbFpnJRUC8_jSLtqyXd9zbxdW9EGNBsb2ACdumNZdi2-28mO3tcpYZU6BLf_cVZg_oE-hZI3Fe290wGseSVTdc03vxYk6ddGBvvrRxWvymfoTilImf_kQBPe7wcpxQcH9PuAuLV4L73gjoq6Bv36Ac8Bj4s5DdOAPqFEWtbOIESitOt3PqPwmi_GCjbvJMHVnMO0XPXWjP8C2A.TwS-dHt8QDAL1admNXZBVg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..kFPZLL2qfkGZy2BD.J3LFx4fZU8TDAB9DdXEX3vPTcQ3DQS0Yxx3Metucq0X_oipxz3XHfaTU5cZVcWqUOrNqb2h0pr3q_blMYZVK89OyrJiSbbflnTmSEse0-TtpDf-7QKQxGADYVFi7v5loTv5kl8X9HFCaMSAPwVQ8IP3T-UBRl9L5Ln2Too7rAfgJw1QNTCSpmT9Unbug_x2Za4eET9W_5YMBkz2x6UAlP9rz1PQW1po6fKF0C2lUcAc.QdHo33JsfcuHdkKwQIOKGA",
       "numeroSequence" : "122123021164401",
       "dateInscription" : "2022-12-29",
       "montantTransaction" : "26.43",
@@ -1093,7 +1276,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..MZkCuWO27eZj3ROn.j7s9MJFjVCQXDxV8AH9q65Y0eKk8C-5EJgxIFwExD7BCIi67MAvx_cJsusvZlyZ4f-cHS5kZG9ucW-RRCSTs3KwDLNvzfbG-prb7Hl8NFGrzzX4Kih5hXbllg3-ffmJHQU9h94Mi9vNTFYYHktj9exKQgXtd8RBGZbvw6qzzdEIWevIyGyiWZ50qKQfnupMdbxUnG_SgaUJGocptFHWiCgWlrKWkwhpfAANs8kxbSvM.Yd0iTLbvu4yaMiapt1NUew",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..WWxbarqEoIJJE11t.73sZ9IIspcugNflP62X6KGbWlq8YdA3tLL976HHMBdIUcNrx5nLAd8GapHzERuFGQDJSOTwmaqhiFwBhE0IvIy-L6of7n83RJzPz-eSEbukpf6hF9KXLDIzlufMc9Ya4k7XCBHI25xvrgSXMRtW1LGkPFDKrODoTaJ8hpbTubQuPO0TngQFZAN9QJsbAFUetmZysZkxrqhUObMFDMmy5a9GGYZ5lyAKcoaW47SmxS-c.CKCIblIroAjNPmrRSQ5aZg",
       "numeroSequence" : "122122821175302",
       "dateInscription" : "2022-12-27",
       "montantTransaction" : "5.74",
@@ -1116,7 +1299,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..FSwYHz658JZhHfXd.Md8bf4KT3my2miBXuNFob1gG7yG3EoUIHgBevgko3NA-IXqWPzi_uwmSnPHj-cHExsCafB_Wo0ktw3EmImU96ut0SIg7zHKEIVAsHu2xp0CLlQJOja5qYmZsWfujUlFTqzq8oLxTn51y9oOMidTMlyXgdsajeajRSxRTYupYuP2Z0NFo2Fmc2MMSDX8m2qUESDHpzFx4VWH0gCLfNl0TQ35p2n4wrg0NMLLhF79zO30.a9AXDahYilgYwW24XgUXbA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..LG9qZnVLKY0YDwBA.1omd46il1F24q3IyMY1TwDLXtLai39YF5VSRa1ojLE0U41mwvit50QFKOnaHCQmpsuoyFiaXpyfqRSFpmifQO6h34cY21YUs1DHFQ4J19GYehRVORzI7htSuJDWIrQdrD2903k3Oc2SonEsC3EV8-sCtWrDOKZvZZl0l-U24RTv8ueuAPvfSyrODX7CMaAvXUgwVcURRsXTbPEkqpIrbJ6WOk0qzLyI08fBfaYC4yec.jOUcaNm2kQUyvJu3xiM4wA",
       "numeroSequence" : "122122821175301",
       "dateInscription" : "2022-12-27",
       "montantTransaction" : "5.74",
@@ -1139,7 +1322,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..lfz0DcrNft3EfLl7.DVqCTabd5ixh1SuU30ZmgR9l36ZCJE02tfRI61geOe4bHOTh2GlqwlluhpnenqI2joYbnr8ch-NwUs1h4qskO7-Wah7m0Ti4gFFoyWM5te1lmQuMsGOpwfwFndDNC4PJiAVyarII42AjDH2ek-i8FgynnhmNRTDH9Pqkn6BqfHJdJZ2C3PPb3ws0stDl3PngU52j6_lfhbM7utRh3H9OQTZay6VLTg-mZU0KwOvnTGU.P5XwprJ9KXUsdOyV85O_GA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..2DIu2deTcZwg34-m.siCPNnl6JJg-8_xvuIHZlYQ3_YBPeB3plJb4Obs_zA-lJVzSmrn2525lMnE-gx_XDsAc7OQZLljZBLr5FKD0B9fqkeyIJahUGAjYuir9Rtm-wVOj0K1djq1hReAJbrd2oeu0fKWCPbRd-A7qba9yZSN1xMkr2naXAjLn7yLUgIM8qrnQGZO2cK2UsZxRoFNTIANo90TxK8hKz-j-B2_OwO7tXFsMrjwtQV15SctWn-0.zU8foAxh0GXv-EOFCGD-Qw",
       "numeroSequence" : "122122721124302",
       "dateInscription" : "2022-12-23",
       "montantTransaction" : "-24.99",
@@ -1166,7 +1349,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..DBaUl_MwLUMzneP6.k97DbXufog93JKgUJu-MGdR8WNa0EvSxGH4lbjge5Y0nG2xBPgkggmeiOWjdPhL-frjOf_njGm-LtFDaOH0OlsTj473NchPESXbKHmpHtg25TcDpIObiVfV0LbP-ZnYTggBIqPk9M3s4rioj7Wft7y7pSvlOtCtejGHqD06xznc-mKoEa7kVEN9wLWSk0o3Wwb3j1xwXj9c-PMN6s__YNNGmVk6IMvtNtO4DdgLZRlM.8Dgr8TmvR36AC1-AeFf3TA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..oN2tfSnsP8Zs_MJp.wCJc7kpetLg6b0g3JT83ScfqtnaTQxaHWFanHEL6SibOXOATRNeby2srgYsRHMuVM8Au-dat54K76Lw1VI9R9nkBqIPu7bs9925iTSLvdaHpd8DcZi_08dlpnM1eagyuIjau9w4xZf97WZcCBpBvWvJcmyv44KqXCnshf-a-C-rjWp9U9KfT0_Pl3eEUro8sL1rM2GkeAq2Pti18v_W_vmQ2DKKv5umzjSiJ7k49Oow.yLjbxE-cMFGf2dmBzZAJgQ",
       "numeroSequence" : "122122721124301",
       "dateInscription" : "2022-12-23",
       "montantTransaction" : "43.63",
@@ -1189,7 +1372,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..e4ZeWpVborL1t-Th.OI0DCPdzY3xeAoC3ahyq6RxF631Bq7gqhJ1lsuPyJz_N5F1RMf8zhXNPgmj8Qu6ueXoONTjXlHf0leb5JbFk4k1AjgbO7qshetFK-PLMqGc9tZ95iFcjKXQdWWplE7nIh0Pao6_B2KKuUK2lVl-0ongsDk3y-if9GYgRpSL2ByFs39lfWd3wP99nORs2N33ky3jaJ4_0IP0Cm-hfMl95qiEmi8pRTJe5sXe1AIhTviM.DYXHMg2KpaMRnvgPL3ebBQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..3foJ7KbP2l0Pzziv.LEFV3d4cI4E-eL2x_zn-4bqEGlu0bUDk1o2WR4MT94Hwg5krd5gI_uw5vHYE7vjcSI2YXj10UAS17xVx0BM9myv0AKGYyWWPcXJAKSZxB666mipZW-zPC1PB5RvdA9hFkqrNx4zofrGJcnCwL_TNNIMQGiKuWXkceD4khMvcLuUyLtmAzTpMwCOOCBtmDFTicLM65_rkFiw1SlOHBezNuxU8aVdCm7DLgj7U00sOO0E.me_r4l3bzaemr_nWZiuYMg",
       "numeroSequence" : "122122221090903",
       "dateInscription" : "2022-12-21",
       "montantTransaction" : "186.31",
@@ -1216,7 +1399,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Mariage"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..eZaS_bKQ9aPPP0k_.Fs9bKHeKF9e0tD5V25XSt_gsGAE_kIKCUUdKvCPRy9B4lNElbF1YtNjLnT2Zj4Py3p8jzr1oGvBQzP1QXxhBqoOsV17Y_DMNfnD-KHk6ILfFDiS8rm7--fZbcFRPsB-2wTrtyl_B2Xg5SSWD_pKR442rFWE03QdMOIIAtFEDaUPl1qzEHIgqbHuDCCXX6S-FhMfz1iaLA7ILjYLos-gWnrt0qSrKl8Y6Ov6TnldUavk.hz1xZM01Z-tXtx_tDOWQ0Q",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..-XCcby-VkN_08rg3.fh21GEj1XZsSFFjsDmQAPTFxVmj8NRFW433O56vxO3mnGI3gXRqDOvcAgl_KwhzwDdyAbQkgJJnL0oSRwDPNXo13Zo_D7LAswlZIJKKZI6yUyYkbnoR2j6iLdODRqOU7oBt-FlN1MPlPKcKvbpZFFyn5dWGUCL49pUmYmVhk7uNmNNjTPYLhKd-Ayo7ceJvAd6lyNHYLa7Qy-DxgOymPZBWR7SwueJEbSCND2q-x3C0.WePdi7-o3jJmR9bMKz9y5g",
       "numeroSequence" : "122122221090902",
       "dateInscription" : "2022-12-21",
       "montantTransaction" : "200.00",
@@ -1243,7 +1426,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Linge"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..tPdTwh9G0LcivvtN.c1DAwcLpgZxVdfOo7DDwpTebhF4CAUGHUuSX0R8-DT3_cElR8lXhHAbtlLoExu3TSwHAwKhZLePmmNEASR4lbz2AdLvGiYiZ-HqCyBoJqEJx66QWcy0ClrNWGwS9TZNuLhl_HcGog9Ge6VxMTa3yQvxSo7V2PMGpk4SIE0QJLhk3TG3D58ACgACKNFcnxPFTOE8SaGoU30WrqRnQdDj0jpmeFWXTzLeQmtALAO-5NSU.0UUYjhRN2ndC1yUM7eW5HA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..bO4ljd6wl_NTlPkM.ShrfFBw5Y5gNE0rzWTXOkCfJK2ENM-9pS_P00xqpDHsJkNCF7J0XdIVlFFMpTYiNDBNA9Zez9fbo2DGtRAIvb-GdRnM_2JfeqalBWKKGk4tPv-Noh3WzcWuoacfVCpvQ9idZ683gLBV5ePPqHv9jGTOV9qc3w7mikVn0QwBNlgIRuxy9ZNI70Ganxtgg28Bq5wP27GdMVTj5HnyxMxIYJrL4PQAX2BXrEdXls2YrgSw.W8nQnlT36aNffxaTnk6QMg",
       "numeroSequence" : "122122221090901",
       "dateInscription" : "2022-12-21",
       "montantTransaction" : "206.96",
@@ -1270,7 +1453,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Linge"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..GzygA90WJWa3DGax.5JXX5wPh3l1NdKu43F9l27szo8VzLAsuF9Y4YG_q6ElkgEmg9T3pmJ3vNuoNLZP88q9ewTMX-TzrtHfi9ZNIRYyuAIEqDnf-fcx4T6Cc10ASywmRUtRulyp6FgmR7lKs670IYwhKjQYzfpn5X8S4Oc1YckbGKHOCF2zxBacWN6-oHk0wTVgxeGOlckM5Gv64uAfI2Ke_m_7o2sH3C00j5USoUQxIJ5TN84UCVQzZhu8.CfFdMrE9HUkKEZScK9O0sQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9.._tezFXL_wEAtPxWg.pRdzNEf2fCgePkBzO0qjYwlkDS-HO84q25Nhnd_O9mOVKNQVf7Gp6qCiiwEKgSKX7qz5bKojkcGyuG6TY7aD4q7roBgRfk0MCCBnzxi5LWg5SDG1FrEOVK0c5Z-KZ5Wu_TA63MXPlxKt--Cmv1IBkaqpPFBAdOyo568HqA466Bx3_5MdBt6KWC6b1nSYPdYS1iEGDgOYxBg847CD8MlKDmvZXdTHRgmwnHVpzh6nZnQ.D-qvoJFM1zgygKLgOu3RrQ",
       "numeroSequence" : "122122021171704",
       "dateInscription" : "2022-12-19",
       "montantTransaction" : "2.86",
@@ -1297,7 +1480,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..TS5-c1bD9U6P346S.VulW9d6Gm5lGYNjqijhvJ3XndAOUlMBp7nRC-gQpelQdIOUiKHRyoNtVkhqyWXjcKoHh7mXuDLnK9utZopaeoOuVfuB_neksxcvICdoQNcLRBd6cfoB7BQRDwWoaM8JA_EZWv2SkTVI_n6mDpy0DddBososkeJFABJKg8IsjhCNWT-GMd3TRwm4hO01K4IDj-3nJJDhuhKhALmOhBJFSo6L1UUWjWvWchOoT_vhltdI.AdmMrmRH_HP9aMParkDiyA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..JRrxSmuVTnJPiCA8.YKZDlaFw_gfO2aoY8AKHLTUcGpGR3T6FXT538AUWaZ7yEwhUeVZZtj8LnN-tPQM7pRBWfzWAoH06aE2c-Lx3OPKbQ9zoOJrVZv5oFImNPbu9URj8Tzw6YmS7uqnb64hw7xkE3DqaXk12mmhVK9wsmYMy9aF3OA5Xb8DQOUqRsnp9fLLP0szFtOjSDbiX18Q1RR49oDd-J-b9ODyObjoA2A_Gxx19mwfBliVZAnwjOxg.rSupQRyBWDQ1V2By4v6_Aw",
       "numeroSequence" : "122122021171703",
       "dateInscription" : "2022-12-19",
       "montantTransaction" : "241.22",
@@ -1324,7 +1507,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Maison"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..ZyKqCFNCeFOnj_fM.ra5WzgVV5DMHIPggwPdMTezZzgrWjKVbS9mufz6jjRuv_OXZasyqF-FoWEJgLHIXk_63yn1wNlfc9sbcscw1dizRUsEmcrZZAdrtAl46SgJMki4ZXOW4mOsHKfgi5e6SdSg-MtE2ZaVdNnnSxS64jktaMHqU3mBQf4XoguO3Lovryq2X7b3D8NfFO3E8TCf17cJtMHMNTnMbEStP1knTc2WkUpFFU93g4Ic26qwRFu0.KoPDDzFbAcBa_FNpa5E_fQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..yxdhZjPRLQ2LtLII.KL0jmU1PidUs4uvUBrlzwfw2_NrzLylV_5ZANRTRk_ne5tRqZiT3u3wUab1Yp1kf3v4m0DjIC2-TTeNmWjinVf0M05veKo91CME4A79jo71FYt7ja5geYKkDIh8XpPBMWi0gkj4sFSdlFHRhPw8OXpcKjznGb_boKS7_GDWi6ohoq9OXo1kmnJbH6PcvON3TxjzCtvQU81f3V9G9XE15-mIwl_KgHeupWUMx3o9jtc8.cELtazxOWRvlb-_l0G-TDQ",
       "numeroSequence" : "122122021171702",
       "dateInscription" : "2022-12-19",
       "montantTransaction" : "1.48",
@@ -1347,7 +1530,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..yusixKyAUFeVBuHu.6utIaC6BV4nWIiJDEQlGxDAp6F26uNJU3FPwtQQee9N48VIDeciZtXJ61st-3l4IOjHisO-2Vnxg4Wd86n6f1cwxAqFnuk_EZ4PtYZdioSqFj34BfK4WX0V08eD85I0TqM6WNTXDXF5rqGLGvqj-rIgie0UnvuLviVD5lDug1sWtC1YslqVb7HBlnnlEmjdtpBWqlh7dJFntxfd-jhDVIhHVV1OdjV1KHUTK2p3ufyE.aDjmnXe8I40EHJPlU-IUXg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..BooyaYc2MPn61uEN.G9zssjaHJfNawDRja-amJhO24lQpipmHZBrTInaLU2vGr0aa_EdfsXvGOOijDmQpZ5bbG2eeiPIMY_7nKGrS_SI-K8xjdB50ZTmcZ425mwkfznkWVbRz8Ca_shqaOGZkjZHpLsl7XdoxpTxFAs24BQAWaecNv07AlgYNZtpEOby4C3LWx_7inGVBHCag9ec9ZyOAGMLTI450WgbjJlKy2zORSIfZwXpDYPl2x3fzxDo.SynlgBVrlyWGb3rPt51uIg",
       "numeroSequence" : "122122021171701",
       "dateInscription" : "2022-12-19",
       "montantTransaction" : "28.69",
@@ -1370,7 +1553,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Apple"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..oHBUVI3vuKF_8Y_U.GkyLeBSlpuU-QbExNu8LfvS7zOgkoGYT_RIH4TS1GOySoSB_xqZ3NPm-T_dJKmgt9D-rK6BltvsXV_n31zGOvitWufclOTxQOuKAbC1tEzc3_gv4lKpZOd-uWHJQAxiAZx43iDwgM8xzQe60CcxFT6CnQNEcoAlH6lvPugujXDlqzzcSEzeFadswkzj8xyHCD_bIVq46YqM1t8N6gTmLoyFf4068ErAr47P0nRTJ11g.GzOVWcIDrQjAbf0k6wCtpg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..AL9tfb2lQAR_yCOd.1lsSasvcdMuDEMj4_trk87Hoq8SNG7MQOfk2AGB_moEyEngac27I2J-czJa0zCQ214c9bVmKoZRH5cuYF5iOmK-nlayy9Bxkn4Aoj38TZSPEEmyigaRVfb8oU-YgeSTGfcy2zGmrzVcQKFJ58bTsukR5cfcoU_MaQPwpnm__5YEapq25t71m83vzk8QY6Tcui83UKgKMNh95pFPQs8Pa1t1oXhQ9Suti804Suqy8UUA.4I8eOXPJ_wEIp4FNERwfDw",
       "numeroSequence" : "122121521124401",
       "dateInscription" : "2022-12-14",
       "montantTransaction" : "73.67",
@@ -1397,7 +1580,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Essence"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..LEH32r1Qbw2Bds9u.EXRvAKcwcFrCtu22VIFMFPazR_AwJ41QVCrx4skLL9My39Ff3277eRcvYzD5CMH7CyLNa5injYpjl2e0B6d8hUXAx6LIMXewE9IzXUVeBGsWwA8Y7face8xJIy6h5zIHDbG7b2fBjRe5nl5E1CdKEdYeFKGKurhHbVkfd6H7m78LBAXPmcfNL5d36xaqF51QT-CvvU61Cv8vP_d8ouqk06KRJnyOOqvmIrxXWFApoN4.8Xh0mzFSi9RK3fXrebPVFQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..PL6IpBMfT8mrJiW_.fmtw8sGtz_Z7BZaUx6NQAELuBCa9aAQ0nSr-iWcqf9OdyhHKl826dCOoTNrLiBvkBgPHz4ejX9jM7d6oR7pzjpNk5JaS6NKmxTD3QiPs5x3a-JS_1Rc3LkIvSmq5jBj2WcpRWGYXQ1_YfwiI5mM90kni1EQQKFFkdWbIXGg45UkuLEmu8jKmSQR8GwhSXR0c-zySWHp-DF_nShzKfTjUiWGWRyx7t54qjnMDbkjL4kQ.nAsGQNhnLSr0bhrn8ntm2g",
       "numeroSequence" : "122121221180901",
       "dateInscription" : "2022-12-09",
       "montantTransaction" : "144.35",
@@ -1424,7 +1607,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Maison"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..v9yYXD6Q5bLjRMyx.Fu4wTiamxCcjpFFOiSf0v3AOVwIdc6Y04iCYcNs_GNycA4oRwY5Uzo8y-VOOJPL3h-wSbHMlCLEncuBzAfq_tbabwd5Qj7O5Xtp4lTYFyDWosu5OrEOdM4wbMrvMOKh7nQkrxKy2yM5hX2mDPlWQ0Sy1OdpT2CjKR2_LWGw5QpjRWenhdQqcWH1DvbNhjUhxsa5W-o3tSE7ByJjqFuFYXuzfRnJvNjzIJIrQuk5TccE.nZeIbSZuJE6cuivp5uN87A",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..5G64-M6jMnIFt2aW.65Lu2B4YBZFnqvOZScpokhKyDOMXmOmRTPfd11iC1m_WXZlWujz3gtBiqJMwO1dgaB_YVlWifgh3WAsR3HiA-GJsaBFtUv8OfsLOZBr4XQBBVP_Pmrc-l11jbJEvN9tNvO9tqywnsCcjHF8a6CmloD8omWojwHztC65oAPb5LEextaY5dLDK9Gktw_b_jBAHy6uPSCrooHnhdTM_geFygIzmArG9wFbtXKKQSBhT7FU._KElJjsEARUCZSmTSz69RA",
       "numeroSequence" : "122120821111702",
       "dateInscription" : "2022-12-07",
       "montantTransaction" : "-26.48",
@@ -1444,7 +1627,7 @@
       "indicateurCategorieTransactionAutre" : false,
       "codeCategorieTransaction" : "PY"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..yMEI6OGSy3CkokMb.JY_kOpRwxzXanEhF-FmpOeX-ag43sKDVf_xkG-FlobwS56JTIrQugnbz7riWWjNQhQEJqO0NLtyzYbqC8plzWwi1IxNcb3aOaj8D-COLCf4-b6WGAp2EbIL06ype1bZrn_wvBlwDjoO8Ar8uwIjfZZvmAEC3IFqqPFnCw_7ZQzi_3Rd7hBA9eKJwvSrUZpcYYPt9MHcnOVGXfqiMgRknyK9Ls3y14EhOAPYMWNsvidQ.bxMifW04EJRoFl2Gc7YgAw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..BnqJqK068NNqIqg2.FLCTiY2GsKW9eeKHchv8YjtV06QX7KjPq8Rrpd1cUsxrquzwS1YzYXvWOzBntyUUfq14TkZ5QkEiOIBq595o0IBU9jF1r2_7fb83JZXfGRnzFP9Mban1Gg3xxiH3SuQzDs1Px40AX_C72Z6Uzh0ZqEilSPPeest7YTJKNkfqGf8pPoJQBmZCnD2_9lAxhO-NCLBebgV-2qKSD2cHd3ZMb_V1iCuK08uoFTwYyBivr4M.ARZDZFKhBHcoGZhvBxdB0A",
       "numeroSequence" : "122120821111701",
       "dateInscription" : "2022-12-07",
       "montantTransaction" : "-310.00",
@@ -1464,7 +1647,7 @@
       "indicateurCategorieTransactionAutre" : false,
       "codeCategorieTransaction" : "PY"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..buGke6uwQ6dF3Y4e.eS3Asuqi_FNFveuVKl8116ZcjPjan8FBJyPKN3u0c7uCMmw5ZqTbmUGbdtBQccdSvvMwZ4fYz-digOhoTjvSCl5gssj1OUOfo4cHaLlsIXx9cU9reW1m3-xP35Or074koXJnVXYFANdF4VjgCFeNIxq48HPe-IPXujuueeIy4ucc_YwMB8mRQTY-ce5YKHnpoZPKPWlTuKxAbpp2F8nG7ObuLm2ST_mbHZoiQ0HWp4k.vqqb7gwHuPrCEWgZ2yQqYQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..H7tLiS_9fcTAYiVf.QukdHQFQ8IEQ1dAJzMJvrOwBR8I0E56g2RIjBYD8f25ajOBxZhCy34L-t-1DbmFtygo5Ocy-e7laAEFUgiwbm2s9pALQRu_LU03ORzkeulttfzebTjO849IFlmTXSCcJRp7TF0mfOXG5Go0vRm151WA-E1OUx4iptII_8jZQCG47zCFi08Mqsg1nlH5UJJMVikWWjkwcfOmTWBPFE8FBt5pjV38eAHwHNlOx8cor0Dw.sfLumfu9Lt3RX-AHbutu_A",
       "numeroSequence" : "122112921214905",
       "dateInscription" : "2022-11-28",
       "montantTransaction" : "-30.00",
@@ -1481,7 +1664,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Frais bancaires"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..-G1ov3ocnl_7nwPm.aUbHpfZvxBK9-MgB5iHJ1V1BOJtrSDkGh9XE3Kj_Ps_am1sJTfBl7djorm37OEOcxdg9E6xBzPz7fEhURdcb7vD7in3SZxl6grc_aSRJL4XTyrsN9UPjnuNgq6Z2GwZc6JuCCnhQKv0da5d6iAe9hjHaf-5byNHh29rqolnJnMSU52KzwvdJlSgtTuczANdtDVZg8SgChk2kd2VnVJcxb2F073DpS_oBTBA76suIPZI.j9CjFdDOSoUBWdO720QHew",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..xXKGFMEXNUqftoUQ.AXmX9DBlGklXbdxQ_0qDsQv5Q_MTPNqEqrpO4LPw7iq7b3N6PKcTIOFlvhtaeD1spJs8bfMTslwXrBQwCi775MspTcQakSODJfduD1hlhcmX3UI44oCrePeBALtXC09Cxi03FPhs-5fQVocPKIZON1QHmKLHNDRXwk65OkCTc_UaH07lKg70n0IcsUAYjaVOROy0dEzTfbUKPVOzmXkZFnn5CUBXwcYTJO1urP9vFCE.UqAyBaQ3Ccx9wd2k_tJEfA",
       "numeroSequence" : "122112921214904",
       "dateInscription" : "2022-11-28",
       "montantTransaction" : "30.00",
@@ -1498,7 +1681,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Frais bancaires"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..UPYPMQp44pf0scK8.5zjigSo0mO8eSIXdaIrBXJUMETfoHnoCUr8jnSklWYQCe2hwGPQp7APZpUGeNz6qcL3I1oMKoDftj5cgM4pLt3OxQ4Y5xZmgggfQjcMzjllBWWUzcwdUZIzl62Yd100EvyD5vmQRblyBDvru4zbjSdup1XBxJDHArZTTSjB1wdWTGZxShW_ZzSLbXUuP1sM4oBKkvtHQ4AF8ZA-6oVoLwfuIo8d1sOrAacPZOL-Q6dA.IaZ1zBDZPfQD2QYXBp2f6Q",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..gJ5frRHi_rEmQo5J.tKh55wbMExw8LvVC-pCxRAnNTHdJIPm_6txh78fU9-X60jQRY5MT73I1NB4Ln1Ju8xXNqN2kt1BX8IeQl0b6-e-l5qF0f5wqoXuFTHQ8B_7zBO6oeXnUrE7UZTP7NLJV1EWAtS1YcdRxDM9jHve2H20wOxc7Vp2Gzx5oIRTvXvbi1k1_ZBuVeqSpAdPeNk0vCvokVZxSmPaPNSnjoDmNNxZnb5EkR5qpvHuDMMPWvRE.t8cEO4X0tBepPlexvEsYJQ",
       "numeroSequence" : "122112921214903",
       "dateInscription" : "2022-11-28",
       "montantTransaction" : "100.00",
@@ -1515,7 +1698,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Frais bancaires"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..fWC-elWdhmj-n1_1.6mP2ZQHXxsSRus-Bh-pH7hSf-EFMP_3r2dJy5UCE4ZtOyirGWGPqnLEY8s56B85GVhXTH7KNQX-1pV-VCF0Z7jvELqlJxg3Hdos9pk7QmVD8BPSDxkW32P2eKnBLv-u7-sWPOm-Vq6VZ-saZCR0HgtYmmx7vYDTWkC5YF3WxANzBgdqvcEumrisHOIw2ZXUFmzcZbUjCR10kBySX_T-mBcVzyqMUNBQC3MZNBOJuN_Q.CnGEA3pINA8l7W3Zm_oXLg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..CBoFrx_KXtnlidc8.y-FyX5S6P6FBlo1UcswYXTPIcVRwQZF-ESBOueum3aXyLIcluXXVgVQTlOE3JxbNuXWhDEQyrePZqajl3RhRifdXgkjLVPyMwzYSrQKu2mRmUAnIX8QFmVUcrnTEUBbnvOl0zFWhMlP8_wgGNNhtSem64-WnDMqlY2f1QJcp5HNO_9XfkUea-j7REYtfr09jDbreT1p2PMxLp9bV5EkF-_Bcoge4yEhV7QLyyo11BdQ.71gBWq4tjB9gfcaJHi7QFg",
       "numeroSequence" : "122112921214902",
       "dateInscription" : "2022-11-28",
       "montantTransaction" : "162.47",
@@ -1542,7 +1725,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Maison"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..B-sKM3LnO1bIZpwx.QjTFbTkAtnTZ9NDO-XwXYIz9fi6YPQBpyiDHqOUqSc43w9BeJvRdxuudi44tVxxnr8yEk_KIYjSjJsKxzldaCigqVGBfOHE208F4JO_tatc0nxrj7sNbRrQ-WWNe1qMALpwUb_lSJzHGzCMqI-40wEu65oDC4bqm8BAFBddGbUt279LblvRlETi3O9a7IhJPZiiQs1Zi6tIvVZqLKkqrjuzNNpxKwLEJarhheprzX4E.s5LdrBTEFx1psJ8lq3xehQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..NLtu76fg_Ss_2mtC.aG3SwhXxOKnP3rJrE3Kb3DlcEWIUd-HDCf6jms8ToH88g7kcswIAR5KEfx8AEqYXeKnY05eiAKANukaLu_IwjilERIi6cRii30nJ0OclS0SyJEYeCuSsgeKLBp4xhoaNxlMrNCBRAkHA0TXzvpj-SbZwDbzqvHm6DiZNVJecuSgkPAsQlAq4sP65XvDwWNQWHX8e5sK1DfcnoqMNNyrZSuVkysmIuzxmcjtFOd-KnI8.iSpHUO_EDzpdLbIk4PcVVQ",
       "numeroSequence" : "122112921214901",
       "dateInscription" : "2022-11-28",
       "montantTransaction" : "74.01",
@@ -1569,7 +1752,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Maison"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..dwU1kqNDmDnBpVgP.EBt7yeEBgdfW9BQBSWfVF8auRUKUDL9OA4qeQhHJ0VN8XhtcWMB5okzDUq1hRFDI8_2MN2ju4vfKP6w3SJYogp1DAoiv0X7_k17K0mk3SQPF-KBCRh7gcyGGzUwy24J6wB6m40_m0gPwYkDG3-TGajXvZp6Hw0fkxejmnkYe39dTZELKrcGqXEIeHBCgHJ1CA9eAqkTP4TuQCfxro7EkfXXRftd6t9rvqYjSpqZtVhI.-Ums0yL7GV43cGIB15cBsg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..4gymkFFtDF-2jxU3.2kPEa0CIltLACF5_jd4GRPp1DfouzyN0trgltbnmhbHvnoPBHyzUJL7Zt7ecTAehi3jWnYz5d5KSaJr5FRGr3xmWmt1bika81mqK6A4LNAuqLEBOgiGse6uOx9BwGDzHZCIp9rHkgLlcTbCwzKIuFRQMfAQsWP16v1RaXvIl4qpKrCGap4TTrZX4oXWJe5YHbl3-oX6Ejr39rQtrxAR-Al_O7xVLpOfmDMUSc3hJpDo.gjFmhYCIqGF-r0Yrxt_MVg",
       "numeroSequence" : "122112321104501",
       "dateInscription" : "2022-11-22",
       "montantTransaction" : "-272.33",
@@ -1589,7 +1772,7 @@
       "indicateurCategorieTransactionAutre" : false,
       "codeCategorieTransaction" : "PY"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..PTygczxVZPF1llpH.GI8IdYFXJ8MOYVIFeO-QskjwG-Q309vxg7v0MhGlaQYCr8dVZ_aY2Ukq6hYssaVnlCRlTzaEZU0nk18zKIcKGVSbem-pXe63qVeNKLF2S_RZi-04SmgbE7e5DHBZMBuIWqO-KtkTVSjOptYJ1kItsE4kPJVCqY-gXFnEbKJj2905N9O8PJqjBbvqjtIc2EdC58hyRhWBL-TGfpdeTywg2JJwF6M_Gn32_ZXmTTbVRE4.EGAgNohgyjQL7n1PZL8cWQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..rI1C5ksxq905N_MR.Qj70jzuWWFTBREtGbK-GyXyXcCfu8wWJRXBeV6XnrpmFSCCfT_4OEqJ_nJACkVDjA1budlmHspKNtUO4mjY2Dh0WdMsnulyqn5RNfldOgqeTGNkv-YIBwu7eChP5udw6AwHv6rKUi3beCFxLX02VkQmvMEG4koEnnkzuG65K-bGTDeWwnJtsjiuBuCHij0vK6rbJwzPjDomVAaJRVZ6DyPTHDKNf-JbH1vJhbNdKZh8.vf9GEP-OtLOvpe4LP4xPMQ",
       "numeroSequence" : "122112221193002",
       "dateInscription" : "2022-11-21",
       "montantTransaction" : "89.70",
@@ -1616,7 +1799,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Maison"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..BWMS_aUIjuSgXYuE.cVasO9qHpX7kpm1WeKN_IqSG-FkHa5qv9cUXN8npViOFJHXVjNpOkzJig6UODjlSHJCOmcXKL09SbTFWSOb6AUo6H4JNwnhEuxr7x5QRrB6msd3nZWmodid4d4znxHJ4qbExbots8CFD02Gewyh7fosBIjQKEKUFirqsb1-LDgQfw0H1-eg2nD3CEKqaNQDrc1bUjxmHy27dWQvoVUreYI3Y-kjctWT0lZYGzuX8_kM.Rd2Vj1JgnjL5rC9y6mt5ig",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..gNkteZ1p8Jtte1ku.SEzhRz7OTOeM8QdvPwVQmjBrWW71B0g7nCSAcP7Cx6eWQc2hEelCWiTLjD9Sll9Ovc3_5oSIrEzzhkj8yXT4uHuHvFt4-36xIrHITyi_rd-yxqhBNnbWAchvIuVHV3JusLJp3qBd1C8v0UtmQ7J5EgOhtGvSkk-LP42ZLR-JWJjfzkNENifF723bNZ13jhEFGG2kxkHf_0mM-HNXTUngm0W_7HZrdp3nQk1vMfCg-Qg.hTJU_0IckTxFHsYIvlgalg",
       "numeroSequence" : "122112221193001",
       "dateInscription" : "2022-11-21",
       "montantTransaction" : "100.46",
@@ -1643,7 +1826,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Essence"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..aWMC55qbOvftcB-F.Aqgh0-d_l31C6wA5t0Qqt0JCMb_-wDEcV1DIanZBNm_cnjK1fILSGO4QAq6y2QiMp4N44o5I-8lSeaz2nrxMndINI7RTml-DIIwr39tEb-9CqChknbPplGAX6M-oAwoXk8-oyvbZXKA6yyTg_NDe76adluaEFzlMoQ0Zzb-Gfxp6FmPfJh0aLNJPbRHoAyLIFTICdsOkl66-78uoFeZQLr6LbTtiSIMRsxVhhgA_ByM.IC8BXr8Z-1ccdqTX_EMw-g",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..cOiViMJyxMP28tTi.aJs7aY2-4QcwW1rm6KveiLRiJTVf1YZPxWB6I8xbBMjmjzhVz2FxcKaG0p0L8V3aane4EU6Di-5jL47GiYXGvKn72u3fMK4D3DQCO8QL8fJdJqxZT2LWHx2m81pqE9LculOOsUSrtpvIqjzYUFUKtEypa0oeXHfWWlGnQBqmq6BwoZwAChmK0KKfrHqfgDSeGEiW_yEJ4mE3aWpZ9_wfg93DpdDxh-egg_RkSJ2_m0M.UT5gjf8qpPVza-iAkYQBaQ",
       "numeroSequence" : "122111821185402",
       "dateInscription" : "2022-11-17",
       "montantTransaction" : "82.17",
@@ -1670,7 +1853,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Essence"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..xMlVzBRoeQghZGa4.9xN469hEaHNS_lWNu5TlnQ7DCI9UJhwHmVwj1x9MVmgPA9U8Yjhcr6rnv0rvhNaB_E7rHwoA6zlJ11NMCwfQu_E-e9zPevQ9zy8K8Gi0QHBSzUgRmUAaBZigsP25iHDrV4uAq_7-75EY1OlbyuaR07RkCiHl_xldxe2t8AWGeqqtJ_bJ_wDTF4KGH_UFA6XAJgzINHdIorK82VTtG491rkbmobP-c6xeWt-jPvSFtl0.bWx8aLFJyZ-XQcUyAeH11A",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..f_SQ7R9As_lHFgBC.KZVGZRcRj_7Ow7yeNs2TyGtydP9dY3NfPUrPXhiXFA2RLt_wLCC277JC7L3ylsduVCqhtAFH8F2ui68IywDQKQIs3pLIUD4su7D0HEUlArZhxlwcDO1W1gBJCBgl1XNn-8baD6VSq1cwMLYYIuPxo11YEJOCjh8dLMDwlNKZNO51SpZp1jmmwghPRp5LTJTN-9Cb3uBHsjVjGIhe81hy62xN4LblXjv4xR10bmL55hk.iroj9FKl_ISh3v4Y5GXFOw",
       "numeroSequence" : "122111821185401",
       "dateInscription" : "2022-11-17",
       "montantTransaction" : "-458.02",
@@ -1690,7 +1873,7 @@
       "indicateurCategorieTransactionAutre" : false,
       "codeCategorieTransaction" : "PY"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..i6PXBN_I0P3COgrI.l5k3j5lg1PdjOKCk6teEbxUM48EICK6K-deBxqAeVVXKY3T1V17i0SRCrAjyf2CGLjDd_oWIz1keoddF3z64KWGbZvgmgfNW1eJZqTq1f5VN5rX1-gxxMF7vkNjjEUJisFwFR5YKf58Iijzii3YOedYCvO_-Nf90wacgTpKf0lIYasypG6LDI66EC5u05YsMCuWkup3zLc1NJZxOcbA2CkXlgtRLUrTMbzsmjKTKfiU.48L_uMlGL-ohzs4pI_ddaw",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..412PbbCiONGGKsSw.hXwWEewUbtixeH2l7XLcAaojxgOQ_WEDqUbm9KlQ9rHjqR5Sa4FQRU1yce2n8t1Fyh6OkZe5WFjH9htYlLBrbig36IJCbUKA39J2j4j4p3MrsnW4Gw2Mi0QeducEku91sY6nRsac8YIERiMpnxOpyvBBBbQSWbzQ7mVvxih7i_K3i1P0QhLvtQxRsTsOd5ZFyuTJCXHJIBw7_5Ve7teeK7fwz-mrqE1PcyHcZ6nvjYs.NZws2yifgY8rb4xNscmM6A",
       "numeroSequence" : "122111521290705",
       "dateInscription" : "2022-11-14",
       "montantTransaction" : "-86.96",
@@ -1710,7 +1893,7 @@
       "indicateurCategorieTransactionAutre" : false,
       "codeCategorieTransaction" : "PY"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..flpVuqc2GK3cUUbz.Gw4nX8GVqNInIkdD3hQsP3IWMrCJ1fe6RvbeIwB_vI5_yBfXctq0Pv3RhNg1TepmgKhwfxfQOvObvCQiB-pIBF9gU511rt47-F-nmUROTxEmrYGY6P2UUqsoneKmpyqwB0GJz-O5sm-3l3aqaP8tvCY_3ErqX8gxSAwaxpVKc54q8C7se2aV12NR7zzJukFq4SOLsjyv74cYVRqY9LTdlCe08ACqv9G4UcS28wbcELs.8HBN7wwZ62jwbUjD68eBYg",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..mbxdm3WL5vDoWmhc.mVgqF3t6k--0jaewVS92_N8kb9Y-YaSMDkmapRJd0ynI5dIQI2grJpPsxewCp384AKvO8-RQiKkdviWUpnl71F3VZGdggZObxiMQaAmqD0Llwm_8z4NupDrly8GVBQwHtrTSBnbniK6C449OK-NUWnmFzyQXQSJ4R5g6Yg6wXOn78fgp96sxFWlAZJBy0Hg46CsiR6zXAW0SOJkGSzyZ71eaGGRmJGt8dSefPcBSv44.P_wXdL5T2-mfyGUOMPW0ig",
       "numeroSequence" : "122111521290704",
       "dateInscription" : "2022-11-14",
       "montantTransaction" : "103.49",
@@ -1737,7 +1920,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Maison"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..HZv6jPWVULlgfCzm.upUFLB-EfRMRqKgGkHbeKvlSPY7ozHZ5qHPLKqwrK3HHHRR-pc1Ylc8l75rOwS5RXJdEGC4z4kMp6GFf3wyu96egZAsK-3IQSIFZpaenogH1ZOeXcNqCy6bsVYiCs4fFoDjM_kx6MvPMPZRCzcvX7eEWG3lAHU2rgQiB8oCkeK7jwdCwGra7KC5kkbm8uDhe1kBO_Tzai-w1gkiESHkICAuyIDZ1v3Ke_jvS_Svd3dg.xGAxmj9Op_A9cdRVJuOX1Q",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..8OrN7cJjMH-sR3jt.tCDMHZPsD4CllSqxFPbks6WqAAIe_ertwBLOo6eOozjX4cN7jpsb813qCLhBwyY2Ay1kiuH2xo1WliUnofVCVvZcJqZjMvymNSTwLIv959K4q6nQg90GeN2DH64fjR-tBSVblRwsqlF1hfzVKM3OoHa0UnW81zF9DSrdb3rjzWjf5Pm43cNbLgrGEXlO0Yx-rgB31asPxJi6EB0CXHoF9sU9Ql9jBhvbcSonjzpZlzU.7u1Nult4cAB_sXYqqyEF1w",
       "numeroSequence" : "122111521290703",
       "dateInscription" : "2022-11-14",
       "montantTransaction" : "88.92",
@@ -1764,7 +1947,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Essence"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..UQ-hSsLTXlAJ72Ca.bdIIhBWFcOwvgtQiX_lUDuXZtCY3ZtKGm4RVRuc501O0Mor9kbxiMYAYb4ZzapMJx8nbScfgMKAm1GVdLQgdkDy0u7apN2tvYg0U3Sm76s4MBNCO4O7e-XtlHGx01fXrhKS_HEMUSLCKVw7pk7XAha7IlOQgzjHkpliDiWsiR-PQi0zZWalaAq0AMUtl3zD0TlQKTAoLMYOM_MA1u0QZog56yAvHCqqnhzgwPCeoimQ.CNWh-De8gsMLnJjmejGKtA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..u6EtumfOYesYMKUf._PHKnkL6oGsxVp9wEh9PyauGz0CWkPrzmMs3LTtIl38JequqU9_KL0OUX3Rr8oKJAh0aX1C9A_r0bAQZWicoy1Yuz9x6RqhgCWHR75z6dyiYxdepEmpxQRfgqvWTXJrQQfyNCypUSgXuTRJRNmFZ3FdkCtGDsnefsJsX8CtfmE83dcMJPUfvrUbwVA1OURFlWokLMOXnQmxcCil0rs5GXMrgNpQj3rd7nthiiEoi-tQ.qJiJGKsN4Def5LpJ0P-7qg",
       "numeroSequence" : "122111521290702",
       "dateInscription" : "2022-11-14",
       "montantTransaction" : "86.96",
@@ -1791,7 +1974,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Maison"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..kgLfuMScIEISRCur.y4o7zfVwCYeZ9gf4zHH_Jnovcd-TV3GKXCipoV2gQHejlG5k8TAqYrfJJ73o2QxEt_cFzyCxi5dRWgD63snBvQPHki8wzawkS664g1c82sh9YMG3IhZ-c9DLsxZpvM1GhoWzNipPmwH6zU35Rg_UxkngWFoaJ3vRho1Rv8TXYqkbo2RO-AvwmSaF20lBFuyCR_Bv2qs-_kayRpBUhCNFldNgPmcFoSYWAhmxcMnNuTU.QXpuhUWqLnoRNHByOL3jKQ",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..-_-N1KBdAAcNKyI9.lasDnkwrhJppscF6wLQ0VYCSoSHADTU0KnnOuUIxKcrRuUTp-7KGjGxkhYeEBaNBWIPaidH1SrR3H4vShv36wBud7A2TW_Zzdk0rcz3QorEfF0Yknvv4WEvj5hVH28AFmjAs_ndoGce16w1-S63OGW56j0ek9dk7XbXmVNP0-R24peIPwVWYBw6H_T1Jp0gtnPfYYGs567rXcHoqSYk8_FZC-fwhNCraBqj9XFRFzs0.PpdIJrtlZmQJiwfq15meQQ",
       "numeroSequence" : "122111521290701",
       "dateInscription" : "2022-11-14",
       "montantTransaction" : "58.80",
@@ -1818,7 +2001,7 @@
       "categorie" : "Variable",
       "posteDepense" : "Maison"
     }, {
-      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..GyF_tBn9S55CovJV.7u9whhrUggeRFQzK_oVl7XjCB9Mo44kd3c8bRgNg2MMjS3VcrmBR06-jGZVuCWtlcLiFBJMulLvjfigwVNqK6YXIQyjAGLMD92kSF7JPtvjd86kd8hVMmt9mvyOlD9E1hBCcxWb0bXy7O7L82rfWVg3GJWyzHg7rpcZQma204H3ghgEMKF9hoFwbCA8GAh5emW_VgUmfeqVZP2rPSKo4jh83HKKgW4TCG-PRopjfs3g.2yp4DNrVRb31pKpSS3UohA",
+      "identifiant" : "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoiMSJ9..3FZGMvYs98qqziQA.iS6e3rfRoa_i-FFYZ23BPlsCi_YZG1_b8Fd4z5tebKxx3j7wivtUHxGNyLPEmVCQPE_1OiHv8UWHaWmhMpKfmmLRLBnMZcvU7AMQHes6Ma8gA2U20S5bwnjBYgr9x6-FSIBwn0ON-zbCyu63AD_ZBcCZ5rlwwnUyX44x1808Ag-xkoVsrUuflM7Fe7S8tzQfypXtRM6zl6KAHoUhj8ZNLlpbHWZJRB1K4y_PdxQ6MZo.nm9veGw1oOKkNNQwpUkjyw",
       "numeroSequence" : "122110821175501",
       "dateInscription" : "2022-11-07",
       "montantTransaction" : "206.81",
